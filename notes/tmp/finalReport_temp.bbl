@@ -1,0 +1,741 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}%
+\makeatletter
+\providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
+\makeatother
+\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
+
+\bibitem{Randall:1999ee}
+\hrefCMSnoop {}{L.~Randall and R.~Sundrum, ``{A large mass hierarchy from a
+  small extra dimension}'',} \textit{ Phys. Rev. Lett.} \textbf{ 83} (1999)
+  3370,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.83.3370}{\doi{10.1103/PhysRevLett.83.3370}},
+\href{http://www.arXiv.org/abs/hep-ph/9905221}{\texttt{ arXiv:hep-ph/9905221}}.
+%%CITATION = HEP-PH/9905221;%%.
+
+\bibitem{Randall:1999vf}
+\hrefCMSnoop {}{L.~Randall and R.~Sundrum, ``An Alternative to
+  Compactification'',} \textit{ Phys. Rev. Lett.} \textbf{ 83} (1999) 4690,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.83.4690}{\doi{10.1103/PhysRevLett.83.4690}},
+\href{http://www.arXiv.org/abs/hep-th/9906064}{\texttt{ arXiv:hep-th/9906064}}.
+%%CITATION = HEP-TH/9906064;%%.
+
+\bibitem{Bellazzini:2014yua}
+\hrefCMSnoop {}{B.~Bellazzini, C.~Csaki, and J.~Serra, ``{Composite
+  Higgses}'',} \textit{ Eur. Phys. J. C} \textbf{ 74} (2014) 2766,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-014-2766-x}{\doi{10.1140/epjc/s10052-014-2766-x}},
+\href{http://www.arXiv.org/abs/1401.2457}{\texttt{ arXiv:1401.2457}}.
+%%CITATION = ARXIV:1401.2457;%%.
+
+\bibitem{CHM2}
+\hrefCMSnoop {}{R.~Contino, D.~Marzocca, D.~Pappadopulo, and R.~Rattazzi, ``{On
+  the effect of resonances in composite Higgs phenomenology}'',} \textit{ JHEP}
+  \textbf{ 10} (2011) 081,
+  \href{http://dx.doi.org/10.1007/JHEP10(2011)081}{\doi{10.1007/JHEP10(2011)081}},
+\href{http://www.arXiv.org/abs/1109.1570}{\texttt{ arXiv:1109.1570}}.
+%%CITATION = ARXIV:1109.1570;%%.
+
+\bibitem{Composite2}
+\hrefCMSnoop {}{D.~Marzocca, M.~Serone, and J.~Shu, ``General composite {Higgs}
+  models'',} \textit{ JHEP} \textbf{ 08} (2012) 013,
+  \href{http://dx.doi.org/10.1007/JHEP08(2012)013}{\doi{10.1007/JHEP08(2012)013}},
+\href{http://www.arXiv.org/abs/1205.0770}{\texttt{ arXiv:1205.0770}}.
+%%CITATION = ARXIV:1205.0770;%%.
+
+\bibitem{Greco:2014aza}
+\hrefCMSnoop {}{D.~Greco and D.~Liu, ``{Hunting composite vector resonances at
+  the LHC: naturalness facing data}'',} \textit{ JHEP} \textbf{ 12} (2014) 126,
+  \href{http://dx.doi.org/10.1007/JHEP12(2014)126}{\doi{10.1007/JHEP12(2014)126}},
+\href{http://www.arXiv.org/abs/1410.2883}{\texttt{ arXiv:1410.2883}}.
+%%CITATION = ARXIV:1410.2883;%%.
+
+\bibitem{Pappadopulo:2014qza}
+\hrefCMSnoop {}{D.~Pappadopulo, A.~Thamm, R.~Torre, and A.~Wulzer, ``{Heavy
+  Vector Triplets: Bridging Theory and Data}'',} \textit{ JHEP} \textbf{ 09}
+  (2014) 060,
+  \href{http://dx.doi.org/10.1007/JHEP09(2014)060}{\doi{10.1007/JHEP09(2014)060}},
+\href{http://www.arXiv.org/abs/1402.4431}{\texttt{ arXiv:1402.4431}}.
+%%CITATION = ARXIV:1402.4431;%%.
+
+\bibitem{Agashe:2007zd}
+\hrefCMSnoop {}{K.~Agashe, H.~Davoudiasl, G.~Perez, and A.~Soni, ``Warped
+  gravitons at the {LHC} and beyond'',} \textit{ Phys. Rev. D} \textbf{ 76}
+  (2007) 036006,
+  \href{http://dx.doi.org/10.1103/PhysRevD.76.036006}{\doi{10.1103/PhysRevD.76.036006}},
+\href{http://www.arXiv.org/abs/hep-ph/0701186}{\texttt{ arXiv:hep-ph/0701186}}.
+%%CITATION = HEP-PH/0701186;%%.
+
+\bibitem{Fitzpatrick:2007qr}
+\hrefCMSnoop {}{A.~L. Fitzpatrick, J.~Kaplan, L.~Randall, and L.-T. Wang,
+  ``{Searching for the Kaluza-Klein Graviton in Bulk RS Models}'',} \textit{
+  JHEP} \textbf{ 09} (2007) 013,
+  \href{http://dx.doi.org/10.1088/1126-6708/2007/09/013}{\doi{10.1088/1126-6708/2007/09/013}},
+\href{http://www.arXiv.org/abs/hep-ph/0701150}{\texttt{ arXiv:hep-ph/0701150}}.
+%%CITATION = HEP-PH/0701150;%%.
+
+\bibitem{Antipin:2007pi}
+\hrefCMSnoop {}{O.~Antipin, D.~Atwood, and A.~Soni, ``{Search for RS gravitons
+  via $\PW_L\PW_L$ decays}'',} \textit{ Phys. Lett. B} \textbf{ 666} (2008)
+  155,
+  \href{http://dx.doi.org/10.1016/j.physletb.2008.07.009}{\doi{10.1016/j.physletb.2008.07.009}},
+\href{http://www.arXiv.org/abs/0711.3175}{\texttt{ arXiv:0711.3175}}.
+%%CITATION = ARXIV:0711.3175;%%.
+
+\bibitem{Grojean:2011vu}
+\hrefCMSnoop {}{C.~Grojean, E.~Salvioni, and R.~Torre, ``{A weakly constrained
+  W$'$ at the early LHC}'',} \textit{ JHEP} \textbf{ 07} (2011) 002,
+  \href{http://dx.doi.org/10.1007/JHEP07(2011)002}{\doi{10.1007/JHEP07(2011)002}},
+\href{http://www.arXiv.org/abs/1103.2761}{\texttt{ arXiv:1103.2761}}.
+%%CITATION = ARXIV:1103.2761;%%.
+
+\bibitem{Langacker:2008yv}
+\hrefCMSnoop {}{P.~Langacker, ``{The physics of heavy Z' gauge bosons}'',}
+  \textit{ Rev. Mod. Phys.} \textbf{ 81} (2009) 1199,
+  \href{http://dx.doi.org/10.1103/RevModPhys.81.1199}{\doi{10.1103/RevModPhys.81.1199}},
+\href{http://www.arXiv.org/abs/0801.1345}{\texttt{ arXiv:0801.1345}}.
+%%CITATION = ARXIV:0801.1345;%%.
+
+\bibitem{Salvioni:2009mt}
+\hrefCMSnoop {}{E.~Salvioni, G.~Villadoro, and F.~Zwirner, ``{Minimal Z'
+  models: present bounds and early LHC reach}'',} \textit{ JHEP} \textbf{ 11}
+  (2009) 068,
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/11/068}{\doi{10.1088/1126-6708/2009/11/068}},
+\href{http://www.arXiv.org/abs/0909.1320}{\texttt{ arXiv:0909.1320}}.
+%%CITATION = ARXIV:0909.1320;%%.
+
+\bibitem{CMS-PAS-JME-14-002}
+\href {http://cds.cern.ch/record/1754913}{{CMS} Collaboration, ``{V Tagging
+  Observables and Correlations}'',} CMS Physics Analysis Summary
+  CMS-PAS-JME-14-002, CERN, 2014.
+
+\bibitem{Khachatryan:2014vla}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Identification techniques for highly
+  boosted W bosons that decay into hadrons}'',} \textit{ JHEP} \textbf{ 12}
+  (2014) 017,
+  \href{http://dx.doi.org/10.1007/JHEP12(2014)017}{\doi{10.1007/JHEP12(2014)017}},
+\href{http://www.arXiv.org/abs/1410.4227}{\texttt{ arXiv:1410.4227}}.
+%%CITATION = ARXIV:1410.4227;%%.
+
+\bibitem{Khachatryan:2014gha}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for massive resonances decaying
+  into pairs of boosted bosons in semi-leptonic final states at $\sqrt{s} =$ 8
+  TeV}'',} \textit{ JHEP} \textbf{ 08} (2014) 174,
+  \href{http://dx.doi.org/10.1007/JHEP08(2014)174}{\doi{10.1007/JHEP08(2014)174}},
+\href{http://www.arXiv.org/abs/1405.3447}{\texttt{ arXiv:1405.3447}}.
+%%CITATION = ARXIV:1405.3447;%%.
+
+\bibitem{Khachatryan:2014hpa}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for massive resonances in dijet
+  systems containing jets tagged as W or Z boson decays in pp collisions at
+  $\sqrt{s}$ = 8 TeV}'',} \textit{ JHEP} \textbf{ 08} (2014) 173,
+  \href{http://dx.doi.org/10.1007/JHEP08(2014)173}{\doi{10.1007/JHEP08(2014)173}},
+\href{http://www.arXiv.org/abs/1405.1994}{\texttt{ arXiv:1405.1994}}.
+%%CITATION = ARXIV:1405.1994;%%.
+
+\bibitem{Chatrchyan:2013vbb}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Studies of jet mass in dijet and W/Z +
+  jet events}'',} \textit{ JHEP} \textbf{ 05} (2013) 090,
+  \href{http://dx.doi.org/10.1007/JHEP05(2013)090}{\doi{10.1007/JHEP05(2013)090}},
+\href{http://www.arXiv.org/abs/1303.4811}{\texttt{ arXiv:1303.4811}}.
+%%CITATION = ARXIV:1303.4811;%%.
+
+\bibitem{jetpruning1}
+\hrefCMSnoop {}{S.~D. Ellis, C.~K. Vermilion, and J.~R. Walsh, ``Techniques for
+  improved heavy particle searches with jet substructure'',} \textit{ Phys.
+  Rev. D} \textbf{ 80} (2009) 051501,
+  \href{http://dx.doi.org/10.1103/PhysRevD.80.051501}{\doi{10.1103/PhysRevD.80.051501}},
+  \href{http://www.arXiv.org/abs/0903.5081}{\texttt{ arXiv:0903.5081}}.
+
+\bibitem{Ellis:2009me}
+\hrefCMSnoop {}{S.~D. Ellis, C.~K. Vermilion, and J.~R. Walsh, ``{Recombination
+  Algorithms and Jet Substructure: Pruning as a Tool for Heavy Particle
+  Searches}'',} \textit{ Phys. Rev. D} \textbf{ 81} (2010) 094023,
+  \href{http://dx.doi.org/10.1103/PhysRevD.81.094023}{\doi{10.1103/PhysRevD.81.094023}},
+\href{http://www.arXiv.org/abs/0912.0033}{\texttt{ arXiv:0912.0033}}.
+%%CITATION = ARXIV:0912.0033;%%.
+
+\bibitem{Krohn:2009th}
+\hrefCMSnoop {}{D.~Krohn, J.~Thaler, and L.-T. Wang, ``Jet trimming'',}
+  \textit{ JHEP} \textbf{ 02} (2010) 084,
+  \href{http://dx.doi.org/10.1007/JHEP02(2010)084}{\doi{10.1007/JHEP02(2010)084}},
+\href{http://www.arXiv.org/abs/0912.1342}{\texttt{ arXiv:0912.1342}}.
+%%CITATION = ARXIV:0912.1342;%%.
+
+\bibitem{Catani:1993hr}
+\hrefCMSnoop {}{S.~Catani, Y.~L. Dokshitzer, M.~H. Seymour, and B.~R. Webber,
+  ``{Longitudinally invariant $K_t$ clustering algorithms for hadron hadron
+  collisions}'',} \textit{ Nucl. Phys. B} \textbf{ 406} (1993) 187--224,
+\href{http://dx.doi.org/10.1016/0550-3213(93)90166-M}{\doi{10.1016/0550-3213(93)90166-M}}.
+%%CITATION = NUPHA,B406,187;%%.
+
+\bibitem{Dokshitzer:1997in}
+\hrefCMSnoop {}{Y.~L. Dokshitzer, G.~D. Leder, S.~Moretti, and B.~R. Webber,
+  ``{Better jet clustering algorithms}'',} \textit{ JHEP} \textbf{ 08} (1997)
+  001,
+  \href{http://dx.doi.org/10.1088/1126-6708/1997/08/001}{\doi{10.1088/1126-6708/1997/08/001}},
+\href{http://www.arXiv.org/abs/hep-ph/9707323}{\texttt{ arXiv:hep-ph/9707323}}.
+%%CITATION = HEP-PH/9707323;%%.
+
+\bibitem{Thaler:2010tr}
+\hrefCMSnoop {}{J.~Thaler and K.~Van~Tilburg, ``{Identifying Boosted Objects
+  with N-subjettiness}'',} \textit{ JHEP} \textbf{ 03} (2011) 015,
+  \href{http://dx.doi.org/10.1007/JHEP03(2011)015}{\doi{10.1007/JHEP03(2011)015}},
+\href{http://www.arXiv.org/abs/1011.2268}{\texttt{ arXiv:1011.2268}}.
+%%CITATION = ARXIV:1011.2268;%%.
+
+\bibitem{Bahr:2008pv}
+M.~B{\"a}hr\hrefCMSnoop {}{ {et~al.}, ``{Herwig++} physics and manual'',}
+  \textit{ Eur. Phys. J. C} \textbf{ 58} (2008) 639,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-008-0798-9}{\doi{10.1140/epjc/s10052-008-0798-9}},
+\href{http://www.arXiv.org/abs/0803.0883}{\texttt{ arXiv:0803.0883}}.
+%%CITATION = ARXIV:0803.0883;%%.
+
+\bibitem{Khachatryan:2016cfx}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for heavy resonances decaying
+  into a vector boson and a Higgs boson in final states with charged leptons,
+  neutrinos, and b quarks}'',} \textit{ Phys. Lett. B} \textbf{ 768} (2017)
+  137,
+  \href{http://dx.doi.org/10.1016/j.physletb.2017.02.040}{\doi{10.1016/j.physletb.2017.02.040}},
+\href{http://www.arXiv.org/abs/1610.08066}{\texttt{ arXiv:1610.08066}}.
+%%CITATION = ARXIV:1610.08066;%%.
+
+\bibitem{AsymptCLs}
+\hrefCMSnoop {}{G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``{Asymptotic
+  formulae for likelihood-based tests of new physics}'',} \textit{ Eur. Phys.
+  J. C} \textbf{ 71} (2011) 1554,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}},
+  \href{http://www.arXiv.org/abs/1007.1727}{\texttt{ arXiv:1007.1727}}.
+[Erratum: \DOI{10.1140/epjc/s10052-013-2501-z}].
+%%CITATION = ARXIV:1007.1727;%%.
+
+\bibitem{CLs1}
+\hrefCMSnoop {}{A.~L. Read, ``{Presentation of search results: The $CL_s$
+  technique}'',} \textit{ J. Phys. G} \textbf{ 28} (2002) 2693,
+\href{http://dx.doi.org/10.1088/0954-3899/28/10/313}{\doi{10.1088/0954-3899/28/10/313}}.
+%%CITATION = JPAGA,G28,2693;%%.
+
+\bibitem{Junk:1999kv}
+\hrefCMSnoop {}{T.~Junk, ``{Confidence level computation for combining searches
+  with small statistics}'',} \textit{ Nucl. Instrum. Meth. A} \textbf{ 434}
+  (1999) 435,
+  \href{http://dx.doi.org/10.1016/S0168-9002(99)00498-2}{\doi{10.1016/S0168-9002(99)00498-2}},
+\href{http://www.arXiv.org/abs/hep-ex/9902006}{\texttt{ arXiv:hep-ex/9902006}}.
+%%CITATION = HEP-EX/9902006;%%.
+
+\bibitem{Aad:2015zhl}
+\hrefCMSnoop {}{{ATLAS and CMS Collaborations}, ``Combined Measurement of the
+  {H}iggs Boson Mass in $pp$ Collisions at $\sqrt{s}=7$ and 8 TeV with the
+  {ATLAS} and {CMS} Experiments'',} \textit{ Phys. Rev. Lett.} \textbf{ 114}
+  (2015) 191803,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.114.191803}{\doi{10.1103/PhysRevLett.114.191803}},
+\href{http://www.arXiv.org/abs/1503.07589}{\texttt{ arXiv:1503.07589}}.
+%%CITATION = ARXIV:1503.07589;%%.
+
+\bibitem{bib:Aad20121}
+\hrefCMSnoop {}{{ATLAS} Collaboration, ``{Observation of a new particle in the
+  search for the Standard Model Higgs boson with the {ATLAS} detector at the
+  LHC}'',} \textit{ Phys. Lett. B} \textbf{ 716} (2012) 1,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
+  \href{http://www.arXiv.org/abs/1207.7214}{\texttt{ arXiv:1207.7214}}.
+
+\bibitem{bib:Chatrchyan201230}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Observation of a new boson at a mass of
+  125 GeV with the CMS experiment at the LHC}'',} \textit{ Phys. Lett. B}
+  \textbf{ 716} (2012) 30,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
+  \href{http://www.arXiv.org/abs/1207.7235}{\texttt{ arXiv:1207.7235}}.
+
+\bibitem{Chatrchyan:2013lba}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Observation of a new boson with mass
+  near 125 GeV in pp collisions at $\sqrt{s}$ = 7 and 8 TeV}'',} \textit{ JHEP}
+  \textbf{ 06} (2013) 081,
+  \href{http://dx.doi.org/10.1007/JHEP06(2013)081}{\doi{10.1007/JHEP06(2013)081}},
+\href{http://www.arXiv.org/abs/1303.4571}{\texttt{ arXiv:1303.4571}}.
+%%CITATION = ARXIV:1303.4571;%%.
+
+\bibitem{Aad:2014aba}
+\hrefCMSnoop {}{{{ATLAS}} Collaboration, ``{Measurement of the Higgs boson mass
+  from the $H\rightarrow{}\gamma{}\gamma{}$ and
+  $H\rightarrow{}Z{Z}^{*}\rightarrow{}4\ell{}$ channels in $pp$ collisions at
+  center-of-mass energies of 7 and 8~TeV with the ATLAS detector}'',} \textit{
+  Phys. Rev. D} \textbf{ 90} (2014) 052004,
+  \href{http://dx.doi.org/10.1103/PhysRevD.90.052004}{\doi{10.1103/PhysRevD.90.052004}},
+\href{http://www.arXiv.org/abs/1406.3827}{\texttt{ arXiv:1406.3827}}.
+%%CITATION = ARXIV:1406.3827;%%.
+
+\bibitem{Khachatryan:2014jba}
+\hrefCMSnoop {}{{CMS Collaboration} Collaboration, ``{Precise determination of
+  the mass of the Higgs boson and tests of compatibility of its couplings with
+  the standard model predictions using proton collisions at 7 and 8 TeV}'',}
+\href{http://www.arXiv.org/abs/1412.8662}{\texttt{ arXiv:1412.8662}}.
+%%CITATION = ARXIV:1412.8662;%%.
+
+\bibitem{Chatrchyan:2014vua}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Evidence for the direct decay of the
+  125 GeV Higgs boson to fermions}'',} \textit{ Nat. Phys.} \textbf{ 10} (2014)
+  557, \href{http://dx.doi.org/10.1038/nphys3005}{\doi{10.1038/nphys3005}},
+\href{http://www.arXiv.org/abs/1401.6527}{\texttt{ arXiv:1401.6527}}.
+%%CITATION = ARXIV:1401.6527;%%.
+
+\bibitem{1988NuPhB}
+\hrefCMSnoop {}{R.~Barbieri and G.~F. Giudice, ``{Upper bounds on
+  supersymmetric particle masses}'',} \textit{ Nuc. Phys. B} \textbf{ 306}
+  (August, 1988) 63,
+  \href{http://dx.doi.org/10.1016/0550-3213(88)90171-X}{\doi{10.1016/0550-3213(88)90171-X}}.
+
+\bibitem{Barger:1980ix}
+\hrefCMSnoop {}{V.~D. Barger, W.-Y. Keung, and E.~Ma, ``{A gauge model with
+  light $W$ and $Z$ bosons}'',} \textit{ Phys. Rev. D} \textbf{ 22} (1980) 727,
+\href{http://dx.doi.org/10.1103/PhysRevD.22.727}{\doi{10.1103/PhysRevD.22.727}}.
+%%CITATION = PHRVA,D22,727;%%.
+
+\bibitem{1126-6708-2009-11-068}
+\hrefCMSnoop {}{E.~Salvioni, G.~Villadoro, and F.~Zwirner, ``Minimal Z' models:
+  present bounds and early LHC reach'',} \textit{ JHEP} \textbf{ 09} (2009)
+  068,
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/11/068}{\doi{10.1088/1126-6708/2009/11/068}},
+  \href{http://www.arXiv.org/abs/0909.1320}{\texttt{ arXiv:0909.1320}}.
+
+\bibitem{Contino2011}
+\hrefCMSnoop {}{R.~Contino, D.~Pappadopulo, D.~Marzocca, and R.~Rattazzi, ``On
+  the effect of resonances in composite Higgs phenomenology'',} \textit{ JHEP}
+  \textbf{ 10} (2011) 081,
+  \href{http://dx.doi.org/10.1007/JHEP10(2011)081}{\doi{10.1007/JHEP10(2011)081}}.
+
+\bibitem{Marzocca2012}
+\hrefCMSnoop {}{D.~Marzocca, M.~Serone, and J.~Shu, ``General composite {H}iggs
+  models'',} \textit{ JHEP} \textbf{ 08} (2012) 13,
+  \href{http://dx.doi.org/10.1007/JHEP08(2012)013}{\doi{10.1007/JHEP08(2012)013}}.
+
+\bibitem{Han:2003wu}
+\hrefCMSnoop {}{T.~Han, H.~E. Logan, B.~McElrath, and L.-T. Wang,
+  ``{Phenomenology of the little Higgs model}'',} \textit{ Phys. Rev. D}
+  \textbf{ 67} (2003) 095004,
+  \href{http://dx.doi.org/10.1103/PhysRevD.67.095004}{\doi{10.1103/PhysRevD.67.095004}},
+\href{http://www.arXiv.org/abs/hep-ph/0301040}{\texttt{ arXiv:hep-ph/0301040}}.
+%%CITATION = HEP-PH/0301040;%%.
+
+\bibitem{Schmaltz}
+\hrefCMSnoop {}{M.~Schmaltz and D.~Tucker-Smith, ``Little Higgs Theories'',}
+  \textit{ Ann. Rev. Nucl. Part. Sci.} \textbf{ 55} (2005) 229,
+  \href{http://dx.doi.org/10.1146/annurev.nucl.55.090704.151502}{\doi{10.1146/annurev.nucl.55.090704.151502}}.
+
+\bibitem{Perelstein2007247}
+\hrefCMSnoop {}{M.~Perelstein, ``Little {H}iggs models and their
+  phenomenology'',} \textit{ Prog. Part. Nucl. Phys.} \textbf{ 58} (2007) 247,
+  \href{http://dx.doi.org/10.1016/j.ppnp.2006.04.001}{\doi{10.1016/j.ppnp.2006.04.001}},
+  \href{http://www.arXiv.org/abs/hep-ph/0512128}{\texttt{
+  arXiv:hep-ph/0512128}}.
+
+\bibitem{Pappadopulo2014}
+\hrefCMSnoop {}{D.~Pappadopulo, A.~Thamm, R.~Torre, and A.~Wulzer, ``Heavy
+  vector triplets: bridging theory and data'',} \textit{ JHEP} \textbf{ 09}
+  (2014) 60,
+  \href{http://dx.doi.org/10.1007/JHEP09(2014)060}{\doi{10.1007/JHEP09(2014)060}},
+  \href{http://www.arXiv.org/abs/1402.4431}{\texttt{ arXiv:1402.4431}}.
+
+\bibitem{Khachatryan:2015lba}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for a pseudoscalar boson
+  decaying into a Z boson and the 125 GeV Higgs boson in $\ell^+\ell^-
+  b\overline{b}$ final states}'',} \textit{ Phys. Lett. B} \textbf{ 748} (2015)
+  221,
+  \href{http://dx.doi.org/10.1016/j.physletb.2015.07.010}{\doi{10.1016/j.physletb.2015.07.010}},
+\href{http://www.arXiv.org/abs/1504.04710}{\texttt{ arXiv:1504.04710}}.
+%%CITATION = ARXIV:1504.04710;%%.
+
+\bibitem{Khachatryan:2015bma}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for a massive resonance decaying
+  into a Higgs boson and a W or Z boson in hadronic final states in
+  proton-proton collisions at $ \sqrt{s}=8 $ TeV}'',} \textit{ JHEP} \textbf{
+  02} (2016) 145,
+  \href{http://dx.doi.org/10.1007/JHEP02(2016)145}{\doi{10.1007/JHEP02(2016)145}},
+\href{http://www.arXiv.org/abs/1506.01443}{\texttt{ arXiv:1506.01443}}.
+%%CITATION = ARXIV:1506.01443;%%.
+
+\bibitem{Khachatryan:2015ywa}
+\hrefCMSnoop {}{{CMS} Collaboration, ``Search for Narrow High-Mass Resonances
+  in Proton-Proton Collisions at {$\sqrt{s}$ = 8 TeV} Decaying to a {Z} and a
+  {H}iggs Boson'',} \textit{ Phys. Lett. B} \textbf{ 748} (2015) 255,
+  \href{http://dx.doi.org/10.1016/j.physletb.2015.07.011}{\doi{10.1016/j.physletb.2015.07.011}},
+\href{http://www.arXiv.org/abs/1502.04994}{\texttt{ arXiv:1502.04994}}.
+%%CITATION = ARXIV:1502.04994;%%.
+
+\bibitem{Khachatryan:2016yji}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for massive WH resonances
+  decaying into the $\ell \nu\mathrm{ b \overline{b} }$ final state at
+  $\sqrt{s}= $ 8 TeV}'',} \textit{ Eur. Phys. J. C} \textbf{ 76} (2016) 1,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4067-z}{\doi{10.1140/epjc/s10052-016-4067-z}},
+\href{http://www.arXiv.org/abs/1601.06431}{\texttt{ arXiv:1601.06431}}.
+%%CITATION = ARXIV:1601.06431;%%.
+
+\bibitem{Sirunyan:2017hnk}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for associated production of
+  dark matter with a Higgs boson decaying to $b\bar{b}$ or $\gamma\gamma$ at
+  $\sqrt{s}$ = 13 TeV}'',}
+\href{http://www.arXiv.org/abs/1703.05236}{\texttt{ arXiv:1703.05236}}.
+%%CITATION = ARXIV:1703.05236;%%.
+
+\bibitem{dm1}
+\hrefCMSnoop {}{G.~Bertone, D.~Hooper, and J.~Silk, ``{Particle Dark Matter:
+  Evidence, Candidates and Constraints}'',} \textit{ Phys. Rept.} \textbf{ 405}
+  (2005) 279,
+  \href{http://dx.doi.org/10.1016/j.physrep.2004.08.031}{\doi{10.1016/j.physrep.2004.08.031}},
+  \href{http://www.arXiv.org/abs/0404175}{\texttt{ arXiv:0404175}}.
+
+\bibitem{dm2}
+\hrefCMSnoop {}{J.~L. Feng, ``Dark Matter Candidates from Particle Physics and
+  Methods of Detection'',} \textit{ Annual Review of Astronomy and
+  Astrophysics} \textbf{ 48} (2010) 495,
+  \href{http://dx.doi.org/10.1146/annurev-astro-082708-101659}{\doi{10.1146/annurev-astro-082708-101659}},
+  \href{http://www.arXiv.org/abs/https://doi.org/10.1146/annurev-astro-082708-101659}{\texttt{
+  arXiv:https://doi.org/10.1146/annurev-astro-082708-101659}}.
+
+\bibitem{dm3}
+\hrefCMSnoop {}{T.~A. Porter, R.~P. Johnson, and P.~W. Graham, ``Dark Matter
+  Searches with Astroparticle Data'',} \textit{ Annual Review of Astronomy and
+  Astrophysics} \textbf{ 49} (2011) 155,
+  \href{http://dx.doi.org/10.1146/annurev-astro-081710-102528}{\doi{10.1146/annurev-astro-081710-102528}},
+  \href{http://www.arXiv.org/abs/https://doi.org/10.1146/annurev-astro-081710-102528}{\texttt{
+  arXiv:https://doi.org/10.1146/annurev-astro-081710-102528}}.
+
+\bibitem{planck}
+\hrefCMSnoop {}{{Planck} Collaboration, ``Planck 2015 results - XIII.
+  Cosmological parameters'',} \textit{ A&A} \textbf{ 594} (2016) A13,
+  \href{http://dx.doi.org/10.1051/0004-6361/201525830}{\doi{10.1051/0004-6361/201525830}}.
+
+\bibitem{HiggsObs_ATLAS}
+\hrefCMSnoop {}{{ATLAS Collaboration}, ``Observation of a new particle in the
+  search for the Standard Model Higgs boson with the {ATLAS} detector at the
+  {LHC}'',} \textit{ Phys. Lett. B} \textbf{ 716} (2012) 1,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}}.
+
+\bibitem{HiggsObs_CMS}
+\hrefCMSnoop {}{{CMS Collaboration}, ``Observation of a new boson at a mass of
+  125 GeV with the {CMS} experiment at the {LHC}'',} \textit{ Phys. Lett. B}
+  \textbf{ 716} (2012) 30,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}}.
+
+\bibitem{HiggsObs_CMS_Long}
+\hrefCMSnoop {}{{CMS Collaboration}, ``Observation of a new boson with mass
+  near 125 GeV in pp collisions at $\sqrt{s}$ = 7 and 8 TeV'',} \textit{ JHEP}
+  \textbf{ 06} (2013) 81,
+  \href{http://dx.doi.org/10.1007/JHEP06(2013)081}{\doi{10.1007/JHEP06(2013)081}}.
+
+\bibitem{2HDM}
+\hrefCMSnoop {}{A.~Berlin, T.~Lin, and L.-T. Wang, ``{Mono-Higgs Detection of
+  Dark Matter at the LHC}'',} \textit{ JHEP} \textbf{ 06} (2014) 078,
+  \href{http://dx.doi.org/10.1007/JHEP06(2014)078}{\doi{10.1007/JHEP06(2014)078}},
+\href{http://www.arXiv.org/abs/1402.7074}{\texttt{ arXiv:1402.7074}}.
+%%CITATION = ARXIV:1402.7074;%%.
+
+\bibitem{Lee:1973iz}
+\hrefCMSnoop {}{T.~D. Lee, ``{A Theory of Spontaneous T Violation}'',} \textit{
+  Phys. Rev.} \textbf{ D 8} (1973) 1226,
+\href{http://dx.doi.org/10.1103/PhysRevD.8.1226}{\doi{10.1103/PhysRevD.8.1226}}.
+%%CITATION = PHRVA,D8,1226;%%.
+
+\bibitem{Branco:2011iw}
+G.~Branco\hrefCMSnoop {}{ {et~al.}, ``{Theory and phenomenology of
+  two-Higgs-doublet models}'',} \textit{ Phys. Rept.} \textbf{ 516} (2012) 01,
+  \href{http://dx.doi.org/10.1016/j.physrep.2012.02.002}{\doi{10.1016/j.physrep.2012.02.002}},
+\href{http://www.arXiv.org/abs/1106.0034}{\texttt{ arXiv:1106.0034}}.
+%%CITATION = ARXIV:1106.0034;%%.
+
+\bibitem{Khachatryan:2015hwa}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Performance of Electron Reconstruction
+  and Selection with the CMS Detector in Proton-Proton Collisions at $\sqrt{s}$
+  = 8 TeV}'',} \textit{ JINST} \textbf{ 10} (2015) P06005,
+  \href{http://dx.doi.org/10.1088/1748-0221/10/06/P06005}{\doi{10.1088/1748-0221/10/06/P06005}},
+\href{http://www.arXiv.org/abs/1502.02701}{\texttt{ arXiv:1502.02701}}.
+%%CITATION = ARXIV:1502.02701;%%.
+
+\bibitem{Chatrchyan:2013sba}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{The performance of the CMS muon
+  detector in proton-proton collisions at $\sqrt{s}$ = 7 TeV at the LHC}'',}
+  \textit{ JINST} \textbf{ 8} (2013) P11002,
+  \href{http://dx.doi.org/10.1088/1748-0221/8/11/P11002}{\doi{10.1088/1748-0221/8/11/P11002}},
+\href{http://www.arXiv.org/abs/1306.6905}{\texttt{ arXiv:1306.6905}}.
+%%CITATION = ARXIV:1306.6905;%%.
+
+\bibitem{CMSTauJINST}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Reconstruction and identification of
+  $\tau$ lepton decays to hadrons and $\nu_{\tau}$ at CMS}'',} \textit{ JINST}
+  \textbf{ 11} (2016) P01019,
+  \href{http://dx.doi.org/10.1088/1748-0221/11/01/P01019}{\doi{10.1088/1748-0221/11/01/P01019}},
+\href{http://www.arXiv.org/abs/1510.07488}{\texttt{ arXiv:1510.07488}}.
+%%CITATION = ARXIV:1106.0034;%%.
+
+\bibitem{yellowReport}
+\hrefCMSnoop {}{{LHC Higgs Cross Section Working Group} Collaboration,
+  ``{Handbook of LHC Higgs Cross Sections: 3. Higgs Properties: Report of the
+  LHC Higgs Cross Section Working Group}'',} Technical Report CERN-2013-004,
+  Geneva, 2013.
+\newblock
+  \href{http://dx.doi.org/10.5170/CERN-2013-004}{\doi{10.5170/CERN-2013-004}},
+  \href{http://www.arXiv.org/abs/1307.1347}{\texttt{ arXiv:1307.1347}}.
+
+\bibitem{bib:CLS1}
+\hrefCMSnoop {}{A.~L. Read, ``Presentation of search results: the CLs
+  technique'',} \textit{ J. Phys.} \textbf{ G 28} (2002) 2693,
+  \href{http://dx.doi.org/10.1088/0954-3899/28/10/313}{\doi{10.1088/0954-3899/28/10/313}}.
+
+\bibitem{bib:CLS2}
+\hrefCMSnoop {}{T.~Junk, ``{Confidence level computation for combining searches
+  with small statistics}'',} \textit{ Nucl. Instrum. Meth.} \textbf{ A 434}
+  (1999) 435,
+  \href{http://dx.doi.org/10.1016/S0168-9002(99)00498-2}{\doi{10.1016/S0168-9002(99)00498-2}},
+\href{http://www.arXiv.org/abs/hep-ex/9902006}{\texttt{ arXiv:hep-ex/9902006}}.
+%%CITATION = HEP-EX/9902006;%%.
+
+\bibitem{bib:CLS3}
+\hrefCMSnoop {}{G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``{Asymptotic
+  formulae for likelihood-based tests of new physics}'',} \textit{ Eur. Phys.
+  J.} \textbf{ C71} (2011) 1554,
+\href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}}.
+%%CITATION = HEP-EX/9902006;%%.
+
+\bibitem{CMS-PAS-B2G-16-008}
+\hrefCMSnoop {}{{CMS} Collaboration, ``Search for heavy resonances decaying to
+  a pair of Higgs bosons in four b quark final state in proton-proton
+  collisions at sqrt(s)=13 TeV'',} technical report.
+
+\bibitem{Sirunyan:2017isc}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for a massive resonance decaying
+  to a pair of Higgs bosons in the four b quark final state in proton-proton
+  collisions at $\sqrt{s}=$ 13 TeV}'',}
+\href{http://www.arXiv.org/abs/1710.04960}{\texttt{ arXiv:1710.04960}}.
+%%CITATION = ARXIV:1710.04960;%%.
+
+\bibitem{HiggsDiscoveryAtlas}
+\hrefCMSnoop {}{{ATLAS} Collaboration, ``{Observation of a new particle in the
+  search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}'',} \textit{ Phys. Lett. B} \textbf{ 716} (2012) 01,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
+\href{http://www.arXiv.org/abs/1207.7214}{\texttt{ arXiv:1207.7214}}.
+%%CITATION = ARXIV:1207.7214;%%.
+
+\bibitem{HiggsDiscoveryCMS}
+\hrefCMSnoop {}{{{CMS}} Collaboration, ``{Observation of a new boson at a mass
+  of 125 GeV with the CMS experiment at the LHC}'',} \textit{ Phys. Lett. B}
+  \textbf{ 716} (2012) 30,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
+\href{http://www.arXiv.org/abs/1207.7235}{\texttt{ arXiv:1207.7235}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{CMSHiggsLongPaper}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Observation of a new boson with mass
+  near 125 GeV in pp collisions at $\sqrt{s}$ = 7 and 8 TeV}'',} \textit{ JHEP}
+  \textbf{ 06} (2013) 081,
+  \href{http://dx.doi.org/10.1007/JHEP06(2013)081}{\doi{10.1007/JHEP06(2013)081}},
+\href{http://www.arXiv.org/abs/1303.4571}{\texttt{ arXiv:1303.4571}}.
+%%CITATION = ARXIV:1303.4571;%%.
+
+\bibitem{deFlorian:2013jea}
+\hrefCMSnoop {}{D.~de~Florian and J.~Mazzitelli, ``{Higgs} Boson Pair
+  Production at Next-to-Next-to-Leading Order in {QCD}'',} \textit{ Phys. Rev.
+  Lett.} \textbf{ 111} (2013) 201801,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.111.201801}{\doi{10.1103/PhysRevLett.111.201801}},
+\href{http://www.arXiv.org/abs/1309.6594}{\texttt{ arXiv:1309.6594}}.
+%%CITATION = ARXIV:1309.6594;%%.
+
+\bibitem{Goldberger:1999uk}
+\hrefCMSnoop {}{W.~D. Goldberger and M.~B. Wise, ``{Modulus stabilization with
+  bulk fields}'',} \textit{ Phys. Rev. Lett.} \textbf{ 83} (1999) 4922,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.83.4922}{\doi{10.1103/PhysRevLett.83.4922}},
+\href{http://www.arXiv.org/abs/hep-ph/9907447}{\texttt{ arXiv:hep-ph/9907447}}.
+%%CITATION = HEP-PH/9907447;%%.
+
+\bibitem{DeWolfe:1999cp}
+\hrefCMSnoop {}{O.~DeWolfe, D.~Z. Freedman, S.~S. Gubser, and A.~Karch,
+  ``{Modeling the fifth dimension with scalars and gravity}'',} \textit{ Phys.
+  Rev. D} \textbf{ 62} (2000) 046008,
+  \href{http://dx.doi.org/10.1103/PhysRevD.62.046008}{\doi{10.1103/PhysRevD.62.046008}},
+\href{http://www.arXiv.org/abs/hep-th/9909134}{\texttt{ arXiv:hep-th/9909134}}.
+%%CITATION = HEP-TH/9909134;%%.
+
+\bibitem{Csaki:1999mp}
+\hrefCMSnoop {}{C.~Csaki, M.~Graesser, L.~Randall, and J.~Terning, ``{Cosmology
+  of brane models with radion stabilization}'',} \textit{ Phys. Rev. D}
+  \textbf{ 62} (2000) 045015,
+  \href{http://dx.doi.org/10.1103/PhysRevD.62.045015}{\doi{10.1103/PhysRevD.62.045015}},
+\href{http://www.arXiv.org/abs/hep-ph/9911406}{\texttt{ arXiv:hep-ph/9911406}}.
+%%CITATION = HEP-PH/9911406;%%.
+
+\bibitem{Davoudiasl:1999jd}
+\hrefCMSnoop {}{H.~Davoudiasl, J.~L. Hewett, and T.~G. Rizzo, ``Phenomenology
+  of the {Randall-Sundrum} Gauge Hierarchy Model'',} \textit{ Phys. Rev. Lett.}
+  \textbf{ 84} (2000) 2080,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.84.2080}{\doi{10.1103/PhysRevLett.84.2080}},
+\href{http://www.arXiv.org/abs/hep-ph/9909255}{\texttt{ arXiv:hep-ph/9909255}}.
+%%CITATION = HEP-PH/9909255;%%.
+
+\bibitem{Csaki:2000zn}
+\hrefCMSnoop {}{C.~Csaki, M.~L. Graesser, and G.~D. Kribs, ``{Radion dynamics
+  and electroweak physics}'',} \textit{ Phys. Rev. D} \textbf{ 63} (2001)
+  065002,
+  \href{http://dx.doi.org/10.1103/PhysRevD.63.065002}{\doi{10.1103/PhysRevD.63.065002}},
+\href{http://www.arXiv.org/abs/hep-th/0008151}{\texttt{ arXiv:hep-th/0008151}}.
+%%CITATION = HEP-TH/0008151;%%.
+
+\bibitem{Giudice:2000av}
+\hrefCMSnoop {}{G.~F. Giudice, R.~Rattazzi, and J.~D. Wells, ``{Graviscalars
+  from higher dimensional metrics and curvature Higgs mixing}'',} \textit{
+  Nucl. Phys. B} \textbf{ 595} (2001) 250,
+  \href{http://dx.doi.org/10.1016/S0550-3213(00)00686-6}{\doi{10.1016/S0550-3213(00)00686-6}},
+\href{http://www.arXiv.org/abs/hep-ph/0002178}{\texttt{ arXiv:hep-ph/0002178}}.
+%%CITATION = HEP-PH/0002178;%%.
+
+\bibitem{Oliveira:2014kla}
+\hrefCMSnoop {}{A.~Oliveira, ``Gravity particles from Warped Extra Dimensions,
+  a review. Part I - {KK} Graviton'',} (2014).
+\href{http://www.arXiv.org/abs/1404.0102}{\texttt{ arXiv:1404.0102}}.
+%%CITATION = ARXIV:1404.0102;%%.
+
+\bibitem{deFlorian:2016spz}
+\hrefCMSnoop {}{D.~de~Florian {et~al.}, ``Handbook of {LHC} {H}iggs cross
+  sections: 4. Deciphering the nature of the {H}iggs sector'',} CERN Report
+  CERN-2017-002-M, CERN, 2016.
+\newblock
+  \href{http://dx.doi.org/10.23731/CYRM-2017-002}{\doi{10.23731/CYRM-2017-002}},
+  \href{http://www.arXiv.org/abs/1610.07922}{\texttt{ arXiv:1610.07922}}.
+
+\bibitem{Khachatryan:2016cfa}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Search for heavy resonances decaying to
+  two Higgs bosons in final states containing four b quarks}'',} \textit{ Eur.
+  Phys. J. C} \textbf{ 76} (2016) 371,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4206-6}{\doi{10.1140/epjc/s10052-016-4206-6}},
+\href{http://www.arXiv.org/abs/1602.08762}{\texttt{ arXiv:1602.08762}}.
+%%CITATION = ARXIV:1602.08762;%%.
+
+\bibitem{Butterworth:2008iy}
+\hrefCMSnoop {}{J.~M. Butterworth, A.~R. Davison, M.~Rubin, and G.~P. Salam,
+  ``{Jet substructure as a new Higgs search channel at the LHC}'',} \textit{
+  Phys. Rev. Lett.} \textbf{ 100} (2008) 242001,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.100.242001}{\doi{10.1103/PhysRevLett.100.242001}},
+\href{http://www.arXiv.org/abs/0802.2470}{\texttt{ arXiv:0802.2470}}.
+%%CITATION = ARXIV:0802.2470;%%.
+
+\bibitem{Cooper:2013kia}
+\hrefCMSnoop {}{B.~Cooper, N.~Konstantinidis, L.~Lambourne, and D.~Wardrope,
+  ``{Boosted $hh \rightarrow b\bar{b}b\bar{b}$: a new topology in searches for
+  TeV-scale resonances at the LHC}'',} \textit{ Phys. Rev. D} \textbf{ 88}
+  (2013) 114005,
+  \href{http://dx.doi.org/10.1103/PhysRevD.88.114005}{\doi{10.1103/PhysRevD.88.114005}},
+\href{http://www.arXiv.org/abs/1307.0407}{\texttt{ arXiv:1307.0407}}.
+%%CITATION = ARXIV:1307.0407;%%.
+
+\bibitem{Gouzevitch:2013qca}
+M.~Gouzevitch\hrefCMSnoop {}{ {et~al.}, ``{Scale-invariant resonance tagging in
+  multijet events and new physics in Higgs pair production}'',} \textit{ JHEP}
+  \textbf{ 07} (2013) 148,
+  \href{http://dx.doi.org/10.1007/JHEP07(2013)148}{\doi{10.1007/JHEP07(2013)148}},
+\href{http://www.arXiv.org/abs/1303.6636}{\texttt{ arXiv:1303.6636}}.
+%%CITATION = ARXIV:1303.6636;%%.
+
+\bibitem{Salam:2009jx}
+\hrefCMSnoop {}{G.~P. Salam, ``Towards jetography'',} \textit{ Eur. Phys. J. C}
+  \textbf{ 67} (2010) 637,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-010-1314-6}{\doi{10.1140/epjc/s10052-010-1314-6}},
+\href{http://www.arXiv.org/abs/0906.1833}{\texttt{ arXiv:0906.1833}}.
+%%CITATION = ARXIV:0906.1833;%%.
+
+\bibitem{Dasgupta:2013ihk}
+\hrefCMSnoop {}{M.~Dasgupta, A.~Fregoso, S.~Marzani, and G.~P. Salam,
+  ``{Towards an understanding of jet substructure}'',} \textit{ JHEP} \textbf{
+  09} (2013) 029,
+  \href{http://dx.doi.org/10.1007/JHEP09(2013)029}{\doi{10.1007/JHEP09(2013)029}},
+\href{http://www.arXiv.org/abs/1307.0007}{\texttt{ arXiv:1307.0007}}.
+%%CITATION = ARXIV:1307.0007;%%.
+
+\bibitem{Larkoski:2014wba}
+\hrefCMSnoop {}{A.~J. Larkoski, S.~Marzani, G.~Soyez, and J.~Thaler, ``Soft
+  drop'',} \textit{ JHEP} \textbf{ 05} (2014) 146,
+  \href{http://dx.doi.org/10.1007/JHEP05(2014)146}{\doi{10.1007/JHEP05(2014)146}},
+\href{http://www.arXiv.org/abs/1402.2657}{\texttt{ arXiv:1402.2657}}.
+%%CITATION = ARXIV:1402.2657;%%.
+
+\bibitem{CMS-PAS-JME-16-003}
+\href {https://cds.cern.ch/record/2256875}{{CMS} Collaboration, ``Jet
+  algorithms performance in {13 TeV} data'',} CMS Physics Analysis Summary
+  CMS-PAS-JME-16-003, CERN, 2017.
+
+\bibitem{Thaler:2011gf}
+\hrefCMSnoop {}{J.~Thaler and K.~Van~Tilburg, ``Maximizing boosted top
+  identification by minimizing {N}-subjettiness'',} \textit{ JHEP} \textbf{ 02}
+  (2012) 093,
+  \href{http://dx.doi.org/10.1007/JHEP02(2012)093}{\doi{10.1007/JHEP02(2012)093}},
+\href{http://www.arXiv.org/abs/1108.2701}{\texttt{ arXiv:1108.2701}}.
+%%CITATION = ARXIV:1108.2701;%%.
+
+\bibitem{CMS-PAS-BTV-15-002}
+\href {https://cds.cern.ch/record/2195743}{{CMS} Collaboration,
+  ``Identification of double-b quark jets in Boosted Topologies'',} CMS Physics
+  Analysis Summary CMS-PAS-BTV-15-002, CERN, 2016.
+
+\bibitem{Sirunyan:2017exp}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Measurements of properties of the Higgs
+  boson decaying into the four-lepton final state in pp collisions at sqrt(s) =
+  13 TeV}'',} (2017). \href{http://www.arXiv.org/abs/1706.09936}{\texttt{
+  arXiv:1706.09936}}.
+Submitted to JHEP.
+%%CITATION = ARXIV:1706.09936;%%.
+
+\bibitem{Oreglia:1980cs}
+\href
+  {http://www-public.slac.stanford.edu/sciDoc/docMeta.aspx?slacPubNumber=slac-r-236.html}{M.~Oreglia,
+  ``{A Study of the Reactions $\psi^\prime \to \gamma \gamma \psi$}''}.
+\newblock PhD thesis, SLAC,
+1980.
+\newblock
+%%CITATION = SLAC-0236;%%.
+
+\bibitem{Garwood}
+\hrefCMSnoop {}{F.~Garwood, ``(i) {F}iducial Limits for the {P}oisson
+  Distribution'',} \textit{ Biometrika} \textbf{ 28} (1936) 437,
+  \href{http://dx.doi.org/10.1093/biomet/28.3-4.437}{\doi{10.1093/biomet/28.3-4.437}}.
+
+\bibitem{Fisher}
+R.~G. Lomax and D.~L. Hahs-Vaughn, ``{Statistical concepts: a second course}''.
+\newblock Taylor and Francis, Hoboken, NJ, 2012.
+
+\bibitem{AsympCLs}
+\hrefCMSnoop {}{G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``Asymptotic
+  formulae for likelihood-based tests of new physics'',} \textit{ Eur. Phys. J.
+  C} \textbf{ 71} (2011) 1554,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{\doi{10.1140/epjc/s10052-011-1554-0}},
+  \href{http://www.arXiv.org/abs/1007.1727}{\texttt{ arXiv:1007.1727}}.
+[Erratum: \DOI{10.1140/epjc/s10052-013-2501-z}].
+%%CITATION = ARXIV:1007.1727;%%.
+
+\bibitem{Bauer:2017ota}
+\hrefCMSnoop {}{M.~Bauer, U.~Haisch, and F.~Kahlhoefer, ``{Simplified dark
+  matter models with two Higgs doublets: I. Pseudoscalar mediators}'',}
+  \textit{ JHEP} \textbf{ 05} (2017) 138,
+  \href{http://dx.doi.org/10.1007/JHEP05(2017)138}{\doi{10.1007/JHEP05(2017)138}},
+\href{http://www.arXiv.org/abs/1701.07427}{\texttt{ arXiv:1701.07427}}.
+%%CITATION = ARXIV:1701.07427;%%.
+
+\bibitem{Eiko2HDMscantanb}
+\href
+  {https://github.com/syuvivida/darkmatter_figures/tree/master/monoH/2HDMPZ2/MG5_2.4.2/varytanbeta}{{Shin-Shan
+  Yu}, ``Scan of $\tan\beta$ in the 2HDM+a model'',} github, 2017.
+
+\bibitem{Eiko2HDMscansin}
+\href
+  {https://github.com/syuvivida/darkmatter_figures/tree/master/monoH/2HDMPZ2/MG5_2.4.2/varysinp/}{{Shin-Shan
+  Yu}, ``Scan of $\sin\theta$ in the 2HDM+a model'',} github, 2017.
+
+\bibitem{2HDMa}
+\hrefCMSnoop {}{M.~Bauer, U.~Haisch, and F.~Kahlhoefer, ``{Simplified dark
+  matter models with two Higgs doublets: I. Pseudoscalar mediators}'',}
+  \textit{ JHEP} \textbf{ 05} (2017) 138,
+  \href{http://dx.doi.org/10.1007/JHEP05(2017)138}{\doi{10.1007/JHEP05(2017)138}},
+\href{http://www.arXiv.org/abs/1701.07427}{\texttt{ arXiv:1701.07427}}.
+%%CITATION = ARXIV:1701.07427;%%.
+
+\bibitem{Eiko2HDMa}
+\href
+  {https://gitlab.cern.ch/lhc-dmwg-material/cross_section-repository/blob/master/2hdm+a/h+met/MG5_2.5.2_compareATLASCMS_2HD\
+  MPZ2II_ATLASsetting.txt}{{Shin-Shan Yu}, ``Cross-check of ATLAS and CMS
+  2HDM+a cross sections'',} gitlab, 2017.
+
+\end{thebibliography}\endgroup

@@ -1,0 +1,1531 @@
+\RCS$Revision: 230053 $
+\RCS$HeadURL: svn+ssh://svn.cern.ch/reps/tdr2/notes/AN-14-062/trunk/AN-14-062.tex $
+\RCS$Id: AN-14-062.tex 230053 2014-03-05 06:58:25Z syu $
+%%%%%%%%%%%%% local definitions %%%%%%%%%%%%%%%%%%%%%
+% This allows for switching between one column and two column (cms@external) layouts
+% The widths should  be modified for your particular figures. You'll need additional copies if you have more than one standard figure size.
+\newlength\cmsFigWidth
+\ifthenelse{\boolean{cms@external}}{\setlength\cmsFigWidth{0.85\columnwidth}}{\setlength\cmsFigWidth{0.4\textwidth}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top}}{\providecommand{\cmsLeft}{left}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom}}{\providecommand{\cmsRight}{right}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeftU}{upper\xspace}}{\providecommand{\cmsLeftU}{upper left\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRightU}{middle\xspace}}{\providecommand{\cmsRightU}{upper right\xspace}}
+
+
+
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\cmsNoteHeader{MOST 103-2112-M-008-010-MY3} % This is over-written in the CMS environment: useful as preprint no. for export versions
+\newcommand{\mJ}{\ensuremath{m_{\text{jet}}}\xspace}
+\newcommand{\qqbarpr}{\ensuremath{\Pq\Paq^{(\prime)}}\xspace}
+\newcommand{\nsubj}{\ensuremath{\tau_{21}}}
+\newcommand{\Gbulk}{\ensuremath{\mathrm{G}_\text{bulk}}\xspace}
+\newcommand{\Vprime}{\ensuremath{\mathrm{V}'}\xspace}
+\providecommand{\NA}{\ensuremath{\text{---}}\xspace}
+
+\newcommand{\PV}{\ensuremath{\mathrm{V}}}
+\providecommand{\NA}{---}
+\newcommand{\LOWSBLOW}{40\xspace}
+\newcommand{\SRLOW}{65\xspace}
+\newcommand{\SRMIDDLE}{85\xspace}
+\newcommand{\SRHIGH}{105\xspace}
+\newcommand{\HIGHSBLOW}{135\xspace}
+\newcommand{\HIGHSBHIGH}{150\xspace}
+\newcommand{\SFWTAGHPWPT} {\ensuremath{0.95\pm0.06}\xspace}
+\newcommand{\SFWTAGLPWPT} {\ensuremath{1.25\pm0.32}\xspace}
+\newcommand{\SFWTAGHPWPL} {\ensuremath{1.01\pm0.03}\xspace}
+\newcommand{\WMASSDATAWPT} {\ensuremath{84.6\pm0.7}\xspace}
+\newcommand{\WRESDATAWPT} {\ensuremath{8.2\pm0.7}\xspace}
+\newcommand{\WMASSMCWPT} {\ensuremath{85.1\pm0.2}\xspace}
+\newcommand{\WRESMCWPT} {\ensuremath{7.8\pm0.3}\xspace}
+\newcommand{\LUMIUNCERT} {2.7\%\xspace}
+\newcommand{\Wo}{\PW\xspace}%                                                                                                                 
+\newcommand{\Zo}{\cPZ\xspace}%                                                                                                                
+\newcommand{\Vo}{\ensuremath{\mathrm{V}}\xspace}%                                                                                             
+\newcommand{\mX}{\ensuremath{\text{M}_{\text{X}}}}%                                                                                           
+\newcommand{\wX}{\ensuremath{\Gamma_{\text{X}}}}%                                                                                             
+\newcommand{\mVV}{\ensuremath{m_{\Vo\Vo}}\xspace}%                                                                                            
+\newcommand{\mjj}{\ensuremath{m_\mathrm{jj}}}%                                                                                                
+\newcommand{\mJ}{\ensuremath{m_{\text{jet}}}}%                                                                                                
+\newcommand{\nsubj}{\ensuremath{\tau_{21}}}%                                                                                                  
+\newcommand{\ktilde}{\ensuremath{k/\overline{M}_\mathrm{Pl}}\xspace}%                                                                         
+\newcommand{\amcatnlo}{{\MADGRAPH{}5\_a\MCATNLO}\xspace}
+\newcommand{\BulkG}{\ensuremath{\PXXG_{\text{bulk}}}\xspace}
+\newcommand{\lnujet}{\ensuremath{\ell \nu}+jet\xspace}
+
+\newcommand{\Wpr}{\ensuremath{\rm W^\prime}\xspace}
+\newcommand{\Zpr}{\ensuremath{\rm Z^\prime}\xspace}
+\renewcommand{\PTm}{\ensuremath{p_{\mathrm{T}}^{\text{miss}}}\xspace}
+\newcommand\T{\rule[-.50em]{0pt}{1.50em}}
+
+
+\newcommand{\Xtohh}{\ensuremath{\X\to\Ph\Ph}\xspace}
+
+\newcommand{\qqbarpr}{\ensuremath{\Pq\Paq^({}'^){}}\xspace}
+\newcommand{\lnujet}{\ensuremath{\ell \nu}+jet\xspace}
+\newcommand{\lljet}{\ensuremath{\ell \ell}+jet\xspace}
+\newcommand{\PV}{\ensuremath{\mathrm{V}}}
+\newcommand{\nsubj}{\ensuremath{\tau_{21}}}%
+\newcommand{\Vo}{\ensuremath{\mathrm{V}}\xspace}%
+\newcommand{\mVV}{\ensuremath{m_{\Vo\Vo}}\xspace}%
+\newcommand{\Grav}{\ensuremath{\PXXG_{\mathrm{bulk}}}}%
+\newcommand{\ktilde}{\ensuremath{k/\overline{M}_\mathrm{Pl}}\xspace}%
+\newcommand{\pb}{\ensuremath{\cmsSymbolFace{pb}}\xspace}
+\newcommand{\X}{\ensuremath{\cmsSymbolFace{X}}\xspace}
+\newcommand{\A}{\ensuremath{\cmsSymbolFace{A}}\xspace}
+\newcommand{\V}{\ensuremath{\cmsSymbolFace{V}}\xspace}
+\newcommand{\h}{\ensuremath{\cmsSymbolFace{h}}\xspace}
+\renewcommand{\PW}{\ensuremath{\cmsSymbolFace{W}}\xspace}
+\newcommand{\XtoVh}{\ensuremath{\X\to\V\Ph}\xspace}
+\newcommand{\XtoZh}{\ensuremath{\X\to\Z\Ph}\xspace}
+\newcommand{\XtoWh}{\ensuremath{\X\to\PW\Ph}\xspace}
+\newcommand{\AtoZh}{\ensuremath{\A\to\Z\Ph}\xspace}
+\newcommand{\htobb}{\ensuremath{\Ph\to\bbbar}\xspace}
+\newcommand{\Ztoll}{\ensuremath{\Z\to\ell\ell}\xspace}
+\newcommand{\Ztoee}{\ensuremath{\Z\to\Pe\Pe}\xspace}
+\newcommand{\Ztomm}{\ensuremath{\Z\to\mu\mu}\xspace}
+\newcommand{\Ztonn}{\ensuremath{\Z\to\nu\nu}\xspace}
+\newcommand{\Atollbb}{\ensuremath{\A\to\Z\Ph\to{\ell\ell}\bbbar}\xspace}
+\newcommand{\Xtollbb}{\ensuremath{\X\to\Z\Ph\to{\ell\ell}\bbbar}\xspace}
+\newcommand{\Xtoeebb}{\ensuremath{\X\to\Z\Ph\to{\Pe\Pe}\bbbar}\xspace}
+\newcommand{\Xtommbb}{\ensuremath{\X\to\Z\Ph\to{\mu\mu}\bbbar}\xspace}
+\newcommand{\Xtolnbb}{\ensuremath{\X\to\PW\Ph\to{\ell\nu}\bbbar}\xspace}
+\newcommand{\Xtoenbb}{\ensuremath{\X\to\PW\Ph\to{\Pe\nu}\bbbar}\xspace}
+\newcommand{\Xtomnbb}{\ensuremath{\X\to\PW\Ph\to{\mu\nu}\bbbar}\xspace}
+\newcommand{\Xtonnbb}{\ensuremath{\X\to\Z\Ph\to{\nu\nu}\bbbar}\xspace}
+\renewcommand{\PHpm}{\ensuremath{\PH^\pm}\xspace}
+\newcommand{\Zh}{\ensuremath{\Z\Ph}\xspace}
+\newcommand{\Wh}{\ensuremath{\PW\Ph}\xspace}
+\newcommand{\VH}{\ensuremath{\V\Ph}\xspace}
+\newcommand{\VV}{\ensuremath{\V\V}\xspace}
+\newcommand{\ST}{\ensuremath{\text{ST}}\xspace}
+\newcommand{\Vjets}{\ensuremath{\V\text{+jets}}\xspace}
+\newcommand{\mVH}{\ensuremath{m_{\VH}}\xspace}
+\newcommand{\mX}{\ensuremath{m_{\X}}\xspace}
+\newcommand{\mT}{\ensuremath{m_{\text{T}}}\xspace}
+\newcommand{\mA}{\ensuremath{m_{\A}}\xspace}
+\newcommand{\mh}{\ensuremath{m_{\Ph}}\xspace}
+\newcommand{\mHpm}{\ensuremath{m_{\PHpm}}\xspace}
+\newcommand{\mt}{\ensuremath{m_{\PQt}}\xspace}
+\newcommand{\mtX}{\ensuremath{m_{\PQt}^{\X}}\xspace}
+\newcommand{\ttbarV}{\ensuremath{\ttbar V\xspace}}
+\newcommand{\mbb}{\ensuremath{m_{\PQb\PQb}}\xspace}
+\newcommand{\mll}{\ensuremath{m_{\ell\ell}}\xspace}
+\newcommand{\mllbb}{\ensuremath{m_{\ell\ell\PQb\PQb}}\xspace}
+\newcommand{\mlnbb}{\ensuremath{m_{\ell\nu\PQb\PQb}}\xspace}
+\newcommand{\mTnnbb}{\ensuremath{m^T_{\nu\nu\PQb\PQb}}\xspace}
+\newcommand{\cosba}{\ensuremath{\cos(\beta-\alpha)}\xspace}
+\newcommand{\B}{\ensuremath{\mathcal{B}}}
+\newcommand{\fb}{\ensuremath{\,\text{fb}}\xspace}
+\newcommand{\Zb}{\ensuremath{\Z+\PQb}\xspace}
+\newcommand{\Zbbbar}{\ensuremath{\Z+\bbbar}\xspace}
+\newcommand{\qqbar}{\ensuremath{\cPq\cPaq}\xspace}
+\newcommand{\MHT}{\ensuremath{H_\text{T}^\text{miss}}\xspace}
+
+\renewcommand{\HGG}{\ensuremath{\Ph\rightarrow\gamma\gamma}\xspace}
+\newcommand{\Hbb}{\ensuremath{\Ph\rightarrow\PQb\PAQb}\xspace}
+\newcommand{\mzp}{\ensuremath{m_{\PZpr}}\xspace}
+\renewcommand{\Az}{\ensuremath{\cmsSymbolFace{A}}\xspace}
+\newcommand{\ptm}{\ensuremath{p_{\mathrm{T}}^{\text{miss}}}\xspace}
+\renewcommand{\MET}{\ptm}
+\renewcommand{\ETm}{\ptm}
+\newcommand{\maz}{\ensuremath{m_{\Az}}\xspace}
+\newcommand{\mdm}{\ensuremath{m_{\chi}}\xspace}
+\newcommand{\gzp}{\ensuremath{g_{\PZpr}}\xspace}
+\newcommand{\MADGRAPHAMC} {\MADGRAPH{}5\_a\MCATNLO}
+\newcommand{\x}{\ensuremath{\phantom{0}}}
+
+\providecommand{\Ph}{\ensuremath{\cmsSymbolFace{h}}\xspace}
+\providecommand{\PQb}{\cPqb}
+\providecommand{\PQt}{\cPqt}
+\providecommand{\PZ}{\ensuremath{\cmsSymbolFace{Z}}\xspace}
+\providecommand{\PW}{\ensuremath{\cmsSymbolFace{W}}\xspace}
+\newcommand{\ttjets}{\ensuremath{\cPqt\overline{\cPqt}}+jets\xspace}
+\newcommand{\wjets}{\PW+jets\xspace}
+\newcommand{\bjet}{\cPqb~jet\xspace}
+\newcommand{\bjets}{\cPqb~jets\xspace}
+\newcommand{\sm}{the standard model\xspace}
+\newcommand{\mc}{Monte Carlo\xspace}
+\newcommand{\com}{13\TeV\xspace}
+\newcommand{\intLumi}{35.9\fbinv}
+
+\newcommand{\Hbbt}{double-\cPqb\,tagger\xspace}
+\newcommand{\Sjbt}{subjet \PQb\,tagger\xspace}
+\newcommand{\GRS}{\ensuremath{\mathrm{G}_\mathrm{RS}}\xspace}
+\newcommand{\mjj}{\ensuremath{m_{\text{jj}}}\xspace}
+\newcommand{\mjjs}{\ensuremath{m_{\text{jj}}^{\text{red}}}\xspace}
+\newcommand{\Mjjs}{\ensuremath{m_{\text{jj}}^{\text{red}}}\xspace}
+\newcommand{\mjjred}{\ensuremath{m_{\text{jj}}^{\text{red}}}\xspace}
+\newcommand{\Mjjred}{\ensuremath{m_{\text{jj}}^{\text{red}}}\xspace}
+\newcommand{\mH}{\ensuremath{m_{\text{\PH}}}\xspace}
+\newcommand{\mx}{\ensuremath{m_{\text{X}}}\xspace}
+\newcommand{\mux}{\ensuremath{\mu_{\text{X}}^{\text{CB}}}\xspace}
+\newcommand{\nsub}{\ensuremath{\tau_{21}}\xspace}
+\newcommand{\etaj}{\ensuremath{|\eta|}\xspace}
+\newcommand{\deta}{\ensuremath{|\Delta\eta_{\text{jj}}|}\xspace}
+\newcommand{\mjp}{\ensuremath{m_{\text{jet}}^{\text{pruned}}}\xspace}
+\newcommand{\mjsd}{\ensuremath{m_{\text{jet}}^{\text{softdrop,puppi}}}\xspace}
+\newcommand{\mj}{\ensuremath{m_{\text{jet}}}\xspace}
+\newcommand{\mjone}{\ensuremath{m_{\text{j}_{1}}}\xspace}
+\newcommand{\mjtwo}{\ensuremath{m_{\text{j}_{2}}}\xspace}
+\newcommand{\LambdaR}{\ensuremath{\Lambda_{\text{R}}}\xspace}
+\newcommand{\DeltaEta}{\ensuremath{\Delta\eta(\text{j}_{1}, \text{j}_{2})}\xspace}
+\newcommand{\HH}{\PH\PH}
+\newcommand{\sgx}{\ensuremath{\sigma_{\text{X}}^{\text{gaus}}}\xspace}
+\newcommand{\scbx}{\ensuremath{\sigma_{\text{X}}^{\text{CB}}}\xspace}
+\newcommand{\HbbHbb}{\ensuremath{\mathrm{\Hbb\Hbb}}\xspace} 
+\newcommand{\XHbbHbb}{\ensuremath{\mathrm{X}\rightarrow\PH\PH\rightarrow\bbbar\bbbar}\xspace}
+
+\newcommand{\X}{\ensuremath{\cmsSymbolFace{X}}\xspace}
+\newcommand{\V}{\ensuremath{\cmsSymbolFace{V}}\xspace}
+\newcommand{\h}{\ensuremath{\cmsSymbolFace{H}}\xspace}
+\renewcommand{\PW}{\ensuremath{\cmsSymbolFace{W}}\xspace}
+\newcommand{\htobb}{\ensuremath{\PH\to\bbbar}\xspace}
+\newcommand{\VH}{\ensuremath{\V\PH}\xspace}
+\newcommand{\VV}{\ensuremath{\V\V}\xspace}
+\newcommand{\ST}{\ensuremath{\text{t+X}}\xspace}
+\newcommand{\Vjets}{\ensuremath{\V\text{+jets}}\xspace}
+\newcommand{\mVH}{\ensuremath{m_{\VH}}\xspace}
+\newcommand{\mtVH}{\ensuremath{m_{\VH}^\mathrm{T}}\xspace}
+\newcommand{\mX}{\ensuremath{m_{\X}}\xspace}
+\newcommand{\mH}{\ensuremath{m_{\PH}}\xspace}
+\newcommand{\mj}{\ensuremath{m_{\mathrm{j}}}\xspace}
+\newcommand{\B}{\ensuremath{\mathcal{B}}}
+\newcommand{\gV}{\ensuremath{g_\text{V}}\xspace}
+\newcommand{\cH}{\ensuremath{c_\text{H}}\xspace}
+\newcommand{\cF}{\ensuremath{c_\text{F}}\xspace}
+\newcommand{\MHT}{\ensuremath{H_\text{T}^\text{miss}}\xspace}
+\newcommand{\MG}{\MADGRAPH{5}\_a\MCATNLO\xspace}
+
+\newcommand{\Hbb}{\ensuremath{\PH\to\bbbar}\xspace}
+\newcommand{\ttjets}{\ttbar+jets\xspace}
+\newcommand{\intLumi}{35.9\fbinv}
+\newcommand{\Hbbt}{double-\PQb\,tagger\xspace}
+\newcommand{\mjj}{\ensuremath{m_{\text{jj}}}\xspace}
+\newcommand{\mjjs}{\ensuremath{m_{\text{jj,red}}}\xspace}
+\newcommand{\mjjred}{\ensuremath{m_{\text{jj,red}}}\xspace}
+\newcommand{\mH}{\ensuremath{m_{\PH}}\xspace}
+\newcommand{\nsub}{\ensuremath{\tau_{21}}\xspace}
+\newcommand{\mjone}{\ensuremath{m_{\text{j}_{1}}}\xspace}
+\newcommand{\mjtwo}{\ensuremath{m_{\text{j}_{2}}}\xspace}
+\newcommand{\LambdaR}{\ensuremath{\Lambda_{\text{R}}}\xspace}
+\newcommand{\DeltaEta}{\ensuremath{\Delta\eta(\text{j}_{1}, \text{j}_{2})}\xspace}
+\newcommand{\PX}{\ensuremath{\cmsSymbolFace{X}}}
+\newcommand{\mx}{\ensuremath{m_{\PX}}\xspace}
+
+
+% >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
+\title{Final Report: \bf{MOST 103-2112-M-008-010-MY3}}
+
+% >> Authors
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+%For multiple affiliations, create an address entry for the combination
+%To mark authors as primary, use the \author* form
+\address[NCU]{Department of Physics, National Central University, Chung-Li, Taiwan}
+\author[NCU]{Shin-Shan Yu}
+
+
+% >> Date
+% The date is in yyyy/mm/dd format. Today has been
+% redefined to match, but if the date needs to be fixed, please write it in this fashion.
+% For papers and PAS, \today is taken as the date the head file (this one) was last modified according to svn: see the RCS Id string above.
+% For the final version it is best to "touch" the head file to make sure it has the latest date.
+
+% >> Abstract
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. For PASs: **DO NOT use tex macros**         in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
+\abstract{
+This MOST final report describes the research results of the group of Prof. Shin-Shan Yu, from August 1, 2014 to September 30, 2017. 
+These research results include several physics analyses that utilizes boosted W-jets, Z-jets, and Higgs-jets and the work with 
+test beam for the CMS Phase II upgraded calorimeter: High Granularity Calorimeter. }
+
+
+% >> PDF Metadata
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible and are in plain text:
+% (1) no TeX! -- for \sqrt{s} use sqrt(s) -- this will show with extra quote marks in the draft version but is okay).
+% (2) no %.
+% (3) No curly braces {}.
+\hypersetup{%
+pdfauthor={Shin-Shan Yu},%
+pdftitle={Final Report},%
+pdfsubject={CMS},%
+pdfkeywords={LHC, CMS, high-mass new particle, beyond the standard model, dark matter, phase 2 detector upgrade, boosted Higgs boson, di-boson}
+}
+
+\maketitle %maketitle comes after all the front information has been
+\tableofcontents
+
+%\tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+The research activity of the group of Prof. Shin-Shan Yu from August 1, 2014 to September 30, 2017 includes the following:
+\begin{itemize}
+ \item Search for massive resonances decaying into pairs of boosted W and Z bosons at $\sqrt{s}=13~\TeV$
+ \item Search for heavy resonances decaying into a vector boson and a Higgs boson in the (ll, lnu, nunu) bb final state at $\sqrt{s}=13~\TeV$
+ \item Search for dark matter in association with a Higgs boson decaying into a pair of bottom quarks at $\sqrt{s} = 13~\TeV$ with the CMS detector
+ \item Search for heavy resonances decaying to a pair of Higgs bosons in the four b quark final state in proton-proton collisions at $\sqrt{s}=13~\TeV$
+ \item Work as the CMS contact of the 2HDM+a model in the LHC Dark Matter Working Group
+ \item Analysis of the Summer 2016 HGC test beam data
+\end{itemize}
+
+I will describe in more detail for some of the items above.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Search for massive resonances decaying into pairs of boosted W and Z bosons at $\sqrt{s}=13~\TeV$ \label{sec:vv}}
+The contribution of the group of Prof. Yu to this analysis includes the following:
+\begin{itemize}
+\item Production and validation of signal simulation for the WZ, ZZ, and WW final states from the Heavy Vector Triplet model, bulk graviton, radion, RS graviton models
+\item Comparison of the angular kinematic distributions from various models
+\item Implementation and test of the wide-width signal simulation
+\item Optimization of the Higgs-mass window of pruned mass and softdrop mass so to avoid overlap with the W and Z signal windows
+\item Optimization of the lepton \pt and angular selections
+\item Performed initial data and MC comparison of the 2016 data
+\end{itemize}
+Within the group, the major contributors are Prof. Shin-Shan Yu, Dr. Raman Khurana, the Ph.D. student Yu-Hsiang Chang, former master students Ching-Wei-Chen, Henry Yee-Hsian Tong, Jun-Yi Wu, Ji-Kong Huang.
+The results of this search were first published as a CMS Physics Analysis Summary in Ref.~\cite{CMS-PAS-EXO-15-002} and then in the following two papers in JHEP~\cite{Sirunyan:2016cao} and PLB~\cite{Sirunyan:2017nrt}. Below I provide a brief summary of the analysis.
+
+Hypotheses for physics beyond the standard model (SM) predict the existence of heavy resonances that decay to any combination of two among 
+the massive vector bosons (W or Z, collectively referred to as V) or to a V and the scalar SM Higgs boson (H). Among the considered models 
+are those dealing with warped extra dimensions (WED)~\cite{Randall:1999ee,Randall:1999vf} and 
+composite-Higgs bosons~\cite{Bellazzini:2014yua,CHM2,Composite2,Greco:2014aza}. 
+The benchmark models considered are a heavy vector triplet (HVT) model~\cite{Pappadopulo:2014qza} and the bulk 
+scenario~\cite{Agashe:2007zd, Fitzpatrick:2007qr, Antipin:2007pi} ($\Gbulk$ graviton) in the Randall--Sundrum (RS) WED 
+model~\cite{Randall:1999ee,Randall:1999vf}.
+The HVT model generalizes a large number of models that predict spin-1 resonances, such as those in composite-Higgs theories, which can 
+arise as a singlet, either \PWpr or \PZpr~\cite{Grojean:2011vu,Langacker:2008yv,Salvioni:2009mt}, or as a $\Vprime$ triplet 
+(where $\Vprime$ represents $\PWpr$ and $\PZpr$ bosons)~\cite{Pappadopulo:2014qza}.
+The HVT and $\Gbulk$ models are considered as benchmarks for diboson resonances with spin~1 
+($\PWpr\to\PW\Z$ or WH, $\PZpr\to\PW\PW$ or ZH), and spin~2 ($\Gbulk\to\PW\PW$ or ZZ), respectively, produced via quark-antiquark 
+annihilation ($\qqbarpr\to\PWpr$, $\qqbar\to\PZpr$) and gluon-gluon fusion ($\Pg\Pg\to \Gbulk$).
+
+This analysis presents a search for resonances with masses above 0.6\TeV decaying into a pair of vector bosons.
+The analysis is based on data collected in proton-proton collisions at $\sqrt{s} = 13\TeV$ with the CMS experiment at the CERN LHC during 
+2015, corresponding to an integrated luminosity of 2.3 and 2.7\fbinv for the $\ell\Pgn\qqbar$, where $\ell=\Pgm$ or e, and $\qqbar\qqbar$ 
+final state, respectively. The \lnujet{} search also includes the $\PW\to\Pgt\Pgn$ contribution from the decay $\Pgt\to\ell\Pgn\Pagn$. 
+The gain in sensitivity from $\Pgt$ leptons is limited by the small branching fractions involved. The key challenge of the analyses is the 
+reconstruction of the highly energetic decay products. Since the resonances under study have masses of order 1\TeV, their decay products, 
+\ie{} the bosons, have on average transverse momenta (\pt) of several hundred GeV or more. As a consequence, the particles emerging from 
+the boson decays are very collimated. In particular, the jet-decay products of the bosons cannot be resolved using the standard algorithms, 
+but are instead reconstructed as a single jet object. Dedicated techniques, called jet ``V tagging'' techniques, are applied to exploit the 
+substructure of such objects, to help resolve jet decays of massive bosons~\cite{CMS-PAS-JME-14-002,Khachatryan:2014vla}. The V tagging 
+also helps suppress SM backgrounds, which mainly originate from the production of multijet, W+jets, and nonresonant VV events.
+
+The final states considered are either $\ell\Pgn\qqbar$ or $\qqbar\qqbar$, where the hadronic decay products of the V decay are
+reconstructed in a single jet. They result in events with either a charged lepton, a neutrino, and a single reconstructed jet (\lnujet{} 
+channel), or two reconstructed jets (dijet channel). As in the analyses of previous data~\cite{Khachatryan:2014gha, Khachatryan:2014hpa}, 
+the aim is to reconstruct all decay products of the new resonance to be able to search for a localized enhancement in the diboson invariant 
+mass spectrum. While the analyses in general aim at large resonance masses, we conduct two exclusive searches in the \lnujet{} final state, 
+separately optimized for the mass ranges 0.6--1.0\TeV (``low-mass'') and $> 1$\TeV (``high-mass'').
+
+The AK8 jets are used to reconstruct the W jet and Z jet candidates from their decays to highly boosted quark jets. To discriminate against m\
+ultijet backgrounds, we exploit both the reconstructed jet mass, which is required to be close to the W or \Zo boson mass, and the two-prong \
+jet substructure produced by the particle cascades of two high-\pt quarks that merge into one jet~\cite{Khachatryan:2014vla}. Jets that are i\
+dentified as arising from the merged decay products of a V boson are hereafter referred to as ``V jets''.
+
+
+As a first step in exploring potential substructure, the jet constituents are subjected to a jet grooming algorithm that improves the resolut\
+ion in the jet mass and reduces the effect of pileup~\cite{Chatrchyan:2013vbb}.
+The goal of the algorithm is to recluster the jet constituents, while applying additional requirements that eliminate soft, large-angle QCD r\
+adiation
+that increases the jet mass relative to the initial V boson mass. Different jet grooming algorithms have been explored at CMS, and their perf\
+ormance on jets in multijet processes has been studied in detail~\cite{Chatrchyan:2013vbb}.
+In this analysis, we use the \textit{jet pruning}~\cite{jetpruning1,Ellis:2009me} algorithm for the main analysis and the \textit{jet trimmin\
+g} algorithm~\cite{Krohn:2009th} at the trigger level as well as for cross checks.
+Jet pruning reclusters each AK8 jet starting from all its original constituents, through the implementation of the Cambridge-Aachen (CA) algo\
+rithm~\cite{Catani:1993hr,Dokshitzer:1997in} to discard ``soft'' recombinations in each step of the iterative CA procedure.
+The pruned jet mass, \mJ{}, is computed from the sum of the four-momenta of the constituents that are not removed by the pruning; it is then \
+scaled by the same factor as that used to correct the original jet \pt. The jet is considered as a V jet candidate if \mJ{} falls in the rang\
+e $\SRLOW < \mJ < \SRHIGH\GeV$, which we define as the signal jet mass window. In the low-mass analysis, only W jet candidates are considered\
+, thus the mass window applied is $65 < \mJ < 95\GeV$.
+
+Additional discrimination against jets from gluon and single-quark hadronization is obtained from the quantity called \textit{N-subjettiness}\
+~\cite{Thaler:2010tr}. The constituents of the jet before the pruning procedure are reclustered using the \kt algorithm~\cite{Catani:1993hr,E\
+llis:1993tq}, until $N$ joint objects (\textit{subjets}) remain in the iterative combination procedure of the algorithm. The $N$-subjettiness\
+, $\tau_{N}$, is then defined as
+\begin{equation}
+\tau_N = \frac{1}{d_{0}} \sum_{k} p_{\mathrm{T},k} \min( \Delta R_{1,k}, \Delta R_{2,k},\ldots,\Delta R_{N,k}),
+\end{equation}
+where the index $k$ runs over the PF constituents of the jet, and the distances $\Delta R_{n,k}$ are calculated relative to the axis of the $\
+n$-th subjet.
+The normalization factor $d_{0}$ is calculated as $d_{0}=\sum_{k} p_{\mathrm{T},k}R_{0}$, setting $R_{0}$ to the distance parameter used in t\
+he clustering of the original jet.
+The variable $\tau_{N}$ quantifies the compatibility of the jet clustering with the hypothesis that exactly $N$ subjets are present, with sma\
+ll values of $\tau_{N}$ indicating greater compatibility.
+The ratio between 2-subjettiness and 1-subjettiness, $\nsubj=\tau_{2}/\tau_{1}$, is found to be a powerful discriminant between jets originat\
+ing from hadronic V decays and from gluon and single-quark hadronization.
+Jets from W or \Zo decays in signal events are characterized by lower values of $\nsubj$ relative to SM backgrounds.
+We reject V jet candidates with $\nsubj>0.75$. The remaining events are further categorized according to their value of \nsubj{} to enhance t\
+he sensitivity of the analysis.
+
+Since data/simulation discrepancies in the jet substructure variables $\mJ$ and $\nsubj$ can bias the signal
+efficiency estimated from simulated samples, the modelling of signal efficiency is cross-checked in a signal-free
+sample with jets having characteristics that are similar to those expected for a genuine signal.
+A sample of high-\pt W bosons that decay to quarks, and are reconstructed as single AK8 jets, is studied in \ttbar and single top quark event\
+s.
+Scale factors for the $\nsubj{}$ selection efficiency are extracted following Ref.~\cite{Khachatryan:2014vla}.
+In this method, the pruned jet mass distributions of events that pass and fail the $\nsubj$ selection are fitted simultaneously to separate t\
+he W boson signal from the combinatorial components in the top quark enriched sample in both data and simulation.
+The scale factors are used to correct the total signal efficiency and the VV backgroun\
+d normalization predicted by the simulation.
+The uncertainties in the scale factors quoted for the $\nsubj$ selection include two systematic uncertainties. One comes from the modelling o\
+f the nearby jets and \pt spectrum in \ttbar MC events, obtained by comparing LO and NLO \ttbar simulation. The other is due to the choice of\
+ the models used to fit signal and background. The quadratic sum of these systematic uncertainties is found to be smaller than half of the st\
+atistical uncertainty in the scale factor.
+An additional uncertainty is calculated to account for the extrapolation of the scale factor from \ttbar events with an average jet $\pt\appr\
+ox200\GeV$ to higher momenta. This is estimated from the difference between \PYTHIA{} and \HERWIG{++}~\cite{Bahr:2008pv} showering  models wi\
+th resulting factors of
+$4.5\% \ln (\pt/200\GeV)$
+and $5.9\%  \ln (\pt/200\GeV)$
+for $\tau_{21} < 0.6$ and $\tau_{21} < 0.45$, respectively.
+For the $0.45<\tau_{21}<0.75$ selection, this uncertainty is increased by the ratio of the uncertainties in the scale factors,
+and treated as anti-correlated with the uncertainty for $\tau_{21}<0.45$.
+The mean $\langle\mJ\rangle$ and resolution $\sigma$ value of the Gaussian component of the fitted W jet mass are also extracted to obtain co\
+rrections that are applied to the simulated pruned jet mass.
+The mass peak position is slightly shifted relative to the W boson mass because of the extra energy deposited in the jet cone from pileup, un\
+derlying event, and initial-state radiation not completely removed in the jet pruning procedure. For events with top quarks, additional energ\
+y contributions arise also from the possible presence of a b jet close to the W jet candidate.
+Because the kinematic properties of W jets and Z jets are very similar, the same corrections are also used when the V jet is assumed to arise\
+ from a \Zo boson.
+
+
+The $\mVV$ distribution observed in data is dominated by SM background processes where single quark or gluon jets are falsely identified as V\
+ jets. Depending on the final state, the dominant processes are multijets (dijet channel) and inclusive W boson production (\lnujet channel).\
+ Subdominant backgrounds include \ttbar, single top quark, and nonresonant diboson SM production.
+
+In the \lnujet channel, the multijet background is predicted to be negligible from MC simulation, whereas it represents the major contributio\
+n in the dijet analysis.
+For the latter, we assume that the SM background can be described by a smooth, parametrizable, monotonically decreasing distribution.
+The search is performed by separately fitting the background function to each search region
+and simultaneously adding resonant Breit--Wigner (BW) forms across all search regions to represent the signal.
+The background probability function is defined by empirical functional forms of 3 and 2 parameters, respectively:
+\begin{align}
+\label{eq:dijet1}
+\frac{\rd N}{\rd\mjj}= \frac{ P_0(1-\mjj/\sqrt{s})^{P_1} } { (\mjj/\sqrt{s})^{P_2} }&&\text{and}
+&&
+\frac{\rd N}{\rd\mjj}= \frac{ P_0 } { (\mjj/\sqrt{s})^{P_2} },
+\end{align}
+where
+\mjj{} is the dijet invariant mass (equivalent to the diboson candidate mass \mVV{} for this channel),
+$\sqrt{s}$ is the pp collision energy in the centre of mass,
+$P_0$ is a normalization parameter,
+and $P_1$ and $P_2$ parametrize the shape of the \mVV{} distribution.
+Starting from the two-parameter functional form, a Fisher F-test is used to check at 10\% confidence level (CL)
+if additional parameters are needed to model the background distribution. For the WW
+categories and the WZ HP category, the two-parameter form is found to describe the data
+spectrum sufficiently well, while for all other channels the three-parameter functional form is preferable.
+Alternative parametrizations and functions with up to five parameters are also studied as a cross-check.
+
+The backgrounds from \ttbar and single top quark production in the \lnujet{} channel are estimated from data-based correction factors in the \
+normalization of the simulation.
+A top quark enriched control sample is selected by applying all the analysis requirements in \lnujet{} events
+except that the b jet veto is inverted by requiring, instead, at least one b-tagged AK4 jet in the event.
+From the comparison between data and simulation, normalization correction factors for \ttbar and single top quark background processes are ev\
+aluated in the pruned jet mass regions $65 < \mJ < 105\GeV$ and $65 < \mJ < 95\GeV$, for the electron and muon channels, and for the low- and\
+ high-mass selections, separately.
+The scale factors include both the W boson signal and the combinatorial components mainly due\
+ to events where the extra b jet from the top quark decay is in the proximity of the W, and are used to correct the normalization of the \ttb\
+ar and single top quark simulated background predictions in the signal regions.
+
+The W+jets background in the \lnujet channel is estimated through the \emph{$\alpha$ ratio method}.
+This method assumes that the correlation between \mJ{} and \mVV{} for the dominant W+jets background can be adequately modelled by simulation\
+.
+A signal-depleted control region (sideband) is defined by requiring the mass of the V jet to lie below or above the nominal selection; the \m\
+VV{} distribution observed in this region is then extrapolated to the nominal region through a transfer function estimated from simulation. O\
+ther minor sources of background, such as \ttbar, single top quark, and SM diboson production, are estimated from simulation after applying c\
+orrection factors based on control regions in data. The sideband region is defined around the jet mass window. The lower and upper sidebands correspond to t\
+he \mJ{} ranges \LOWSBLOW--\SRLOW and \HIGHSBLOW--\HIGHSBHIGH{\GeV}, respectively. The Higgs boson mass region, defined by the range \SRHIGH-\
+-\HIGHSBLOW{\GeV}, corresponds to the signal region of searches for diboson in final states with highly Lorentz-boosted Higgs 
+bosons~\cite{Khachatryan:2016cfx}, and is therefore not used to estimate the background.
+
+\par The overall normalization of the W+jets background in the signal region is determined from a fit to the \mJ{} distribution in the lower \
+and upper sidebands of the data. The analytical form of the fitting function is chosen from simulation studies, as are the contributions from\
+ minor backgrounds. 
+
+The \mVV{} distribution observed in data and the
+SM background prediction are compared to check for the presence of a
+new resonance decaying to vector bosons.
+No bins with an excess with significance larger than three standard deviations are observed.
+We set upper limits on the
+production cross section of such resonances by combining the event categories of
+the dijet and \lnujet analyses.
+We follow the asymptotic approximation~\cite{AsymptCLs} of the $\mathrm{CL_S}$ criterion described in Refs.~\cite{CLs1,Junk:1999kv}.
+The limits computed following this approach are found to agree with the results obtained using the modified frequentist 
+prescription~\cite{CLs1,Junk:1999kv}.
+For each channel and each signal hypothesis a likelihood function is built from the reconstructed \mVV mass distribution observed in data, 
+the background prediction, and the
+signal resonance shape. A maximum-likelihood fit to the data is then performed to obtain the best estimate of the signal cross section.
+Systematic uncertainties are profiled~\cite{Aad:2015zhl} as log-normal nuisance parameters in the statistical interpretation,
+and for each possible value of the fitted signal cross section they are all refitted to maximize the likelihood.
+
+Exclusion limits are set in the context of the bulk graviton model and of the HVT Models A and B,
+under the assumption of a natural width negligible compared to the
+experimental resolution (narrow-width approximation).
+To maximize the sensitivity of the search we combine the results from all the analysis channels
+in each of the considered signal hypotheses. In the combination, the systematic uncertainties in jet momentum scale and resolution, V tagging\
+ efficiency scale factors, and integrated luminosity are assumed to be 100\% correlated.
+
+\begin{figure}[!htb]
+\centering
+     \includegraphics[width=\cmsFigWidth]{B2G-16-004/Figure_006-a.pdf}
+     \includegraphics[width=\cmsFigWidth]{B2G-16-004/Figure_006-b.pdf}\\
+     \includegraphics[width=\cmsFigWidth]{B2G-16-004/Figure_006-c.pdf}
+     \includegraphics[width=\cmsFigWidth]{B2G-16-004/Figure_006-d.pdf}
+\caption{Observed (black solid) and expected (black dashed) 95\% CL upper limits on the production of a narrow-width resonance decaying to
+a pair of vector bosons for different signal hypotheses. In the upper plots, limits are set in the context of a spin-1 neutral \PZpr (left) a\
+nd charged \PWpr (right)
+resonances, and compared with the prediction of the HVT Models A and B. In the lower left plot, limits are set in the same model under the tr\
+iplet hypothesis (\PWpr and \PZpr).
+In the lower right plot, limits are set in the context of a bulk graviton with $\ktilde =0.5$ and compared with the prediction.
+For $\mathrm{G}_\text{bulk}$, \PZpr and triplet signals (W' signal) with masses $<$0.8\TeV ($<$0.75\TeV), the limits are obtained from the lo\
+w-mass \lnujet channel, while for the higher masses they are obtained from the high-mass \lnujet and dijet channels.
+}
+\label{fig:limitCombined}
+\end{figure}
+
+
+Figure~\ref{fig:limitCombined} shows the resulting expected and observed
+exclusion limits at 95\% CL on the signal cross section as a function of the resonance mass for all signal hypotheses.
+The limits are compared with the product of cross section and branching fraction ($\sigma\mathcal{B}$) to $\Wo\Wo$ and $\Zo\Zo$
+for a bulk graviton with $\ktilde = 0.5$, and with $\sigma\mathcal{B}$ for $\Wo\Zo$ and $\Wo\Wo$ for spin-1 particles predicted by the HVT Mo\
+dels A and B.
+In this context, we consider a scenario where we expect the \PWpr and \PZpr bosons to be degenerate in mass (triplet hypothesis).
+In addition, we consider also a scenario where only a charged (\PWpr) or a neutral (\PZpr) resonance is expected at a given mass (singlet hyp\
+othesis).
+Combining the analyses leads to about 10--30\% more stringent expected upper limits on the cross section compared
+to the most sensitive individual channel, depending on the resonance mass and the signal hypothesis.
+For $\mathrm{G}_\text{bulk}$, \PZpr and triplet signals (W' signal) with masses $<$0.8\TeV ($<$0.75\TeV), the limits are obtained from the lo\
+w-mass \lnujet channel, while for the higher masses they are obtained from the high-mass \lnujet and dijet channels.
+The dijet analysis provides more stringent expected upper limits on the cross sections than the \lnujet{} analysis for resonance masses above\
+ 1.7\TeV for \PZpr and $>$1.3\TeV for \PWpr, because of the larger branching fractions: $\mathcal{B}(\Wo\Wo\to\qqbar\qqbar) = 44\%$, $\mathca\
+l{B}(\Wo\Wo\to\ell\Pgn\qqbar) = 31\%$, $\mathcal{B}(\Wo\Zo\to\qqbar\qqbar) = 46\%$, and $\mathcal{B}$($\Wo\Zo\to\ell\Pgn\qqbar$) = 16\%. In f\
+act, the combination of high- and low-purity categories, together with the weak dependence of tagging efficiency on \pt~\cite{CMS-PAS-JME-14-\
+002} improves the sensitivity for most potential signal models.
+In the narrow-width bulk graviton model, the combined sensitivity of the searches is
+not large enough to set mass limits, however, cross sections are excluded in the range 3--1200\unit{fb}.
+For HVT Model A (B), the combined data exclude singlet \PWpr resonances with masses $<$2.0~(2.2)\TeV and \PZpr resonances with masses below $\
+<$1.6~(1.7)\TeV.
+Under the triplet hypothesis, spin-1 resonances with masses $<$2.3 and $<$2.4\TeV are excluded for HVT Models A and B, respectively.
+
+Figure~\ref{fig:hvtscan} shows a scan of the coupling parameters and the corresponding observed 95\% CL exclusion
+contours in the HVT model for the combined analyses. The parameters
+are defined as $g_{\PV}c_\mathrm{H}$ and $g^2c_\mathrm{F}/g_{\PV}$,  related to the coupling strengths of the new resonance to
+the Higgs boson and to fermions. The range of the scan is limited by the assumption that the
+new resonance is narrow.  A contour is overlaid, representing the region where the theoretical
+width is larger than the experimental resolution of the searches, and hence where the narrow-resonance assumption is not satisfied.
+This contour is defined by a predicted resonance width of 5\%, corresponding to the narrowest resonance mass resolution of the searches.
+
+\begin{figure}[!htb]
+\centering
+     \includegraphics[width=\cmsFigWidth]{B2G-16-004/Figure_007.pdf}
+\caption{
+Exclusion regions in the plane of the HVT couplings ($g^2c_\mathrm{F}/g_{\PV},g_{\PV}c_\mathrm{H}$) for three
+resonance masses, 1.5, 2.0, and 3.5\TeV. Model points A and B of the benchmarks used in the analysis are also shown.
+The solid, dashed, and dashed-dotted lines represent the boundaries of the regions excluded by this search for different resonance masses (th\
+e region outside these lines is excluded).
+The areas indicated by the solid shading correspond to
+regions where the resonance width is predicted to be more than 5\% of the resonance mass and
+the narrow-resonance assumption is not satisfied.}
+\label{fig:hvtscan}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Search for heavy resonances decaying into a vector boson and a Higgs boson in the (ll, lnu, nunu) bb final state at $\sqrt{s}=13~\TeV$\label{sec:vh}}
+
+The contribution of the group of Prof. Yu to this analysis includes the following:
+\begin{itemize}
+\item Optimization of the pruned Higg-mass selection
+\item Optimization of the lepton \pt, \eta, $\Delta \eta$, $\Delta \phi$ selection
+\item Generation of the signal simulation
+\item Generation of the background simulation to cover the high \pt range
+\item Estimation of the systematic uncertainty on the Higgs-tagging signal efficiency due to the use of different parton showering
+\item Estimation of the systematic uncertainty due to fit bias
+\end{itemize}
+Within the group, the major contributors are Prof. Shin-Shan Yu, Dr. Vieri Candelise, Dr. Raman Khurana, the PhD student Yu-Hsiang Chang, and the master students Ching-Wei Chen, Jun-Yi Wu, and Henry Yee-Hsian Tong. The 2015 analysis results were pubishled in Phys Lett. B~\cite{Khachatryan:2016cfx}. I will briefly summarize the analysis below.
+
+The discovery of a Higgs boson \h at the CERN LHC~\cite{bib:Aad20121,bib:Chatrchyan201230,Chatrchyan:2013lba} suggests that the standard 
+model (SM) mechanism that connects electroweak (EW) symmetry breaking to the generation of particle masses is largely correct.
+However, the relatively light value of the Higgs boson mass 
+$\mH = 125.09 \pm 0.21\stat \pm 0.11\syst\GeV$~\cite{Aad:2014aba,Khachatryan:2014jba,Chatrchyan:2014vua,Aad:2015zhl} leaves the hierarchy 
+problem unsolved~\cite{1988NuPhB}, pointing to phenomena beyond the SM, which could be unveiled by searches at the LHC.
+Many theories that incorporate phenomena beyond the SM postulate the existence of new heavy resonances coupled to the SM bosons. 
+Among them, weakly coupled spin-1 $\PZpr$~\cite{Barger:1980ix,1126-6708-2009-11-068} and $\PW'$ models~\cite{Grojean:2011vu} or strongly 
+coupled Composite Higgs~\cite{Contino2011,Marzocca2012,Bellazzini:2014yua}, and 
+Little Higgs models~\cite{Han:2003wu,Schmaltz,Perelstein2007247} have been widely discussed.
+
+A large number of models are generalized in the heavy vector triplet (HVT) framework~\cite{Pappadopulo2014}, which introduces one neutral 
+($\PZpr$) and two electrically charged ($\PW'$) heavy resonances. The HVT model is parametrized in terms of three parameters: the strength 
+$\gV$ of a new interaction; the coupling $\cH$ between the heavy vector bosons, the Higgs boson, and longitudinally polarized SM vector 
+bosons; and the coupling $\cF$ between the HVT bosons and the SM fermions.
+In the HVT scenario, model~B with parameters $\gV = 3$, $\cH = 0.976$, and $\cF = 1.024$~\cite{Pappadopulo2014} is used as the benchmark. 
+With these values, the couplings of the heavy resonances to fermions and to SM bosons are similar, yielding a sizable branching fraction 
+for the heavy resonance decay into a SM vector boson \PW or \Z (generically labeled as \V) and a Higgs boson~\cite{Pappadopulo2014}.
+
+Bounds from previous searches~\cite{Khachatryan:2015lba,Khachatryan:2015bma,Khachatryan:2015ywa,Khachatryan:2016yji} require the masses of 
+these resonances to be above 1\TeV in the HVT framework. In this mass region, the two bosons produced in the resonance decay would have 
+large Lorentz boosts in the laboratory frame. When decaying, each boson would generate a pair of collimated particles, a distinctive 
+signature, which can be well identified in the CMS experiment.
+Because of the large predicted branching fraction, the decay of high-momentum Higgs bosons to $\bbbar$ final states is considered. The 
+Higgs boson is reconstructed as one unresolved jet, tagged as containing at least one bottom quark. Backgrounds from single quark and gluon 
+jets are reduced by a jet mass requirement. In order to discriminate against the large multijet background, the search is focused on the 
+leptonic decays of the vector bosons ($\Z \to \nu\nu$, $\PW \to \ell \nu$, and $\Z \to \ell \ell$, with $\ell = \Pe,\mu$).
+
+The main SM background process is the production of vector bosons with additional hadronic jets (\Vjets). The estimation of this background 
+is based on events in signal-depleted jet mass sidebands, with a transfer function, derived from simulation, from the sidebands to the 
+signal-enriched region. Top quark production also accounts for a sizable contribution to the background in $1\ell$ final states, and is 
+determined from simulation normalized to data in dedicated control regions. Diboson production processes, including pairs of vector bosons 
+(\VV) and the SM production of \a Higgs boson and vector boson (\VH), represent minor contributions to the overall background and are 
+estimated from simulation. A signal would produce a localized excess above a smoothly falling background in the distribution of the 
+kinematic variable \mVH, whose definition and relationship to the resonance mass \mX\ depends on the final state. Results are interpreted in 
+the context of HVT models in the benchmark scenario~B~\cite{Pappadopulo2014}.
+
+The set of criteria used to identify the Higgs boson candidate is the same for each event category. The highest-\pt AK8 jet in the event is 
+required to have $\pt>200\GeV$ and $\abs{\eta}<2.5$. The pruned jet mass \mj must satisfy $105 < \mj < 135\GeV$. The region 
+$65 < \mj < 105\GeV$ is not used, to avoid overlaps with searches targeting resonant \VV final states. In order to discriminate against the 
+copious vector boson production in association with light-flavored jets, events are classified according to the number of subjets (1 or 2) 
+passing the loose b tagging selection; those failing this requirement are discarded.
+
+
+Events are divided into categories depending on the number (0, 1, or 2) and flavor ($\Pe$ or $\mu$) of the reconstructed charged leptons, 
+and the presence of either 1 or 2 b-tagged subjets in the AK8 jet.
+The two categories with no charged leptons are referred to collectively as the zero-lepton ($0\ell$) channel. Similarly, the single-lepton 
+($1\ell$) and double-lepton ($2\ell$) channels each comprise four categories. In total, 10 exclusive categories are defined.
+
+In the $0\ell$ channel, candidate signal events are expected to have a large \MET due to the boosted \Z boson decaying into a pair of 
+neutrinos, which escape undetected. Data are collected using triggers that require \MET or \MHT greater than $90\GeV$, without including 
+muons in the \MET or \MHT computation. A stringent selection is applied to the reconstructed \MET, which is required to be greater than 
+200\GeV, to ensure that the trigger is fully efficient.
+The copious multijet production is greatly suppressed by imposing requirements on the minimum azimuthal angular separations between jets 
+and the missing transverse momentum vector, $\Delta\phi\text{(jet, \ptvecmiss)}$. All the AK8 and AK4 jets in the event must satisfy 
+$\Delta\phi\text{(jet, \ptvecmiss)} > 0.5$. The Higgs boson jet candidate must fulfill the tighter requirement 
+$\Delta\phi\text{(jet, \ptvecmiss)} > 2$ and additional criteria designed to remove events arising from detector noise.
+Events containing isolated leptons with $\pt>10\GeV$, hadronically-decaying $\tau$ leptons with $\pt>18\GeV$, and photons with $\pt>15\GeV$ 
+are removed in order to reduce the contribution of other SM processes.
+The \ttbar background contribution is reduced by removing events in which any AK4 jet, excluding the Higgs boson jet candidate, is b tagged 
+using the loose operating point.
+Because of the lack of visible decay products from the \Z boson, reconstruction of the resonance mass is not directly viable. Instead, the 
+Higgs boson jet momentum and the \ptvecmiss are used to compute the transverse mass 
+$\mtVH = \sqrt{\smash[b]{2 \MET \ET^\text{jet}\, [1-\cos{\Delta \phi\text{(jet, \ptvecmiss)} }]}}$. This variable is utilized as an 
+estimator of \mX for the $0\ell$ channel.
+
+Events in the $1\ell$ channel are collected requiring one lepton to be reconstructed online. The \pt threshold at trigger level is 105\GeV 
+for electrons and 45\GeV for muons. Offline, events are accepted if there is exactly one reconstructed electron or muon with \pt larger 
+than 135\GeV or 55\GeV, respectively, passing restrictive selection criteria. Events with additional leptons passing looser selections, or 
+hadronically decaying $\tau$ leptons, are discarded. In the single-electron channel, multijet background is reduced by requiring 
+$\MET>80\GeV$. Azimuthal angular separations $\Delta \phi (\ell, \ptvecmiss) < 2$ and $\Delta \phi (\text{jet}, \ptvecmiss) > 2$ are 
+required to select a back-to-back topology.
+As for the $0\ell$ selection, events with additional b-tagged AK4 jets are vetoed.
+The four-momentum of the \PW boson candidate is quantified using a kinematic reconstruction of the neutrino momentum.
+The components of the neutrino momentum in the transverse plane are assumed to be equal to \ptvecmiss. By constraining the invariant mass 
+of the charged lepton and neutrino to be equal to the \PW boson mass, a quadratic equation is derived for the longitudinal component of the 
+neutrino momentum, $p_z^\nu$.
+The reconstructed $p_z^\nu$ is chosen to be the real solution with the lower magnitude or, where both the solutions are complex, the real 
+part with the lowest value.
+If the \PW boson has a transverse momentum greater than 200\GeV, it is used to construct the resonance candidate mass \mVH, otherwise the 
+event is discarded.
+
+
+The $2\ell$ channel accepts events collected with the same triggers as in the $1\ell$ channel. An additional isolated electron or muon with 
+$\pt > 20\GeV$, with the same flavor as the leading one and opposite charge, is required to be reconstructed and identified. In order to 
+increase the signal efficiency, a looser identification requirement is applied to both electrons, and one of the two muons is allowed to be 
+identified only in the tracker. If the isolation cones of the two muons overlap, the contribution of one is subtracted from the isolation 
+calculation of the other in each case.
+The \Z boson candidates are retained only if the dilepton invariant mass lies between $70$ and 110\GeV. The transverse momentum of the \Z 
+boson candidate is required to be at least 200\GeV, otherwise the event is removed. Additionally, the separation in $\eta$ and $\phi$ 
+between the \Z boson candidate and the Higgs boson jet is required to satisfy $| \Delta \eta (\Z,\text{jet})| < 5$ and 
+$\Delta \phi (\Z,\text{jet}) >2.5$. Since the \ttbar contribution is small, no veto on additional b-tagged AK4 jets is applied.
+The resonance candidate mass \mVH is defined as the invariant mass of the \Z boson and the AK8 jet.
+
+The signal efficiency for the combined $0\ell$, $1\ell$, and $2\ell$ channels following these selections is 20--30\% for the 2 b-tagged 
+subjet categories for a resonance mass $\mX = 1\TeV$, decreasing to about 10\% for $\mX = 4\TeV$. This reduction is due to the degradation 
+of track reconstruction and b tagging performances at very large \pt, and to the smaller angle between the two b quarks, which tend to be 
+reconstructed in one single subjet. The loss of efficiency is recovered by the 1 b-tagged subjet categories, which provide an additional 
+10\% signal efficiency at $\mX = 1\TeV$, and 20\% at $\mX = 4\TeV$.
+
+The background estimation follows the similar method as the semileptonic channel of the VV analysis in Section~\ref{sec:vv}.
+The shape and normalization of the \mj distribution for the main \Vjets background is extracted from a fit of the sum of all contributing 
+processes to the SB data, after fixing the shape and normalization of the subdominant backgrounds. The fits to the \mj distributions are 
+shown in Fig.~\ref{fig:mJ}.
+The normalization of the diboson processes is derived from simulation, while the top quark normalization is taken from the control regions 
+with the exception of the dilepton channels.
+The procedure is repeated selecting an alternative function to model the \mj distribution for the main background. The difference between 
+the results obtained with the main and the alternative function is considered as a systematic uncertainty.
+A deficit of $2.4$ standard deviations is observed in the $1\mu$, 2 b tag category.
+
+
+\begin{figure*}[!hbtp]\centering
+\includegraphics[width=0.40\textwidth]{B2G-16-003/Figure_001-e.pdf}
+\includegraphics[width=0.40\textwidth]{B2G-16-003/Figure_001-f.pdf}
+
+  \caption{
+    Pruned jet mass distribution of the leading AK8 jet in the $2\ell$ category, and separately for the 1 (\cmsLeft) and 
+2 (\cmsRight) b-tagged subjet selections. The shaded band represents the uncertainty from the fit to data in the pruned jet mass sidebands. 
+The observed data are indicated by black markers. The dashed vertical lines separate the lower (LSB) and upper (HSB) sidebands, the \PW and 
+\Z bosons mass region (VR), and the signal region (SR). The bottom panels report the pulls in each bin, 
+$(N^\text{\data}-N^\text{bkg})/\sigma$, where $\sigma$ is the Poisson uncertainty in data. The error bars represent the normalized Poisson 
+errors on the data.
+    \label{fig:mJ} }
+\end{figure*}
+
+
+The shape of the \Vjets background distribution in the \mVH variable is obtained via a transfer function determined from simulation as:
+\begin{equation}
+\alpha(\mVH) = \frac{N_\mathrm{SR}^{\text{sim},\Vjets}(\mVH)}{N_\mathrm{SB}^{\text{sim},\Vjets}(\mVH)}
+\end{equation}
+where $N_\mathrm{SR}^{\text{sim},\Vjets}(\mVH)$, $N_\mathrm{SB}^{\text{sim},\Vjets}(\mVH)$ are two-parameter probability density functions 
+determined from the \mVH spectra in the SR and the SB of the simulated \Vjets sample, respectively. The ratio $\alpha(\mVH)$ accounts for 
+the correlations and the small kinematic differences involved in the interpolation from the sidebands to the SR, and is largely independent 
+of the shape uncertainties and the assumptions on the overall cross section.
+The shape of the main background is extracted from data in the \mj sidebands, after multiplying the obtained distribution by the 
+$\alpha(\mVH)$ ratio. The overall predicted background distribution in the SR, $N_\mathrm{SR}^\text{pred}(\mVH)$, is given by the 
+following relation:
+\ifthenelse{\boolean{cms@external}}{
+\begin{multline}
+N_\mathrm{SR}^\text{pred}(\mVH) =  N_\mathrm{SB}^\text{obs,\Vjets}(\mVH) \, \alpha(\mVH) \\+ N_\mathrm{SR}^\text{sim,\ttbar}(\mVH) + N_\mathr\
+m{SR}^\text{sim,\VV}(\mVH)
+\end{multline}
+}{
+\begin{equation}
+N_\mathrm{SR}^\text{pred}(\mVH) =  N_\mathrm{SB}^\text{obs,\Vjets}(\mVH) \, \alpha(\mVH) + N_\mathrm{SR}^\text{sim,\ttbar}(\mVH) + N_\mathrm{\
+SR}^\text{sim,\VV}(\mVH)
+\end{equation}
+}
+where $N_\mathrm{SB}^\text{obs,\Vjets}(\mVH)$ is the probability distribution function obtained from a fit to data in the \mj sidebands of 
+the sum of the background components, and $N_\mathrm{SR}^\text{sim,\ttbar}(\mVH)$ and $N_\mathrm{SR}^\text{sim,\VV}(\mVH)$ are the \ttbar 
+and diboson components, respectively, fixed to the shapes and normalizations derived from the simulated samples and control regions.
+The observed data in the SR are in agreement with the predicted background, as shown in Fig.~\ref{fig:mX}.
+
+The validity and robustness of this method is tested on data by splitting the lower \mj sideband in two and predicting shape and 
+normalization of the intermediate sideband from the lower and upper sidebands. The number of events and distributions found in data are 
+compatible with the prediction within the systematic uncertainties.
+
+\begin{figure*}[!hbtp]\centering
+ \includegraphics[width=0.40\textwidth]{B2G-16-003/Figure_002-e.pdf}
+  \includegraphics[width=0.40\textwidth]{B2G-16-003/Figure_002-f.pdf}
+
+  \caption{
+    Resonance candidate mass \mVH distributions in the $2\ell$ category, and separately for the 1 (\cmsLeft) and 2 (\cmsRight) b-tagged 
+subjet selections. The expected background events are shown with the filled area, and the shaded band represents the total background 
+uncertainty. The observed data are indicated by black markers, and the potential contribution of a resonance with \mX = 2000\GeV produced 
+in the context of the HVT model B with $\gV=3$ is shown with a solid red line. The bottom panels report the pulls in each bin, 
+$(N^\text{data}-N^\text{bkg})/\sigma$, where $\sigma$ is the Poisson uncertainty in data. The error bars represent the normalized 
+Poisson errors on the data.
+    \label{fig:mX} }
+\end{figure*}
+
+
+
+The shape of the reconstructed signal mass distribution is extracted from the simulated signal samples. The signal shape is parametrized 
+separately for each channel with a Gaussian peak and a power law to model the lower tails.
+The resolution of the reconstructed \mVH is given by the width of the Gaussian core for the $1\ell$ and $2\ell$ channels and by the RMS of 
+the \mtVH distribution in the $0\ell$ channel, and is found to be 10--16\%, 8--5\%, 5--3\% of \mX in the $0\ell$, $1\ell$, and $2\ell$ 
+channels, respectively, when going from low to high resonance masses.
+
+
+Results are obtained from a combined signal and background fit to the unbinned \mVH distribution, based on a profile likelihood. Systematic 
+uncertainties are treated as nuisance parameters and are profiled in the statistical 
+interpretation. The background-only hypothesis is tested against the $\X\to\VH$ signal in the 
+ten categories.
+The asymptotic modified frequentist method is used to determine limits at 95\% confidence level (CL) on the contribution from signal.
+Limits are derived on the product of the cross section for a heavy vector boson \X and the branching fractions for the decays $\X\to\VH$ 
+and $\htobb$, denoted $\sigma(\X) \, \B(\X\to\VH) \, \B(\htobb)$. No specific assumption is made on $\B(\htobb)$, since this decay channel 
+has not yet been measured.
+ 
+The $0\ell$ and $2\ell$ categories are combined to provide upper limits for the case where \X is a heavy spin-1 vector singlet $\PZpr$, in 
+the narrow-width approximation. Similarly the $1\ell$ categories are combined to provide limits for the case where \X is a heavy $\PW'$. 
+All the $0\ell$, $1\ell$, and $2\ell$ channels are combined to put stringent exclusion limits on the HVT model, scenario~B, assuming the 
+$\PZpr$ and $\PW'$ cross sections as predicted by the model. There are normalization increases caused by event migration between the 
+leptonic channels, which are estimated to be 5--10\% in the $0\ell$ channel, due to mis-assigned $\PW'$ events, and less than 1\%  in the 
+$1\ell$ channel, due to mis-assigned $\PZpr$ events. Figure~\ref{fig:xvh} presents the exclusion limits as a function of the heavy triplet 
+mass. A resonance with $\mX \lesssim 2.0\TeV$ is excluded at 95\% CL in the HVT model~B.
+
+
+
+
+
+\begin{figure}[!htb]\centering
+    \includegraphics[width=\cmsFigWidth]{B2G-16-003/Figure_004.pdf}
+    \caption{Observed and expected 95\% CL upper limit with the ${\pm}1$ and ${\pm}2$ standard deviation uncertainty bands on 
+$\sigma(\X) \, \B(\X\to\VH) \, \B(\htobb)$  in the HVT model~B benchmark scenario with $\gV=3$ as a function of the resonance mass, for 
+the combination of all the considered channels.}
+  \label{fig:xvh}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Search for dark matter in association with a Higgs boson decaying into a pair of bottom quarks at $\sqrt{s} = 13~\TeV$ with the CMS detector \label{sec:monoh}}
+
+This analysis is driven by the group of Prof. Shin-Shan Yu and the contribution includes the following:
+\begin{itemize}
+\item Established the benchmark signal model for the whole mono-h group (including other Higgs decay channels)
+\item Generated the signal simulation for the whole mono-h group
+\item Study the kinematic distributions and estimated the cross sections of models that predict mono-h signature, such as Z'-2HDM, baryonic Z' model, SMM, 2HDM+a, and the scalar models
+\item Performed the full 2015 analysis and served as the analysis and paper contacts
+\item Proved that the bb channel is the most sensitive channel
+\item Performed data-driven background estimation
+\end{itemize}
+The manpower includes Prof. Shin-Shan Yu, Dr. Raman Khurana, former postdoc Yun-Ju Lu, former research assistant Fang-Ying Tsai, master 
+student Ching-Wei Chen, and undergraduate student Shu-Xiao Liu. We worked together with a CERN scientist Michele de Gruttola on this 
+analysis. Our 2015 results are combined with the diphoton channel and published in JHEP~\cite{Sirunyan:2017hnk}. Currently our 
+2016 analysis has been pre-approved. Again, I will briefly summarize our analysis results below, with focus on the bb channel.
+
+Dark matter (DM) is one of the most compelling pieces of evidence for
+physics beyond the standard model (SM)~\cite{dm1,dm2,dm3}. Cosmological observations demonstrate that
+around 85\% of the matter in the Universe is comprised of DM (see e.g. \cite{planck}). These
+observations make it likely that DM is primarily composed of
+weakly interacting massive particles (WIMPs). If non-gravitational
+interactions exist between DM and SM particles, DM could be produced
+by colliding SM particles at high energy. In many models, the pair
+production of DM particles in hadron collisions proceeds through a
+spin-0 or spin-1 bosonic mediator, with the DM particles leaving the
+detector without a measurable signature. However, if they are produced
+in association with a detectable SM particle, which could be emitted
+as initial state radiation (ISR) off the interacting constituents of the colliding protons, or as part of
+new effective vertex couplings between DM and SM particles, a large missing
+transverse momentum (\pt) imbalance could be observed in the event. 
+
+Unlike in the case of W bosons, Z bosons, hadronic jets, or photons, the ISR of the SM Higgs boson~\cite{HiggsObs_ATLAS, HiggsObs_CMS, HiggsObs_CMS_Long} is highly suppressed due to the Yukawa-like nature of its coupling strength.
+However, the associated production of a Higgs boson and DM particles
+%,referred to as ``mono-h'' final state, 
+can occur in a scheme where the
+Higgs boson is part of the interaction producing the DM particles,
+thereby directly probing the structure of the effective DM-SM coupling.
+
+The search presented is interpreted in terms of one benchmark simplified model: a Type-2 Two Higgs Doublet Model with an additional 
+vector \cPZpr~boson (\cPZpr-2HDM)~\cite{2HDM,Lee:1973iz,Branco:2011iw}, where the \cPZpr\ boson is produced resonantly and decays into a Higgs boson plus an intermediate heavy pseudoscalar particle \Az, which decays into two DM particles, $\chi\bar{\chi}$.
+
+In the \cPZpr-2HDM, the Type-2 2HDM is used to formulate 
+the Higgs sector and the gauge symmetry of the SM is extended by a
+$U(1)_{\cPZpr}$ group with a corresponding new massive \cPZpr\ gauge boson.
+After electroweak symmetry breaking, the Higgs doublets attain vacuum
+expectation values $v_u$ and $v_d$,
+resulting in five physical Higgs bosons:
+a light neutral CP-even scalar \Ph, assumed to be the
+observed 125\GeV Higgs boson; a heavy neutral CP-even scalar \PH;
+a neutral CP-odd scalar \Az; and two charged scalars \Hpm. Only the masses \maz and \mzp affect the kinematic
+properties of the physics objects studied in this search.
+
+%Mass hypotheses for the \cPZpr\ resonance and for the \Az particle are
+%considered between 600 and 4000\GeV and between 300 and 800\GeV, respectively. 
+The mass of the DM particles $m_{\chi}$
+is assumed to be less than or equal to 100\GeV. The 
+ratio of the vacuum expectation values of the two Higgs fields coupling to the up-type and down-type
+quarks, $\tan\beta$, and the coupling of the \Az particle to DM
+particles, $g_{\chi}$, are both fixed at unity. 
+%Hypotheses for the mass of the \Az particle to be less than 300\GeV are excluded by constraints on flavor changing
+%neutral currents from measurements of $\cPqb\rightarrow \cPqs\gamma$ \cite{Branco:2011iw},
+%and therefore are not considered. 
+%With the assumed dark matter particle mass, the value of $\mathcal{B}(\Az\to\chi\overline{\chi})$ is $\approx$ 100\% 
+%for $\maz = 300\GeV$. 
+%The branching fraction starts to decrease for $\maz$ greater than twice the mass
+%of the top quark as the decay $\Az\to$ $\cPqt\cPaqt$ becomes kinematically
+%accessible. 
+The signal cross sections are calculated for the fixed value of Z' gauge coupling $\gzp = 0.8$.
+For the masses of the other Higgs bosons, $m_{\PH}=m_{\Hpm}=m_{\Az}$ is assumed.
+
+The quantity \ptvecmiss, calculated as the negative vectorial sum of the transverse momentum (\pt) of all objects identified in an event, 
+represents the total momentum carried by the DM particles.
+The magnitude of this vector is referred to as \MET.
+For a given value of \mzp, the \pt of the \Az decreases as \maz increases.
+Therefore, the \MET spectrum softens with increasing \maz.
+
+
+\par In the \Hbb channel, the fact that
+the \pt of the \Ph\ should increase with \mzp and
+decrease with \maz is exploited.
+The minimum separation in the pseudorapidity and azimuth ($\eta$, $\phi$) plane
+between the decay products of h scales as $m_{\Ph}/p_{\mathrm{T}}^{\Ph}$, where
+$p_{\mathrm{T}}^{\Ph}$ is the transverse momentum of the h boson.
+The allowed mass ranges of \mzp and \maz
+imply a very wide range of values for $p_{\mathrm{T}}^{\Ph}$
+and consequently a wide range in the separation of the decay products.
+Analysis in this channel is therefore divided into two regimes: (i) a
+resolved regime where the \Ph decays to two distinct reconstructed b jets,
+and (ii) a Lorentz-boosted regime where the \Ph is reconstructed as a single fat jet.
+For each mass point, the analysis with best sensitivity for the expected limit is used as the final result.
+The signal extraction is performed through a simultaneous fit to the signal- and background-enriched
+control regions.
+
+The trigger used in the selection of signal-like events requires $\MET > 90\GeV$ and $H_{\mathrm{T}}^{\text{miss}} > 90\GeV$, where 
+$H_{\math\rm{T}}^{\text{miss}}$ is defined as the magnitude of the vectorial sum of the \pt of all jets in the event with 
+$p_{\mathrm{T}} > 20\GeV$.
+An additional trigger with a $\MET > 170\GeV$ requirement is used to achieve higher efficiency.
+In this way, events with either high \MET or high $H_{\mathrm{T}}^{\text{miss}}$ will pass the trigger.
+For events passing the selection criteria that have $ \MET > 170 (200)\GeV$ for the resolved (boosted) analysis, the trigger efficiency is 
+found to be greater than 98\%.
+The \MET threshold for the analysis of the resolved regime is set slightly lower to enhance the signal efficiency in this region of phase 
+space, where the \MET distribution is softer.
+
+Event filters are used to remove spurious high \MET events caused by instrumental noise in the calorimeters, or beam halo muons. It has 
+been verified that the efficiency of these filters for accepting signal events is very close to 100\%.
+The main part of the event selection consists of Higgs boson tagging. This selection is different for the resolved and boosted analyses.
+In the resolved regime, events are
+required to have two AK4 jets with $\pt>30\GeV$ and $\abs{\eta}< 2.4$.
+These two jets are used to reconstruct the Higgs boson candidate, which
+is required to have $\pt > 150\GeV$.
+Each of the two AK4 jets in the resolved regime is required to pass the b tagging selection, whereas in the boosted regime, the two subjets 
+inside an AK8 jet must both pass the b tagging selection.
+In the boosted regime, the decay products from the Higgs boson are merged. Therefore, an AK8 jet with \pt greater than 200\GeV is used to 
+reconstruct
+the Higgs boson. If more than one Higgs boson candidate is reconstructed, the ambiguity is resolved by selecting the candidate with the 
+highest \pt.
+Backgrounds due to hadronic jets are further reduced by constraining the reconstructed Higgs boson candidate mass, $m_\mathrm{bb}$, to be 
+between 100 and 150\GeV.
+For the resolved regime, the Higgs boson candidate mass is reconstructed using two b-tagged AK4 jets.
+For the boosted regime, the corrected pruned mass of the AK8 jet with two b-tagged subjets is used as the Higgs boson candidate mass.
+
+Multijet events can act as a source of background  when the energy of one of the jets is mismeasured.
+Therefore, the absolute difference between the azimuthal angles of the vector
+\ptvecmiss\ and any other AK4 jet with $\pt > 30\GeV$
+is required to be greater than 0.4 radians.
+Multijet background is further reduced in the
+resolved analysis by requiring the azimuthal angle difference between the \ptvecmiss and $\vec{p}_{\mathrm{\, T,trk}}^{\text{\, miss}}$ to 
+be less than 0.7 radians.
+
+
+Events are rejected if they have any
+isolated electron (muon) with $\pt > 10\GeV$ and $\abs{\eta} < $ 2.5 (2.4) or any $\tauh$ candidates with $\pt > 20\GeV$ and 
+$\abs{\eta} < 2.3$~\cite{Khachatryan:2015hwa,Chatrchyan:2013sba,CMSTauJINST}.
+In addition, the events must not have any additional loose AK4 b-tagged jet or
+more than one additional AK4 jet with $\pt > 30\GeV$ and $\abs{\eta} < 4.5$.
+These vetoes considerably reduce the background from semileptonic top decay
+modes and leptonic decays of W+jets.
+
+The product of the detector acceptance and selection efficiency varies from
+1 to 29\%, depending on the values of
+\mzp and \maz. The average \MET increases with \mzp and decreases with \maz.
+
+Several CRs are used to
+correct the background normalizations with dedicated scale factors. For both resolved and boosted regimes, the selection criteria of these 
+CRs are kept as close as possible to those of the SR, except for the inversion of the additional
+object vetoes (leptons, jets) and the Higgs boson mass window.
+This makes the CRs orthogonal to the SR.
+
+For the resolved regime, three CRs are specified: Z($\to\nu\overline{\nu}$)+jets,
+top quark, and W+jets.
+The b tagging selection in all the CRs is the same as in the SR in order to minimize the b tagging systematic uncertainties
+when extrapolating the background scale factors measured in the CRs to the SR.
+The Z($\to\nu\overline{\nu}$)+jets CR is defined with the same selection as the
+SR, except for the inversion of the reconstructed Higgs boson mass requirement.
+The W+jets and top quark CRs are defined by removing the mass selection and
+requiring exactly one isolated electron (muon) with $\pt > 10\GeV$ and
+$\abs{\eta}< 2.5$ (2.4).
+Events with one additional AK4 jet are placed in the top quark CR, whereas
+events with no additional AK4 jets enter the W+jets CR.
+
+For the boosted regime, the Z($\to\nu\overline{\nu}$)+jets CR is defined by inverting the mass requirement for the AK8 jet.
+Owing to the low event count and very similar topology between the W+jets and top
+quark backgrounds it is difficult to
+construct two separate CRs for W+jets and top quark backgrounds.
+Hence, the single-lepton CR, a combination of mainly W+jets and top quark
+events, is defined using the same selection as that for the signal, but
+requiring exactly one isolated electron (muon) with $\pt > 10\GeV$ and
+$\abs{\eta}< 2.5$ (2.4)
+and removing the mass requirement.
+
+Since no excess of events has been observed over the SM background expectation in the signal region, the results of this search are 
+interpreted in terms of an upper limit on the production
+of DM candidates in association with a Higgs boson
+in the process  $\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph$.
+The upper limits are computed at 95\% confidence level (CL) using a modified frequentist method 
+(CL$_s$)~\cite{yellowReport, bib:CLS1, bib:CLS2} computed with an asymptotic approximation \cite{bib:CLS3}.
+A profile likelihood ratio is used as the test statistic in which systematic uncertainties are modeled as nuisance parameters.
+These limits are obtained as a function of \mzp and \maz for both Higgs boson decay channels and for the combination of the two.
+The two decay channels are combined using the branching ratios predicted by the SM.
+In the combination of the two analyses, all signal and \MET-related systematic uncertainties as well as the systematic uncertainty in the 
+integrated luminosity
+are assumed to be fully correlated.
+
+Figure~\ref{fig:limitsexpected}  (left) shows the 95\% CL expected and observed limits on the dark matter production cross section 
+$\sigma(\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph )$, for \Hbb and \HGG for \maz = 300\GeV. These results, obtained with 
+$m_{\chi}= 100\GeV$, can be considered valid for any dark matter particle mass below 100\GeV since the branching fraction for decays of \Az 
+to DM particles, $\cal{B}(\Az\to \chi \overline{\chi})$, decreases as $m_{\chi}$ increases.
+As shown in Figure~\ref{fig:limitsexpected}, for the phase space parameters considered for this model ($g_{\chi}$ and $\tan{\beta}$ equal 
+to unity), results of the combined analysis are mainly driven by the \Hbb channel. The combination with the \HGG channel provides a 
+2-4\% improvement in terms of constraints on the model for the low \PZpr mass values. Future iterations of this search will explore 
+additional phase spac\
+e regions of the \cPZpr-2HDM model, i.e. larger values of $\tan{\beta}$, where the \HGG channel becomes more sensitive than \Hbb~\cite{2HDM}.
+
+Figures~\ref{fig:limitsexpected} (right) and~\ref{fig:limit2d} show the 95\% CL  expected and observed upper limits on the signal strength 
+$\sigma_{95\% \mathrm{CL}} (\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph )/\sigma_\text{theory} (\PZpr \to \Az \Ph \to \chi 
+\overline{\chi} \Ph )$.
+
+Figures~\ref{fig:limitsexpected} (right) and~\ref{fig:limit2d} show the 95\% CL  expected and observed upper limits on the signal strength 
+$\sigma_{95\% \mathrm{CL}} (\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph )/\sigma_\text{theory} (\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph )$.
+For \maz = 300\GeV, the \PZpr mass range from 600 to 1780\GeV is expected to be excluded with a 95\% CL when the signal model
+cross section is calculated using \gzp = 0.8, while the
+observed data, for \maz = 300\GeV, exclude the \zp mass range from 600 to 1860\GeV.
+When the signal model cross section is calculated using the constrained \gzp, the expected exclusion range is 830 to 1890\GeV,
+and the observed exclusion range is 770 to 2040\GeV.
+Figure~\ref{fig:limit2d} shows the expected and observed upper limits on the signal strength for the \Hbb and \HGG decay channels.
+Figure~\ref{fig:limit2dcombo} shows the upper limits on the signal strength combining the results from both the \Hbb and \HGG decay channels.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.45\textwidth]{EXO-16-012/Figure_009-a.pdf}
+\includegraphics[width=0.45\textwidth]{EXO-16-012/Figure_009-b.pdf}
+\caption{Left: The expected and observed 95\% CL limits
+on dark matter production cross sections for \Hbb and \HGG for \maz = 300\GeV. The exclusion region is shown for two
+\gzp values. The dark green and light yellow  bands show the 68\% and 95\% uncertainties on the expected limit.
+Right: The expected and observed 95\% CL limits on the signal strength for \maz = 300--800\GeV are shown.
+Other parameters for this model are fixed to $m_{\chi} = 100\GeV$ and $\tan{\beta} = g_{\chi} = 1$.
+The theoretical cross section ($\sigma_{\mathrm{th}}$) used for the right-hand plot is calculated using \gzp = 0.8.}
+\label{fig:limitsexpected}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.45\textwidth]{EXO-16-012/Figure_010-a.pdf}
+\includegraphics[width=0.45\textwidth]{EXO-16-012/Figure_010-b.pdf}
+\caption{The observed (expected) 95\% CL limits on the signal strength (as in Fig.~\ref{fig:limitsexpected} right), separately for the \Hbb (\
+left) and \HGG (right) decay channels, and for \maz = 300--800\GeV and \mzp = 600--2500\GeV. Other parameters for this model are fixed to $m_\
+{\chi} = 100\GeV$ and $\tan{\beta} = g_{\chi} = 1$. The theoretical cross sections
+are calculated using $g_{\zp} = 0.8$. For \Hbb, the results for the resolved analysis are shown over a white background, whereas the boosted \
+analysis results are shown over a hatched background. }
+\label{fig:limit2d}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.45\textwidth]{EXO-16-012/Figure_011.pdf}
+\caption{The observed (expected) 95\% CL limits on the signal strength (as in Fig.~\ref{fig:limitsexpected} right) for the combination of \HG\
+G and \Hbb decay channels, and for \maz = 300--800\GeV and \mzp = 600--2500\GeV. Other parameters for this model are fixed to $m_{\chi} = 100\
+$ \GeV and $\tan{\beta} = g_{\chi} = 1$. The theoretical cross sections times branching fractions are calculated using $g_{\zp} = 0.8$.}
+\label{fig:limit2dcombo}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Search for heavy resonances decaying to a pair of Higgs bosons in the four b quark final state in proton-proton collisions at $\sqrt{s}=13~\TeV$ \label{sec:hh}}
+
+This is also one of the major analyses performed by Prof. Yu's group. The master student Ching-Wei Chen was also chosen to give the pre-approval talk on behalf of the whole dihiggs group, which was unusual for a master student. The manpower includes Prof. Shin-Shan Yu, Dr. Vieri Candelise, Dr. Raman Khurana, the master students Ching-Wei Chen and Gregorio Iii Tabbu De Leon. Our contribution includes the following:
+\begin{itemize}
+\item Production of signal simulation
+\item Study of kinematic distributions for the wide resonances and compare the RS and bulk Gravitions and Radions
+\item Production of the data and MC ntuples and provided them to the whole analysis group
+\item Optimization of the b-tagging selection/categories and higgs-mass window
+\item Performed the bump-hunt analysis
+\item Estimated the systematic uncertainties due to Higgs-tagging, PDF, scale, jet energy scale, b-tagging, etc.
+\end{itemize}
+The 2015 analysis was first published as a CMS Physics Analysis Summary~\cite{CMS-PAS-B2G-16-008} and then the 2016 results were submitted to Phys. Lett. B~\cite{Sirunyan:2017isc}.
+
+In the standard model (SM), the pair production of Higgs bosons ($\PH$)~\cite{HiggsDiscoveryAtlas,HiggsDiscoveryCMS,CMSHiggsLongPaper} in 
+proton-proton collisions at 13\TeV is a rare process~\cite{deFlorian:2013jea}.
+However, the existence of massive resonances decaying to Higgs boson pairs ($\PH\PH$) in many new physics models may enhance this rate to a 
+level observable at the CERN LHC using the current data.
+For instance, models with warped extra dimensions (WED)~\cite{Randall:1999ee} contain new particles such as the spin-0 radion~\cite{Goldberger:1999uk,DeWolfe:1999cp,Csaki:1999mp} and the spin-2 first Kaluza--Klein (KK) excitation of the graviton~\cite{Davoudiasl:1999jd,Csaki:2000zn, Agashe:2007zd}, which have sizeable branching fractions to $\PH\PH$.
+
+The WED models have an extra spatial dimension compactified between two branes, with the region between (called the bulk) warped via an 
+exponential metric ${\kappa l}$, $\kappa$ being the warp factor and $l$ the coordinate of the extra spatial dimension~\cite{Giudice:2000av}.
+ The reduced Planck scale ($\overline{\Mpl} \equiv \Mpl/8\pi$, \Mpl being the Planck scale) is considered a fundamental scale.
+The benchmarks of the model are $\kappa/\overline{\Mpl}$ and the ultraviolet cutoff of the theory 
+$\LambdaR \equiv \sqrt{6} e^{-\kappa l} \overline{\Mpl}$~\cite{Goldberger:1999uk}.
+In proton-proton ($\Pp\Pp$) collisions at the LHC, the graviton and the radion are produced primarily through gluon-gluon fusion and are 
+predicted to decay to $\PH\PH$ with a branching fraction of 10 and 23\%, respectively~\cite{Oliveira:2014kla}.
+
+We search for a narrow massive resonance decaying to an $\PH\PH$ pair, in the $\bbbar\bbbar$ final state (with a branching fraction 
+$\approx$33\%~\cite{deFlorian:2016spz}), performed using a data set corresponding to \intLumi of $\Pp\Pp$ collisions at $\sqrt{s} = 13\TeV$.
+The search significantly improves upon the CMS analysis performed using the LHC data collected at $\sqrt{s} = 8\TeV$~\cite{Khachatryan:2016cfa}, and extends the searched mass range to 750--3000\GeV.
+This search is conducted for both the radion and the graviton, whereas the earlier search only considered the former.
+
+In this search, the $\PX \to \PH\PH$ decay would result in highly Lorentz-boosted and collimated decay products of \Hbb, which are referred 
+to as $\PH$ jets. These are reconstructed using jet substructure and jet flavour-tagging 
+techniques~\cite{Butterworth:2008iy,Cooper:2013kia,Gouzevitch:2013qca}.
+The background consists mostly of SM multijet events, with different characteristics in the search regions below and above the resonance 
+mass $\mx = 1200\GeV$.
+The background is estimated using several control regions defined in the phase space of the masses and flavour-tagging discriminators of 
+the two $\PH$ jets, and the $\PH\PH$ dijet invariant mass, allowing the background to be predicted over the entire range of $\mx$ explored.
+The signal would appear as a peak in the $\PH\PH$ dijet invariant mass spectrum above a smooth background distribution.
+
+
+The $\PH \to \bbbar$ system is reconstructed as a single high-$\pt$
+AK8 jet, where the decay products have merged within the jet, and the two
+highest $\pt$ jets in the event are assumed to be the Higgs boson
+candidates. The jet is groomed~\cite{Salam:2009jx} to remove soft and
+wide-angle radiation using the soft-drop algorithm~\cite{Dasgupta:2013ihk,Larkoski:2014wba}, with the soft radiation fraction parameter set to $z= 0.1$ and the angular
+exponent parameter to $\beta = 0$. The groomed jet is used
+to compute the soft-drop jet mass, which peaks at the Higgs boson mass
+for signal events and reduces the mass of background quark- and
+gluon-initiated jets. Dedicated mass
+corrections~\cite{CMS-PAS-JME-16-003}, derived from simulation and
+data in a region enriched with $\ttbar$ events with merged
+$\PW \to \qqbar$ decays, are applied to the jet mass in order to remove
+residual dependence on the jet $\pt$, and to match the jet mass scale
+and resolution observed in data.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_001-a.pdf}
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_001-b.pdf}
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_001-c.pdf}
+\caption{The soft-drop mass (\cmsLeftU), the N-subjettiness $\nsub$
+  (\cmsRightU), and the \Hbbt discriminator (lower) distributions of the selected AK8
+  jets. The multijet background components for the different jet
+  flavours are shown, along with simulated bulk graviton and radion signals of
+  masses 1400 and 2500\GeV. The number of signal and background
+  events correspond to an integrated luminosity of \intLumi. A signal
+  cross section of 20\unit{pb} is assumed for all the mass
+  hypotheses. The events are required to have passed the trigger
+  selection, lepton rejection, the AK8 jet kinematic selections $\pt >
+  300\GeV$ and $\abs{\eta} < 2.4$, and $\abs{\DeltaEta} < 1.3$. The reduced dijet
+  invariant mass $\mjjs$ is required to be greater than 750\GeV. The
+  N-subjettiness requirement of $\nsub < 0.55$ is applied to the upper
+  left and lower figures. The soft-drop masses of the two jets
+  are between 105--135\GeV for the upper right and lower
+  figures.\label{fig:uncorrsd_prebtag}}
+\end{figure}
+
+\begin{figure*}[htbp]
+\centering
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_002-a.pdf}
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_002-b.pdf}
+\caption{The jet separation $\abs{\DeltaEta}$ (left) and the reduced dijet
+  invariant mass $\mjjs$ (right) distributions. The multijet background components
+  for the different jet flavours are shown, along with simulated bulk
+  graviton and radion signals of masses 1400 and 2500\GeV. The numbers of signal
+  and background events correspond to an integrated luminosity of \intLumi. The signal cross section is assumed to be 20\unit{pb}
+  for all the mass hypotheses. The events are required to have passed
+  the online selection, lepton rejection, the AK8 jet kinematic
+  selections $\pt > 300\GeV$, $\abs{\eta} < 2.4$. The soft-drop masses of
+  the two jets are between 105 and 135\GeV, and the N-subjettiness
+  requirement of $\nsub < 0.55$ is applied. The $\abs{\DeltaEta}$
+  distributions (left) require $\mjjs < 750\GeV$;
+  the $\mjjs$ distributions (right) require $\abs{\DeltaEta} < 1.3$.}
+\label{fig:deta_mjjred_prebtag}
+\end{figure*}
+
+The soft-drop masses of j$_{1}$ and j$_{2}$ are required
+to be within the range 105--135\GeV, resulting in an efficiency of about 60\%
+for each $\PH$ jet depending on the jet $\pt$.
+The ``N-subjettiness'' algorithm~\cite{Thaler:2011gf} is used to
+determine the consistency of the jet with two subjets from the two-pronged \Hbb decay, by computing the inclusive jet shape variables $\tau_{N}$. The ratio $\nsub \equiv \tau_2/\tau_1$ with a value much less than one indicates a jet with two subjets. The selection $\nsub < 0.55$ is used, having a jet $\pt$-dependent efficiency of 50--70\%.
+
+For background events, j$_{1}$ and j$_{2}$
+are often well separated in $\eta$, especially at high \mjj.
+In contrast, signal events that contain a heavy resonance decaying to two energetic $\PH$ jets are characterized by a small separation of the two jets. Events are thus required to have $\abs{\DeltaEta} < 1.3$.
+
+The main method to suppress the multijet background is
+$\PQb$ tagging: since a true $\PH \to \bbbar$ jet contains two $\PQb$ hadrons,
+the $\PH$ jet candidates are identified using the dedicated ``\Hbbt''
+algorithm~\cite{CMS-PAS-BTV-15-002}. The \Hbbt exploits the presence
+of two hadronized $\PQb$ quarks inside the \PH jet, and uses
+variables related to $\PQb$ hadron lifetime and mass to distinguish between
+\PH jets and the background from multijet production; it also exploits
+the fact that the $\PQb$ hadron flight directions are strongly correlated
+with the axes used to calculate the N-subjettiness observables.
+The \Hbbt is a multivariate discriminator with output between $-1$ and 1,
+with a higher value indicating a greater probability for the jet to contain a $\bbbar$ pair.
+The \Hbbt discriminator thresholds of 0.3 and 0.8 correspond to $\PH$ jet
+tagging efficiencies of 80 and 30\% and are referred to as ``loose''
+(L) and ``tight'' (T) requirements, respectively.
+Events must have the two leading $\pt$ AK8 jets satisfying the loose \Hbbt requirement.
+
+The main variable used in the search for a $\PH\PH$ resonance is the ``reduced dijet invariant mass'' $\mjjs \equiv \mjj - (\mjone - \mH) - (\mjtwo - \mH)$, where \mjone and \mjtwo are the soft-drop masses of the leading and subleading $\PH$-tagged jets in the event, and $\mH = 125\GeV$~\cite{Aad:2015zhl,Sirunyan:2017exp} is the Higgs boson mass. The quantity \mjjs is used rather than \mjj since by subtracting the soft-drop masses of the two $\PH$-tagged jets and adding back the exact Higgs boson mass $\mH$, fluctuations in $\mjone$ and $\mjtwo$ due to the jet mass resolution are corrected, leading to 8--10\% improvement in the dijet mass resolution.
+
+The soft-drop mass, $\nsub$, and \Hbbt discriminator
+distributions of the two leading $\pt$ jets are shown in
+Fig.~\ref{fig:uncorrsd_prebtag} for simulated events after passing the
+online selection, lepton rejection, kinematic selection, and the
+requirement $\mjjs > 750\GeV$.
+The N-subjettiness requirement of $\nsub
+< 0.55$ is also applied for the soft-drop mass and the \Hbbt
+distributions.
+Since one of the triggers imposes a trimmed jet mass requirement, this affects the shape of the offline soft-drop jet mass, resulting in a steep rise above $\sim$20\GeV.
+The distributions of the $\abs{\DeltaEta}$ and the
+\mjjred variables are shown in Fig.~\ref{fig:deta_mjjred_prebtag}.
+
+The \Hbbt discriminator of the two leading AK8 jets must exceed the
+loose threshold. In addition, if both discriminator values also exceed the tight threshold, events are classified in the ``TT'' category. Otherwise, they are classified in the ``LL'' category, which contains events with both j$_{1}$ and j$_{2}$ failing the tight threshold as well as events with either j$_{1}$ or j$_{2}$ passing the tight threshold while the other passes the loose threshold only.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_003.pdf}
+\caption{The signal selection efficiencies for the bulk graviton and
+  radion models for different mass hypotheses of the resonances, shown
+  for the LL and the TT signal event categories. Owing to the large sample sizes of the simulated events, the statistical uncertainties are negligible.}
+\label{fig:SignalEff}
+\end{figure}
+
+The backgrounds are estimated separately for each category, and the
+combination of the likelihoods for the TT and LL categories gives
+the best signal sensitivity over a wide range of resonance masses, according to studies performed using
+simulated signal and multijet samples. The TT category has
+a good background rejection for $\mx$ up to 2000\GeV. At higher
+resonance masses,
+where the background is small, the LL category provides better
+signal sensitivity. The full event selection efficiencies for bulk
+gravitons and radions of different assumed masses are shown in
+Fig.~\ref{fig:SignalEff}. The radion has a smaller efficiency than the
+bulk graviton because its $\abs{\DeltaEta}$ distribution is
+considerably wider than that of a bulk graviton of the same mass, as
+shown in Fig.~\ref{fig:deta_mjjred_prebtag} (left).
+
+The method to determine the background modelling depends on whether the resonance mass $\mx$ is above or below 1200\GeV.
+The background estimation relies on a set of control regions to predict the total background shape and normalization in the signal regions.
+The entire range of the $\mjjs$ distribution above 750\GeV is used for the prediction.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_004.pdf}
+\caption{The bulk graviton signal $\mjjs$ distribution
+  for the LL category, modelled using the sum of Gaussian and Crystal Ball
+  functions. This modelling is performed for signals in the range $1100 < \mjjs <
+  3000\GeV$, where the background distribution falls smoothly. No events are observed above this value of \mjjs.}
+\label{fig:sigmodel}
+\end{figure}
+
+For signals with $\mx \ge 1200\GeV$, the underlying background distribution falls monotonically with \mjjs.
+In this region, the background shape is modelled by a smooth function over which a localized signal is searched for.
+The parameters of the function and its total normalization are constrained by a simultaneous fit of the signal and background models to the data in the control and the signal regions.
+The $\mjjs$ distributions for the signal are modelled using the sum of
+a Gaussian and a Crystal Ball function~\cite{Oreglia:1980cs},
+as shown in Fig.~\ref{fig:sigmodel} for one signal category.
+The modelling is consistent across the different signal categories.
+
+\begin{table}[htb]
+  \topcaption{Definition of the signal, the antitag, and the sideband regions used for the background estimation. The regions are defined in terms of the soft-drop masses of the leading $\pt$ $\PH$ jet (j$_{1}$) and the subleading $\pt$ $\PH$ jet (j$_{2}$), and their \Hbbt discriminator values.}
+  \label{tab:EvtSel}
+  \centering
+    \begin{tabular}{lcP{\dimexpr 0.20\linewidth-2\tabcolsep}P{\dimexpr 0.20\linewidth-2\tabcolsep}}
+      \hline\
+      Event category & Jet & {Soft-drop mass} (\GeVns{}) & Double-\PQb\,tagger discriminator \\ \hline
+
+      \multirow{2}{*}{Signal (LL)}   & j$_{1}$ & \multirow{4}{*}{105--135} & \multirow{2}{*}{0.3--0.8} \\
+                                            & j$_{2}$ & & \\
+      \multirow{2}{*}{Signal (TT)}   & j$_{1}$ & & \multirow{2}{*}{$>$0.8} \\
+                                            & j$_{2}$ & & \\[1.8ex]
+      \multirow{2}{*}{Antitag (LL)} & j$_{1}$ & \multirow{4}{*}{105--135} & $<$0.3 \\
+                                            & j$_{2}$ & & 0.3--0.8 \\
+      \multirow{2}{*}{Antitag (TT)} & j$_{1}$ & & $<$0.3 \\
+                                            & j$_{2}$ & & $>$0.8 \\[1.8ex]
+      Sideband & j$_{1}$ & $<$105 or $>$135 &  \multirow{2}{*}{0.3--0.8} \\
+      (LL, passing) & j$_{2}$ & 105--135 & \\
+      Sideband & j$_{1}$ & $<$105 or $>$135 & \multirow{2}{*}{$>$0.8} \\
+      (TT, passing) & j$_{2}$ & 105--135 & \\[1.8ex]
+      Sideband & j$_{1}$ & $<$105 or $>$135 & $<$0.3 \\
+      (LL, failing) & j$_{2}$ & 105--135 & 0.3--0.8 \\
+      Sideband & j$_{1}$ & $<$105 or $>$135 & $<$0.3 \\
+      (TT, failing) & j$_{2}$ & 105--135 & $>$0.8 \\
+      \hline
+    \end{tabular}
+\end{table}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_005-a.pdf}
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_005-b.pdf}
+\caption{The pass-fail ratio $R_\text{p/f}$ of the leading $\pt$ jet for the LL (\cmsLeft) and TT (\cmsRight) signal region categories as a function of the difference between the soft-drop mass of the leading jet and the Higgs boson mass, {\mjone - \mH}. The measured ratio in different bins of $\mjone - \mH$ is used in the fit (red solid line), except in the region around $\mjone - \mH = 0$, which corresponds to the signal region (blue triangular markers). The fitted function is interpolated to obtain $R_\text{p/f}$ in the signal region. The horizontal bars on the data points indicate the bin widths.}
+\label{fig:Alphabet_Rpf_TT_LL}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_006-a.pdf}
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_006-b.pdf}
+\caption{The reduced mass distributions \mjjs for the LL (\cmsLeft) and TT (\cmsRight) signal region categories. The points with bars show the data, the histogram with shaded band shows the estimated background and associated uncertainty. The \mjjs spectrum for the background is obtained by weighting the \mjjs spectrum in the antitag region by the ratio $R_\text{p/f}$  of Fig.~\ref{fig:Alphabet_Rpf_TT_LL}. The signal predictions for a bulk graviton of mass 1000\GeV, are overlaid for comparison, assuming a production cross section of 10\unit{fb}. The last bins of the distributions contain all events with $\mjjs > 3000\GeV$. The differences between the data and the predicted background, divided by the data statistical uncertainty (data unc.) as given by the Garwood interval~\cite{Garwood}, are shown in the lower panels.}
+\label{fig:Alphabet_Bkg_TT_LL}
+\end{figure}
+
+\begin{figure*}
+\centering
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_007-a.pdf}
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_007-b.pdf}
+  \caption{The reduced mass \mjjs distributions in the antitag region for the LL
+    (left) and TT (right) categories. The black markers are the data
+    while the curves show the pre-fit and post-fit background
+    shapes.
+    The differences between the data and the predicted
+  background, divided by the statistical uncertainty in the data
+  (data unc.) as given by the Garwood interval~\cite{Garwood}, are shown in the lower panels.}
+\label{fig:AABH_AT}
+\end{figure*}
+
+\begin{figure*}
+\centering
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_008-a.pdf}
+\includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_008-b.pdf}
+\caption{The reduced mass \mjjs distributions in the signal region for the LL
+  (left) and the TT (right) categories. The black markers are the data
+  while the curves show the pre-fit and post-fit background
+  shapes. The contribution of bulk gravitons of masses 1600 and
+  2500\GeV in the signal region are shown assuming a production cross
+  section of 10\unit{fb}.
+  The differences between the data and the predicted
+  background, divided by the statistical uncertainty in the data
+  (data unc.) as given by the Garwood interval~\cite{Garwood}, are shown in the lower panels.
+  }
+\label{fig:AABH_SR}
+\end{figure*}
+
+The signal and control regions are defined by two variables related to the leading $\pt$ jet j$_{1}$: (i) its soft-drop mass $\mjone$ and (ii) the value of the discriminator of the \Hbbt. The background is estimated in bins
+of the \mjjs distribution. Considering these two variables, several regions are defined.
+
+The \textit{pre-tag} region includes events fulfilling the selection requirements described above apart from those on \mjone and on the j$_{1}$ \Hbbt discriminator.
+The \textit{signal} region is the subset of pre-tag events where \mjone is inside the $\PH$ jet mass window of 105--135\GeV, and with the j$_{1}$ \Hbbt discriminator greater than 0.3 or 0.8, for the LL and TT regions, respectively.
+The \textit{antitag} regions require the j$_{1}$ \Hbbt discriminator to be less than 0.3, with the requirement on  j$_{2}$ being the same as that for the corresponding LL or TT signal regions.
+The \mjone \textit{sideband} region consists of events in the pre-tag region, where
+\mjone lies outside the $\PH$ jet mass window. Based on whether  j$_{1}$ passes or fails the \Hbbt discriminator threshold, the sideband region is divided into either ``passing'' or ``failing'', respectively.
+The antitag regions are dominated by the multijet background, and have identical kinematic distributions to the multijet background events in the signal region, according to studies using simulations.
+The definitions of the signal, the antitag, and the sideband regions are given in Table~\ref{tab:EvtSel}.
+
+
+In the absence of a correlation between \mjone and the \Hbbt
+discriminator values, one could measure in the \mjone sideband the
+ratio of the number of events passing and failing the \Hbbt selection,
+$R_\text{p/f} \equiv N_\text{pass}/N_\text{fail}$, \ie the ``pass-fail ratio".
+The yield in the antitag region (in each $\mjjs$ bin) could then be scaled by $R_\text{p/f}$ to obtain an estimate of the background normalization in the signal region. However, there is a small correlation between the \Hbbt discriminator and \mjone, which is taken into account by measuring the pass-fail ratio $R_\text{p/f}$ as a function of \mjone.
+
+The $R_\text{p/f}$ for the LL signal region is measured using ratio of the number of events in the ``LL, passing'' and ``LL, failing'' sideband regions, as defined in Table~\ref{tab:EvtSel}. Likewise, the $R_\text{p/f}$ for the TT signal region uses the ratio of the number of events in the ``TT, passing'' to the ``TT, failing'' sideband regions.
+The variation of $R_\text{p/f}$ as a function of \mjone in each \mjone sideband is fitted with a quadratic function.
+The fit to the pass-fail ratio is interpolated to the region where \mjone lies within the $\PH$ jet mass window of 105--135\GeV. An alternative fit using a third order polynomial was found to give the same interpolated value of $R_\text{p/f}$ in the Higgs jet mass window. Every event in the antitag region is scaled by the pass-fail ratio evaluated for the $\mjone$ of that event, to obtain the background prediction in the signal region.
+
+Figure~\ref{fig:Alphabet_Rpf_TT_LL} shows the quadratic fit in the
+\mjone sidebands of the pass-fail ratio $R_\text{p/f}$ as a function of
+\mjone, as obtained in the data. The background prediction using this
+method, along with the number of observed events in the signal region
+is shown in Fig.~\ref{fig:Alphabet_Bkg_TT_LL}.
+
+For resonance masses of 1200\GeV and above, the background estimation is
+improved by simultaneously fitting a parametric model for the
+background and signal to the data in the signal and the antitag
+regions. In the fit, the ratio $R_\text{p/f}$ obtained from the sidebands is used to constrain the relative number of background events in the two regions. The signal normalization is unconstrained in
+the fit, while the uncertainties in the parameters of the functions
+used to model the background and $R_\text{p/f}$ are treated as nuisance
+parameters.
+The ratio $R_\text{p/f}$
+is parametrized as a function of \mjjs, to account for any possible
+residual $R_\text{p/f}$ dependency on the jet \pt at large \mjjs.
+For the background modelling, a choice among an exponential function $N \re^{-a\mjjs}$, a ``levelled exponential'' function $N \re^{-a\,\mjjs/(1 + a\, b\, \mjjs)}$, and a ``quadratic levelled exponential function'' $N \exp[({-a\,\mjjs}/\{1 + a\, b\, \mjjs\}) - ({-c\,\mjjs^{2}}/\{1 + b\, c\, \mjjs^{2}\} )]$ was made, using a Fisher F-test~\cite{Fisher}. At a confidence level of 95\%, the levelled exponential function was found to be optimal.
+Since the background shapes in the antitag and the signal regions were found to be similar according to simulations, the background modelling was tested using the antitag region in the data.
+
+The simultaneous fits to the signal and antitag regions are shown in Figs.~\ref{fig:AABH_AT} and \ref{fig:AABH_SR}, respectively, using the background model only. These are labelled as ``post-fit'' curves with the signal region background yields constrained to be $R_\text{p/f}$ times the background yields from the antitag regions. Also shown are the ``pre-fit'' curves which are obtained by fitting only the antitag regions to the background-only model. The pre-fit curves in the signal region are same as the antitag region pre-fit, scaled by $R_\text{p/f}$.
+
+Among the four fitted regions, corresponding to the antitag and the signal regions in the
+LL and TT categories, the events with the highest value of \mjjs
+occur in the antitag region of the LL category, at around
+$\mjjs = 2850\GeV$.
+As the parametric background model is only reliable within the range
+of observed events, the likelihood is only evaluated up to $\mjjs = 3000\GeV$.
+This results in a truncation of the signal distribution for resonances having $\mx$ of 2800\GeV and above, with signal efficiency losses increasing to 30\% for $\mx = 3000\GeV$, as shown in Fig.~\ref{fig:sigmodel}.
+
+Closure tests of the background estimation methods were performed using simulated multijet samples with signals of various cross sections. The tests indicated a good consistency between the expected and the assumed signal strengths.
+
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_009-a.pdf}
+  \includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_009-b.pdf}
+  \caption{The limits for the spin-0 radion (\cmsLeft) and the
+    spin-2 bulk graviton (\cmsRight) models. The result for $\mx < 1200\GeV$ uses the background predicted using the control regions, while for $\mx \ge 1200\GeV$ the background is derived from a combined signal and background fit to the data in the control and the signal regions. The
+    predicted theoretical cross sections for a narrow radion or a bulk
+    graviton are also
+    shown.}
+  \label{fig:lim_rad_grav_comb}
+\end{figure}
+
+As shown in Figs.~\ref{fig:Alphabet_Bkg_TT_LL}
+and \ref{fig:AABH_SR}, for the signal regions, the observed \mjjs distribution is consistent with the estimated background.
+The results are interpreted in terms of upper limits on the
+product of the production cross sections and the branching fractions
+$\sigma(\Pp\Pp \to \PX) \mathcal{B}(\PX \to \PH\PH \to \bbbar \bbbar)$
+for radion and bulk graviton of various mass hypotheses.
+The asymptotic approximation of the modified frequentist approach for confidence levels, taking the profile likelihood as a test
+statistic~\cite{bib:CLS1,bib:CLS2,AsympCLs}, is used.
+The limits are shown in Fig.~\ref{fig:lim_rad_grav_comb} for  a narrow width radion or a bulk
+graviton. These are compared with the theoretical values of the product of the cross sections and branching fractions for the benchmarks  $\kappa/\overline{\Mpl} = 0.5$ and $\LambdaR = 3\TeV$, where the narrow width approximation for signal is valid~\cite{Oliveira:2014kla}. The expected limits on the bulk graviton are more stringent than those on the radion because of the higher efficiency of the $\abs{\DeltaEta}$ separation requirement for the former signal.
+
+
+The upper limits on the production of the cross sections and branching fraction lies in the range 126--1.4\unit{fb} for a narrow resonance $\PX$ of mass  $750 < \mx <  3000\GeV$. Assuming $\LambdaR = 3\TeV$, a bulk radion with a mass between 970 and 1400\GeV is excluded at 95\% confidence level, except in a small region close to 1200\GeV, where the observed limit is 11.4\unit{pb}, the theoretical prediction being 11.2\unit{pb}.
+
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_009-a.pdf}
+  \includegraphics[width=0.49\textwidth]{B2G-16-026/Figure_009-b.pdf}
+  \caption{The limits for the spin-0 radion (\cmsLeft) and the
+    spin-2 bulk graviton (\cmsRight) models. The result for $\mx < 1200\GeV$ uses the background predicted using the control regions, while for $\mx \ge 1200\GeV$ the background is derived from a combined signal and background fit to the data in the control and the signal regions. The
+    predicted theoretical cross sections for a narrow radion or a bulk
+    graviton are also
+    shown.}
+  \label{fig:lim_rad_grav_comb}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work as the CMS contact of the 2HDM+a model in the LHC Dark Matter Working Group}
+
+Due to the previous work of mono-h models, Prof. Shin-Shan Yu was chosen as one of the CMS contacts of the new model 2HDM+a in the LHC Dark Matter Working Group. The model we focused on was documented in Ref.~\cite{Bauer:2017ota}. Prof. Yu first performed studies of \MET 
+distributions by scanning two model parameters, $\tan\beta$ and $\sin\theta$ and found a significant dependence on $\sin\theta$. See 
+Ref~\cite{Eiko2HDMscantanb} for the scan of $\tan\beta$ when fixing $M_{\PH}=750~\GeV$, and $M_{\Az}=500~\GeV$, 
+$\sin\theta=0.1$ and $\sin\theta=\frac{\sqrt{2}}{2}$, respectively; the mass of pseudoscalar a is also varied. 
+See Ref~\cite{Eiko2HDMscansin} also for the scan of $\sin\theta$ when fixing $\tan\beta=1$, $M_{\PH}=750~\GeV$, and $M_{\Az}=500~\GeV$; 
+the mass of pseudoscalar a is also varied. 
+Figures~\ref{fig:scantbwidthone}--\ref{fig:scansinwidth} show the corresponding widths of Higgs bosons and 
+the cross sections.
+
+\begin{figure}[htb]
+  \begin{tabular}{cc}
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_xsec_varytanb_sinp0p1.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varytanb_sinp0p1.pdf} \\
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h4width_varytanb_sinp0p1.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h3width_varytanb_sinp0p1.pdf} \\
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h2width_varytanb_sinp0p1.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h1width_varytanb_sinp0p1.pdf} \\
+ \end{tabular}
+
+  \caption{The cross sections and the widths of all Higgs bosons when scanning the $\tan\beta$ and $M_a$ and fixing 
+ $\sin\theta=0.1$.}
+  \label{fig:scantbwidthone}
+\end{figure}
+
+\begin{figure}[htb]
+  \begin{tabular}{cc}
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_xsec_varytanb_sinp0p7071.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varytanb_sinp0p7071.pdf} \\
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h4width_varytanb_sinp0p7071.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h3width_varytanb_sinp0p7071.pdf} \\
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h2width_varytanb_sinp0p7071.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h1width_varytanb_sinp0p7071.pdf} \\
+ \end{tabular}
+
+  \caption{The cross sections and the widths of all Higgs bosons when scanning the $\tan\beta$ and $M_a$ and fixing 
+ $\sin\theta=\frac{\sqrt{2}}{2}$.}
+  \label{fig:scantbwidthtwo}
+\end{figure}
+
+\begin{figure}[htb]
+  \begin{tabular}{cc}
+\includegraphics[width=0.49\textwidth]{2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_xsec_varysinp.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varysinp.pdf} \\
+\includegraphics[width=0.49\textwidth]{2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h4width_varysinp.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h3width_varysinp.pdf} \\
+\includegraphics[width=0.49\textwidth]{2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h2width_varysinp.pdf} &
+\includegraphics[width=0.49\textwidth]{2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h1width_varysinp.pdf}\\
+ \end{tabular}
+  \caption{The cross sections and the widths of all Higgs bosons when scanning the $\sin\theta$ and $M_a$ and fixing 
+ $\tan\beta=1$.}
+  \label{fig:scansinwidth}
+\end{figure}
+
+
+
+Starting from 2017, a new mono-Higgs model 2HDM+a was proposed by the authors in Ref.~\cite{2HDMa}. 
+ATLAS and CMS have come to a set of mass grids and I am comparing the cross sections with 
+the ATLAS group (University of Heidelberg) for 124 mass points. In our trial of comparison, unlike 
+the Z'-2HDM or Baryonic Z' model, more than one-third of the mass points have more than 1\% difference.
+In addition, 3 mass points have more than 3\% difference: (i) $m_\mathrm{A}=m_\mathrm{H,H^{\pm}}=1500~\GeV$, $m_\mathrm{a}=250~\GeV$, (ii) $m_\mathrm{A}=m_\mathrm{H,H^{\pm}}=200~\GeV$, $m_\mathrm{a}=100~\GeV$,
+and (iii) $m_\mathrm{A}=m_\mathrm{H,H^{\pm}}=200~\GeV$, $m_\mathrm{a}=150~\GeV$. I have tried several 
+different methods of event generation and always obtained consistent results: 10K events in one job, 
+generating gridpack first and then running on gridpacks with 10$\times$1K events,  
+generating gridpack first and then running on gridpacks with 10K events in one job, or 
+using the ATLAS gridpack to generate events with 10 jobs and 1K events each. After some 
+investigation, it turns out that the ATLAS group was running on gridpack with 40 jobs $\times$250 
+events. Once they generate more events in one job, the cross sections become consistent with my 
+numbers. Our final cross-checks are documented in Ref.~\cite{Eiko2HDMa}. We also discussed about the PDF set 
+to use for final production of full simulation; the consensus was to use 5-flavor PDFs. However, it was not 
+clear if we should use NNPDF 3.0 or NNPDF 3.1. ATLAS MC group does not enforce a use of NNPDF 3.1 however the CMS 
+generator group strongly discourages a production with NNPDF 3.0. The advantage of NNPDF 3.1 is that it 
+uses all LHC data in the PDF fits, including the differential \cPqt\cPaqt \pt distributions. In addition, the 
+PDF weights saved in the simulated samples still allow us to evaluate the cross sections with NNPDF 3.0. 
+
+In order to prepare for the 2017 MC production, I also learned how to include restrict cards in the model files so that the 
+b quark mass could be set to zero by calling a modified model name ``MODEL-no\_b\_mass''. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Analysis of the HGC test beam data}
+
+Prof. Shin-Shan Yu and Dr. Vieri Candelise participated in the HGC test beam at
+the CERN H2 area in August and November 2016 and helped to analyze the
+data to find out the point where the readout electronics is not linear any
+more. Prof. Yu wrote the code to compute this turning point for both the
+one-layer and eight-layer HGC runs and now this code is in the official
+repository and is being used by the Fermlab test beam as well.
+
+The Skiroc2 features dual-gain amplification: ``high gain'' (HG) for silicon signals up to about 100 MIPs with a good S/N ratio for
+single MIPs (so is used for the inter-cell calibration);
+``low gain'' (LG) for silicon signals up to about a thousand MIPs but with a poor S/N ratio for single MIPs. In practice, the amplified 
+signals
+from both HG and LG were digitized and read out. The analysis then used the most appropriate gain dependent on the signal size.
+
+
+The idea is to analyze data and apply pedestal subtraction first. Once the
+pedestal is substracted, plot the high-gain ADC counts vs low-gain ADC
+counts in the two-dimensional histograms, see Fig.~\ref{fig:hglg}. One
+could see two different linear trends in the region with small low-gain and
+small high-gain ADC counts. We fit these two regions to two different
+first-order polynomials. Then, we find out the interception points of
+these two lines. Prof. Yu had also cross-checked if the slopes and the
+saturation points are stable as a function of beam spot location, time,
+and beam energy. Our results will be published with other test beam analysis
+in a NIM or JINST paper.
+
+In order to evaluate the crossover point (the threshold above which it is advantageous to use the LG instead of HG) we measured the sensor 
+cell signals from the two gains in ADC counts after pedestal and common-mode subtraction on an event-by-event basis. We used electrons at 
+various energies to explore the full
+dynamic range: $E_{e}$= [20, 70, 100, 150, 200, 250]~GeV and for the two Skiroc2 chips separately per module. The output
+of the study was a set of two-dimensional histograms showing the expected linear trend between the two gains and the crossover point around
+the position [HG ; LG] = [1800 ; 200] ADC counts, above which the saturation of the HG is seen. In order to have a precise
+measurement of the relative slope, defined as the ratio between the HG and LG at the crossover point, we performed linear fits in
+two different LG ranges: [0-150] and [250-400] ADC counts. The HG saturation point was extracted by interpolating the two lines and finding
+the intersection point. The error on the intersection point was then evaluated by propagating the fit uncertainties accordingly.
+
+An example of the HG-LG correlation plot for  $E_{e}=250$~GeV electrons is shown in Fig.~\ref{fig:hglg}. The LG and the HG cut off, extracted
+from the fit of the HG-LG correlation plot for each layer are presented in Table~\ref{tab:saturation} for the first Skiroc2 as an example.
+Consistent results were found for the second Skiroc2 chip. For each layer and Skiroc2 we also calculated the gain ratio, defined as the ratio
+between the HG cut off and the LG cut off (HG/LG), which was used to normalize the signal response to the same gain. Results on the gain
+ratio for the first Skiroc2 are reported in Table~\ref{tab:saturation}. As can be seen from the table, no significant trends nor discrepancie\
+s
+are found for the gain ratio results through the 8 layers.
+Also, no dependencies of the gain ratio as a function of the beam energies, runs nor Skiroc2 chips have been observed.
+
+
+%Thus, we selected the saturation point equal to 200 and applied a cut on it in the energy calibration analysis.                              
+%                                                                                                                                             
+\begin{table}[htbp]
+  \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      Layer             & LG cut off       & HG cut off         & Gain Ratio (HG/LG) \\
+      \hline
+      1         & 186.2 $\pm$ 0.2  & 1897.1 $\pm$ 1.1   & 10.0 $\pm$ 0.4  \\
+      2         & 187.1 $\pm$ 1.7  & 1872.5 $\pm$ 16.3  & 10.0 $\pm$ 0.4  \\
+      3         & 204.9 $\pm$ 0.9  & 1990.3 $\pm$ 7.4   & 9.8  $\pm$ 1.6  \\
+      4         & 196.9 $\pm$ 1.0  & 1915.0 $\pm$ 8.4   & 9.7  $\pm$ 1.7  \\
+      5         & 196.7 $\pm$ 2.0  & 1910.6 $\pm$ 18.4  & 9.7  $\pm$ 2.2  \\
+      6         & 193.0 $\pm$ 3.2  & 1893.4 $\pm$ 30.8  & 9.8  $\pm$ 2.2  \\
+      7         & 199.1 $\pm$ 1.4  & 1957.9 $\pm$ 13.0  & 9.8  $\pm$ 1.6  \\
+      8         & 226.3 $\pm$ 0.8  & 2085.0 $\pm$ 5.4   & 9.2  $\pm$ 0.2  \\
+      \hline
+    \end{tabular}
+    \topcaption{High Gain (HG) and Low Gain (LG) ADC counts values and the fit results on the gain ratio defined as the High-Low Gain
+      ratio, evaluated for each of the 8 layers for the first Skiroc2 chip in the CERN setups.}
+    \label{tab:saturation}
+  \end{center}
+\end{table}
+
+\begin{figure}[htbp]
+  \begin{center}
+    \includegraphics[width=0.85\textwidth]{Fig1_HGC.pdf}
+    \caption{The High-Low Gain correlation for an incoming electron beam of energy $E_{e}=250$~GeV.}
+    \label{fig:hglg}
+  \end{center}
+\end{figure}
+
+
+
+\bibliography{auto_generated}
+

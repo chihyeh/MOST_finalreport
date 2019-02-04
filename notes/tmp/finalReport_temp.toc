@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Motivation and Expectation}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Summary for research topics}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Cross-talk studies with the no sensor based Hexaboard in NTU }{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Experiment apparatus and Event reconstruction}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Events and Methods for analysis}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Results and Conclusion}{5}{subsection.2.3}
+\contentsline {section}{\numberline {3}Pion-rejection studies with a CMS HGCAL test-beam prototype EM calorimeter}{8}{section.3}
+\contentsline {section}{\numberline {4}Search for heavy resonances decaying into a vector boson and a Higgs boson in the (ll, lnu, nunu) bb final state at $\sqrt {s}=13\nobreakspace {}\ensuremath {\tmspace +\thinmuskip {.1667em}\text {Te\hspace {-.08em}V}}\xspace $}{13}{section.4}
+\contentsline {section}{\numberline {5}Search for dark matter in association with a Higgs boson decaying into a pair of bottom quarks at $\sqrt {s} = 13\nobreakspace {}\ensuremath {\tmspace +\thinmuskip {.1667em}\text {Te\hspace {-.08em}V}}\xspace $ with the CMS detector }{19}{section.5}
+\contentsline {section}{\numberline {6}Search for heavy resonances decaying to a pair of Higgs bosons in the four b quark final state in proton-proton collisions at $\sqrt {s}=13\nobreakspace {}\ensuremath {\tmspace +\thinmuskip {.1667em}\text {Te\hspace {-.08em}V}}\xspace $ }{24}{section.6}
+\contentsline {section}{\numberline {7}Work as the CMS contact of the 2HDM+a model in the LHC Dark Matter Working Group}{35}{section.7}
+\contentsline {section}{\numberline {8}Analysis of the HGC test beam data}{36}{section.8}

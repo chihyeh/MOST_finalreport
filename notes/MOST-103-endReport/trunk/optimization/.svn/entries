@@ -1,0 +1,80 @@
+10
+
+dir
+344692
+svn+ssh://svn.cern.ch/reps/tdr2/notes/AN-15-186/trunk/optimization
+svn+ssh://svn.cern.ch/reps/tdr2
+
+
+
+2016-02-04T22:05:42.918833Z
+323438
+zucchett
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4525493e-7705-40b1-a816-d608a930855b
+
+LHE_study
+dir
+
+mass
+dir
+
+plot_2nd_pt
+dir
+
+plot_dRapidity
+dir
+
+plot_1st_pt
+dir
+
+plot_dEta
+dir
+
+LO_DYJets_HTbin_recozpt.pdf
+file
+
+
+
+
+2016-05-29T02:43:35.000000Z
+bc63c9db024cf3552b1a1a8782836870
+2016-02-04T22:05:42.918833Z
+323438
+zucchett
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47157
+
