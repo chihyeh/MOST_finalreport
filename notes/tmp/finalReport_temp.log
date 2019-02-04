@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  4 FEB 2019 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  4 FEB 2019 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/ms08962476/Latex_report/MOST-finalReport/notes/tmp/finalReport_temp.te
+**/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.te
 x
 
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/tmp/finalReport_temp.tex
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/general/cms-tdr.cls
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/general/cms-tdr.cls
 =======================================================
  
  CMS TDR/NOTE style. Version 268169
@@ -292,11 +292,11 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/general/pennames-pazo.st
-y) (/Users/ms08962476/Latex_report/MOST-finalReport/notes/general/topcapt.sty
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/general/pennames-pazo.st
+y) (/Users/ms08962476/Latex_report/MOST_finalreport/notes/general/topcapt.sty
 Package: topcapt 2004/12/11 v1.2 Caption at top of float
 )
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/general/ptdr-definitions
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/general/ptdr-definitions
 .sty
 Package: ptdr-definitions 2014/12/03 CMS Additional Macro Definitions (270174)
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/palatino.sty
@@ -458,7 +458,7 @@ Defining CMS Note commands
 \c@address=\count144
 \CMSabstractbox=\box62
 )
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/tmp/finalReport_temp.aux
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 
 LaTeX Warning: Label `fig:lim_rad_grav_comb' multiply defined.
 
@@ -542,11 +542,11 @@ LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
 <567INP finalReport_temp.out>
 
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/tmp/finalReport_temp.out
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.out
 )
 <567INP finalReport_temp.out>
 
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/tmp/finalReport_temp.out
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.out
 )
 \@outlinefile=\write4
 \openout4 = `finalReport_temp.out'.
@@ -1157,7 +1157,7 @@ LaTeX Font Info:    <567INP ot1zplm.fd> on input line 292.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/tmp/finalReport_temp.toc
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.toc
 )
 \tf@toc=\write5
 \openout5 = `finalReport_temp.toc'.
@@ -1205,39 +1205,39 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 337.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 337.
-[3] [4 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endRepor
-t/trunk/PCB_study/Hexaboard.png> </Users/ms08962476/Latex_report/MOST-finalRepo
+[3] [4 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRepor
+t/trunk/PCB_study/Hexaboard.png> </Users/ms08962476/Latex_report/MOST_finalrepo
 rt/notes/MOST-103-endReport/trunk/PCB_study/RPI.png> </Users/ms08962476/Latex_r
-eport/MOST-finalReport/notes/MOST-103-endReport/trunk/PCB_study/Data_flow.png>]
+eport/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/Data_flow.png>]
 <789FIG PCB_study/channelmap.pdf 1>
-<PCB_study/channelmap.pdf, id=119, 845.04686pt x 597.50786pt>
+<PCB_study/channelmap.pdf, id=121, 845.04686pt x 597.50786pt>
 File: PCB_study/channelmap.pdf Graphic file (type pdf)
 <use PCB_study/channelmap.pdf>
 Package pdftex.def Info: PCB_study/channelmap.pdf used on input line 351.
 (pdftex.def)             Requested size: 409.71689pt x 289.69978pt.
 <789FIG PCB_study/His_Pedestal.png 2>
-<PCB_study/His_Pedestal.png, id=121, 336.25626pt x 229.85875pt>
+<PCB_study/His_Pedestal.png, id=123, 336.25626pt x 229.85875pt>
 File: PCB_study/His_Pedestal.png Graphic file (type png)
 <use PCB_study/His_Pedestal.png>
 Package pdftex.def Info: PCB_study/His_Pedestal.png used on input line 360.
 (pdftex.def)             Requested size: 182.09485pt x 124.4761pt.
 <789FIG PCB_study/His_charge.png 2>
-<PCB_study/His_charge.png, id=122, 350.30875pt x 234.8775pt>
+<PCB_study/His_charge.png, id=124, 350.30875pt x 234.8775pt>
 File: PCB_study/His_charge.png Graphic file (type png)
 <use PCB_study/His_charge.png>
 Package pdftex.def Info: PCB_study/His_charge.png used on input line 361.
 (pdftex.def)             Requested size: 182.09485pt x 122.094pt.
 <789FIG PCB_study/His_subtraction.png 2>
-<PCB_study/His_subtraction.png, id=123, 350.30875pt x 236.885pt>
+<PCB_study/His_subtraction.png, id=125, 350.30875pt x 236.885pt>
 File: PCB_study/His_subtraction.png Graphic file (type png)
 <use PCB_study/His_subtraction.png>
 Package pdftex.def Info: PCB_study/His_subtraction.png used on input line 362.
 (pdftex.def)             Requested size: 182.09485pt x 123.13753pt.
-[5 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/tr
+[5 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
 unk/PCB_study/channelmap.pdf, page is rotated 90 degrees>]
 <789FIG PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf 3>
 
-<PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, id=143, 569.12625pt 
+<PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, id=144, 569.12625pt 
 x 543.02875pt>
 File: PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf Graphic file (ty
 pe pdf)
@@ -1247,7 +1247,7 @@ df used on input line 372.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 <789FIG PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf 3>
 
-<PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, id=144, 569.12625pt 
+<PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, id=145, 569.12625pt 
 x 543.02875pt>
 File: PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf Graphic file (ty
 pe pdf)
@@ -1255,18 +1255,9 @@ pe pdf)
 Package pdftex.def Info: PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.p
 df used on input line 373.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-[6 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/tr
-unk/PCB_study/His_Pedestal.png> </Users/ms08962476/Latex_report/MOST-finalRepor
-t/notes/MOST-103-endReport/trunk/PCB_study/His_charge.png> </Users/ms08962476/L
-atex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/PCB_study/His_subtr
-action.png> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-end
-Report/trunk/PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, page is 
-rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST
--103-endReport/trunk/PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, 
-page is rotated 90 degrees>]
 <789FIG PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
 
-<PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=240, 5
+<PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=147, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
@@ -1276,7 +1267,7 @@ n_and_RMS.pdf used on input line 383.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 <789FIG PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
 
-<PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=241, 5
+<PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=148, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
@@ -1286,7 +1277,7 @@ n_and_RMS.pdf used on input line 384.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 <789FIG PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
 
-<PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=242, 5
+<PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=149, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
@@ -1296,7 +1287,7 @@ n_and_RMS.pdf used on input line 385.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 <789FIG PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
 
-<PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=243, 5
+<PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=150, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
@@ -1304,16 +1295,24 @@ ic file (type pdf)
 Package pdftex.def Info: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mea
 n_and_RMS.pdf used on input line 386.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-[7 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/tr
-unk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page i
-s rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MO
-ST-103-endReport/trunk/PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_
-and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-f
-inalReport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel44_Pedestal
-_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/
-Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0
-_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees>]
-[8]
+[6 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
+unk/PCB_study/His_Pedestal.png> </Users/ms08962476/Latex_report/MOST_finalrepor
+t/notes/MOST-103-endReport/trunk/PCB_study/His_charge.png> </Users/ms08962476/L
+atex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/His_subtr
+action.png>] [7 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103
+-endReport/trunk/PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, page
+ is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/
+MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.p
+df, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalrepor
+t/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subt
+ract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_rep
+ort/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel2
+2_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/m
+s08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_stud
+y/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90
+ degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRe
+port/trunk/PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf,
+ page is rotated 90 degrees>] [8]
 ! Missing \endcsname inserted.
 <to be read again> 
                    \ 
@@ -1378,25 +1377,25 @@ and I'll forget about whatever was undefined.
 
 [11]
 <789FIG B2G-16-004/Figure_006-a.pdf 5>
-<B2G-16-004/Figure_006-a.pdf, id=506, 569.12625pt x 575.14874pt>
+<B2G-16-004/Figure_006-a.pdf, id=508, 569.12625pt x 575.14874pt>
 File: B2G-16-004/Figure_006-a.pdf Graphic file (type pdf)
 <use B2G-16-004/Figure_006-a.pdf>
 Package pdftex.def Info: B2G-16-004/Figure_006-a.pdf used on input line 577.
 (pdftex.def)             Requested size: 182.09485pt x 184.02502pt.
 <789FIG B2G-16-004/Figure_006-b.pdf 5>
-<B2G-16-004/Figure_006-b.pdf, id=507, 569.12625pt x 575.14874pt>
+<B2G-16-004/Figure_006-b.pdf, id=509, 569.12625pt x 575.14874pt>
 File: B2G-16-004/Figure_006-b.pdf Graphic file (type pdf)
 <use B2G-16-004/Figure_006-b.pdf>
 Package pdftex.def Info: B2G-16-004/Figure_006-b.pdf used on input line 578.
 (pdftex.def)             Requested size: 182.09485pt x 184.02502pt.
 <789FIG B2G-16-004/Figure_006-c.pdf 5>
-<B2G-16-004/Figure_006-c.pdf, id=508, 569.12625pt x 575.14874pt>
+<B2G-16-004/Figure_006-c.pdf, id=510, 569.12625pt x 575.14874pt>
 File: B2G-16-004/Figure_006-c.pdf Graphic file (type pdf)
 <use B2G-16-004/Figure_006-c.pdf>
 Package pdftex.def Info: B2G-16-004/Figure_006-c.pdf used on input line 579.
 (pdftex.def)             Requested size: 182.09485pt x 184.02502pt.
 <789FIG B2G-16-004/Figure_006-d.pdf 5>
-<B2G-16-004/Figure_006-d.pdf, id=509, 569.12625pt x 575.14874pt>
+<B2G-16-004/Figure_006-d.pdf, id=511, 569.12625pt x 575.14874pt>
 File: B2G-16-004/Figure_006-d.pdf Graphic file (type pdf)
 <use B2G-16-004/Figure_006-d.pdf>
 Package pdftex.def Info: B2G-16-004/Figure_006-d.pdf used on input line 580.
@@ -1446,7 +1445,7 @@ not appear between \csname and \endcsname.
 
 [12]
 <789FIG B2G-16-004/Figure_007.pdf 6>
-<B2G-16-004/Figure_007.pdf, id=521, 569.12625pt x 549.05125pt>
+<B2G-16-004/Figure_007.pdf, id=523, 569.12625pt x 549.05125pt>
 File: B2G-16-004/Figure_007.pdf Graphic file (type pdf)
 <use B2G-16-004/Figure_007.pdf>
 Package pdftex.def Info: B2G-16-004/Figure_007.pdf used on input line 627.
@@ -1492,11 +1491,11 @@ Package Fancyhdr Warning: \headheight is too small (25.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
-runk/B2G-16-004/Figure_006-a.pdf> </Users/ms08962476/Latex_report/MOST-finalRep
+[13 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/B2G-16-004/Figure_006-a.pdf> </Users/ms08962476/Latex_report/MOST_finalrep
 ort/notes/MOST-103-endReport/trunk/B2G-16-004/Figure_006-b.pdf> </Users/ms08962
-476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-004/Fig
-ure_006-c.pdf> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-
+476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-004/Fig
+ure_006-c.pdf> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-
 endReport/trunk/B2G-16-004/Figure_006-d.pdf>]
 ! Missing $ inserted.
 <inserted text> 
@@ -1514,7 +1513,7 @@ l.647 ...mization of the lepton \pt, \eta, $\Delta
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[14 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[14 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-004/Figure_007.pdf, page is rotated 90 degrees>] [15] [16]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 754.
@@ -1522,13 +1521,13 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 LaTeX Warning: Reference `sec:vv' on page 17 undefined on input line 754.
 
 <789FIG B2G-16-003/Figure_001-e.pdf 7>
-<B2G-16-003/Figure_001-e.pdf, id=794, 569.12625pt x 552.0625pt>
+<B2G-16-003/Figure_001-e.pdf, id=796, 569.12625pt x 552.0625pt>
 File: B2G-16-003/Figure_001-e.pdf Graphic file (type pdf)
 <use B2G-16-003/Figure_001-e.pdf>
 Package pdftex.def Info: B2G-16-003/Figure_001-e.pdf used on input line 766.
 (pdftex.def)             Requested size: 182.09485pt x 176.63834pt.
 <789FIG B2G-16-003/Figure_001-f.pdf 7>
-<B2G-16-003/Figure_001-f.pdf, id=795, 569.12625pt x 552.0625pt>
+<B2G-16-003/Figure_001-f.pdf, id=797, 569.12625pt x 552.0625pt>
 File: B2G-16-003/Figure_001-f.pdf Graphic file (type pdf)
 <use B2G-16-003/Figure_001-f.pdf>
 Package pdftex.def Info: B2G-16-003/Figure_001-f.pdf used on input line 767.
@@ -1634,23 +1633,23 @@ and I'll forget about whatever was undefined.
 
 [17]
 <789FIG B2G-16-003/Figure_002-e.pdf 8>
-<B2G-16-003/Figure_002-e.pdf, id=805, 569.12625pt x 552.0625pt>
+<B2G-16-003/Figure_002-e.pdf, id=808, 569.12625pt x 552.0625pt>
 File: B2G-16-003/Figure_002-e.pdf Graphic file (type pdf)
 <use B2G-16-003/Figure_002-e.pdf>
 Package pdftex.def Info: B2G-16-003/Figure_002-e.pdf used on input line 812.
 (pdftex.def)             Requested size: 182.09485pt x 176.63834pt.
 <789FIG B2G-16-003/Figure_002-f.pdf 8>
-<B2G-16-003/Figure_002-f.pdf, id=806, 569.12625pt x 552.0625pt>
+<B2G-16-003/Figure_002-f.pdf, id=809, 569.12625pt x 552.0625pt>
 File: B2G-16-003/Figure_002-f.pdf Graphic file (type pdf)
 <use B2G-16-003/Figure_002-f.pdf>
 Package pdftex.def Info: B2G-16-003/Figure_002-f.pdf used on input line 813.
 (pdftex.def)             Requested size: 182.09485pt x 176.63834pt.
-[18 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[18 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-003/Figure_001-e.pdf, page is rotated 90 degrees> </Users/ms0896247
-6/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-003/Figur
+6/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-003/Figur
 e_001-f.pdf, page is rotated 90 degrees>]
 <789FIG B2G-16-003/Figure_004.pdf 9>
-<B2G-16-003/Figure_004.pdf, id=900, 568.89436pt x 411.76935pt>
+<B2G-16-003/Figure_004.pdf, id=902, 568.89436pt x 411.76935pt>
 File: B2G-16-003/Figure_004.pdf Graphic file (type pdf)
 <use B2G-16-003/Figure_004.pdf>
 Package pdftex.def Info: B2G-16-003/Figure_004.pdf used on input line 856.
@@ -1672,11 +1671,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 866.
 
-[19 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[19 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-003/Figure_002-e.pdf, page is rotated 90 degrees> </Users/ms0896247
-6/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-003/Figur
+6/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-003/Figur
 e_002-f.pdf, page is rotated 90 degrees>] [20 </Users/ms08962476/Latex_report/M
-OST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-003/Figure_004.pdf>]
+OST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-003/Figure_004.pdf>]
 
 ! LaTeX Error: Bad math environment delimiter.
 
@@ -1705,25 +1704,25 @@ and I'll forget about whatever was undefined.
 
 [22] [23]
 <789FIG EXO-16-012/Figure_009-a.pdf 10>
-<EXO-16-012/Figure_009-a.pdf, id=1075, 569.12625pt x 543.02875pt>
+<EXO-16-012/Figure_009-a.pdf, id=1077, 569.12625pt x 543.02875pt>
 File: EXO-16-012/Figure_009-a.pdf Graphic file (type pdf)
 <use EXO-16-012/Figure_009-a.pdf>
 Package pdftex.def Info: EXO-16-012/Figure_009-a.pdf used on input line 1075.
 (pdftex.def)             Requested size: 204.85844pt x 195.46533pt.
 <789FIG EXO-16-012/Figure_009-b.pdf 10>
-<EXO-16-012/Figure_009-b.pdf, id=1076, 569.12625pt x 543.02875pt>
+<EXO-16-012/Figure_009-b.pdf, id=1078, 569.12625pt x 543.02875pt>
 File: EXO-16-012/Figure_009-b.pdf Graphic file (type pdf)
 <use EXO-16-012/Figure_009-b.pdf>
 Package pdftex.def Info: EXO-16-012/Figure_009-b.pdf used on input line 1076.
 (pdftex.def)             Requested size: 204.85844pt x 195.46533pt.
 <789FIG EXO-16-012/Figure_010-a.pdf 11>
-<EXO-16-012/Figure_010-a.pdf, id=1077, 569.12625pt x 541.02126pt>
+<EXO-16-012/Figure_010-a.pdf, id=1079, 569.12625pt x 541.02126pt>
 File: EXO-16-012/Figure_010-a.pdf Graphic file (type pdf)
 <use EXO-16-012/Figure_010-a.pdf>
 Package pdftex.def Info: EXO-16-012/Figure_010-a.pdf used on input line 1089.
 (pdftex.def)             Requested size: 204.85844pt x 194.74274pt.
 <789FIG EXO-16-012/Figure_010-b.pdf 11>
-<EXO-16-012/Figure_010-b.pdf, id=1078, 569.12625pt x 544.0325pt>
+<EXO-16-012/Figure_010-b.pdf, id=1080, 569.12625pt x 544.0325pt>
 File: EXO-16-012/Figure_010-b.pdf Graphic file (type pdf)
 <use EXO-16-012/Figure_010-b.pdf>
 Package pdftex.def Info: EXO-16-012/Figure_010-b.pdf used on input line 1090.
@@ -1771,7 +1770,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 <789FIG EXO-16-012/Figure_011.pdf 12>
-<EXO-16-012/Figure_011.pdf, id=1081, 569.12625pt x 541.02126pt>
+<EXO-16-012/Figure_011.pdf, id=1083, 569.12625pt x 541.02126pt>
 File: EXO-16-012/Figure_011.pdf Graphic file (type pdf)
 <use EXO-16-012/Figure_011.pdf>
 Package pdftex.def Info: EXO-16-012/Figure_011.pdf used on input line 1102.
@@ -1831,67 +1830,67 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1111.
 
-[24 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[24 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/EXO-16-012/Figure_009-a.pdf, page is rotated 90 degrees> </Users/ms0896247
-6/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/EXO-16-012/Figur
+6/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/EXO-16-012/Figur
 e_009-b.pdf, page is rotated 90 degrees>] [25 </Users/ms08962476/Latex_report/M
-OST-finalReport/notes/MOST-103-endReport/trunk/EXO-16-012/Figure_010-a.pdf, pag
-e is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-finalReport/notes
+OST_finalreport/notes/MOST-103-endReport/trunk/EXO-16-012/Figure_010-a.pdf, pag
+e is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes
 /MOST-103-endReport/trunk/EXO-16-012/Figure_010-b.pdf, page is rotated 90 degre
-es> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+es> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/EXO-16-012/Figure_011.pdf, page is rotated 90 degrees>] [26]
 <789FIG B2G-16-026/Figure_001-a.pdf 13>
-<B2G-16-026/Figure_001-a.pdf, id=1354, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_001-a.pdf, id=1356, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_001-a.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_001-a.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_001-a.pdf used on input line 1170.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
 <789FIG B2G-16-026/Figure_001-b.pdf 13>
-<B2G-16-026/Figure_001-b.pdf, id=1355, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_001-b.pdf, id=1357, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_001-b.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_001-b.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_001-b.pdf used on input line 1171.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
 <789FIG B2G-16-026/Figure_001-c.pdf 13>
-<B2G-16-026/Figure_001-c.pdf, id=1356, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_001-c.pdf, id=1358, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_001-c.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_001-c.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_001-c.pdf used on input line 1172.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
 <789FIG B2G-16-026/Figure_002-a.pdf 14>
-<B2G-16-026/Figure_002-a.pdf, id=1357, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_002-a.pdf, id=1359, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_002-a.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_002-a.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_002-a.pdf used on input line 1192.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
 <789FIG B2G-16-026/Figure_002-b.pdf 14>
-<B2G-16-026/Figure_002-b.pdf, id=1358, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_002-b.pdf, id=1360, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_002-b.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_002-b.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_002-b.pdf used on input line 1193.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
-[27 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[27 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-026/Figure_001-a.pdf, page is rotated 90 degrees> </Users/ms0896247
-6/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-026/Figur
-e_001-b.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-f
-inalReport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_001-c.pdf, page is 
-rotated 90 degrees>] [28 </Users/ms08962476/Latex_report/MOST-finalReport/notes
+6/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-026/Figur
+e_001-b.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_f
+inalreport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_001-c.pdf, page is 
+rotated 90 degrees>] [28 </Users/ms08962476/Latex_report/MOST_finalreport/notes
 /MOST-103-endReport/trunk/B2G-16-026/Figure_002-a.pdf, page is rotated 90 degre
-es> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+es> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-026/Figure_002-b.pdf, page is rotated 90 degrees>]
 <789FIG B2G-16-026/Figure_003.pdf 15>
-<B2G-16-026/Figure_003.pdf, id=1594, 569.12625pt x 410.53375pt>
+<B2G-16-026/Figure_003.pdf, id=1596, 569.12625pt x 410.53375pt>
 File: B2G-16-026/Figure_003.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_003.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_003.pdf used on input line 1254.
 (pdftex.def)             Requested size: 223.0721pt x 160.90933pt.
 <789FIG B2G-16-026/Figure_004.pdf 16>
-<B2G-16-026/Figure_004.pdf, id=1597, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_004.pdf, id=1599, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_004.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_004.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_004.pdf used on input line 1281.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
-[29 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[29 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-026/Figure_003.pdf, page is rotated 90 degrees>]
 
 ! Package array Error:  Illegal pream-token (P): `c' used.
@@ -1944,65 +1943,65 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 <789FIG B2G-16-026/Figure_005-a.pdf 17>
-<B2G-16-026/Figure_005-a.pdf, id=1649, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_005-a.pdf, id=1651, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_005-a.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_005-a.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_005-a.pdf used on input line 1327.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
 <789FIG B2G-16-026/Figure_005-b.pdf 17>
-<B2G-16-026/Figure_005-b.pdf, id=1650, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_005-b.pdf, id=1652, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_005-b.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_005-b.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_005-b.pdf used on input line 1328.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
 <789FIG B2G-16-026/Figure_006-a.pdf 18>
-<B2G-16-026/Figure_006-a.pdf, id=1651, 569.12625pt x 480.79625pt>
+<B2G-16-026/Figure_006-a.pdf, id=1653, 569.12625pt x 480.79625pt>
 File: B2G-16-026/Figure_006-a.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_006-a.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_006-a.pdf used on input line 1335.
 (pdftex.def)             Requested size: 223.0721pt x 188.44882pt.
 <789FIG B2G-16-026/Figure_006-b.pdf 18>
-<B2G-16-026/Figure_006-b.pdf, id=1652, 569.12625pt x 480.79625pt>
+<B2G-16-026/Figure_006-b.pdf, id=1654, 569.12625pt x 480.79625pt>
 File: B2G-16-026/Figure_006-b.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_006-b.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_006-b.pdf used on input line 1336.
 (pdftex.def)             Requested size: 223.0721pt x 188.44882pt.
 <789FIG B2G-16-026/Figure_007-a.pdf 19>
-<B2G-16-026/Figure_007-a.pdf, id=1657, 569.12625pt x 480.79625pt>
+<B2G-16-026/Figure_007-a.pdf, id=1659, 569.12625pt x 480.79625pt>
 File: B2G-16-026/Figure_007-a.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_007-a.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_007-a.pdf used on input line 1343.
 (pdftex.def)             Requested size: 223.0721pt x 188.44882pt.
 <789FIG B2G-16-026/Figure_007-b.pdf 19>
-<B2G-16-026/Figure_007-b.pdf, id=1658, 569.12625pt x 480.79625pt>
+<B2G-16-026/Figure_007-b.pdf, id=1660, 569.12625pt x 480.79625pt>
 File: B2G-16-026/Figure_007-b.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_007-b.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_007-b.pdf used on input line 1344.
 (pdftex.def)             Requested size: 223.0721pt x 188.44882pt.
 <789FIG B2G-16-026/Figure_008-a.pdf 20>
-<B2G-16-026/Figure_008-a.pdf, id=1661, 569.12625pt x 480.79625pt>
+<B2G-16-026/Figure_008-a.pdf, id=1663, 569.12625pt x 480.79625pt>
 File: B2G-16-026/Figure_008-a.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_008-a.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_008-a.pdf used on input line 1357.
 (pdftex.def)             Requested size: 223.0721pt x 188.44882pt.
 <789FIG B2G-16-026/Figure_008-b.pdf 20>
-<B2G-16-026/Figure_008-b.pdf, id=1662, 569.12625pt x 480.79625pt>
+<B2G-16-026/Figure_008-b.pdf, id=1664, 569.12625pt x 480.79625pt>
 File: B2G-16-026/Figure_008-b.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_008-b.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_008-b.pdf used on input line 1358.
 (pdftex.def)             Requested size: 223.0721pt x 188.44882pt.
-[30 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[30 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-026/Figure_004.pdf, page is rotated 90 degrees> </Users/ms08962476/
-Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_
-005-a.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-fin
-alReport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_005-b.pdf, page is ro
-tated 90 degrees>] [31 </Users/ms08962476/Latex_report/MOST-finalReport/notes/M
+Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_
+005-a.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_fin
+alreport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_005-b.pdf, page is ro
+tated 90 degrees>] [31 </Users/ms08962476/Latex_report/MOST_finalreport/notes/M
 OST-103-endReport/trunk/B2G-16-026/Figure_006-a.pdf, page is rotated 90 degrees
-> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/tru
+> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tru
 nk/B2G-16-026/Figure_006-b.pdf, page is rotated 90 degrees> </Users/ms08962476/
-Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_
-007-a.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-fin
-alReport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_007-b.pdf, page is ro
+Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_
+007-a.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_fin
+alreport/notes/MOST-103-endReport/trunk/B2G-16-026/Figure_007-b.pdf, page is ro
 tated 90 degrees>] [32]
 ! Double superscript.
 <recently read> ^
@@ -2018,25 +2017,25 @@ l.1410 ... - ({-c\,\mjjs^{2}}/\{1 + b\, c\, \mjjs^
                                                   {2}\} )]$ was made, using ...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
-[33 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[33 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-026/Figure_008-a.pdf, page is rotated 90 degrees> </Users/ms0896247
-6/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-026/Figur
+6/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-026/Figur
 e_008-b.pdf, page is rotated 90 degrees>]
 <789FIG B2G-16-026/Figure_009-a.pdf 21>
-<B2G-16-026/Figure_009-a.pdf, id=2086, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_009-a.pdf, id=2088, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_009-a.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_009-a.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_009-a.pdf used on input line 1428.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
 <789FIG B2G-16-026/Figure_009-b.pdf 21>
-<B2G-16-026/Figure_009-b.pdf, id=2087, 569.12625pt x 408.52625pt>
+<B2G-16-026/Figure_009-b.pdf, id=2089, 569.12625pt x 408.52625pt>
 File: B2G-16-026/Figure_009-b.pdf Graphic file (type pdf)
 <use B2G-16-026/Figure_009-b.pdf>
 Package pdftex.def Info: B2G-16-026/Figure_009-b.pdf used on input line 1429.
 (pdftex.def)             Requested size: 223.0721pt x 160.1225pt.
-[34 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/t
+[34 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/B2G-16-026/Figure_009-a.pdf, page is rotated 90 degrees> </Users/ms0896247
-6/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/B2G-16-026/Figur
+6/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/B2G-16-026/Figur
 e_009-b.pdf, page is rotated 90 degrees>]
 <789FIG B2G-16-026/Figure_009-a.pdf 22>
 File: B2G-16-026/Figure_009-a.pdf Graphic file (type pdf)
@@ -2052,7 +2051,7 @@ Package pdftex.def Info: B2G-16-026/Figure_009-b.pdf used on input line 1456.
 1.pdf 23>
 
 <2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_xsec_varytanb_sinp0p1.pdf, 
-id=2193, 569.12625pt x 552.0625pt>
+id=2195, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_xsec_varytanb_sinp0p1.
 pdf Graphic file (type pdf)
 
@@ -2065,7 +2064,7 @@ c_varytanb_sinp0p1.pdf used on input line 1482.
 p0p1.pdf 23>
 
 <2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varytanb_sinp0p1.pd
-f, id=2194, 569.12625pt x 552.0625pt>
+f, id=2196, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varytanb_sinp0
 p1.pdf Graphic file (type pdf)
 
@@ -2078,7 +2077,7 @@ idth_varytanb_sinp0p1.pdf used on input line 1483.
 p0p1.pdf 23>
 
 <2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h4width_varytanb_sinp0p1.pd
-f, id=2195, 569.12625pt x 552.0625pt>
+f, id=2197, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h4width_varytanb_sinp0
 p1.pdf Graphic file (type pdf)
 
@@ -2091,7 +2090,7 @@ idth_varytanb_sinp0p1.pdf used on input line 1484.
 p0p1.pdf 23>
 
 <2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h3width_varytanb_sinp0p1.pd
-f, id=2196, 569.12625pt x 552.0625pt>
+f, id=2198, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h3width_varytanb_sinp0
 p1.pdf Graphic file (type pdf)
 
@@ -2104,7 +2103,7 @@ idth_varytanb_sinp0p1.pdf used on input line 1485.
 p0p1.pdf 23>
 
 <2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h2width_varytanb_sinp0p1.pd
-f, id=2197, 569.12625pt x 552.0625pt>
+f, id=2199, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h2width_varytanb_sinp0
 p1.pdf Graphic file (type pdf)
 
@@ -2117,7 +2116,7 @@ idth_varytanb_sinp0p1.pdf used on input line 1486.
 p0p1.pdf 23>
 
 <2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h1width_varytanb_sinp0p1.pd
-f, id=2198, 569.12625pt x 552.0625pt>
+f, id=2200, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h1width_varytanb_sinp0
 p1.pdf Graphic file (type pdf)
 
@@ -2138,7 +2137,7 @@ LaTeX Warning: Float too large for page by 26.1353pt on input line 1493.
 p0p7071.pdf 24>
 
 <2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_xsec_varytanb_sinp0p7071
-.pdf, id=2199, 569.12625pt x 552.0625pt>
+.pdf, id=2201, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_xsec_varytanb_sinp0
 p7071.pdf Graphic file (type pdf)
 
@@ -2151,7 +2150,7 @@ xsec_varytanb_sinp0p7071.pdf used on input line 1497.
 sinp0p7071.pdf 24>
 
 <2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varytanb_sinp0p7
-071.pdf, id=2200, 569.12625pt x 552.0625pt>
+071.pdf, id=2202, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varytanb_si
 np0p7071.pdf Graphic file (type pdf)
 
@@ -2164,7 +2163,7 @@ hcwidth_varytanb_sinp0p7071.pdf used on input line 1498.
 sinp0p7071.pdf 24>
 
 <2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h4width_varytanb_sinp0p7
-071.pdf, id=2201, 569.12625pt x 552.0625pt>
+071.pdf, id=2203, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h4width_varytanb_si
 np0p7071.pdf Graphic file (type pdf)
 
@@ -2177,7 +2176,7 @@ h4width_varytanb_sinp0p7071.pdf used on input line 1499.
 sinp0p7071.pdf 24>
 
 <2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h3width_varytanb_sinp0p7
-071.pdf, id=2202, 569.12625pt x 552.0625pt>
+071.pdf, id=2204, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h3width_varytanb_si
 np0p7071.pdf Graphic file (type pdf)
 
@@ -2190,7 +2189,7 @@ h3width_varytanb_sinp0p7071.pdf used on input line 1500.
 sinp0p7071.pdf 24>
 
 <2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h2width_varytanb_sinp0p7
-071.pdf, id=2203, 569.12625pt x 552.0625pt>
+071.pdf, id=2205, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h2width_varytanb_si
 np0p7071.pdf Graphic file (type pdf)
 
@@ -2203,7 +2202,7 @@ h2width_varytanb_sinp0p7071.pdf used on input line 1501.
 sinp0p7071.pdf 24>
 
 <2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h1width_varytanb_sinp0p7
-071.pdf, id=2204, 569.12625pt x 552.0625pt>
+071.pdf, id=2206, 569.12625pt x 552.0625pt>
 File: 2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h1width_varytanb_si
 np0p7071.pdf Graphic file (type pdf)
 
@@ -2222,7 +2221,7 @@ LaTeX Warning: Float too large for page by 29.62216pt on input line 1508.
 
 <789FIG 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_xsec_varysinp.pdf 25>
 
-<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_xsec_varysinp.pdf, id=2205, 569.12625pt
+<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_xsec_varysinp.pdf, id=2207, 569.12625pt
  x 552.0625pt>
 File: 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_xsec_varysinp.pdf Graphic file (ty
 pe pdf)
@@ -2232,7 +2231,7 @@ df used on input line 1512.
 (pdftex.def)             Requested size: 223.0721pt x 216.38174pt.
 <789FIG 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varysinp.pdf 25>
 
-<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varysinp.pdf, id=2206, 569.1262
+<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varysinp.pdf, id=2208, 569.1262
 5pt x 552.0625pt>
 File: 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varysinp.pdf Graphic file 
 (type pdf)
@@ -2242,7 +2241,7 @@ p.pdf used on input line 1513.
 (pdftex.def)             Requested size: 223.0721pt x 216.38174pt.
 <789FIG 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h4width_varysinp.pdf 25>
 
-<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h4width_varysinp.pdf, id=2207, 569.1262
+<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h4width_varysinp.pdf, id=2209, 569.1262
 5pt x 552.0625pt>
 File: 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h4width_varysinp.pdf Graphic file 
 (type pdf)
@@ -2252,7 +2251,7 @@ p.pdf used on input line 1514.
 (pdftex.def)             Requested size: 223.0721pt x 216.38174pt.
 <789FIG 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h3width_varysinp.pdf 25>
 
-<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h3width_varysinp.pdf, id=2208, 569.1262
+<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h3width_varysinp.pdf, id=2210, 569.1262
 5pt x 552.0625pt>
 File: 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h3width_varysinp.pdf Graphic file 
 (type pdf)
@@ -2262,7 +2261,7 @@ p.pdf used on input line 1515.
 (pdftex.def)             Requested size: 223.0721pt x 216.38174pt.
 <789FIG 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h2width_varysinp.pdf 25>
 
-<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h2width_varysinp.pdf, id=2209, 569.1262
+<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h2width_varysinp.pdf, id=2211, 569.1262
 5pt x 552.0625pt>
 File: 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h2width_varysinp.pdf Graphic file 
 (type pdf)
@@ -2272,7 +2271,7 @@ p.pdf used on input line 1516.
 (pdftex.def)             Requested size: 223.0721pt x 216.38174pt.
 <789FIG 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h1width_varysinp.pdf 25>
 
-<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h1width_varysinp.pdf, id=2210, 569.1262
+<2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h1width_varysinp.pdf, id=2212, 569.1262
 5pt x 552.0625pt>
 File: 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h1width_varysinp.pdf Graphic file 
 (type pdf)
@@ -2290,58 +2289,58 @@ LaTeX Warning: Float too large for page by 26.1353pt on input line 1522.
 
 [35] [36]
 <789FIG Fig1_HGC.pdf 26>
-<Fig1_HGC.pdf, id=2237, 679.53876pt x 630.355pt>
+<Fig1_HGC.pdf, id=2239, 679.53876pt x 630.355pt>
 File: Fig1_HGC.pdf Graphic file (type pdf)
 <use Fig1_HGC.pdf>
 Package pdftex.def Info: Fig1_HGC.pdf used on input line 1626.
 (pdftex.def)             Requested size: 386.96024pt x 358.9502pt.
-[37] [38 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endRep
+[37] [38 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRep
 ort/trunk/2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_xsec_varytanb_sinp
-0p1.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-final
-Report/notes/MOST-103-endReport/trunk/2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM
+0p1.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_final
+report/notes/MOST-103-endReport/trunk/2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM
 1/2HDMPZ2_hcwidth_varytanb_sinp0p1.pdf, page is rotated 90 degrees> </Users/ms0
-8962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/2HDM/varyt
+8962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/2HDM/varyt
 anbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h4width_varytanb_sinp0p1.pdf, page is 
-rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST
+rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST
 -103-endReport/trunk/2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h3width
 _varytanb_sinp0p1.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_rep
-ort/MOST-finalReport/notes/MOST-103-endReport/trunk/2HDM/varytanbeta/sinp_0p1/M
+ort/MOST_finalreport/notes/MOST-103-endReport/trunk/2HDM/varytanbeta/sinp_0p1/M
 H750_MA500_MDM1/2HDMPZ2_h2width_varytanb_sinp0p1.pdf, page is rotated 90 degree
-s> </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/tr
+s> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
 unk/2HDM/varytanbeta/sinp_0p1/MH750_MA500_MDM1/2HDMPZ2_h1width_varytanb_sinp0p1
-.pdf, page is rotated 90 degrees>] [39 </Users/ms08962476/Latex_report/MOST-fin
-alReport/notes/MOST-103-endReport/trunk/2HDM/varytanbeta/sinp_0p7071/MH750_MA50
+.pdf, page is rotated 90 degrees>] [39 </Users/ms08962476/Latex_report/MOST_fin
+alreport/notes/MOST-103-endReport/trunk/2HDM/varytanbeta/sinp_0p7071/MH750_MA50
 0_MDM1/2HDMPZ2_xsec_varytanb_sinp0p7071.pdf, page is rotated 90 degrees> </User
-s/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/2HDM/
+s/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/2HDM/
 varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_hcwidth_varytanb_sinp0p7071.pd
-f, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-finalReport
+f, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport
 /notes/MOST-103-endReport/trunk/2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2
 HDMPZ2_h4width_varytanb_sinp0p7071.pdf, page is rotated 90 degrees> </Users/ms0
-8962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/2HDM/varyt
+8962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/2HDM/varyt
 anbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h3width_varytanb_sinp0p7071.pdf, pa
-ge is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-finalReport/note
+ge is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/note
 s/MOST-103-endReport/trunk/2HDM/varytanbeta/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ
 2_h2width_varytanb_sinp0p7071.pdf, page is rotated 90 degrees> </Users/ms089624
-76/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/2HDM/varytanbet
+76/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/2HDM/varytanbet
 a/sinp_0p7071/MH750_MA500_MDM1/2HDMPZ2_h1width_varytanb_sinp0p7071.pdf, page is
- rotated 90 degrees>] [40 </Users/ms08962476/Latex_report/MOST-finalReport/note
+ rotated 90 degrees>] [40 </Users/ms08962476/Latex_report/MOST_finalreport/note
 s/MOST-103-endReport/trunk/2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_xsec_varysinp
-.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST-finalRep
+.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalrep
 ort/notes/MOST-103-endReport/trunk/2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_hcwid
 th_varysinp.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MO
-ST-finalReport/notes/MOST-103-endReport/trunk/2HDM/varysinp/MH750_MA500_MDM1/2H
+ST_finalreport/notes/MOST-103-endReport/trunk/2HDM/varysinp/MH750_MA500_MDM1/2H
 DMPZ2_h4width_varysinp.pdf, page is rotated 90 degrees> </Users/ms08962476/Late
-x_report/MOST-finalReport/notes/MOST-103-endReport/trunk/2HDM/varysinp/MH750_MA
+x_report/MOST_finalreport/notes/MOST-103-endReport/trunk/2HDM/varysinp/MH750_MA
 500_MDM1/2HDMPZ2_h3width_varysinp.pdf, page is rotated 90 degrees> </Users/ms08
-962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/2HDM/varysi
+962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/2HDM/varysi
 np/MH750_MA500_MDM1/2HDMPZ2_h2width_varysinp.pdf, page is rotated 90 degrees> <
-/Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-endReport/trunk/
+/Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/
 2HDM/varysinp/MH750_MA500_MDM1/2HDMPZ2_h1width_varysinp.pdf, page is rotated 90
- degrees>] [41 </Users/ms08962476/Latex_report/MOST-finalReport/notes/MOST-103-
+ degrees>] [41 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-
 endReport/trunk/Fig1_HGC.pdf>]
 <567INP finalReport_temp.bbl>
 
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/tmp/finalReport_temp.bbl
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 11.
 LaTeX Font Info:    <567INP ot1pcr.fd> on input line 11.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -2366,7 +2365,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1637.
 [49]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1637.
 
-(/Users/ms08962476/Latex_report/MOST-finalReport/notes/tmp/finalReport_temp.aux
+(/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1637.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1637.
@@ -2382,9 +2381,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1637.
  ) 
 Here is how much of TeX's memory you used:
- 11337 strings out of 492995
- 171254 string characters out of 6132704
- 279041 words of memory out of 5000000
+ 11338 strings out of 492995
+ 171265 string characters out of 6132704
+ 279033 words of memory out of 5000000
  14401 multiletter control sequences out of 15000+600000
  61623 words of font info for 159 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2412,10 +2411,10 @@ urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/pal
 atino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/
 uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on finalReport_temp.pdf (51 pages, 1947756 bytes).
+Output written on finalReport_temp.pdf (51 pages, 1947789 bytes).
 PDF statistics:
- 3393 PDF objects out of 3580 (max. 8388607)
- 1838 compressed objects within 19 object streams
- 204 named destinations out of 1000 (max. 500000)
+ 3396 PDF objects out of 3580 (max. 8388607)
+ 1841 compressed objects within 19 object streams
+ 205 named destinations out of 1000 (max. 500000)
  425 words of extra memory for PDF output out of 10000 (max. 10000000)
 
