@@ -21,6 +21,8 @@
 \newcommand{\Gbulk}{\ensuremath{\mathrm{G}_\text{bulk}}\xspace}
 \newcommand{\Vprime}{\ensuremath{\mathrm{V}'}\xspace}
 \providecommand{\NA}{\ensuremath{\text{---}}\xspace}
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
 
 \newcommand{\PV}{\ensuremath{\mathrm{V}}}
 \providecommand{\NA}{---}
@@ -214,7 +216,7 @@
 
 
 % >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
-\title{Study of the Calorimeter Performance for Future Colliders with the High Granularity Calorimeter in CMS and the Full Simulation based on FCC}}
+\title{Detector Traveling from Now to the Future: \\ Study of the Calorimeter Performance for Future Colliders with the High Granularity Calorimeter in CMS and the Full Simulation based on FCC}}
 
 % >> Authors
 %Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
@@ -236,7 +238,7 @@
 % 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
 % 3. For PASs: **DO NOT use tex macros**         in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
 \abstract{
-The discovery of Higgs boson at Large Hadron Collider(LHC) in 2012 opened a new door for particle physics.  Since then, people have been hard-working on upgrading the LHC to the higher luminosity and center-of-mass (C.M.) energy, so to study the properties of Higgs boson and to discover new particles predicted by physics beyond the standard model. Some people even proposed the idea to build new colliders, such as Future Circular Collider(FCC), etc. near the working LHC space now. For my study, I focus on three topics which are related to the detector performance. First, because the radiation tolerance problem and increasing pileup at High-Luminosity LHC(HL-LHC), the Compact Muon Solenoid(CMS) experiment at LHC will replace the current endcap calorimeter with a silicon-pad High Granularity Calorimeter(HGCAL). I did some studies on the performance for them using data from test beam in CMS and the Hexaboard of its electronics in National Taiwan University(NTU). Second, I used the GEANT4 full simulation to simulate the FCC detector under the very high energy condition and study the jet performance. We expect to help the future facilities to design a high resolution detector, and could have a large potential to find the new physics with the new detector. }
+The discovery of Higgs boson at Large Hadron Collider(LHC) in 2012 opened a new door for particle physics.  Since then, people have been hard-working on upgrading the LHC to the higher luminosity and center-of-mass (C.M.) energy, so to study the properties of Higgs boson and to discover new particles predicted by the physics Beyond Standard Model(BSM). Some people even proposed the idea to build new colliders, such as Future Circular Collider(FCC), etc. near the working LHC space now. For my study, I focus on three topics which are related to the detector performance. First, because the radiation tolerance problem and increasing pileup at High-Luminosity LHC(HL-LHC), the Compact Muon Solenoid(CMS) experiment at LHC will replace the current endcap calorimeter with a silicon-pad High Granularity Calorimeter(HGCAL). I did some studies on the performance for them using data from test beam in CMS and the Hexaboard of its electronics in National Taiwan University(NTU). Second, I used the GEANT4 full simulation to simulate the FCC detector under the very high energy condition and study the jet performance. We expect to help the future facilities to design a high resolution detector, and could have a large potential to find the new physics with the new detector. }
 
 
 % >> PDF Metadata
@@ -259,7 +261,7 @@ pdfkeywords={LHC, CMS, high-mass new particle, beyond the standard model, dark m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 \subsection{Motivation and Expectation}
-After identifying the Higgs boson at LHC in 2012, people are eager to explore the new particle and the physics Beyond Standard Model(BSM) , such as dark matter candidates, Z' bosons, heavy Higgs, and so on. CMS and ATLAS collaboration are also upgrading the detectors to improve the functions to cope with the new challenging conditions in the future colliders. For the operation in the future, one of the most important issues of detector performance is: How can we boost the efficiency of the distinguishability of signal from the background?
+After identifying the Higgs boson at LHC in 2012, people are eager to explore the new particle and the physics BSM , such as dark matter candidates, Z' bosons, heavy Higgs, and so on. CMS and ATLAS collaboration are also upgrading the detectors to improve the functions to cope with the new challenging conditions in the future colliders. For the operation in the future, one of the most important issues of detector performance is: How can we boost the efficiency of the distinguishability of signal from the background?
 
 In the upcoming HL-LHC era, the pileup will be raised significantly compared with the condition the LHC is operating at currently. Therefore, first of all, we need to identify the particle very well. Otherwise, we are not able to reject the unwanted contaminant particles. My first topic with HGCAL in CMS focuses on the particle identification with electrons and pions. Because we will keep searching on more new physics with the electron final states , but some pions will be misidentified as the electrons, our requirements are removing these mistagged "fake" electrons. It is expected that we can find out the optimized cuts for them and apply in the cut-based analysis, aiding the signal and background studies that are very sensitive to pions. Furthermore, I studied some cross-talk phenomena on the PCB boards which are attached with the sensor used in the HGCAL, and try to find out the correlation between the injection pulse strength and cross-talk. We expect to understand the noise created in the electronics and reduce them in the future.
 
@@ -268,7 +270,7 @@ Some have proposed colliders with the higher C.M. energy for the next generation
 The research activities of Chih-Hsiang Yeh from July 1, 2018 to Febraury 28, 2019 includes the following:
 \begin{itemize}
  \item Research with electronics of HGCAL : Cross-talk studies with the no sensor based Hexaboard in NTU 
- \item Research with HGCAL in CMS : Pion-rejection studies with a CMS HGCAL test-beam prototype EM calorimeter
+ \item Research with HGCAL in CMS : Pion-rejection studies with a CMS HGCAL test-beam prototype Electromagnetic calorimeter(ECAL)
  \item Research with simulation FCC detector : Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider
 \end{itemize}
 
@@ -317,7 +319,7 @@ Be attention with, because we simulated the sensor-attached condition, and senso
 \label{fig:PCB_study_channelMap}
 \end{figure}
 
-The following three cases are shown in the fig.\ref{fig:PCB_His}. (1)Pedestal run were used to evaluate the pedestals and noise for each channel. The value of mean of ADC-counts will be defined as the pedestal value from each channel, and it is the hardware-dependent(SCA-dependent) value. (2)Charged run were used to record the responses with ADC-counts values from every channel with the electrical pulse, and simulated the real physics. (3)In the end, the "Pedestal-subtracted" value will be used in our study for subtracting the "hardware difference". The mean value of the ADC-counts for it is calculated after Charged run ADC-counts subtract the mean of ADC-counts from Pedestal run with same SCA number. Note, in the study, we always used SCAs of HG to do. For simplifying the case, we fixed the injected-channel to number 20 in CHIP 0 and saw all cases.
+The following three cases which were used in our studies are shown in the fig.\ref{fig:PCB_His}. (1)Pedestal run were used to evaluate the pedestals and noise for each channel. The value of mean of ADC-counts will be defined as the pedestal value from each channel, and it is the hardware-dependent(SCA-dependent) value. (2)Charged run were used to record the responses with ADC-counts values from every channel with the electrical pulse, and simulated the real physics. (3)In the end, the "Pedestal-subtracted" value will be used in our study for subtracting the "hardware difference". The mean value of the ADC-counts for it is calculated after Charged run ADC-counts subtract the mean of ADC-counts from Pedestal run with same SCA number. Note, in the study, we always used SCAs of HG to do. For simplifying the case, we fixed the injected-channel to number 20 in CHIP 0 and saw all cases.
 
 \begin{figure}[!htb]
 \centering
@@ -354,7 +356,66 @@ Second, we wanted to explore the correlation between injection pulse strength an
 
 For the conclusion, we can see from our study that the cross-talk exist in the Hexaboard, and we used the ADC-counts from the Pedestal-subtracted values to quantify the cross-talk. We expected that this study can help to quantify the cross-talk and can decrease it in the future.
 
-\section{Pion-rejection studies with a CMS HGCAL test-beam prototype EM calorimeter}
+\section{Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}
+In most cases, the electrons leave most of the energies in ECAL by the processes of pair production and bremsstrahlung. Different from them, Chagred-pions deposit most of the energies in Hadronic Calorimeter(HCAL) through the process of segmentation. Unfortunately, in some cases, those pions could give out the fully Electromagnetic(EM) showering in ECAL, and put most of the energies in it. If we can't explore the way to tag those pions and reject them, it will be very terrible. Because they will be misidentified as the electrons, and those "fake electrons" could contaminate with the real electrons.  In addition, it could influence the analysis which is sensitive to the electron/pion distinguishability. We expected to solve this issue and help the physics analysis in the future.
+
+Because of the significant challenges for radiation tolerance and event pileup on the detectors of the CMS experiment at LHC, they will replace the current Endcap calorimeter with a Si-pad HGCAL, a new generation state-of-the-art calorimeter, which can perform 3D imaging of the shower as well as provide ~30ps timing. To test the performance of HGCAL, including calibration, particle identification, etc. before it will be installed in CMS Phase \rom{2} upgrade , we did the "test-beam", which was held to incident the test particles, such as electron, pion and muon into HGCAL prototype, and analyze its performance from the information of the hits come out with the detector. At the same time,  The Monto Carlo(MC) samples are provided with the same prototype to let the people study as well.  We used the test-beam MC samples which are done in CMS on June and October 2019 to do this study. The group of test-beam divided the studies into many different topics, and my topic was in the section of "electron/pion identification".
+
+Charged-pion tagging and rejection are one of the strong points of HGCAL. Traditionally the most powerful discriminants for pion rejection are lateral shower containment and longitudinal energy leakage in the back of the EM section of HGCAL. In this study we explore the capability of HGCAL to tag pions that are fully EM-showering in the ECAL and they pass the transverse containment and leakage from the back requirements. For our expectation, we wanted to find the best cuts and invited the new variables to distinguish "fake electrons" from "real electrons".
+
+I did this study with Prof.Stathes Paganis, Prof.Rong-Shayang Lu, master student Chia-Hong Chein from NTU, Dr.Shilpi Jain from University of Minnesota and Prof.Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study includes the following:
+\begin{itemize}
+\item Study the optimized cuts for finding the "fake electron" from pions, and introduce the new variable with the longitudinal segmentation using the test-beam MC from June.
+\item Apply the found optimized cuts and new variable in test-beam MC from October to see the electron efficiencies and pion rejections.
+\end{itemize}
+I will describe the detail as following.
+
+\subsection{Introduction for HGCAL}
+During the Run 1 (2010-2012) in LHC operated at $\sqrt{s} = 7\TeV$, delivering $\approx$ 6\fbinv, and at $\sqrt{s} = 8\TeV$ in 2012, delivering $\approx$ 23\fbinv. The most significant physics results from this period was the discovery of the Higgs boson, and along with the Nobel prize for it in 2013. After Run 1, Run 2 started in 2015 at a C.M of $\sqrt{s} = 13\TeV$  and the instantaneous luminosity, reaching to the value for $1.7 \times 10^{34} cm^{-2} s^{-1}$. Surprisingly, it operated the exceed value compare with the original design. More studies with this unbelievable operation, such as Higgs boson, SM processes, BSM, will be carried out.
+
+For the future in Run3(2023), LHC intended to accumulate around 300\fbinv. After the third long shutdown (LS3), they plan to design the value to the instantaneous luminosity at $5 \times 10^{34} cm^{-2} s^{-1}$ with the target of integrating around 3000\fbinv by the time of mid-2030s, and it will go into the HL-LHC era. The corresponding mean number of collisions (pileup) per bunch crossing will be 140. In addition, the LHC has the ability to deliver 50\% higher values for both the instantaneous and integrated luminosities. It will bring out the two significant issues : (1)radiation damage and (2)event pileup on CMS detectors, especially for calorimetry in the forward region. As part of its HL-LHC upgrade program, the CMS Collaboration is proposing to build a HGCAL to replace the existing endcap calorimeters. 
+
+There are many requirements for the HGCAL upgrade to let it preserve the good performance until the HL-LHC. Write some of them as following:
+\begin{itemize}
+\item  This detector must be "radiation tolerance", otherwise, it will happen the unrecoverable condition, same as the circumstance now in CMS. To solve this issue, active layer with the silicon sensor will be applied in the HGCAL.
+\item  This detector need to be designed with the find granularity for lateral and longitudinal segmentation:
+\begin{itemize}
+\item For the lateral part, it can help with separating two showers and can observe the narrow jets. 
+\item For the longitudinal part, it can help us to probe the longitudinal development of showers, providing good energy resolution, and also can know more about the patterns in the physics processes.
+\end{itemize}
+Both of them can remove the "pileup event" if they are great enough to distinguish processes of different particles.
+\end{itemize}
+
+The HGCAL prototype consists of an electromagnetic compartment (CE-E) followed by a hadronic compartment (CE-H) with Forward region(FH) and Backward region(BH) in the Fig.\ref{}. In the Fig.\ref{} is the part of the electromagnetic compartment , they consists of 28 sampling layers with a depth of approximately 26 $X_{0}$ and 1.7 $\lambda$. The element of active layer is a hexagonal silicon sensor, which is sandwiched between layer of WCu (75\%, 25\%) baseplate and a printed circuit board(PCB), which is used to study my cross-talk studies in NTU, that carries the front-end electronics to form a silicon module in the Fig.\ref{}. Modules are tiled on a Cu cooling plate, which together with the two WCu baseplates form one absorber layer. The alternate absorber layer is formed by lead planes clad with stainless steel (SS) sheets that are placed on module-cooling plate sandwich. 
+
+For the hadronic compartment of HGCAL in the Fig.\ref{}, they consists of 12 planes of thick SS plates followed by another 12 SS planes with different thickness. Between these absorber plates sit silicon modules in most regions and silicon modules mixed with scintillator tileboards in part of low-radiation regions mounted on a copper cooling plates to form the wide cassettes. These cassettes are similar to those in the EM compartment, but include sensors on only one side of the cooling plate, which are formed as a separate mechanical structure. This leads to a total interaction length with number 10.7$\lambda$, including the CE-E and the neutron moderator layer in front of the calorimeter. All layers are read out for use in energy measurement, but only alternate layers in CE-E, and all in CE-H, are used for producing L1 trigger primitives. 
+
+In the test-beam, we used the material based on prototype of HGCAL written below. I will write the detail and results of the test-beam in 2018 on June and October.
+
+\subsection{The results of optimized cuts and new variable from June test-beam MC}
+
+Because we wanted to find out the "electron-like" pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for them as following. In this studies, we used the sample with 50GeV electron and pion MC.
+
+The first selection, because electron and pion have very different shower shape on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the different number of rings on the transverse plane of detector. In the Fig.\ref{} shows the ring distribution plot. In the end, we chose the energy of 5 Rings for being the cuts, applying "energies out of the 5 Rings/total energies" at most 1\%. 
+
+The second selection, because we wanted to select the "fully EM-showering", and we didn't have the HCAL energy this time, we only could use the poor man's solution, which was finding the last layer energies and using it. In the Fig.\ref{} is the plot to find the last layer energies MIPs with event number. Eventually, we used the last layer energies smaller than 20MIPs to tag the fully showering events.
+
+The third selection, it was the cut always used to find the EM-showering in pion before, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "energies in two Rings/energies in three Rings" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower.   
+
+The fourth selection, 
+\subsection{The results of application in October test-beam MC}
+
+\section{Milestone Achieved}
+\begin{itemize}
+\item Publish my first journal paper: "Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider" to arxiv and the Journal of instrumentation(JINST), now it is reviewed by the people in the journal.
+\item Publish my first conference paper: "Jet Substructure Variables with the SiFCC Detector at 100 TeV" to arxiv and it is accepted by the Journal of Proceeding of Science(PoS).
+\item Accepted and report the poster with FCC detector studies in the International Conference of High Energy Physics in 2018(ICHEP2018).
+\item Accepted and report the two posters with HGCAL studies and FCC detector studies in the Taiwan Physics Society(TPS) annual meeting in 2019. 
+\end{itemize}
+
+\section{Acknowledgement}
+First, thanks for my supervisors, Prof.Shin-Shan Eiko Yu from NCU, Prof.Ashtusoh from Duke University and Prof.Stathes Paganis, Prof.Rong-Shayang Lu from NTU, without them, I can't do those good studies smoothly, and publish the results well. Also, I would like to thanks LHC-CMS, NCU and NTU to give me the resource, including the data, hardware and the server resource, to study my interested topics. And thanks for all people in NCUHEP, NTUHEP groups who have helped me. Last but not least, I'm glad to thanks MOST to support me to do this studies. 
+
 
 Hypotheses for physics beyond the standard model (SM) predict the existence of heavy resonances that decay to any combination of two among 
 the massive vector bosons (W or Z, collectively referred to as V) or to a V and the scalar SM Higgs boson (H). Among the considered models 
