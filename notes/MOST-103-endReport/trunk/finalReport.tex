@@ -310,7 +310,7 @@ For simplifying the study, we used the Hexaboard without the sensor on it. In th
 \item Charged run: Run with injecting the electrical pulse to the certain channel, and record the with-pulse run to do the study. 
 \end{itemize}
 
-Be attention with, because we simulated the sensor-attached condition, and sensor only apply the 32 channels on the Hexaboard, we used 32 channels of the Hexaboard to study. In the Figure\ref{fig:PCB_study_channelMap} is the channel map that we used in the study.
+Be attention with, because we simulated the sensor-attached condition, and sensor only apply the 32 channels on the Hexaboard in real life, we used 32 channels of the Hexaboard to study. In the Fig.\ref{fig:PCB_study_channelMap} is the channel map that we used in the study.
 
 \begin{figure}[!htb]
 \centering
@@ -319,19 +319,19 @@ Be attention with, because we simulated the sensor-attached condition, and senso
 \label{fig:PCB_study_channelMap}
 \end{figure}
 
-The following three cases which were used in our studies are shown in the fig.\ref{fig:PCB_His}. (1)Pedestal run were used to evaluate the pedestals and noise for each channel. The value of mean of ADC-counts will be defined as the pedestal value from each channel, and it is the hardware-dependent(SCA-dependent) value. (2)Charged run were used to record the responses with ADC-counts values from every channel with the electrical pulse, and simulated the real physics. (3)In the end, the "Pedestal-subtracted" value will be used in our study for subtracting the "hardware difference". The mean value of the ADC-counts for it is calculated after Charged run ADC-counts subtract the mean of ADC-counts from Pedestal run with same SCA number. Note, in the study, we always used SCAs of HG to do. For simplifying the case, we fixed the injected-channel to number 20 in CHIP 0 and saw all cases.
+The following three cases which were used in our studies are shown in the fig.\ref{fig:PCB_His}. (1)Pedestal run were used to evaluate the pedestals and noise for each channel. The value of mean of ADC-counts will be defined as the pedestal value from each channel, and it is the hardware-dependent(SCA-dependent) value. (2)Charged run were used to record the responses with ADC-counts values from every channel with the electrical pulse injecting, and simulated the real physics. (3)In the end, the "Pedestal-subtracted" value will be used in our study for subtracting the "hardware difference". The mean value of the ADC-counts for it is calculated after Charged run ADC-counts subtract the mean of ADC-counts from Pedestal run with same SCA number. Note, in the study, we always used SCAs of HG to do. For simplifying the case, we fixed the injected-channel to number 20 in CHIP 0 and saw all cases.
 
 \begin{figure}[!htb]
 \centering
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_Pedestal.png}
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_charge.png}\\
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_subtraction.png}
-\caption{These figures perform the histograms that using in the study. All this cases are shown with fixing at SCA=2 and channel=22. (Upper left ) The pedestal run histograms which is used to calculate the pedestal and noise. Fitting the line is to get the mean of ADC-counts. (Upper right)  The charged run for example. (Down) The pedestal-subtracted case is shown. Also fit the line to get the mean and error of ADC-counts, and use in the study.}
+\caption{These figures perform the histograms that using in the study. All this cases are shown with fixing at SCA=2 and channel=22. (Upper left ) The pedestal run histograms which is used to calculate the pedestal and noise. Fitting the line is to get the mean of ADC-counts. (Upper right)  The charged run for example. (Down) The pedestal-subtracted case is shown. Also fit the line to get the mean and error of ADC-counts, and use in the study directly}
 \label{fig:PCB_His}
 \end{figure}
 
 \subsection{Results and Conclusion}
-First of all, because the first SCA (the 0th) is useful for making on-line pedestal subtraction (because there may be some low frequency noise), and usually our signal comes after SCA0, we need to explore the correlation between the stability of pedestals(SCA0) and other SCA sampling.  In the Fig.\ref{fig:PCB_Stability}, we can see that the nearest channel of the injection channel (channel 20) with channel 18 and 22 as examples, the stability of them are very good. Because the fitting lines are pretty flat in both of them, and that means in the different SCA number other than SCA0, they are slightly different. 
+First of all, because the first SCA (the 0th) is useful for making on-line pedestal subtraction (because there may be some low frequency noise), and usually our signal comes after SCA0, we need to explore the correlation between the stability of pedestals(SCA0) and other SCA sampling.  In the Fig.\ref{fig:PCB_Stability}, we can see that the nearest channel of the injection channel (channel 20) with channel 18 and 22 as examples, the stability of them are very good. Because the fitting lines are pretty flat in both of them, and that means in the different SCA number other than SCA0, they are slightly different. And we can see the same condition in other channels also.
 
 \begin{figure}[!htb]
 \centering
@@ -373,11 +373,11 @@ I will describe the detail as following.
 \subsection{Introduction for HGCAL}
 During the Run 1 (2010-2012) in LHC operated at $\sqrt{s} = 7\TeV$, delivering $\approx$ 6\fbinv, and at $\sqrt{s} = 8\TeV$ in 2012, delivering $\approx$ 23\fbinv. The most significant physics results from this period was the discovery of the Higgs boson, and along with the Nobel prize for it in 2013. After Run 1, Run 2 started in 2015 at a C.M of $\sqrt{s} = 13\TeV$  and the instantaneous luminosity, reaching to the value for $1.7 \times 10^{34} cm^{-2} s^{-1}$. Surprisingly, it operated the exceed value compare with the original design. More studies with this unbelievable operation, such as Higgs boson, SM processes, BSM, will be carried out.
 
-For the future in Run3(2023), LHC intended to accumulate around 300\fbinv. After the third long shutdown (LS3), they plan to design the value to the instantaneous luminosity at $5 \times 10^{34} cm^{-2} s^{-1}$ with the target of integrating around 3000\fbinv by the time of mid-2030s, and it will go into the HL-LHC era. The corresponding mean number of collisions (pileup) per bunch crossing will be 140. In addition, the LHC has the ability to deliver 50\% higher values for both the instantaneous and integrated luminosities. It will bring out the two significant issues : (1)radiation damage and (2)event pileup on CMS detectors, especially for calorimetry in the forward region. As part of its HL-LHC upgrade program, the CMS Collaboration is proposing to build a HGCAL to replace the existing endcap calorimeters. 
+For the future in Run3(2023), LHC intended to accumulate around 300\fbinv. After the third long shutdown (LS3), they plan to design the value to the instantaneous luminosity at $5 \times 10^{34} cm^{-2} s^{-1}$ with the target of integrating around 3000\fbinv by the time of mid-2030s, and it will go into the HL-LHC era. The corresponding mean number of collisions (pileup) per bunch crossing will be 140. In addition, the LHC has the ability to deliver 50\% higher values for both the instantaneous and integrated luminosities.
 
-There are many requirements for the HGCAL upgrade to let it preserve the good performance until the HL-LHC. Write some of them as following:
+It will bring out the two significant issues in the HL-LHC era: (1)radiation damage and (2)event pileup on CMS detectors, especially for calorimetry in the forward region. As part of its HL-LHC upgrade program, the CMS Collaboration is proposing to build a HGCAL to replace the existing endcap calorimeters. There are many requirements for the HGCAL upgrade to let it preserve the good performance. Write some of them as following:
 \begin{itemize}
-\item  This detector must be "radiation tolerance", otherwise, it will happen the unrecoverable condition, same as the circumstance now in CMS. To solve this issue, active layer with the silicon sensor will be applied in the HGCAL.
+\item  This detector must be "radiation tolerance", otherwise, it will happen the unrecoverable condition, same as the circumstance of scintillator now in CMS. To solve this issue, active layer with the silicon sensor will be applied in the HGCAL.
 \item  This detector need to be designed with the find granularity for lateral and longitudinal segmentation:
 \begin{itemize}
 \item For the lateral part, it can help with separating two showers and can observe the narrow jets. 
@@ -394,17 +394,41 @@ In the test-beam, we used the material based on prototype of HGCAL written below
 
 \subsection{The results of optimized cuts and new variable from June test-beam MC}
 
-Because we wanted to find out the "electron-like" pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for them as following. In this studies, we used the sample with 50GeV electron and pion MC.
+Because we wanted to find out the "electron-like" pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for the cuts and selections as following. In this studies, we used the sample with 50GeV electron and pion MC.
 
-The first selection, because electron and pion have very different shower shape on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the different number of rings on the transverse plane of detector. In the Fig.\ref{} shows the ring distribution plot. In the end, we chose the energy of 5 Rings for being the cuts, applying "energies out of the 5 Rings/total energies" at most 1\%. 
+The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the cut with the different number of rings on the transverse plane of detector. In the Fig.\ref{} shows the distribution plot of ring. In the end, we chose the energy of 5 Rings for being the cuts. Fig.\ref{} is presented to show the cut we used with "$\frac{\mathrm{Energies \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energies}}$". Because we can see in the plot, the energies of electrons showering are collected out of the 5 Rings with at most 1\% compared with total energies in ECAL, in the end, we chose this standard to tag the e-like pions first. Although, it is the tight cut because it also discarded some of electrons as well, but we wanted to make sure that we cut-off the bad pion really. We called this cut as "5-Rings cut".
 
-The second selection, because we wanted to select the "fully EM-showering", and we didn't have the HCAL energy this time, we only could use the poor man's solution, which was finding the last layer energies and using it. In the Fig.\ref{} is the plot to find the last layer energies MIPs with event number. Eventually, we used the last layer energies smaller than 20MIPs to tag the fully showering events.
+The second selection, because we wanted to select the "fully EM-showering", and we didn't have the information of HCAL energies in this month test-beam, we only could use the "poor man's solution"-finding the last layer energies and using it to be our cut. In the Fig.\ref{} is the plot which was used to find the last layer energies cut with the events which are after 5-Rings cut . Eventually, we used the last layer energies smaller than 20MIPs to tag the fully showering events, and reserving most of the pion after 5-Rings cut.
 
-The third selection, it was the cut always used to find the EM-showering in pion before, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "energies in two Rings/energies in three Rings" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower.   
+The third selection, it was the cut always used to find the EM-showering in pion traditionally, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "$\frac{\mathrm{Energies \ in \ two \ Rings}}{\mathrm{Energies \ in \ three \ Rings}} = \frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower.   
 
-The fourth selection, 
+The fourth selection, because we applied those cuts from first to third, and we looked the shower depth of those events, we found there exists two types of electron-like pion:
+\begin{itemize}
+\item Early EM-showering: Those events have the similar behavior, such as shower depth and energy deposition, with the electrons in ECAL. We can't distinguish them from electrons very well.
+\item Late  EM-showering: Those events have the late showering compared with the electrons in ECAL, and they put most of the energies in the backward ECAL, we can use some variables to distinguish this kind of pion from electrons.
+\end{itemize}
+We used the cut that, we require a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We record the first layer found with more than 3MIPs. And at least 2 consecutive layers with more than two seeds with Energy$>$3MIPs. If the layer of start showering is from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it starts at sixth to later layers, we called it "Late EM-showering". For note, because this is the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just used one variable to distinguish "both" of them from electrons. I will show the results later. Until now, we can see the one strong point that is different between electron and e-like pion - the shower energies deposit in the ECAL. Because some of them put energies in the different section of ECAL, specially for the Late EM-showering. In this case, we thought about the variables with "longitudinal segmentation" with ECAL. We developed the discrimination variable as following:
+\begin{equation}
+E_{10}=\frac{E_{\mathrm{first \ 10 \ layers \ energies}}}{E_{\mathrm{total \ energies}}}
+\end{equation}
+
+Intuitively, because the electrons put most of the energy in the front of the detector, they will have the bigger value for $E_{10}$. Oppositely, for the e-like pions, because they put all of the energy in the different sections, they will have many values for $E_{10}$ from all events. In the Fig.\ref{}, we can see that we can use $E_{10}$ to reject some of e-like pions out of the electron region. 
+
+In my study, we need to find the critical point to be the threshold, because we wanted to reserve the electrons as many as possible, and cut-off the bad pions for our best. In the table\ref{}, first we used the 0.2, 0.3 and 0.4, to see the power of it. 
+\begin{figure}[!htb]
+\centering
+     \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
+     \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf}\\
+     \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
+     \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
+\caption{These figures present the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
+\label{fig:PCB_injection_pulse_study}
+\end{figure}
+
 \subsection{The results of application in October test-beam MC}
 
+\begin{comment}
+ it shows the $E_{10}$ plot which is drawn by the events which are passed all cut we told before.
 \section{Milestone Achieved}
 \begin{itemize}
 \item Publish my first journal paper: "Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider" to arxiv and the Journal of instrumentation(JINST), now it is reviewed by the people in the journal.
@@ -1655,7 +1679,7 @@ Also, no dependencies of the gain ratio as a function of the beam energies, runs
 \end{figure}
 \clearpage
 \newpage
-
+\end{comment}
 
 \bibliography{auto_generated}
 

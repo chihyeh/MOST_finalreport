@@ -9,10 +9,3 @@
 \contentsline {subsection}{\numberline {3.1}Introduction for HGCAL}{9}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}The results of optimized cuts and new variable from June test-beam MC}{10}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}The results of application in October test-beam MC}{11}{subsection.3.3}
-\contentsline {section}{\numberline {4}Milestone Achieved}{11}{section.4}
-\contentsline {section}{\numberline {5}Acknowledgement}{11}{section.5}
-\contentsline {section}{\numberline {6}Search for heavy resonances decaying into a vector boson and a Higgs boson in the (ll, lnu, nunu) bb final state at $\sqrt {s}=13\nobreakspace {}\ensuremath {\tmspace +\thinmuskip {.1667em}\text {Te\hspace {-.08em}V}}\xspace $}{17}{section.6}
-\contentsline {section}{\numberline {7}Search for dark matter in association with a Higgs boson decaying into a pair of bottom quarks at $\sqrt {s} = 13\nobreakspace {}\ensuremath {\tmspace +\thinmuskip {.1667em}\text {Te\hspace {-.08em}V}}\xspace $ with the CMS detector }{23}{section.7}
-\contentsline {section}{\numberline {8}Search for heavy resonances decaying to a pair of Higgs bosons in the four b quark final state in proton-proton collisions at $\sqrt {s}=13\nobreakspace {}\ensuremath {\tmspace +\thinmuskip {.1667em}\text {Te\hspace {-.08em}V}}\xspace $ }{29}{section.8}
-\contentsline {section}{\numberline {9}Work as the CMS contact of the 2HDM+a model in the LHC Dark Matter Working Group}{39}{section.9}
-\contentsline {section}{\numberline {10}Analysis of the HGC test beam data}{40}{section.10}

@@ -142,6 +142,7 @@
 \usepackage{helvet}%      Choose default sans serif
 \usepackage{sectsty}%     Change style of headings (should precede section redefinitions below)
 \allsectionsfont{\sffamily}% Set sans serif for all headings
+\usepackage{verbatim}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
