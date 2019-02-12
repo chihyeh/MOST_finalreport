@@ -342,7 +342,7 @@ First of all, because the first SCA (the 0th) is useful for making on-line pedes
 \label{fig:PCB_Stability}
 \end{figure}
 
-Second, we wanted to explore the correlation between injection pulse strength and the cross-talk. In real physics, because particles will have different energies individually in the collider, they will see the different pulse strength in the real case. At there, we wanted to see whether the different pulse strength will give out more or less the cross-talk. In the fig.\ref{fig:PCB_injection_pulse_study}, they show that the mean and error values from Pedestal-subtracted value for different DAC of injection pulse. The results for them are quiet obviously showing that the channels near the injection channel, when the DAC is higher, the cross-talk will be more significant. Oppositely, when the channel is farther from the injection channel, it won't be influenced by the increased cross-talk when the DAQ go much higher.
+Second, we wanted to explore the correlation between injection pulse strength and the cross-talk. In real physics, because particles will have different energy individually in the collider, they will see the different pulse strength in the real case. At there, we wanted to see whether the different pulse strength will give out more or less the cross-talk. In the fig.\ref{fig:PCB_injection_pulse_study}, they show that the mean and error values from Pedestal-subtracted value for different DAC of injection pulse. The results for them are quiet obviously showing that the channels near the injection channel, when the DAC is higher, the cross-talk will be more significant. Oppositely, when the channel is farther from the injection channel, it won't be influenced by the increased cross-talk when the DAQ go much higher.
 
 \begin{figure}[!htb]
 \centering
@@ -357,7 +357,7 @@ Second, we wanted to explore the correlation between injection pulse strength an
 For the conclusion, we can see from our study that the cross-talk exist in the Hexaboard, and we used the ADC-counts from the Pedestal-subtracted values to quantify the cross-talk. We expected that this study can help to quantify the cross-talk and can decrease it in the future.
 
 \section{Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}
-In most cases, the electrons leave most of the energies in ECAL by the processes of pair production and bremsstrahlung. Different from them, Chagred-pions deposit most of the energies in Hadronic Calorimeter(HCAL) through the process of segmentation. Unfortunately, in some cases, those pions could give out the fully Electromagnetic(EM) showering in ECAL, and put most of the energies in it. If we can't explore the way to tag those pions and reject them, it will be very terrible. Because they will be misidentified as the electrons, and those "fake electrons" could contaminate with the real electrons.  In addition, it could influence the analysis which is sensitive to the electron/pion distinguishability. We expected to solve this issue and help the physics analysis in the future.
+In most cases, the electrons leave most of the energy in ECAL by the processes of pair production and bremsstrahlung. Different from them, Chagred-pions deposit most of the energy in Hadronic Calorimeter(HCAL) through the process of segmentation. Unfortunately, in some cases, those pions could give out the fully Electromagnetic(EM) showering in ECAL, and put most of the energy in it. If we can't explore the way to tag those pions and reject them, it will be very terrible. Because they will be misidentified as the electrons, and those "fake electrons" could contaminate with the real electrons.  In addition, it could influence the analysis which is sensitive to the electron/pion distinguishability. We expected to solve this issue and help the physics analysis in the future.
 
 Because of the significant challenges for radiation tolerance and event pileup on the detectors of the CMS experiment at LHC, they will replace the current Endcap calorimeter with a Si-pad HGCAL, a new generation state-of-the-art calorimeter, which can perform 3D imaging of the shower as well as provide ~30ps timing. To test the performance of HGCAL, including calibration, particle identification, etc. before it will be installed in CMS Phase \rom{2} upgrade , we did the "test-beam", which was held to incident the test particles, such as electron, pion and muon into HGCAL prototype, and analyze its performance from the information of the hits come out with the detector. At the same time,  The Monto Carlo(MC) samples are provided with the same prototype to let the people study as well.  We used the test-beam MC samples which are done in CMS on June and October 2019 to do this study. The group of test-beam divided the studies into many different topics, and my topic was in the section of "electron/pion identification".
 
@@ -396,25 +396,73 @@ In the test-beam, we used the material based on prototype of HGCAL written below
 
 Because we wanted to find out the "electron-like" pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for the cuts and selections as following. In this studies, we used the sample with 50GeV electron and pion MC.
 
-The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the cut with the different number of rings on the transverse plane of detector. In the Fig.\ref{} shows the distribution plot of ring. In the end, we chose the energy of 5 Rings for being the cuts. Fig.\ref{} is presented to show the cut we used with "$\frac{\mathrm{Energies \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energies}}$". Because we can see in the plot, the energies of electrons showering are collected out of the 5 Rings with at most 1\% compared with total energies in ECAL, in the end, we chose this standard to tag the e-like pions first. Although, it is the tight cut because it also discarded some of electrons as well, but we wanted to make sure that we cut-off the bad pion really. We called this cut as "5-Rings cut".
+The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the cut with the different number of rings on the transverse plane of detector. In the Fig.\ref{} shows the distribution plot of ring. In the end, we chose the energy of 5 Rings for being the cuts. Fig.\ref{} is presented to show the cut we used with "$\frac{\mathrm{energy \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energy}}$". Because we can see in the plot, the energy of electrons showering are collected out of the 5 Rings with at most 1\% compared with total energy in ECAL, in the end, we chose this standard to tag the e-like pions first. Although, it is the tight cut because it also discarded some of electrons as well, but we wanted to make sure that we cut-off the bad pion really. We called this cut as "5-Rings cut".
 
-The second selection, because we wanted to select the "fully EM-showering", and we didn't have the information of HCAL energies in this month test-beam, we only could use the "poor man's solution"-finding the last layer energies and using it to be our cut. In the Fig.\ref{} is the plot which was used to find the last layer energies cut with the events which are after 5-Rings cut . Eventually, we used the last layer energies smaller than 20MIPs to tag the fully showering events, and reserving most of the pion after 5-Rings cut.
+The second selection, because we wanted to select the "fully EM-showering", and we didn't have the information of HCAL energy in this month test-beam, we only could use the "poor man's solution"-finding the last layer energy and using it to be our cut. In the Fig.\ref{} is the plot which was used to find the last layer energy cut with the events which are after 5-Rings cut . Eventually, we used the last layer energy smaller than 20MIPs to tag the fully showering events, and reserving most of the pion after 5-Rings cut.
 
-The third selection, it was the cut always used to find the EM-showering in pion traditionally, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "$\frac{\mathrm{Energies \ in \ two \ Rings}}{\mathrm{Energies \ in \ three \ Rings}} = \frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower.   
+The third selection, it was the cut always used to find the EM-showering in pion traditionally, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "$\frac{\mathrm{energy \ in \ two \ Rings}}{\mathrm{energy \ in \ three \ Rings}} = \frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower.   
 
 The fourth selection, because we applied those cuts from first to third, and we looked the shower depth of those events, we found there exists two types of electron-like pion:
 \begin{itemize}
 \item Early EM-showering: Those events have the similar behavior, such as shower depth and energy deposition, with the electrons in ECAL. We can't distinguish them from electrons very well.
-\item Late  EM-showering: Those events have the late showering compared with the electrons in ECAL, and they put most of the energies in the backward ECAL, we can use some variables to distinguish this kind of pion from electrons.
+\item Late  EM-showering: Those events have the late showering compared with the electrons in ECAL, and they put most of the energy in the backward ECAL, we can use some variables to distinguish this kind of pion from electrons.
 \end{itemize}
-We used the cut that, we require a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We record the first layer found with more than 3MIPs. And at least 2 consecutive layers with more than two seeds with Energy$>$3MIPs. If the layer of start showering is from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it starts at sixth to later layers, we called it "Late EM-showering". For note, because this is the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just used one variable to distinguish "both" of them from electrons. I will show the results later. Until now, we can see the one strong point that is different between electron and e-like pion - the shower energies deposit in the ECAL. Because some of them put energies in the different section of ECAL, specially for the Late EM-showering. In this case, we thought about the variables with "longitudinal segmentation" with ECAL. We developed the discrimination variable as following:
+We used the cut that, we require a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We record the first layer found with more than 3MIPs. And at least 2 consecutive layers with more than two seeds with Energy$>$3MIPs. If the layer of start showering is from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it starts at sixth to later layers, we called it "Late EM-showering". For note, because this is the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just used one variable to distinguish "both" of them from electrons. I will show the results later. 
+
+\begin{table}[h]%??table???????????????????[h]???????here?????????????
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Tight cut types & value\\\hline
+    5-Rings cut &  $>$ 0.99 \\\hline  
+    The last layer energy & $<$ 20MIPs \\\hline  
+    E7/E19 & $>$ 0.75\\\hline  
+        \end{tabular}
+    \caption{E10/Etotal Tight cuts selection}\label{basic_1}  %????????????
+\end{table}
+
+Until now, we can see the one strong point that is different between electron and e-like pion - the shower energy deposit in the ECAL. Because some of them put energy in the different section of ECAL, specially for the Late EM-showering. In this case, we thought about the variables with "longitudinal segmentation" with ECAL. We developed the discrimination variable as following:
 \begin{equation}
-E_{10}=\frac{E_{\mathrm{first \ 10 \ layers \ energies}}}{E_{\mathrm{total \ energies}}}
+\mathrm{E_{10}=\frac{E_{\mathrm{first \ 10 \ layers \ energy}}}{E_{\mathrm{total \ energy}}}}
 \end{equation}
 
-Intuitively, because the electrons put most of the energy in the front of the detector, they will have the bigger value for $E_{10}$. Oppositely, for the e-like pions, because they put all of the energy in the different sections, they will have many values for $E_{10}$ from all events. In the Fig.\ref{}, we can see that we can use $E_{10}$ to reject some of e-like pions out of the electron region. 
+Intuitively, because the electrons put most of the energy in the front of the detector, they will have the bigger value for $\mathrm{E_{10}}}$. Oppositely, for the e-like pions, because they put all of the energy in the different sections, they will have many values for $\mathrm{E_{10}}}$ from all events. In the Fig.\ref{}, we can see that we can use $\mathrm{E_{10}}}$ to reject some of e-like pions out of the electron region. 
 
-In my study, we need to find the critical point to be the threshold, because we wanted to reserve the electrons as many as possible, and cut-off the bad pions for our best. In the table\ref{}, first we used the 0.2, 0.3 and 0.4, to see the power of it. 
+In my study, we need to find the critical point of $\mathrm{E_{10}}}$ to be the threshold, because we wanted to reserve the electrons as many as possible, and cut-off the bad pions for our best. 
+We used the quantities about the "Electron Efficiency" and "Background Rejection" as our standard in the following formula, to see whether this cut is good:
+\begin{equation}
+\mathrm{Electron \ Efficiency \ = \frac{Pass \ electrons}{Total \ electrons}}
+\end{equation}
+\begin{equation}
+\mathrm{Background \ Rejection \ = \frac{Total \ e-like \ pions}{Pass \ e-like \ pions}}
+\end{equation}
+Our goal is to cut-off the most e-like pion with the highest background rejection ( pass the least e-like pions ), but reserve the most electrons with the highest electron efficiency in the Fig.\ref{}. ( pass the most electrons ).
+
+First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether it can give us the best results. In the Table.\ref{basic_1}}, it tells us that the background rejection is good, but we hoped that our electron efficiency will go to 99.8\% also and won't drop after the higher critical point, later we tried to use the point near 0.2 and see whether we can get the great results without losing more electrons. In the Table.\ref{basic_2}, it said that near the point 0.2, it can reserve most of the electrons near 99.9\% and can get the background rejection with the expectation value near 2. 
+\begin{table}[h]%??table???????????????????[h]???????here?????????????
+    \centering
+    \begin{tabular}{|l|c|c|}
+    \hline
+    E10/Etotal cut  & Background Rejection  &  Electrons Efficiency\\\hline
+    $>$0.2 & 2.15+/-0.18(stat)   & 99.85\%+/-0.01\%(stat) \\\hline
+    $>$0.3 & 2.53+/-0.24(stat)   & 99.30\%+/-0.01\%(stat) \\\hline
+    $>$0.4 & 2.74+/-0.28(stat)   & 97.32\%+/-0.01\%(stat) \\\hline
+    \end{tabular}
+    \caption{E10/Etotal cuts background rejection vs. Electrons Efficiency with true values}\label{basic_1}  %????????????
+\end{table}
+
+\begin{table}[h]%??table???????????????????[h]???????here?????????????
+    \centering
+    \begin{tabular}{|l|c|c|}
+    \hline
+    E10/Etotal cut  & Background Rejection  &  Electrons Efficiency\\\hline
+    $>$0.16 & 2.02+/-0.15(stat)   & 99.93\%+/-0.01\%(stat) \\\hline
+    $>$0.18 & 2.07+/-0.16(stat)   & 99.89\%+/-0.01\%(stat) \\\hline
+    $>$0.20 & 2.15+/-0.17(stat)   & 99.85\%+/-0.01\%(stat) \\\hline
+    \end{tabular}
+    \caption{E10/Etotal cuts background rejection vs. Electrons efficiency with true values}\label{basic_2}  %????????????
+\end{table}
+
 \begin{figure}[!htb]
 \centering
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
@@ -1628,7 +1676,7 @@ in a NIM or JINST paper.
 
 In order to evaluate the crossover point (the threshold above which it is advantageous to use the LG instead of HG) we measured the sensor 
 cell signals from the two gains in ADC counts after pedestal and common-mode subtraction on an event-by-event basis. We used electrons at 
-various energies to explore the full
+various energy to explore the full
 dynamic range: $E_{e}$= [20, 70, 100, 150, 200, 250]~GeV and for the two Skiroc2 chips separately per module. The output
 of the study was a set of two-dimensional histograms showing the expected linear trend between the two gains and the crossover point around
 the position [HG ; LG] = [1800 ; 200] ADC counts, above which the saturation of the HG is seen. In order to have a precise
@@ -1643,7 +1691,7 @@ between the HG cut off and the LG cut off (HG/LG), which was used to normalize t
 ratio for the first Skiroc2 are reported in Table~\ref{tab:saturation}. As can be seen from the table, no significant trends nor discrepancie\
 s
 are found for the gain ratio results through the 8 layers.
-Also, no dependencies of the gain ratio as a function of the beam energies, runs nor Skiroc2 chips have been observed.
+Also, no dependencies of the gain ratio as a function of the beam energy, runs nor Skiroc2 chips have been observed.
 
 
 %Thus, we selected the saturation point equal to 200 and applied a cut on it in the energy calibration analysis.                              
