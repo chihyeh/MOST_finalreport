@@ -454,7 +454,7 @@ We used the cut that, we require a consecutive number of hits in CE-E starting f
     The last layer energy & $<$ 20MIPs \\\hline  
     E7/E19 & $>$ 0.75\\\hline  
         \end{tabular}
-    \caption{E10/Etotal Tight cuts selection}\label{basic_1}  %????????????
+    \caption{E10/Etotal Tight cuts selection used in June test-beam}\label{basic_1}  %????????????
 \end{table}
 
 Until now, we can see the one strong point that is different between electron and e-like pion - the shower energy deposit in the ECAL. Because some of them put energy in the different section of ECAL, specially for the Late EM-showering. In this case, we thought about the variables with "longitudinal segmentation" with ECAL. We developed the discrimination variable as following:
@@ -470,11 +470,12 @@ We used the quantities about the "Electron Efficiency" and "Background Rejection
 \mathrm{Electron \ Efficiency \ = \frac{Pass \ electrons}{Total \ electrons}}
 \end{equation}
 \begin{equation}
-\mathrm{Background \ Rejection \ = \frac{Total \ e-like \ pions}{Pass \ e-like \ pions}}
+\mathrm{Background \ Rejection \ = \frac{Total \ e\mathrm{-}like \ pions}{Pass \ e\mathrm{-}like \ pions}}
 \end{equation}
 Our goal is to cut-off the most e-like pion with the highest background rejection ( pass the least e-like pions ), but reserve the most electrons with the highest electron efficiency in the Fig.\ref{}. ( pass the most electrons ).
 
-First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether it can give us the best results. In the Table.\ref{basic_1}}, it tells us that the background rejection is good, but we hoped that our electron efficiency will go to 99.8\% also and won't drop after the higher critical point, later we tried to use the point near 0.2 and see whether we can get the great results without losing more electrons. In the Table.\ref{basic_2}, it said that near the point 0.2, it can reserve most of the electrons near 99.9\% and can get the background rejection with the expectation value near 2. 
+First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether it can give us the best results. In the Table.\ref{basic_1}}, it tells us that the background rejection is good ( more than half of e-like pions are rejected ), but we hoped that our electron efficiency will go to 99.8\% or more. On the other hand, we still wanted to keep the electrons alive after the higher critical point to reserve most important researches on them.
+
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
     \begin{tabular}{|l|c|c|}
@@ -484,8 +485,10 @@ First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether i
     $>$0.3 & 2.53+/-0.24(stat)   & 99.30\%+/-0.01\%(stat) \\\hline
     $>$0.4 & 2.74+/-0.28(stat)   & 97.32\%+/-0.01\%(stat) \\\hline
     \end{tabular}
-    \caption{E10/Etotal cuts background rejection vs. Electrons Efficiency with true values}\label{basic_1}  %????????????
+    \caption{E10 cuts of Electrons Efficiency and Background Rejection comparison with point 0.2,0.3 and 0.4}\label{basic_1}  %????????????
 \end{table}
+
+In this case, we tried to use another points near 0.2 and see whether we can get the great results without losing more electrons. In the Table.\ref{basic_2}, it said that near the point 0.2, it can reserve most of the electrons near 99.9\% and can get the background rejection with the expectation value near 2 (Half of rejection). 
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -496,8 +499,42 @@ First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether i
     $>$0.18 & 2.07+/-0.16(stat)   & 99.89\%+/-0.01\%(stat) \\\hline
     $>$0.20 & 2.15+/-0.17(stat)   & 99.85\%+/-0.01\%(stat) \\\hline
     \end{tabular}
-    \caption{E10/Etotal cuts background rejection vs. Electrons efficiency with true values}\label{basic_2}  %????????????
+    \caption{E10 cuts of Electrons Efficiency and Background Rejection comparison with point 0.16,0.18 and 0.20}\label{basic_2}  %????????????
 \end{table}
+
+For the conclusion of this month test-beam results, we found that the Background Rejection can be near 2 without killing many electrons with 99.9\% Electron Efficiency. For our expectation, we wanted to apply this cut in the October test-beam, to see whether we can see the similar results. 
+
+\subsection{The results of application in October test-beam MC}
+In this month test beam, because we had the information of HCAL, we used the cut no more than 0.4\% energy fraction in the HCAL energy. And also, we changed some parameters of the cuts to get the best results, the cuts and parameters are as following:
+\begin{table}[h]%??table???????????????????[h]???????here?????????????
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Tight cut types & value\\\hline
+    5-Rings cut &  $>$ 0.99 \\\hline  
+    HCAL/ECAL energy ratio & $<$ 0.004 \\\hline  
+    E7/E19 & $>$ 0.85\\\hline  
+        \end{tabular}
+    \caption{E10/Etotal Tight cuts selection used in October test-beam}\label{basic_1}  %????????????
+\end{table}
+
+\begin{table}[h]%??table???????????????????[h]???????here?????????????
+    \centering
+    \begin{tabular}{|l|c|c|}
+    \hline
+    E10/Etotal cut & Signal Efficiency & Background Rejection\\\hline
+    $>$ 0.18 &  99.56\%+/-0.01\%(syst)+/-0.20\%(stat) &  1.52+/-0.27(stat)\\\hline  
+    $>$ 0.20 &  99.05\%+/-0.01\%(syst)+/-0.20\%(stat) &  1.53+/-0.26(stat)\\\hline  
+    $>$ 0.22 &  98.91\%+/-0.01\%(syst)+/-0.20\%(stat) &  1.56+/-0.24(stat)\\\hline  
+        \end{tabular}
+    \caption{E10/Etotal Electrons efficiency Tight cuts}\label{basic_3}  %????????????
+\end{table}
+
+
+
+
+
+\begin{comment}
 
 \begin{figure}[!htb]
 \centering
@@ -511,7 +548,6 @@ First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether i
 
 \subsection{The results of application in October test-beam MC}
 
-\begin{comment}
  it shows the $E_{10}$ plot which is drawn by the events which are passed all cut we told before.
 \section{Milestone Achieved}
 \begin{itemize}
