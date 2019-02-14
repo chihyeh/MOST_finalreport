@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  13 FEB 2019 11:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  14 FEB 2019 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,193 +1178,195 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 299.
 [2]
-Overfull \hbox (0.17503pt too wide) in paragraph at lines 318--319
+Overfull \hbox (0.17503pt too wide) in paragraph at lines 327--328
 []\OT1/ppl/m/n/12 I did this study with Prof.Stathes Pa-ga-nis, Prof.Rong-Shaya
 ng Lu, mas-ter stu-dent Chia-
  []
 
 <789FIG PCB_study/Hexaboard.png 0>
-<PCB_study/Hexaboard.png, id=85, 360.34625pt x 316.18124pt>
+<PCB_study/Hexaboard.png, id=90, 360.34625pt x 316.18124pt>
 File: PCB_study/Hexaboard.png Graphic file (type png)
 <use PCB_study/Hexaboard.png>
-Package pdftex.def Info: PCB_study/Hexaboard.png used on input line 331.
+Package pdftex.def Info: PCB_study/Hexaboard.png used on input line 340.
 (pdftex.def)             Requested size: 204.85844pt x 179.74754pt.
 <789FIG PCB_study/RPI.png 0>
-<PCB_study/RPI.png, id=87, 425.59pt x 305.14pt>
+<PCB_study/RPI.png, id=92, 425.59pt x 305.14pt>
 File: PCB_study/RPI.png Graphic file (type png)
 <use PCB_study/RPI.png>
-Package pdftex.def Info: PCB_study/RPI.png used on input line 332.
+Package pdftex.def Info: PCB_study/RPI.png used on input line 341.
 (pdftex.def)             Requested size: 204.85844pt x 146.87991pt.
 <789FIG PCB_study/Data_flow.png 0>
-<PCB_study/Data_flow.png, id=88, 697.60625pt x 264.99pt>
+<PCB_study/Data_flow.png, id=93, 697.60625pt x 264.99pt>
 File: PCB_study/Data_flow.png Graphic file (type png)
 <use PCB_study/Data_flow.png>
-Package pdftex.def Info: PCB_study/Data_flow.png used on input line 333.
+Package pdftex.def Info: PCB_study/Data_flow.png used on input line 342.
 (pdftex.def)             Requested size: 409.71689pt x 155.63515pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 339.
+(Font)              scaled to size 10.42007pt on input line 348.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 339.
+(Font)              scaled to size 7.91925pt on input line 348.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 339.
+(Font)              scaled to size 6.25204pt on input line 348.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 339.
+(Font)              scaled to size 10.42007pt on input line 348.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 339.
+(Font)              scaled to size 7.91925pt on input line 348.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 339.
+(Font)              scaled to size 6.25204pt on input line 348.
 [3] [4 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRepor
 t/trunk/PCB_study/Hexaboard.png> </Users/ms08962476/Latex_report/MOST_finalrepo
 rt/notes/MOST-103-endReport/trunk/PCB_study/RPI.png> </Users/ms08962476/Latex_r
 eport/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/Data_flow.png>]
 <789FIG PCB_study/channelmap.pdf 1>
-<PCB_study/channelmap.pdf, id=106, 845.04686pt x 597.50786pt>
+<PCB_study/channelmap.pdf, id=111, 845.04686pt x 597.50786pt>
 File: PCB_study/channelmap.pdf Graphic file (type pdf)
 <use PCB_study/channelmap.pdf>
-Package pdftex.def Info: PCB_study/channelmap.pdf used on input line 353.
+Package pdftex.def Info: PCB_study/channelmap.pdf used on input line 362.
 (pdftex.def)             Requested size: 409.71689pt x 289.69978pt.
-<789FIG PCB_study/His_Pedestal.png 2>
-<PCB_study/His_Pedestal.png, id=108, 336.25626pt x 229.85875pt>
-File: PCB_study/His_Pedestal.png Graphic file (type png)
-<use PCB_study/His_Pedestal.png>
-Package pdftex.def Info: PCB_study/His_Pedestal.png used on input line 362.
-(pdftex.def)             Requested size: 182.09485pt x 124.4761pt.
-<789FIG PCB_study/His_charge.png 2>
-<PCB_study/His_charge.png, id=109, 350.30875pt x 234.8775pt>
-File: PCB_study/His_charge.png Graphic file (type png)
-<use PCB_study/His_charge.png>
-Package pdftex.def Info: PCB_study/His_charge.png used on input line 363.
-(pdftex.def)             Requested size: 182.09485pt x 122.094pt.
-<789FIG PCB_study/His_subtraction.png 2>
-<PCB_study/His_subtraction.png, id=110, 350.30875pt x 236.885pt>
-File: PCB_study/His_subtraction.png Graphic file (type png)
-<use PCB_study/His_subtraction.png>
-Package pdftex.def Info: PCB_study/His_subtraction.png used on input line 364.
-(pdftex.def)             Requested size: 182.09485pt x 123.13753pt.
 [5 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
 unk/PCB_study/channelmap.pdf, page is rotated 90 degrees>]
+<789FIG PCB_study/His_Pedestal.png 2>
+<PCB_study/His_Pedestal.png, id=130, 336.25626pt x 229.85875pt>
+File: PCB_study/His_Pedestal.png Graphic file (type png)
+<use PCB_study/His_Pedestal.png>
+Package pdftex.def Info: PCB_study/His_Pedestal.png used on input line 371.
+(pdftex.def)             Requested size: 182.09485pt x 124.4761pt.
+<789FIG PCB_study/His_charge.png 2>
+<PCB_study/His_charge.png, id=131, 350.30875pt x 234.8775pt>
+File: PCB_study/His_charge.png Graphic file (type png)
+<use PCB_study/His_charge.png>
+Package pdftex.def Info: PCB_study/His_charge.png used on input line 372.
+(pdftex.def)             Requested size: 182.09485pt x 122.094pt.
+<789FIG PCB_study/His_subtraction.png 2>
+<PCB_study/His_subtraction.png, id=132, 350.30875pt x 236.885pt>
+File: PCB_study/His_subtraction.png Graphic file (type png)
+<use PCB_study/His_subtraction.png>
+Package pdftex.def Info: PCB_study/His_subtraction.png used on input line 373.
+(pdftex.def)             Requested size: 182.09485pt x 123.13753pt.
 <789FIG PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf 3>
 
-<PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, id=129, 569.12625pt 
+<PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, id=134, 569.12625pt 
 x 543.02875pt>
 File: PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf Graphic file (ty
 pe pdf)
 <use PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.p
-df used on input line 374.
+df used on input line 383.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 <789FIG PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf 3>
 
-<PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, id=130, 569.12625pt 
+<PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, id=135, 569.12625pt 
 x 543.02875pt>
 File: PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf Graphic file (ty
 pe pdf)
 <use PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.p
-df used on input line 375.
-(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-<789FIG PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
-
-<PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=132, 5
-69.12625pt x 543.02875pt>
-File: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
-ic file (type pdf)
-<use PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
-Package pdftex.def Info: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 385.
-(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-<789FIG PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
-
-<PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=133, 5
-69.12625pt x 543.02875pt>
-File: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
-ic file (type pdf)
-<use PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
-Package pdftex.def Info: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 386.
-(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-<789FIG PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
-
-<PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=134, 5
-69.12625pt x 543.02875pt>
-File: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
-ic file (type pdf)
-<use PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
-Package pdftex.def Info: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 387.
-(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-<789FIG PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
-
-<PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=135, 5
-69.12625pt x 543.02875pt>
-File: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
-ic file (type pdf)
-<use PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
-Package pdftex.def Info: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 388.
+df used on input line 384.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 [6 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
 unk/PCB_study/His_Pedestal.png> </Users/ms08962476/Latex_report/MOST_finalrepor
 t/notes/MOST-103-endReport/trunk/PCB_study/His_charge.png> </Users/ms08962476/L
 atex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/His_subtr
-action.png>] [7 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103
--endReport/trunk/PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, page
- is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/
-MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.p
-df, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalrepor
-t/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subt
-ract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_rep
-ort/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel2
-2_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/m
-s08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_stud
-y/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90
- degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRe
-port/trunk/PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf,
- page is rotated 90 degrees>]
-Overfull \hbox (0.17503pt too wide) in paragraph at lines 402--403
+action.png>]
+<789FIG PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
+
+<PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=146, 5
+69.12625pt x 543.02875pt>
+File: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
+ic file (type pdf)
+<use PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
+Package pdftex.def Info: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mea
+n_and_RMS.pdf used on input line 394.
+(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
+<789FIG PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
+
+<PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=147, 5
+69.12625pt x 543.02875pt>
+File: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
+ic file (type pdf)
+<use PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
+Package pdftex.def Info: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mea
+n_and_RMS.pdf used on input line 395.
+(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
+<789FIG PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
+
+<PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=148, 5
+69.12625pt x 543.02875pt>
+File: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
+ic file (type pdf)
+<use PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
+Package pdftex.def Info: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mea
+n_and_RMS.pdf used on input line 396.
+(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
+<789FIG PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
+
+<PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=149, 5
+69.12625pt x 543.02875pt>
+File: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
+ic file (type pdf)
+<use PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
+Package pdftex.def Info: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mea
+n_and_RMS.pdf used on input line 397.
+(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
+[7 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
+unk/PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, page is rotated 9
+0 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endR
+eport/trunk/PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, page is r
+otated 90 degrees>]
+Overfull \hbox (0.17503pt too wide) in paragraph at lines 411--412
 []\OT1/ppl/m/n/12 I did this study with Prof.Stathes Pa-ga-nis, Prof.Rong-Shaya
 ng Lu, mas-ter stu-dent Chia-
  []
 
-[8]
+[8 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
+unk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page i
+s rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MO
+ST-103-endReport/trunk/PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_
+and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_f
+inalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel44_Pedestal
+_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/
+Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0
+_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees>]
+[9]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 425.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 434.
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 425.
-
-
-LaTeX Warning: Reference `' on page 9 undefined on input line 425.
+LaTeX Warning: Reference `' on page 10 undefined on input line 434.
 
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 425.
+LaTeX Warning: Reference `' on page 10 undefined on input line 434.
 
 
-Overfull \hbox (5.08287pt too wide) in paragraph at lines 425--426
+LaTeX Warning: Reference `' on page 10 undefined on input line 434.
+
+
+Overfull \hbox (5.08287pt too wide) in paragraph at lines 434--435
 \OT1/ppl/m/n/12 by a hadronic com-part-ment (CE-H) with For-ward re-gion(FH) an
 d Back-ward re-gion(BH)
  []
 
-[9]
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 427.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 435.
+LaTeX Warning: Reference `' on page 10 undefined on input line 436.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 435.
+LaTeX Warning: Reference `' on page 10 undefined on input line 444.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 437.
+LaTeX Warning: Reference `' on page 10 undefined on input line 444.
 
 [10]
-Overfull \hbox (4.17116pt too wide) in paragraph at lines 443--444
+
+LaTeX Warning: Reference `' on page 11 undefined on input line 446.
+
+
+Overfull \hbox (4.17116pt too wide) in paragraph at lines 452--453
 []\OT1/ppl/m/n/12 Early EM-showering: Those events have the sim-i-lar be-hav-io
 r, such as shower
  []
 
+[11]
 ! Extra }, or forgotten $.
-l.466 ...ve the bigger value for $\mathrm{E_{10}}}
+l.475 ...ve the bigger value for $\mathrm{E_{10}}}
                                                   $. Oppositely, for the e-l...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1373,7 +1375,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.466 ...ll have many values for $\mathrm{E_{10}}}
+l.475 ...ll have many values for $\mathrm{E_{10}}}
                                                   $ from all events. In the ...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1382,10 +1384,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 466.
+LaTeX Warning: Reference `' on page 12 undefined on input line 475.
 
 ! Extra }, or forgotten $.
-l.466 ...can see that we can use $\mathrm{E_{10}}}
+l.475 ...can see that we can use $\mathrm{E_{10}}}
                                                   $ to reject some of e-like...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1394,7 +1396,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.468 ...d the critical point of $\mathrm{E_{10}}}
+l.477 ...d the critical point of $\mathrm{E_{10}}}
                                                   $ to be the threshold, bec...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1402,12 +1404,11 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[11]
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 476.
+LaTeX Warning: Reference `' on page 12 undefined on input line 485.
 
 ! Too many }'s.
-l.478 ...best results. In the Table.\ref{basic_1}}
+l.487 ...best results. In the Table.\ref{basic_1}}
                                                   , it tells us that the bac...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1416,39 +1417,45 @@ Such booboos are generally harmless, so keep going.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `' on page 12 undefined on input line 518.
+
+[12] [13]
+Overfull \hbox (2.93465pt too wide) in paragraph at lines 555--556
+[]\OT1/ppl/m/n/12 Submit my first con-fer-ence pa-per: "Jet Sub-struc-ture Vari
+-ables with the SiFCC
+ []
 
 <567INP finalReport_temp.bbl>
 
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.bbl
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1807.
-[12] [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1807.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1832.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1832.
 
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1807.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1807.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1832.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1832.
 
 Package rerunfilecheck Info: File `finalReport_temp.out' has not changed.
-(rerunfilecheck)             Checksum: 2A0D11357712A8F8B5EC3BF17FA8A548;966.
+(rerunfilecheck)             Checksum: 8B103CD2B62E8EA39649CE798C700592;1022.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1807.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1832.
  ) 
 Here is how much of TeX's memory you used:
- 10404 strings out of 492995
- 147794 string characters out of 6132704
- 256833 words of memory out of 5000000
- 13713 multiletter control sequences out of 15000+600000
+ 10409 strings out of 492995
+ 147849 string characters out of 6132704
+ 255833 words of memory out of 5000000
+ 13716 multiletter control sequences out of 15000+600000
  39597 words of font info for 97 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 51i,13n,45p,1518b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,13n,45p,1518b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1459,10 +1466,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on finalReport_temp.pdf (15 pages, 766543 bytes).
+Output written on finalReport_temp.pdf (16 pages, 770001 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

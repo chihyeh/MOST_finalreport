@@ -3,9 +3,10 @@
 \contentsline {subsection}{\numberline {1.2}Summary for research topics}{2}{subsection.1.2}
 \contentsline {section}{\numberline {2}Cross-talk studies with the no sensor based Hexaboard in NTU }{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Experiment apparatus and Event reconstruction}{3}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Events and Methods for analysis}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Events and Methods for analysis}{5}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Results and Conclusion}{6}{subsection.2.3}
-\contentsline {section}{\numberline {3}Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}{8}{section.3}
+\contentsline {section}{\numberline {3}Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introduction for HGCAL}{9}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}The results of optimized cuts and new variable from June test-beam MC}{10}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}The results of application in October test-beam MC}{12}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}The results of application in October test-beam MC}{13}{subsection.3.3}
+\contentsline {section}{\numberline {4}Milestone Achieved}{14}{section.4}
