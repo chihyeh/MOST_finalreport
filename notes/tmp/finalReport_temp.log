@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  14 FEB 2019 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  15 FEB 2019 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,6 +464,12 @@ Defining CMS Note commands
 \CMSabstractbox=\box62
 )
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
+
+LaTeX Warning: Label `fig:PCB_injection_pulse_study' multiply defined.
+
+
+LaTeX Warning: Label `fig:PCB_injection_pulse_study' multiply defined.
+
 
 LaTeX Warning: Label `basic_1' multiply defined.
 
@@ -1201,6 +1207,7 @@ File: PCB_study/Data_flow.png Graphic file (type png)
 <use PCB_study/Data_flow.png>
 Package pdftex.def Info: PCB_study/Data_flow.png used on input line 342.
 (pdftex.def)             Requested size: 409.71689pt x 155.63515pt.
+[3]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 348.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1213,10 +1220,10 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 348.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 348.
-[3] [4 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRepor
-t/trunk/PCB_study/Hexaboard.png> </Users/ms08962476/Latex_report/MOST_finalrepo
-rt/notes/MOST-103-endReport/trunk/PCB_study/RPI.png> </Users/ms08962476/Latex_r
-eport/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/Data_flow.png>]
+[4 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
+unk/PCB_study/Hexaboard.png> </Users/ms08962476/Latex_report/MOST_finalreport/n
+otes/MOST-103-endReport/trunk/PCB_study/RPI.png> </Users/ms08962476/Latex_repor
+t/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/Data_flow.png>]
 <789FIG PCB_study/channelmap.pdf 1>
 <PCB_study/channelmap.pdf, id=111, 845.04686pt x 597.50786pt>
 File: PCB_study/channelmap.pdf Graphic file (type pdf)
@@ -1270,103 +1277,167 @@ atex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/His_subtr
 action.png>]
 <789FIG PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
 
-<PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=146, 5
+<PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=145, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
 <use PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 394.
+n_and_RMS.pdf used on input line 400.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 <789FIG PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
 
-<PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=147, 5
+<PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=146, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
 <use PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 395.
+n_and_RMS.pdf used on input line 401.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 <789FIG PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
 
-<PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=148, 5
+<PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=147, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
 <use PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 396.
+n_and_RMS.pdf used on input line 402.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 <789FIG PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
 
-<PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=149, 5
+<PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=148, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
 <use PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 397.
+n_and_RMS.pdf used on input line 403.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 [7 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
 unk/PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, page is rotated 9
 0 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endR
 eport/trunk/PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, page is r
-otated 90 degrees>]
-Overfull \hbox (0.17503pt too wide) in paragraph at lines 411--412
+otated 90 degrees>] [8 </Users/ms08962476/Latex_report/MOST_finalreport/notes/M
+OST-103-endReport/trunk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean
+_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_
+finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel22_Pedesta
+l_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476
+/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip
+0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees>
+ </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trun
+k/PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is 
+rotated 90 degrees>]
+Overfull \hbox (0.17503pt too wide) in paragraph at lines 417--418
 []\OT1/ppl/m/n/12 I did this study with Prof.Stathes Pa-ga-nis, Prof.Rong-Shaya
 ng Lu, mas-ter stu-dent Chia-
  []
 
-[8 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
-unk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page i
-s rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MO
-ST-103-endReport/trunk/PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_
-and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_f
-inalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel44_Pedestal
-_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/
-Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0
-_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees>]
 [9]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 434.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 440.
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 434.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 434.
+LaTeX Warning: Reference `' on page 10 undefined on input line 440.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 434.
+LaTeX Warning: Reference `' on page 10 undefined on input line 440.
 
 
-Overfull \hbox (5.08287pt too wide) in paragraph at lines 434--435
+LaTeX Warning: Reference `' on page 10 undefined on input line 440.
+
+
+Overfull \hbox (5.08287pt too wide) in paragraph at lines 440--441
 \OT1/ppl/m/n/12 by a hadronic com-part-ment (CE-H) with For-ward re-gion(FH) an
 d Back-ward re-gion(BH)
  []
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 436.
+LaTeX Warning: Reference `' on page 10 undefined on input line 442.
+
+<789FIG Delta-ray/Shower_pattern.png 5>
+<Delta-ray/Shower_pattern.png, id=424, 274.626pt x 234.1548pt>
+File: Delta-ray/Shower_pattern.png Graphic file (type png)
+<use Delta-ray/Shower_pattern.png>
+Package pdftex.def Info: Delta-ray/Shower_pattern.png used on input line 452.
+(pdftex.def)             Requested size: 182.09485pt x 155.25722pt.
+<789FIG Delta-ray/5-Rings_cuts.png 5>
+<Delta-ray/5-Rings_cuts.png, id=425, 312.16624pt x 206.7725pt>
+File: Delta-ray/5-Rings_cuts.png Graphic file (type png)
+<use Delta-ray/5-Rings_cuts.png>
+Package pdftex.def Info: Delta-ray/5-Rings_cuts.png used on input line 453.
+(pdftex.def)             Requested size: 182.09485pt x 120.6191pt.
+<789FIG Delta-ray/Last_layer_20MIPs_50GeV.png 5>
+<Delta-ray/Last_layer_20MIPs_50GeV.png, id=426, 432.1746pt x 417.2388pt>
+File: Delta-ray/Last_layer_20MIPs_50GeV.png Graphic file (type png)
+<use Delta-ray/Last_layer_20MIPs_50GeV.png>
+Package pdftex.def Info: Delta-ray/Last_layer_20MIPs_50GeV.png used on input li
+ne 454.
+(pdftex.def)             Requested size: 182.09485pt x 175.79935pt.
+<789FIG Delta-ray/E7_E19.png 5>
+<Delta-ray/E7_E19.png, id=427, 445.1832pt x 424.4658pt>
+File: Delta-ray/E7_E19.png Graphic file (type png)
+<use Delta-ray/E7_E19.png>
+Package pdftex.def Info: Delta-ray/E7_E19.png used on input line 455.
+(pdftex.def)             Requested size: 182.09485pt x 173.62405pt.
+
+LaTeX Warning: Reference `' on page 10 undefined on input line 460.
 
 
-LaTeX Warning: Reference `' on page 10 undefined on input line 444.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 444.
+LaTeX Warning: Reference `' on page 10 undefined on input line 460.
 
 [10]
 
-LaTeX Warning: Reference `' on page 11 undefined on input line 446.
+LaTeX Warning: Reference `' on page 11 undefined on input line 462.
 
-
-Overfull \hbox (4.17116pt too wide) in paragraph at lines 452--453
+[11 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/Shower_pattern.png> </Users/ms08962476/Latex_report/MOST_finalre
+port/notes/MOST-103-endReport/trunk/Delta-ray/5-Rings_cuts.png> </Users/ms08962
+476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Last
+_layer_20MIPs_50GeV.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes
+/MOST-103-endReport/trunk/Delta-ray/E7_E19.png>]
+Overfull \hbox (4.17116pt too wide) in paragraph at lines 468--469
 []\OT1/ppl/m/n/12 Early EM-showering: Those events have the sim-i-lar be-hav-io
 r, such as shower
  []
 
-[11]
+<789FIG Delta-ray/Normal_electron.png 6>
+<Delta-ray/Normal_electron.png, id=443, 278.03876pt x 112.42pt>
+File: Delta-ray/Normal_electron.png Graphic file (type png)
+<use Delta-ray/Normal_electron.png>
+Package pdftex.def Info: Delta-ray/Normal_electron.png used on input line 474.
+(pdftex.def)             Requested size: 204.85844pt x 82.83269pt.
+<789FIG Delta-ray/Normal_pion.png 6>
+<Delta-ray/Normal_pion.png, id=444, 282.05376pt x 127.47626pt>
+File: Delta-ray/Normal_pion.png Graphic file (type png)
+<use Delta-ray/Normal_pion.png>
+Package pdftex.def Info: Delta-ray/Normal_pion.png used on input line 475.
+(pdftex.def)             Requested size: 204.85844pt x 92.5881pt.
+<789FIG Delta-ray/Early_EM-showering.png 6>
+<Delta-ray/Early_EM-showering.png, id=445, 274.02374pt x 149.55875pt>
+File: Delta-ray/Early_EM-showering.png Graphic file (type png)
+<use Delta-ray/Early_EM-showering.png>
+Package pdftex.def Info: Delta-ray/Early_EM-showering.png used on input line 47
+6.
+(pdftex.def)             Requested size: 204.85844pt x 111.81049pt.
+<789FIG Delta-ray/Late_EM-showering.png 6>
+<Delta-ray/Late_EM-showering.png, id=446, 270.00874pt x 128.48pt>
+File: Delta-ray/Late_EM-showering.png Graphic file (type png)
+<use Delta-ray/Late_EM-showering.png>
+Package pdftex.def Info: Delta-ray/Late_EM-showering.png used on input line 477
+.
+(pdftex.def)             Requested size: 204.85844pt x 97.48112pt.
+
+LaTeX Warning: Reference `' on page 12 undefined on input line 482.
+
+[12 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/Normal_electron.png> </Users/ms08962476/Latex_report/MOST_finalr
+eport/notes/MOST-103-endReport/trunk/Delta-ray/Normal_pion.png> </Users/ms08962
+476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Earl
+y_EM-showering.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST
+-103-endReport/trunk/Delta-ray/Late_EM-showering.png>]
 ! Extra }, or forgotten $.
-l.475 ...ve the bigger value for $\mathrm{E_{10}}}
+l.502 ...ve the bigger value for $\mathrm{E_{10}}}
                                                   $. Oppositely, for the e-l...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1375,7 +1446,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.475 ...ll have many values for $\mathrm{E_{10}}}
+l.502 ...ll have many values for $\mathrm{E_{10}}}
                                                   $ from all events. In the ...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1384,10 +1455,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 475.
+LaTeX Warning: Reference `' on page 13 undefined on input line 502.
 
 ! Extra }, or forgotten $.
-l.475 ...can see that we can use $\mathrm{E_{10}}}
+l.502 ...can see that we can use $\mathrm{E_{10}}}
                                                   $ to reject some of e-like...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1396,7 +1467,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.477 ...d the critical point of $\mathrm{E_{10}}}
+l.504 ...d the critical point of $\mathrm{E_{10}}}
                                                   $ to be the threshold, bec...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1405,10 +1476,10 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 485.
+LaTeX Warning: Reference `' on page 13 undefined on input line 512.
 
 ! Too many }'s.
-l.487 ...best results. In the Table.\ref{basic_1}}
+l.514 ...best results. In the Table.\ref{basic_1}}
                                                   , it tells us that the bac...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1417,10 +1488,14 @@ Such booboos are generally harmless, so keep going.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 518.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12] [13]
-Overfull \hbox (2.93465pt too wide) in paragraph at lines 555--556
+[13]
+
+LaTeX Warning: Reference `' on page 14 undefined on input line 545.
+
+[14]
+Overfull \hbox (2.93465pt too wide) in paragraph at lines 584--585
 []\OT1/ppl/m/n/12 Submit my first con-fer-ence pa-per: "Jet Sub-struc-ture Vari
 -ables with the SiFCC
  []
@@ -1429,14 +1504,14 @@ Overfull \hbox (2.93465pt too wide) in paragraph at lines 555--556
 
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.bbl
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1832.
-[14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1832.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1861.
+[15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1861.
 
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1832.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1832.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1861.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1861.
 
 Package rerunfilecheck Info: File `finalReport_temp.out' has not changed.
 (rerunfilecheck)             Checksum: 8B103CD2B62E8EA39649CE798C700592;1022.
@@ -1446,16 +1521,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1832.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1861.
  ) 
 Here is how much of TeX's memory you used:
- 10409 strings out of 492995
- 147849 string characters out of 6132704
+ 10453 strings out of 492995
+ 149112 string characters out of 6132704
  255833 words of memory out of 5000000
- 13716 multiletter control sequences out of 15000+600000
+ 13748 multiletter control sequences out of 15000+600000
  39597 words of font info for 97 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 51i,13n,45p,1518b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,13n,45p,1518b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1466,10 +1541,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on finalReport_temp.pdf (16 pages, 770001 bytes).
+Output written on finalReport_temp.pdf (17 pages, 1086350 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 46 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 528 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

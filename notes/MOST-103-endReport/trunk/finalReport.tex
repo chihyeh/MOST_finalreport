@@ -280,9 +280,9 @@ I will describe in more detail for all of the items above.
 Cross-talk is the one basic phenomenon exist in the electronics, which is a signal transmitted on one circuit or channel of a transmission system creates an unwanted effect in another circuit or channel. For example, it has two types cross-talk could happen:
 \begin{itemize}
 \item Correlated cross-talk\\
-The capacitors in the circuit are too closed wth each other. One capacitor is charging, it could influence the other capacitors by the EM effect. 
+The capacitors in the circuit are too closed wth each other. One capacitor is charging, and it could influence the other capacitors by the EM effect. 
 \item Anti-correlated cross-talk\\
-It could happen in the circuits which have the problem in power supplication. When the process in one channel don't have enough energy, it could "borrow" the energy from other channels, and lead to the cross-talk also.  
+It could happen in the circuits which have the problem in power supplication. When the process in one channel doesn't have enough energy to process, it could "borrow" the energy from other channels, and lead to the cross-talk also.  
 \end{itemize}
 
 
@@ -315,7 +315,7 @@ Every SKIROC2cms CHIP on the HexaBoard corresponds to 64 channels, while each ch
 
 For simplifying the study, we used the Hexaboard without the sensor on it. In this studies, we used two types of runs to do the researches through the whole process:
 \begin{itemize}
-\item Pedestal run: Run without injecting the electrical pulse, and record the non-pulse run to be our reference (intrinsic noise).
+\item Pedestal run: Run without injecting the electrical pulse, and record the non-pulse run to be our reference.
 \item Charged run: Run with injecting the electrical pulse to the certain channel, and record the with-pulse run to do the study. 
 \end{itemize}
 
@@ -328,7 +328,7 @@ Be attention with, because we simulated the sensor-attached condition, and senso
 \label{fig:PCB_study_channelMap}
 \end{figure}
 
-The following three cases which were used in our studies are shown in the fig.\ref{fig:PCB_His}. (1)Pedestal run were used to evaluate the pedestals and noise for each channel. The value of mean of ADC-counts will be defined as the pedestal value from each channel, and it is the hardware-dependent(SCA-dependent) value. (2)Charged run were used to record the responses with ADC-counts values from every channel with the electrical pulse injecting, and simulated the real physics. (3)In the end, the "Pedestal-subtracted" value will be used in our study for subtracting the "reference". The mean value of the ADC-counts for it is calculated after Charged run ADC-counts subtract the mean of ADC-counts from Pedestal run with same SCA number. Note, in the study, we always used SCAs of HG to do. For simplifying the case, we fixed the injected-channel to number 20 in CHIP 0 and saw all cases.
+The following three cases which were used in our studies are shown in the fig.\ref{fig:PCB_His}. (1)Pedestal run were used to evaluate the pedestals and noise for each channel. The value of mean of ADC-counts will be defined as the pedestal value from each channel, and it is the hardware-dependent(SCA-dependent) value. (2)Charged run were used to record the responses with ADC-counts values from every channel with the electrical pulse injecting, and simulated the real physics. (3)In the end, the "Pedestal-subtracted" value will be used in our study for subtracting the "reference". The mean value of the ADC-counts for it is calculated after Charged run ADC-counts subtract the mean of ADC-counts from Pedestal run with same SCA number. And the error( width of gaussian ) means the noise in the channels including the electronics noise, sensor noise( if it is installed ), etc. Note, in the study, we always used SCAs of HG to do. For simplifying the case, we fixed the injected-channel to number 20 in CHIP 0 and saw all cases.
 
 \begin{figure}[!htb]
 \centering
@@ -351,7 +351,13 @@ First of all, because the first SCA (the 0th) is useful for making on-line pedes
 \label{fig:PCB_Stability}
 \end{figure}
 
-Second, we wanted to explore the correlation between injection pulse strength and the cross-talk. In real physics, because particles will have different energy individually in the collider, they will see the different pulse strength in the real case. At there, we wanted to see whether the different pulse strength will give out more or less the cross-talk. In the fig.\ref{fig:PCB_injection_pulse_study}, they show that the mean and error values from Pedestal-subtracted value for different DAC of injection pulse. The results for them are quiet obviously showing that the cross-talk near the injection channel, when the DAC from the 0 to 1000, the slope is negative, and the value is getting lower, it could be explained that it is "Anti-correlated cross-talk", because the channel which are closed to the injection channels of the energy are borrowed because of the insufficient power for channel to process. On the other hand, when the DAC after 1000, the slope is positive, and the value is much higher when the DAC is bigger, this means that the "Correlated cross-talk" happen in, the energy 
+Second, we wanted to explore the correlation between injection pulse strength and the cross-talk. In real physics, because particles will have different energy individually in the collider, they will see the different pulse strength in the real case. At there, we wanted to see whether the different pulse strength will give out more or less the cross-talk. In the fig.\ref{fig:PCB_injection_pulse_study}, they show that the mean and error values from Pedestal-subtracted value for different DAC of injection pulse. The results for them are quiet obviously showing that the cross-talk in two cases: 
+\begin{itemize}
+\item Anti-correlated cross-talk\\
+DAC from 0 to 1000: No matter the closer or farther the channels, the slopes are negative for all of them. That means the channels, except the injection channels, are borrowed the energy by injection channels. 
+\item Correlated cross-talk\\
+DAC after 1000: When the channels are closed to the injection channels, the slopes are bigger compared with the channels which are farther from the injection channels. That means, the injection channels give more energy to the closed channels compared with the farther channels. 
+\end{itemize}
 
 \begin{figure}[!htb]
 \centering
@@ -359,7 +365,7 @@ Second, we wanted to explore the correlation between injection pulse strength an
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf}\\
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
-\caption{These figures present the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
+\caption{These figures present the preliminary results for the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
 \label{fig:PCB_injection_pulse_study}
 \end{figure}
 
@@ -403,11 +409,21 @@ In the test-beam, we used the material based on prototype of HGCAL written below
 
 \subsection{The results of optimized cuts and new variable from June test-beam MC}
 
-Because we wanted to find out the "electron-like" pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for the cuts and selections as following. In this studies, we used the sample with 50GeV electron and pion MC.
+Because we wanted to find out the "electron-like"(e-like) pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for the cuts and selections as following. In this studies, we used the sample with 50GeV electron and pion MC.
 
-The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the cut with the different number of rings on the transverse plane of detector. In the Fig.\ref{} shows the distribution plot of ring. In the end, we chose the energy of 5 Rings for being the cuts. Fig.\ref{} is presented to show the cut we used with "$\frac{\mathrm{energy \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energy}}$". Because we can see in the plot, the energy of electrons showering are collected out of the 5 Rings with at most 1\% compared with total energy in ECAL, in the end, we chose this standard to tag the e-like pions first. Although, it is the tight cut because it also discarded some of electrons as well, but we wanted to make sure that we cut-off the bad pion really. We called this cut as "5-Rings cut".
+\begin{figure}[!htb]
+\centering
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/Shower_pattern.png}
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/5-Rings_cuts.png}\\
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/Last_layer_20MIPs_50GeV.png}
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/E7_E19.png}
+\caption{These figures present the preliminary results for the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
+\label{fig:PCB_injection_pulse_study}
+\end{figure}
 
-The second selection, because we wanted to select the "fully EM-showering", and we didn't have the information of HCAL energy in this month test-beam, we only could use the "poor man's solution"-finding the last layer energy and using it to be our cut. In the Fig.\ref{} is the plot which was used to find the last layer energy cut with the events which are after 5-Rings cut . Eventually, we used the last layer energy smaller than 20MIPs to tag the fully showering events, and reserving most of the pion after 5-Rings cut.
+The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the cut with the different number of rings on the transverse plane of detector. In the Fig.\ref{} shows the distribution plot of ring. In the end, we chose the energy of 5 Rings for being the cuts. Fig.\ref{} is presented to show the cut we used with "$\frac{\mathrm{energy \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energy}}$". Because we can see in the plot, the energy of electrons showering are collected out of the 5 Rings with at most 1\% compared with total energy in ECAL. In the end, we chose this standard to tag the e-like pions first. Although, it is the tight cut because it also discarded some of electrons as well, but we wanted to make sure that we cut-off the bad pion really. We called this cut as "5-Rings cut".
+
+The second selection, because we wanted to select the "fully EM-showering", and we didn't have the information of HCAL energy in this month test-beam, we only could use the "poor man's solution"-finding the last layer energy of electrons and using it to be our cut. In the Fig.\ref{} is the plot which was used to find the last layer energy cut with the events which pass 5-Rings cut . Eventually, we used the last layer energy smaller than 20MIPs to tag the fully showering events, we called this cut as "The last layer energy".
 
 The third selection, it was the cut always used to find the EM-showering in pion traditionally, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "$\frac{\mathrm{energy \ in \ two \ Rings}}{\mathrm{energy \ in \ three \ Rings}} = \frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower.   
 
@@ -416,7 +432,18 @@ The fourth selection, because we applied those cuts from first to third, and we 
 \item Early EM-showering: Those events have the similar behavior, such as shower depth and energy deposition, with the electrons in ECAL. We can't distinguish them from electrons very well.
 \item Late  EM-showering: Those events have the late showering compared with the electrons in ECAL, and they put most of the energy in the backward ECAL, we can use some variables to distinguish this kind of pion from electrons.
 \end{itemize}
-We used the cut that, we require a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We record the first layer found with more than 3MIPs. And at least 2 consecutive layers with more than two seeds with Energy$>$3MIPs. If the layer of start showering is from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it starts at sixth to later layers, we called it "Late EM-showering". For note, because this is the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just used one variable to distinguish "both" of them from electrons. I will show the results later. 
+
+\begin{figure}[!htb]
+\centering
+     \includegraphics[width=0.45\textwidth]{Delta-ray/Normal_electron.png}
+     \includegraphics[width=0.45\textwidth]{Delta-ray/Normal_pion.png}\\
+     \includegraphics[width=0.45\textwidth]{Delta-ray/Early_EM-showering.png}
+     \includegraphics[width=0.45\textwidth]{Delta-ray/Late_EM-showering.png}
+\caption{These figures present the preliminary results for the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
+\label{fig:PCB_injection_pulse_study}
+\end{figure}
+
+We show some event display for normal electron showering, Early EM-showering and Late EM-showering in Fig.\ref{}. And we present the event display in the We used the cut that, we require a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We record the first layer found with more than 3MIPs. And at least 2 consecutive layers with more than two seeds with Energy$>$3MIPs. If the layer of start showering is from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it starts at sixth to later layers, we called it "Late EM-showering". For note, because this is the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just used one variable to distinguish "both" of them from electrons. I will show the results later. 
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -495,10 +522,10 @@ In this month test beam, because we had the information of HCAL, we used the cut
 In the June test-beam, we only did the rejection for $\mathrm{E_{10}}$ after the tight-cut selections. In this month, we wanted to studied the power of the cuts from tight-cut selections to $\mathrm{E_{10}}$, it means we wanted to study totally how many e-like pions will be rejected after all cuts.  We have two steps rejection, and we used the same definitions with the equation (\ref{Equation_SIG}) and (\ref{Equation_BKG}).
 \begin{itemize}
 \item Tight cuts rejection power: \\ 
-This is the first step rejection study. Because we need to find out the e-like pions first, and we can use our segmentation variable to reject them.  For this step, we found that the number of the background rejection is 3600. 
-\item $\mathrm{E_{10}}$ cuts power:\\
-This is the second step rejection study. After we found out the e-like pions, we used the discrimination variable which we have invited in June test-beam,$\mathrm{E_{10}}$, to distinguish them from the real electrons. In this step, we used the critical point at 0.18,0.20 and 0.22, to see whether at the critical point near 0.2 will give us the good results, same as June test-beam. In the Table.\ref{basic_7} summarize the results for them. 
-Although, this time didn't have the better results compared with the June test-beam, we got the number about 1.5
+This is the first step rejection study. Because we need to find out the e-like pions first, and then we can use our segmentation variable to reject them for the next step.  For this step, we found that the number of the background rejection is 3600. Most of the pions are rejected by those cuts.
+\item $\mathrm{E_{10}}$ cuts rejection power:\\
+This is the second step rejection study. After we found out the e-like pions, we used the discrimination variable which we have invited in June test-beam,$\mathrm{E_{10}}$, to distinguish them from the real electrons. In this step, we used the critical point at 0.18,0.20 and 0.22, to see whether at the critical point near 0.2 will give us the good results. In the Table.\ref{basic_7} summarize the results for them. 
+Although, this time didn't have the better results compared with the June test-beam, we still got the number about 1.5.
 \end{itemize}
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -511,6 +538,8 @@ Although, this time didn't have the better results compared with the June test-b
         \end{tabular}
     \caption{E10/Etotal Electrons efficiency Tight cuts}\label{basic_7}  %????????????
 \end{table}
+
+In the end, totally we can get the total rejection power of cuts which is calculated by the number 3600 with the Tight cuts rejection power and the number 1.5 with the $\mathrm{E_{10}}$ cuts rejection power. After times them together, we can get the number $3600\times1.5=5400$. In A Toroidal LHC ApparatuS(ATLAS), the expected value for it is between 5000 to 10000, and in our case, we arrived the value for the expectation. 
 
 \section{Milestone Achieved}
 \begin{itemize}
