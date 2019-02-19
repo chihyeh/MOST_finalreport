@@ -44,8 +44,8 @@
 \ifthenelse{\boolean{cms@external}}{\setlength\cmsFigWidth{0.85\columnwidth}}{\setlength\cmsFigWidth{0.4\textwidth}}
 \ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top}}{\providecommand{\cmsLeft}{left}}
 \ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom}}{\providecommand{\cmsRight}{right}}
-\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeftU}{upper\xspace}}{\providecommand{\cmsLeftU}{upper left\xspace}}
-\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRightU}{middle\xspace}}{\providecommand{\cmsRightU}{upper right\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeftU}{Top\xspace}}{\providecommand{\cmsLeftU}{Top left\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRightU}{middle\xspace}}{\providecommand{\cmsRightU}{Top right\xspace}}
 
 
 
@@ -340,7 +340,7 @@ For the experiment, we used the electronics which are composed of three parts, i
      \includegraphics[width=0.45\textwidth]{PCB_study/Hexaboard.png}
      \includegraphics[width=0.45\textwidth]{PCB_study/RPI.png}\\
      \includegraphics[width=0.9\textwidth]{PCB_study/Data_flow.png}
-\caption{(Upper left) The Hexaboard which was applied in the study. On the board, there are four SKIROC2cms CHIPs (black hexagonal) used to receive the electrical pulse which is given by the cable, and give out the signal to the Hexa RPI. (Upper right) The Hexa RPI and RPI which is applied to transform the data and communicate with Hexaboard. (Down) The data flow pictures for introducing the data transfom from Hexaboard to Hexa RPI and RPI.
+\caption{(Top left) The Hexaboard which was applied in the study. On the board, there are four SKIROC2cms CHIPs (black hexagonal) used to receive the electrical pulse which is given by the cable, and give out the signal to the Hexa RPI. (Top right) The Hexa RPI and RPI which is applied to transform the data and communicate with Hexaboard. (Down) The data flow pictures for introducing the data transfom from Hexaboard to Hexa RPI and RPI.
 }
 \label{fig:PCB_study_apparatus}
 \end{figure}
@@ -371,7 +371,7 @@ The following three cases which were used in our studies are shown in the fig.\r
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_Pedestal.png}
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_charge.png}\\
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_subtraction.png}
-\caption{These figures perform the histograms that using in the study. All this cases are shown with fixing at SCA=2 and channel=22. (Upper left ) The pedestal run histograms which is used to calculate the pedestal and noise. Fitting the line is to get the mean of ADC-counts. (Upper right)  The charged run for example. (Down) The pedestal-subtracted case is shown. Also fit the line to get the mean and error of ADC-counts, and use in the study directly}
+\caption{These figures perform the histograms that using in the study. All this cases are shown with fixing at SCA=2 and channel=22. (Top left ) The pedestal run histograms which is used to calculate the pedestal and noise. Fitting the line is to get the mean of ADC-counts. (Top right)  The charged run for example. (Down) The pedestal-subtracted case is shown. Also fit the line to get the mean and error of ADC-counts, and use in the study directly}
 \label{fig:PCB_His}
 \end{figure}
 
@@ -401,20 +401,26 @@ DAC after 1000: When the channels are closed to the injection channels, the slop
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf}\\
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
-\caption{These figures present the preliminary results for the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
+\caption{These figures present the preliminary results for the correlation between the different DAQ input and Pedestal-subtracted mean and error. The Top left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
 \label{fig:PCB_injection_pulse_study}
 \end{figure}
 
 For the conclusion, we can see from our study that the cross-talk exist in the Hexaboard, and we used the ADC-counts from the Pedestal-subtracted values to quantify the cross-talk. We expected that this study can help to quantify the cross-talk and can decrease it in the future.
 
 \section{Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}
-In most cases, the electrons leave most of the energy in ECAL by the processes of pair production and bremsstrahlung. Different from them, Chagred-pions deposit most of the energy in Hadronic Calorimeter(HCAL) through the process of segmentation. Unfortunately, in some cases, those pions could give out the fully Electromagnetic(EM) showering in ECAL, and put most of the energy in it. If we can't explore the way to tag those pions and reject them, it will be very terrible. Because they will be misidentified as the electrons, and those "fake electrons" could contaminate with the real electrons.  In addition, it could influence the analysis which is sensitive to the electron/pion distinguishability. We expected to solve this issue and help the physics analysis in the future.
+In most cases, the electrons leave most of the energy in ECAL by the processes of pair production and bremsstrahlung. Different from them, Chagred-pions deposit most of the energy in Hadronic Calorimeter(HCAL) through the process of segmentation. Unfortunately, in some cases, those pions could give out the fully Electromagnetic(EM) showering in ECAL, and put most of the energy in it. If we can't explore the way to tag those pions and reject them, it will be very terrible. Because they will be misidentified as the electrons, and those "fake electrons" could contaminate with the real electrons.  In addition, it could influence the analysis which is sensitive to the electron/pion distinguishability. We expected to solve this issue and help the physics analysis with this type of background in the future.
 
-Because of the significant challenges for radiation tolerance and event pileup on the detectors of the CMS experiment at LHC, they will replace the current Endcap calorimeter with a Si-pad HGCAL, a new generation state-of-the-art calorimeter, which can perform 3D imaging of the shower as well as provide ~30ps timing. To test the performance of HGCAL, including calibration, particle identification, etc. before it will be installed in CMS Phase \rom{2} upgrade , we did the "test-beam", which was held to incident the test particles, such as electron, pion and muon into HGCAL prototype, and analyze its performance from the information of the hits come out with the detector. At the same time,  The Monto Carlo(MC) samples are provided with the same prototype to let the people study as well.  We used the test-beam MC samples which are done in CMS on June and October 2019 to do this study. The group of test-beam divided the studies into many different topics, and my topic was in the section of "electron/pion identification".
+Because of the significant challenges for radiation tolerance and event pileup on the detectors of the CMS experiment at LHC, they will replace the current Endcap calorimeter with a Si-pad HGCAL, a new generation state-of-the-art calorimeter, which can perform 3D imaging of the shower as well as provide ~30ps timing. To test the performance of HGCAL, including calibration, particle identification, etc. before it will be installed in CMS Phase \rom{2} upgrade , we did the "test-beam"(Fig.\ref{test_beam_setup_1}), which was held to incident the test particles, such as electron, pion and muon into HGCAL prototype, and analyze its performance from the information of the hits come out with the detector. At the same time,  The Monto Carlo(MC) samples are provided with the same prototype of the detectors to let the people study as well.  We used the test-beam MC samples which are done in CMS on June and October 2019 to do this study. The group of test-beam divided the studies into many different topics, and my topic was in the section of "electron/pion identification".
+\begin{figure}[!htb]
+\centering 
+     \includegraphics[width=0.9\textwidth]{Delta-ray/test-beam_setup.png}
+\caption{The figure show the test beam experiment setup in October. The orange and red lines box mark the CE-E and CE-H part of the detector including the module(in the metal box) and readout electronics.}
+\label{test_beam_setup_1}
+\end{figure}
 
 Charged-pion tagging and rejection are one of the strong points of HGCAL. Traditionally the most powerful discriminants for pion rejection are lateral shower containment and longitudinal energy leakage in the back of the EM section of HGCAL. In this study we explore the capability of HGCAL to tag pions that are fully EM-showering in the ECAL and they pass the transverse containment and leakage from the back requirements. For our expectation, we wanted to find the best cuts and invited the new variables to distinguish "fake electrons" from "real electrons".
 
-I did this study with Prof.Stathes Paganis, Prof.Rong-Shayang Lu, master student Chia-Hong Chein from NTU, Dr.Shilpi Jain from University of Minnesota and Prof.Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study includes the following:
+I did this study with Prof. Stathes Paganis, Prof. Rong-Shayang Lu, master student Chia-Hong Chein from NTU, Dr. Shilpi Jain from University of Minnesota and Prof. Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study includes the following:
 \begin{itemize}
 \item Study the optimized cuts for finding the "fake electron" from pions, and introduce the new variable with the longitudinal segmentation using the test-beam MC from June.
 \item Apply the found optimized cuts and new variable in test-beam MC from October to see the electron efficiencies and pion rejections.
@@ -422,11 +428,19 @@ I did this study with Prof.Stathes Paganis, Prof.Rong-Shayang Lu, master student
 I will describe the detail as following.
 
 \subsection{Introduction for HGCAL}
-During the Run 1 (2010-2012) in LHC operated at $\sqrt{s} = 7\TeV$, delivering $\approx$ 6\fbinv, and at $\sqrt{s} = 8\TeV$ in 2012, delivering $\approx$ 23\fbinv. The most significant physics results from this period was the discovery of the Higgs boson, and along with the Nobel prize for it in 2013. After Run 1, Run 2 started in 2015 at a C.M of $\sqrt{s} = 13\TeV$  and the instantaneous luminosity, reaching to the value for $1.7 \times 10^{34} cm^{-2} s^{-1}$. Surprisingly, it operated the exceed value compare with the original design. More studies with this unbelievable operation, such as Higgs boson, SM processes, BSM, will be carried out.
+During the Run 1 (2010-2012) in LHC operated at $\sqrt{s} = 7\TeV$, delivering $\approx$ 6\fbinv, and at $\sqrt{s} = 8\TeV$ in 2012, delivering $\approx$ 23\fbinv. The most significant physics results from this period was the discovery of the Higgs boson, and along with the Nobel prize for it in 2013. After Run 1, Run 2 started in 2015 at a C.M of $\sqrt{s} = 13\TeV$  and the instantaneous luminosity, reaching to the value for $1.7 \times 10^{34} cm^{-2} s^{-1}$. In the Figure.\ref{luminosity_1}, it shows the summary plot for the luminosity from Run1 to Run2.  Surprisingly, it operated the exceed value compare with the original design. More studies with this unbelievable operation, such as Higgs boson, SM processes, BSM, will be carried out.
+
+\begin{figure}[!htb]
+\centering 
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/Luminosity.png}
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/Luminosity_total.png}
+\caption{The figures show the summary plot of luminosity from the Run1(2010-2012) to Run2(2012 to 2018) in LHC. The left is the luminosity for the individual years, and the right is the totally integrated luminosity from 2010 to 2018.}
+\label{luminosity_1}
+\end{figure}
 
 For the future in Run3(2023), LHC intended to accumulate around 300\fbinv. After the third long shutdown (LS3), they plan to design the value to the instantaneous luminosity at $5 \times 10^{34} cm^{-2} s^{-1}$ with the target of integrating around 3000\fbinv by the time of mid-2030s, and it will go into the HL-LHC era. The corresponding mean number of collisions (pileup) per bunch crossing will be 140. In addition, the LHC has the ability to deliver 50\% higher values for both the instantaneous and integrated luminosities.
 
-It will bring out the two significant issues in the HL-LHC era: (1)radiation damage and (2)event pileup on CMS detectors, especially for calorimetry in the forward region. As part of its HL-LHC upgrade program, the CMS Collaboration is proposing to build a HGCAL to replace the existing endcap calorimeters. There are many requirements for the HGCAL upgrade to let it preserve the good performance. Write some of them as following:
+In this case, It will bring out the two significant issues in the HL-LHC era: (1)radiation damage and (2)event pileup on CMS detectors, especially for calorimetry in the forward region. As part of its HL-LHC upgrade program, the CMS Collaboration is proposing to build a HGCAL to replace the existing endcap calorimeters. There are many requirements for the HGCAL upgrade to let it preserve the good performance. Write some of them as following:
 \begin{itemize}
 \item  This detector must be "radiation tolerance", otherwise, it will happen the unrecoverable condition, same as the circumstance of scintillator now in CMS. To solve this issue, active layer with the silicon sensor will be applied in the HGCAL.
 \item  This detector need to be designed with the find granularity for lateral and longitudinal segmentation:
@@ -437,15 +451,31 @@ It will bring out the two significant issues in the HL-LHC era: (1)radiation dam
 Both of them can remove the "pileup event" if they are great enough to distinguish processes of different particles.
 \end{itemize}
 
-The HGCAL prototype consists of an electromagnetic compartment (CE-E) followed by a hadronic compartment (CE-H) with Forward region(FH) and Backward region(BH) in the Fig.\ref{}. In the Fig.\ref{} is the part of the electromagnetic compartment , they consists of 28 sampling layers with a depth of approximately 26 $X_{0}$ and 1.7 $\lambda$. The element of active layer is a hexagonal silicon sensor, which is sandwiched between layer of WCu (75\%, 25\%) baseplate and a printed circuit board(PCB), which is used to study my cross-talk studies in NTU, that carries the front-end electronics to form a silicon module in the Fig.\ref{}. Modules are tiled on a Cu cooling plate, which together with the two WCu baseplates form one absorber layer. The alternate absorber layer is formed by lead planes clad with stainless steel (SS) sheets that are placed on module-cooling plate sandwich. 
+The HGCAL prototype consists of an electromagnetic compartment (CE-E) followed by a hadronic compartment (CE-H) with Forward region(FH) and Backward region(BH) in the Fig.\ref{HGCAL_region}. For the CE-E, it consists of 28 sampling layers with a depth of approximately 26 $X_{0}$ and 1.7 $\lambda$. In the Fig.\ref{HGCAL_Material} top left shows one sampling layer of the CE-E. The element of active layer for it is a hexagonal silicon sensor, which is sandwiched between layer of WCu (75\%, 25\%) baseplate and a printed circuit board(PCB), which is used to study my cross-talk studies in NTU, that carries the front-end electronics to form a silicon module in the Fig.\ref{HGCAL_Material} top right. Modules are tiled on a Cu cooling plate, which together with the two WCu baseplates form one absorber layer. The alternate absorber layer is formed by lead planes clad with stainless steel (SS) sheets that are placed on module-cooling plate sandwich. 
 
-For the hadronic compartment of HGCAL in the Fig.\ref{}, they consists of 12 planes of thick SS plates followed by another 12 SS planes with different thickness. Between these absorber plates sit silicon modules in most regions and silicon modules mixed with scintillator tileboards in part of low-radiation regions mounted on a copper cooling plates to form the wide cassettes. These cassettes are similar to those in the EM compartment, but include sensors on only one side of the cooling plate, which are formed as a separate mechanical structure. This leads to a total interaction length with number 10.7$\lambda$, including the CE-E and the neutron moderator layer in front of the calorimeter. All layers are read out for use in energy measurement, but only alternate layers in CE-E, and all in CE-H, are used for producing L1 trigger primitives. 
+\begin{figure}[!htb]
+\centering 
+     \includegraphics[width=0.8\textwidth]{Delta-ray/HGCAL_region.png}
+\caption{Summary for the basic design and coverage of the CMS high-granularity Endcap Calorimeter (CE) including CE-E and CE-H}
+\label{HGCAL_region}
+\end{figure}
 
-In the test-beam, we used the material based on prototype of HGCAL written below,  but for the detail of its, each components will use the CMS phase 2 design. I will write the results of the test-beam in 2018 on June and October.
+For the hadronic compartment of HGCAL, they consist of 12 planes of thick SS plates followed by another 12 SS planes with different thickness. Between these absorber plates sit silicon modules(show one sampling layer in Fig.\ref{HGCAL_Material} down left) in most regions and silicon modules mixed with scintillator tileboards(show one sampling layer in Fig.\ref{HGCAL_Material} down left) in part of low-radiation regions mounted on a copper cooling plates to form the wide cassettes.  These cassettes are similar to those in the EM compartment, but include sensors on only one side of the cooling plate, which are formed as a separate mechanical structure. This leads to a total interaction length with number 10.7$\lambda$, including the CE-E and the neutron moderator layer in front of the calorimeter. All layers are read out for use in energy measurement, but only alternate layers in CE-E, and all in CE-H, are used for producing L1 trigger primitives. 
 
-\subsection{The results of optimized cuts and new variable from June test-beam MC}
+\begin{figure}[!htb]
+\centering  
+     \includegraphics[height=\cmsFigWidth,width=\cmsFigWidth]{Delta-ray/CE-E.png}
+     \includegraphics[height=\cmsFigWidth,width=\cmsFigWidth]{Delta-ray/Silicon_module.png}
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/CE-H(part1).png}
+     \includegraphics[height=\cmsFigWidth,width=\cmsFigWidth]{Delta-ray/CE-H(part2).png}
+\caption{The figures show the different material arrangement in the different part of the detector. The top left is the one sampling layer of the CE-E. The top right show the silicon module used in the CE-E and CE-H. The down left is the one sampling layer of the CE-H which is sit on the high-radiation region. Oppositely, the down right is the one sampling layer of the CE-H which is based on the place with low-radiation.}
+\label{HGCAL_Material}
+\end{figure}
 
-Because we wanted to find out the "electron-like"(e-like) pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for the cuts and selections as following. In this studies, we used the sample with 50GeV electron and pion MC.
+In the test-beam, we used the material based on prototype of HGCAL written below,  but for the detail of its, each components will use the CMS phase 2 design. I will write the results of the test-beam in 2018 on June and October.  
+
+\subsection{Tag-and-probe the optimized cuts and new variable with June test-beam MC}
+Because we wanted to tag the "electron-like"(e-like) pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for the cuts and selections as following. In this studies, we used the sample with 50GeV electron and pion MC.
 
 \begin{figure}[!htb]
 \centering
@@ -453,21 +483,28 @@ Because we wanted to find out the "electron-like"(e-like) pion, we need to explo
      \includegraphics[width=\cmsFigWidth]{Delta-ray/5-Rings_cuts.png}\\
      \includegraphics[width=\cmsFigWidth]{Delta-ray/Last_layer_20MIPs_50GeV.png}
      \includegraphics[width=\cmsFigWidth]{Delta-ray/E7_E19.png}
-\caption{These figures present the preliminary results for the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
-\label{fig:PCB_injection_pulse_study}
+\caption{These figures present the cuts we used in the studies. Top left is the shower pattern on the transverse plane in the detector. Different rings mean the different sizes of the clustering on it. For example, the 5-Rings means the fifth circle calculated from the black pad to the shadow green. The top right plot is the energy distribution of $\frac{\mathrm{energy \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energy}}$. The down left is the last layer energy with electrons. The down right is the cut with $\frac{\mathrm{energy \ in \ 2 \ Rings}}{\mathrm{energy \ in \ 3 \ Rings}}$, we plot every layer $\frac{\mathrm{energy \ in \ 2 \ Rings}}{\mathrm{energy \ in \ 3 \ Rings}}$ value with and without the $\frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$ cut}
+\label{cuts_1}
 \end{figure}
 
-The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the cut with the different number of rings on the transverse plane of detector. In the Fig.\ref{} shows the distribution plot of ring. In the end, we chose the energy of 5 Rings for being the cuts. Fig.\ref{} is presented to show the cut we used with "$\frac{\mathrm{energy \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energy}}$". Because we can see in the plot, the energy of electrons showering are collected out of the 5 Rings with at most 1\% compared with total energy in ECAL. In the end, we chose this standard to tag the e-like pions first. Although, it is the tight cut because it also discarded some of electrons as well, but we wanted to make sure that we cut-off the bad pion really. We called this cut as "5-Rings cut".
+The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the cut with the different number of rings on the transverse plane of detector. In the Fig.\ref{cuts_1} top left shows the distribution plot of ring. In the end, we chose the energy of 5 Rings for being the cuts. Fig.\ref{cuts_1} top right is presented to show the cut we used with "$\frac{\mathrm{energy \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energy}}$". Because we can see in the plot, the energy of electrons showering are collected out of the 5 Rings with at most 1\% compared with total energy in ECAL.  We chose this standard to tag the e-like pions first. Although, it is the tight cut because it also discarded some of electrons as well, but we wanted to make sure that we cut-off the bad pion really. We called this cut as "5-Rings cut".
 
-The second selection, because we wanted to select the "fully EM-showering", and we didn't have the information of HCAL energy in this month test-beam, we only could use the "poor man's solution"-finding the last layer energy of electrons and using it to be our cut. In the Fig.\ref{} is the plot which was used to find the last layer energy cut with the events which pass 5-Rings cut . Eventually, we used the last layer energy smaller than 20MIPs to tag the fully showering events, we called this cut as "The last layer energy".
+The second selection, because we wanted to select the "fully EM-showering", and we didn't have the information of HCAL energy in this month test-beam, we only could use the "poor man's solution"-finding the last layer energy of electrons and using it to be our cut. In the Fig.\ref{cuts_1} down left is the plot which was used to find the cut of last layer energy with the events which passed 5-Rings cut . Eventually, we used the last layer energy smaller than 20MIPs to tag the fully showering events, we called this cut as "The last layer energy cut".
 
-The third selection, it was the cut always used to find the EM-showering in pion traditionally, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "$\frac{\mathrm{energy \ in \ two \ Rings}}{\mathrm{energy \ in \ three \ Rings}} = \frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower.   
+The third selection, it was the cut always used to find the EM-showering in pion traditionally, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "$\frac{\mathrm{energy \ in \ two \ Rings}}{\mathrm{energy \ in \ three \ Rings}} = \frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower. In the Fig.\ref{cuts_1} down right shows the events with the values of $\frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$ of all layers. Compare between with and without the cut, most of the events with cut have bigger value than without the cut, this means we cut-off some of the boarder shower shape events in pion runs. Both of Early EM-showering and Late EM-showering in the plot are two kinds of e-like pion, will describe the detail later.
 
-The fourth selection, because we applied those cuts from first to third, and we looked the shower depth of those events, we found there exists two types of electron-like pion:
+The fourth selection, because we applied those cuts from first to third, and we looked the shower depth for those passing events in the Fig.\ref{HGCAL_shower_depth}, we found there exists two types of electron-like pion with the cut described in the next paragraph:
 \begin{itemize}
-\item Early EM-showering: Those events have the similar behavior, such as shower depth and energy deposition, with the electrons in ECAL. We can't distinguish them from electrons very well.
-\item Late  EM-showering: Those events have the late showering compared with the electrons in ECAL, and they put most of the energy in the backward ECAL, we can use some variables to distinguish this kind of pion from electrons.
+\item Early EM-showering: The events have the similar shower depth with the electrons in ECAL, which means the energy distributions for these events are similar with the electrons. We can't distinguish them from electrons very well.
+\item Late  EM-showering: The events have the late showering compared with the electrons in ECAL, and they put most of the energy in the backward ECAL, we can use some variables to distinguish this kind of pion from electrons.
 \end{itemize}
+
+\begin{figure}[!htb]
+\centering 
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/Shower_depth_50GeV.png}
+\caption{This figure shows the shower depth for both Early EM-showering and Late EM-showering.}
+\label{HGCAL_shower_depth}
+\end{figure}
 
 \begin{figure}[!htb]
 \centering
@@ -475,11 +512,11 @@ The fourth selection, because we applied those cuts from first to third, and we 
      \includegraphics[width=0.45\textwidth]{Delta-ray/Normal_pion.png}\\
      \includegraphics[width=0.45\textwidth]{Delta-ray/Early_EM-showering.png}
      \includegraphics[width=0.45\textwidth]{Delta-ray/Late_EM-showering.png}
-\caption{These figures present the preliminary results for the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
-\label{fig:PCB_injection_pulse_study}
+\caption{These figures show the event display with the cases which are the used to probe in the studies. (Top left) is the normal electron, most of the energy put in the CE-E, oppositely, (Top right) is the normal pion, which put most of the energy in CE-H. The both cases below the normal particles are the "e-like pion" cases, which we target to distinguish them from the normal electron. The left plot is the case for "Early EM-showering" and the right plot is the case for "Late  EM-showering".}
+\label{Event_display}
 \end{figure}
 
-We show some event display for normal electron showering, Early EM-showering and Late EM-showering in Fig.\ref{}. And we present the event display in the We used the cut that, we require a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We record the first layer found with more than 3MIPs. And at least 2 consecutive layers with more than two seeds with Energy$>$3MIPs. If the layer of start showering is from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it starts at sixth to later layers, we called it "Late EM-showering". For note, because this is the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just used one variable to distinguish "both" of them from electrons. I will show the results later. 
+We show some event display for normal electron and pion showering, Early EM-showering and Late EM-showering in Fig.\ref{Event_display}. And we present the event display in the We used the cut that, we require a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We record the first layer found with more than 3MIPs. And at least 2 consecutive layers with more than two seeds with Energy$>$3MIPs. If the layer of start showering is from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it starts at sixth to later layers, we called it "Late EM-showering". For note, because this is the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just used one variable to distinguish "both" of them from electrons. I will show the results later. 
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -493,12 +530,20 @@ We show some event display for normal electron showering, Early EM-showering and
     \caption{E10/Etotal Tight cuts selection used in June test-beam}\label{basic_1}  %????????????
 \end{table}
 
-Until now, we can see the one strong point of the difference between electron and e-like pion - the shower energy deposit in the ECAL. Because some of them put energy in the different section of succeeding layers in ECAL, specially for the Late EM-showering. In this case, we thought about the variables with "longitudinal segmentation" with ECAL. We developed the discrimination variable as following:
+
+Until now, we can see the one strong point of the difference between electron and e-like pion - the shower energy deposit in the ECAL. Because some of them put energy in the different section of succeeding layers in ECAL, specially for comparing the electrons with Late EM-showering. In this case, we thought about the variables with "longitudinal segmentation" with ECAL. We developed the discrimination variable as following:
 \begin{equation}
 \mathrm{E_{10}=\frac{E_{\mathrm{first \ 10 \ layers \ energy}}}{E_{\mathrm{total \ energy}}}}
 \end{equation}
 
-Intuitively, because the electrons put most of the energy in the front of the detector, they will have the bigger value for $\mathrm{E_{10}}}$. Oppositely, for the e-like pions, because they put all of the energy in the different sections, they will have many values for $\mathrm{E_{10}}}$ from all events. In the Fig.\ref{}, we can see that we can use $\mathrm{E_{10}}}$ to reject some of e-like pions out of the electron region. 
+Intuitively, because the electrons put most of the energy in the front of the detector, they will have the bigger value for $\mathrm{E_{10}}}$. Oppositely, for the e-like pions, because they put all of the energy in the different sections, they will have many values for $\mathrm{E_{10}}}$ from all events. In the Fig.\ref{HGCAL_E10}, we can see that we can use $\mathrm{E_{10}}}$ to reject some of e-like pions out of the electron region. 
+
+\begin{figure}[!htb]
+\centering 
+     \includegraphics[width=\cmsFigWidth]{Delta-ray/E10_50GeV.png}
+\caption{The E10 value for electrons, Early EM-showering and Late EM-showering.}
+\label{HGCAL_E10}
+\end{figure}
 
 In my study, we need to find the critical point of $\mathrm{E_{10}}}$ to be the threshold, because we wanted to reserve the electrons as many as possible, and cut-off the bad pions for our best. 
 We used the quantities about the "Electron Efficiency" and "Background Rejection" as our standard in the following formula, to see whether this cut is good:
@@ -508,9 +553,9 @@ We used the quantities about the "Electron Efficiency" and "Background Rejection
 \begin{equation}\label{Equation_BKG}
 \mathrm{Background \ Rejection \ = \frac{Total \ e\mathrm{-}like \ pions}{Pass \ e\mathrm{-}like \ pions}}
 \end{equation}
-Our goal is to cut-off the most e-like pion with the highest background rejection ( pass the least e-like pions ), but reserve the most electrons with the highest electron efficiency in the Fig.\ref{}. ( pass the most electrons ).
+Our goal is to cut-off the most e-like pion with the highest background rejection ( pass the least e-like pions ) in (\ref{Equation_SIG}), but reserve the most electrons with the highest electron efficiency. ( pass the most electrons ) in (\ref{Equation_BKG}).
 
-First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether it can give us the best results. In the Table.\ref{basic_1}}, it tells us that the background rejection is good ( more than half of e-like pions are rejected ), but we hoped that our electron efficiency will go to 99.8\% or more. On the other hand, we still wanted to keep the electrons alive after the higher critical point to reserve most important researches on them.
+First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether it can give us the best results. In the Table.\ref{basic_10}}, it tells us that the background rejection is good ( more than half of e-like pions are rejected ), but we hoped that our electron efficiency will go to 99.8\% or more. On the other hand, we still wanted to keep the electrons alive after the higher critical point to reserve most important researches on them.
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -521,10 +566,10 @@ First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether i
     $>$0.3 & 2.53+/-0.24(stat)   & 99.30\%+/-0.01\%(stat) \\\hline
     $>$0.4 & 2.74+/-0.28(stat)   & 97.32\%+/-0.01\%(stat) \\\hline
     \end{tabular}
-    \caption{E10 cuts of Electrons Efficiency and Background Rejection comparison with point 0.2,0.3 and 0.4}\label{basic_1}  %????????????
+    \caption{E10 cuts of Electrons Efficiency and Background Rejection comparison with point 0.2,0.3 and 0.4}\label{basic_10}  %????????????
 \end{table}
 
-In this case, we tried to use another points near 0.2 and see whether we can get the great results without losing more electrons. In the Table.\ref{basic_2}, it said that near the point 0.2, it can reserve most of the electrons near 99.9\% and can get the background rejection with the expectation value near 2 (Half of rejection). 
+In this case, we tried to use another points near 0.2 and see whether we can get the great results without losing more electrons. In the Table.\ref{basic_20}, it said that near the point 0.2, it can reserve most of the electrons near 99.9\% and can get the background rejection with the expectation value near 2 (Half of rejection). 
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -535,13 +580,13 @@ In this case, we tried to use another points near 0.2 and see whether we can get
     $>$0.18 & 2.07+/-0.16(stat)   & 99.89\%+/-0.01\%(stat) \\\hline
     $>$0.20 & 2.15+/-0.17(stat)   & 99.85\%+/-0.01\%(stat) \\\hline
     \end{tabular}
-    \caption{E10 cuts of Electrons Efficiency and Background Rejection comparison with point 0.16,0.18 and 0.20}\label{basic_2}  %????????????
+    \caption{E10 cuts of Electrons Efficiency and Background Rejection comparison with point 0.16,0.18 and 0.20}\label{basic_20}  %????????????
 \end{table}
 
 For the conclusion of this month test-beam results, we found that the Background Rejection can be near 2 without killing many electrons with 99.9\% Electron Efficiency. For our expectation, we wanted to apply this cut in the October test-beam, to see whether we can see the similar results. 
 
 \subsection{The results of application in October test-beam MC}
-In this month test beam, because we had the information of HCAL, we used the cut no more than 0.4\% energy fraction in the HCAL energy to replace the poor man's solution. And also, we changed some parameters of the cuts to get the best results. In the Table.\ref{}, the summary table for the cuts is shown.
+In this month test-beam, because we had the information of HCAL, we used the cut no more than 0.4\% energy fraction in the HCAL energy to replace the poor man's solution. And also, we changed some parameters of the cuts to get the best results. In the Table.\ref{basic_100}, the summary table for the cuts is shown.
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -549,16 +594,16 @@ In this month test beam, because we had the information of HCAL, we used the cut
     \hline
     Tight cut types & value\\\hline
     5-Rings cut &  $>$ 0.99 \\\hline  
-    HCAL/ECAL energy ratio & $<$ 0.004 \\\hline  
+    $\frac{\mathrm{HCAL  \ total \  energy}}{\mathrm{ECAL \ total \ energy}}$ & $<$ 0.004 \\\hline  
     $\mathrm{\frac{E_{7}}{E_{19}}}$ & $>$ 0.85\\\hline  
         \end{tabular}
-    \caption{E10/Etotal Tight cuts selection used in October test-beam}\label{basic_1}  %????????????
+    \caption{Tight cuts selection used in October test-beam}\label{basic_100}  %????????????
 \end{table}
 
 In the June test-beam, we only did the rejection for $\mathrm{E_{10}}$ after the tight-cut selections. In this month, we wanted to studied the power of the cuts from tight-cut selections to $\mathrm{E_{10}}$, it means we wanted to study totally how many e-like pions will be rejected after all cuts.  We have two steps rejection, and we used the same definitions with the equation (\ref{Equation_SIG}) and (\ref{Equation_BKG}).
 \begin{itemize}
 \item Tight cuts rejection power: \\ 
-This is the first step rejection study. Because we need to find out the e-like pions first, and then we can use our segmentation variable to reject them for the next step.  For this step, we found that the number of the background rejection is 3600. Most of the pions are rejected by those cuts.
+This is the first step rejection study. Because we need to find out the e-like pions with the cut in the Table.\ref{basic_100} first, and then we can use our segmentation variable to reject them for the next step.  For this step, we found that the number of the background rejection is 3600. Most of the pions are rejected by those cuts.
 \item $\mathrm{E_{10}}$ cuts rejection power:\\
 This is the second step rejection study. After we found out the e-like pions, we used the discrimination variable which we have invited in June test-beam,$\mathrm{E_{10}}$, to distinguish them from the real electrons. In this step, we used the critical point at 0.18,0.20 and 0.22, to see whether at the critical point near 0.2 will give us the good results. In the Table.\ref{basic_7} summarize the results for them. 
 Although, this time didn't have the better results compared with the June test-beam, we still got the number about 1.5.
@@ -567,12 +612,12 @@ Although, this time didn't have the better results compared with the June test-b
     \centering
     \begin{tabular}{|l|c|c|}
     \hline
-    E10/Etotal cut & Signal Efficiency & Background Rejection\\\hline
+    E10/Etotal cut & Electron Efficiency & Background Rejection\\\hline
     $>$ 0.18 &  99.56\%+/-0.01\%(syst)+/-0.20\%(stat) &  1.52+/-0.27(stat)\\\hline  
     $>$ 0.20 &  99.05\%+/-0.01\%(syst)+/-0.20\%(stat) &  1.53+/-0.26(stat)\\\hline  
     $>$ 0.22 &  98.91\%+/-0.01\%(syst)+/-0.20\%(stat) &  1.56+/-0.24(stat)\\\hline  
         \end{tabular}
-    \caption{E10/Etotal Electrons efficiency Tight cuts}\label{basic_7}  %????????????
+    \caption{E10 cuts electrons efficiency and Background rejection after the tight cuts}\label{basic_7}  %????????????
 \end{table}
 
 In the end, totally we can get the total rejection power of cuts which is calculated by the number 3600 with the Tight cuts rejection power and the number 1.5 with the $\mathrm{E_{10}}$ cuts rejection power. After times them together, we can get the number $3600\times1.5=5400$. In A Toroidal LHC ApparatuS(ATLAS), the expected value for it is between 5000 to 10000, and in our case, we arrived the value for the expectation. 
@@ -596,11 +641,11 @@ In the end, totally we can get the total rejection power of cuts which is calcul
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf}\\
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
      \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf}
-\caption{These figures present the correlation between the different DAQ input and Pedestal-subtracted mean and error. The upper left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
+\caption{These figures present the correlation between the different DAQ input and Pedestal-subtracted mean and error. The Top left and right pictures perform the channel of 18 and 22, which are closed to the injection channel. The down left and right pictures show channel of 44 and 52, which are farther from the injection channel.}
 \label{fig:PCB_injection_pulse_study}
 \end{figure}
 
-\subsection{The results of application in October test-beam MC}
+\subsection{The results of application with October test-beam MC}
 
  it shows the $E_{10}$ plot which is drawn by the events which are passed all cut we told before.
 \section{Milestone Achieved}
@@ -763,20 +808,20 @@ This method assumes that the correlation between \mJ{} and \mVV{} for the domina
 A signal-depleted control region (sideband) is defined by requiring the mass of the V jet to lie below or above the nominal selection; the \m\
 VV{} distribution observed in this region is then extrapolated to the nominal region through a transfer function estimated from simulation. O\
 ther minor sources of background, such as \ttbar, single top quark, and SM diboson production, are estimated from simulation after applying c\
-orrection factors based on control regions in data. The sideband region is defined around the jet mass window. The lower and upper sidebands correspond to t\
+orrection factors based on control regions in data. The sideband region is defined around the jet mass window. The lower and Top sidebands correspond to t\
 he \mJ{} ranges \LOWSBLOW--\SRLOW and \HIGHSBLOW--\HIGHSBHIGH{\GeV}, respectively. The Higgs boson mass region, defined by the range \SRHIGH-\
 -\HIGHSBLOW{\GeV}, corresponds to the signal region of searches for diboson in final states with highly Lorentz-boosted Higgs 
 bosons~\cite{Khachatryan:2016cfx}, and is therefore not used to estimate the background.
 
 \par The overall normalization of the W+jets background in the signal region is determined from a fit to the \mJ{} distribution in the lower \
-and upper sidebands of the data. The analytical form of the fitting function is chosen from simulation studies, as are the contributions from\
+and Top sidebands of the data. The analytical form of the fitting function is chosen from simulation studies, as are the contributions from\
  minor backgrounds. 
 
 The \mVV{} distribution observed in data and the
 SM background prediction are compared to check for the presence of a
 new resonance decaying to vector bosons.
 No bins with an excess with significance larger than three standard deviations are observed.
-We set upper limits on the
+We set Top limits on the
 production cross section of such resonances by combining the event categories of
 the dijet and \lnujet analyses.
 We follow the asymptotic approximation~\cite{AsymptCLs} of the $\mathrm{CL_S}$ criterion described in Refs.~\cite{CLs1,Junk:1999kv}.
@@ -801,8 +846,8 @@ in each of the considered signal hypotheses. In the combination, the systematic 
      \includegraphics[width=\cmsFigWidth]{B2G-16-004/Figure_006-b.pdf}\\
      \includegraphics[width=\cmsFigWidth]{B2G-16-004/Figure_006-c.pdf}
      \includegraphics[width=\cmsFigWidth]{B2G-16-004/Figure_006-d.pdf}
-\caption{Observed (black solid) and expected (black dashed) 95\% CL upper limits on the production of a narrow-width resonance decaying to
-a pair of vector bosons for different signal hypotheses. In the upper plots, limits are set in the context of a spin-1 neutral \PZpr (left) a\
+\caption{Observed (black solid) and expected (black dashed) 95\% CL Top limits on the production of a narrow-width resonance decaying to
+a pair of vector bosons for different signal hypotheses. In the Top plots, limits are set in the context of a spin-1 neutral \PZpr (left) a\
 nd charged \PWpr (right)
 resonances, and compared with the prediction of the HVT Models A and B. In the lower left plot, limits are set in the same model under the tr\
 iplet hypothesis (\PWpr and \PZpr).
@@ -822,11 +867,11 @@ dels A and B.
 In this context, we consider a scenario where we expect the \PWpr and \PZpr bosons to be degenerate in mass (triplet hypothesis).
 In addition, we consider also a scenario where only a charged (\PWpr) or a neutral (\PZpr) resonance is expected at a given mass (singlet hyp\
 othesis).
-Combining the analyses leads to about 10--30\% more stringent expected upper limits on the cross section compared
+Combining the analyses leads to about 10--30\% more stringent expected Top limits on the cross section compared
 to the most sensitive individual channel, depending on the resonance mass and the signal hypothesis.
 For $\mathrm{G}_\text{bulk}$, \PZpr and triplet signals (W' signal) with masses $<$0.8\TeV ($<$0.75\TeV), the limits are obtained from the lo\
 w-mass \lnujet channel, while for the higher masses they are obtained from the high-mass \lnujet and dijet channels.
-The dijet analysis provides more stringent expected upper limits on the cross sections than the \lnujet{} analysis for resonance masses above\
+The dijet analysis provides more stringent expected Top limits on the cross sections than the \lnujet{} analysis for resonance masses above\
  1.7\TeV for \PZpr and $>$1.3\TeV for \PWpr, because of the larger branching fractions: $\mathcal{B}(\Wo\Wo\to\qqbar\qqbar) = 44\%$, $\mathca\
 l{B}(\Wo\Wo\to\ell\Pgn\qqbar) = 31\%$, $\mathcal{B}(\Wo\Zo\to\qqbar\qqbar) = 46\%$, and $\mathcal{B}$($\Wo\Zo\to\ell\Pgn\qqbar$) = 16\%. In f\
 act, the combination of high- and low-purity categories, together with the weak dependence of tagging efficiency on \pt~\cite{CMS-PAS-JME-14-\
@@ -992,7 +1037,7 @@ A deficit of $2.4$ standard deviations is observed in the $1\mu$, 2 b tag catego
   \caption{
     Pruned jet mass distribution of the leading AK8 jet in the $2\ell$ category, and separately for the 1 (\cmsLeft) and 
 2 (\cmsRight) b-tagged subjet selections. The shaded band represents the uncertainty from the fit to data in the pruned jet mass sidebands. 
-The observed data are indicated by black markers. The dashed vertical lines separate the lower (LSB) and upper (HSB) sidebands, the \PW and 
+The observed data are indicated by black markers. The dashed vertical lines separate the lower (LSB) and Top (HSB) sidebands, the \PW and 
 \Z bosons mass region (VR), and the signal region (SR). The bottom panels report the pulls in each bin, 
 $(N^\text{\data}-N^\text{bkg})/\sigma$, where $\sigma$ is the Poisson uncertainty in data. The error bars represent the normalized Poisson 
 errors on the data.
@@ -1028,7 +1073,7 @@ and diboson components, respectively, fixed to the shapes and normalizations der
 The observed data in the SR are in agreement with the predicted background, as shown in Fig.~\ref{fig:mX}.
 
 The validity and robustness of this method is tested on data by splitting the lower \mj sideband in two and predicting shape and 
-normalization of the intermediate sideband from the lower and upper sidebands. The number of events and distributions found in data are 
+normalization of the intermediate sideband from the lower and Top sidebands. The number of events and distributions found in data are 
 compatible with the prediction within the systematic uncertainties.
 
 \begin{figure*}[!hbtp]\centering
@@ -1063,7 +1108,7 @@ Limits are derived on the product of the cross section for a heavy vector boson 
 and $\htobb$, denoted $\sigma(\X) \, \B(\X\to\VH) \, \B(\htobb)$. No specific assumption is made on $\B(\htobb)$, since this decay channel 
 has not yet been measured.
  
-The $0\ell$ and $2\ell$ categories are combined to provide upper limits for the case where \X is a heavy spin-1 vector singlet $\PZpr$, in 
+The $0\ell$ and $2\ell$ categories are combined to provide Top limits for the case where \X is a heavy spin-1 vector singlet $\PZpr$, in 
 the narrow-width approximation. Similarly the $1\ell$ categories are combined to provide limits for the case where \X is a heavy $\PW'$. 
 All the $0\ell$, $1\ell$, and $2\ell$ channels are combined to put stringent exclusion limits on the HVT model, scenario~B, assuming the 
 $\PZpr$ and $\PW'$ cross sections as predicted by the model. There are normalization increases caused by event migration between the 
@@ -1077,7 +1122,7 @@ mass. A resonance with $\mX \lesssim 2.0\TeV$ is excluded at 95\% CL in the HVT 
 
 \begin{figure}[!htb]\centering
     \includegraphics[width=\cmsFigWidth]{B2G-16-003/Figure_004.pdf}
-    \caption{Observed and expected 95\% CL upper limit with the ${\pm}1$ and ${\pm}2$ standard deviation uncertainty bands on 
+    \caption{Observed and expected 95\% CL Top limit with the ${\pm}1$ and ${\pm}2$ standard deviation uncertainty bands on 
 $\sigma(\X) \, \B(\X\to\VH) \, \B(\htobb)$  in the HVT model~B benchmark scenario with $\gV=3$ as a function of the resonance mass, for 
 the combination of all the considered channels.}
   \label{fig:xvh}
@@ -1257,10 +1302,10 @@ $\abs{\eta}< 2.5$ (2.4)
 and removing the mass requirement.
 
 Since no excess of events has been observed over the SM background expectation in the signal region, the results of this search are 
-interpreted in terms of an upper limit on the production
+interpreted in terms of an Top limit on the production
 of DM candidates in association with a Higgs boson
 in the process  $\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph$.
-The upper limits are computed at 95\% confidence level (CL) using a modified frequentist method 
+The Top limits are computed at 95\% confidence level (CL) using a modified frequentist method 
 (CL$_s$)~\cite{yellowReport, bib:CLS1, bib:CLS2} computed with an asymptotic approximation \cite{bib:CLS3}.
 A profile likelihood ratio is used as the test statistic in which systematic uncertainties are modeled as nuisance parameters.
 These limits are obtained as a function of \mzp and \maz for both Higgs boson decay channels and for the combination of the two.
@@ -1279,19 +1324,19 @@ to unity), results of the combined analysis are mainly driven by the \Hbb channe
 additional phase spac\
 e regions of the \cPZpr-2HDM model, i.e. larger values of $\tan{\beta}$, where the \HGG channel becomes more sensitive than \Hbb~\cite{2HDM}.
 
-Figures~\ref{fig:limitsexpected} (right) and~\ref{fig:limit2d} show the 95\% CL  expected and observed upper limits on the signal strength 
+Figures~\ref{fig:limitsexpected} (right) and~\ref{fig:limit2d} show the 95\% CL  expected and observed Top limits on the signal strength 
 $\sigma_{95\% \mathrm{CL}} (\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph )/\sigma_\text{theory} (\PZpr \to \Az \Ph \to \chi 
 \overline{\chi} \Ph )$.
 
-Figures~\ref{fig:limitsexpected} (right) and~\ref{fig:limit2d} show the 95\% CL  expected and observed upper limits on the signal strength 
+Figures~\ref{fig:limitsexpected} (right) and~\ref{fig:limit2d} show the 95\% CL  expected and observed Top limits on the signal strength 
 $\sigma_{95\% \mathrm{CL}} (\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph )/\sigma_\text{theory} (\PZpr \to \Az \Ph \to \chi \overline{\chi} \Ph )$.
 For \maz = 300\GeV, the \PZpr mass range from 600 to 1780\GeV is expected to be excluded with a 95\% CL when the signal model
 cross section is calculated using \gzp = 0.8, while the
 observed data, for \maz = 300\GeV, exclude the \zp mass range from 600 to 1860\GeV.
 When the signal model cross section is calculated using the constrained \gzp, the expected exclusion range is 830 to 1890\GeV,
 and the observed exclusion range is 770 to 2040\GeV.
-Figure~\ref{fig:limit2d} shows the expected and observed upper limits on the signal strength for the \Hbb and \HGG decay channels.
-Figure~\ref{fig:limit2dcombo} shows the upper limits on the signal strength combining the results from both the \Hbb and \HGG decay channels.
+Figure~\ref{fig:limit2d} shows the expected and observed Top limits on the signal strength for the \Hbb and \HGG decay channels.
+Figure~\ref{fig:limit2dcombo} shows the Top limits on the signal strength combining the results from both the \Hbb and \HGG decay channels.
 
 \begin{figure}[htbp]
 \centering
@@ -1404,9 +1449,9 @@ and resolution observed in data.
   selection, lepton rejection, the AK8 jet kinematic selections $\pt >
   300\GeV$ and $\abs{\eta} < 2.4$, and $\abs{\DeltaEta} < 1.3$. The reduced dijet
   invariant mass $\mjjs$ is required to be greater than 750\GeV. The
-  N-subjettiness requirement of $\nsub < 0.55$ is applied to the upper
+  N-subjettiness requirement of $\nsub < 0.55$ is applied to the Top
   left and lower figures. The soft-drop masses of the two jets
-  are between 105--135\GeV for the upper right and lower
+  are between 105--135\GeV for the Top right and lower
   figures.\label{fig:uncorrsd_prebtag}}
 \end{figure}
 
@@ -1660,7 +1705,7 @@ Closure tests of the background estimation methods were performed using simulate
 
 As shown in Figs.~\ref{fig:Alphabet_Bkg_TT_LL}
 and \ref{fig:AABH_SR}, for the signal regions, the observed \mjjs distribution is consistent with the estimated background.
-The results are interpreted in terms of upper limits on the
+The results are interpreted in terms of Top limits on the
 product of the production cross sections and the branching fractions
 $\sigma(\Pp\Pp \to \PX) \mathcal{B}(\PX \to \PH\PH \to \bbbar \bbbar)$
 for radion and bulk graviton of various mass hypotheses.
@@ -1670,7 +1715,7 @@ The limits are shown in Fig.~\ref{fig:lim_rad_grav_comb} for  a narrow width rad
 graviton. These are compared with the theoretical values of the product of the cross sections and branching fractions for the benchmarks  $\kappa/\overline{\Mpl} = 0.5$ and $\LambdaR = 3\TeV$, where the narrow width approximation for signal is valid~\cite{Oliveira:2014kla}. The expected limits on the bulk graviton are more stringent than those on the radion because of the higher efficiency of the $\abs{\DeltaEta}$ separation requirement for the former signal.
 
 
-The upper limits on the production of the cross sections and branching fraction lies in the range 126--1.4\unit{fb} for a narrow resonance $\PX$ of mass  $750 < \mx <  3000\GeV$. Assuming $\LambdaR = 3\TeV$, a bulk radion with a mass between 970 and 1400\GeV is excluded at 95\% confidence level, except in a small region close to 1200\GeV, where the observed limit is 11.4\unit{pb}, the theoretical prediction being 11.2\unit{pb}.
+The Top limits on the production of the cross sections and branching fraction lies in the range 126--1.4\unit{fb} for a narrow resonance $\PX$ of mass  $750 < \mx <  3000\GeV$. Assuming $\LambdaR = 3\TeV$, a bulk radion with a mass between 970 and 1400\GeV is excluded at 95\% confidence level, except in a small region close to 1200\GeV, where the observed limit is 11.4\unit{pb}, the theoretical prediction being 11.2\unit{pb}.
 
 
 \begin{figure}[htb]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  15 FEB 2019 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  19 FEB 2019 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,18 +464,6 @@ Defining CMS Note commands
 \CMSabstractbox=\box62
 )
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
-
-LaTeX Warning: Label `fig:PCB_injection_pulse_study' multiply defined.
-
-
-LaTeX Warning: Label `fig:PCB_injection_pulse_study' multiply defined.
-
-
-LaTeX Warning: Label `basic_1' multiply defined.
-
-
-LaTeX Warning: Label `basic_1' multiply defined.
-
 )
 \openout1 = `finalReport_temp.aux'.
 
@@ -1319,125 +1307,151 @@ n_and_RMS.pdf used on input line 403.
 unk/PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, page is rotated 9
 0 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endR
 eport/trunk/PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, page is r
-otated 90 degrees>] [8 </Users/ms08962476/Latex_report/MOST_finalreport/notes/M
-OST-103-endReport/trunk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean
-_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_
-finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel22_Pedesta
-l_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476
-/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip
-0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees>
- </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trun
-k/PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is 
-rotated 90 degrees>]
-Overfull \hbox (0.17503pt too wide) in paragraph at lines 417--418
-[]\OT1/ppl/m/n/12 I did this study with Prof.Stathes Pa-ga-nis, Prof.Rong-Shaya
-ng Lu, mas-ter stu-dent Chia-
- []
+otated 90 degrees>]
+<789FIG Delta-ray/test-beam_setup.png 5>
+<Delta-ray/test-beam_setup.png, id=242, 537.00626pt x 356.33125pt>
+File: Delta-ray/test-beam_setup.png Graphic file (type png)
+<use Delta-ray/test-beam_setup.png>
+Package pdftex.def Info: Delta-ray/test-beam_setup.png used on input line 416.
+(pdftex.def)             Requested size: 409.71689pt x 271.86937pt.
+[8 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
+unk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page i
+s rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MO
+ST-103-endReport/trunk/PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_
+and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/Latex_report/MOST_f
+inalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0_channel44_Pedestal
+_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees> </Users/ms08962476/
+Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0
+_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees>]
+[9 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
+unk/Delta-ray/test-beam_setup.png>]
+<789FIG Delta-ray/Luminosity.png 6>
+<Delta-ray/Luminosity.png, id=428, 708.6475pt x 564.1075pt>
+File: Delta-ray/Luminosity.png Graphic file (type png)
+<use Delta-ray/Luminosity.png>
+Package pdftex.def Info: Delta-ray/Luminosity.png used on input line 435.
+(pdftex.def)             Requested size: 182.09485pt x 144.95157pt.
+<789FIG Delta-ray/Luminosity_total.png 6>
+<Delta-ray/Luminosity_total.png, id=429, 727.71875pt x 568.1225pt>
+File: Delta-ray/Luminosity_total.png Graphic file (type png)
+<use Delta-ray/Luminosity_total.png>
+Package pdftex.def Info: Delta-ray/Luminosity_total.png used on input line 436.
 
-[9]
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 440.
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 440.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 440.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 440.
-
-
-Overfull \hbox (5.08287pt too wide) in paragraph at lines 440--441
+(pdftex.def)             Requested size: 182.09485pt x 142.1603pt.
+[10 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/Luminosity.png> </Users/ms08962476/Latex_report/MOST_finalreport
+/notes/MOST-103-endReport/trunk/Delta-ray/Luminosity_total.png>]
+Overfull \hbox (5.08287pt too wide) in paragraph at lines 454--455
 \OT1/ppl/m/n/12 by a hadronic com-part-ment (CE-H) with For-ward re-gion(FH) an
 d Back-ward re-gion(BH)
  []
 
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 442.
-
-<789FIG Delta-ray/Shower_pattern.png 5>
-<Delta-ray/Shower_pattern.png, id=424, 274.626pt x 234.1548pt>
+<789FIG Delta-ray/HGCAL_region.png 7>
+<Delta-ray/HGCAL_region.png, id=440, 686.565pt x 464.73625pt>
+File: Delta-ray/HGCAL_region.png Graphic file (type png)
+<use Delta-ray/HGCAL_region.png>
+Package pdftex.def Info: Delta-ray/HGCAL_region.png used on input line 458.
+(pdftex.def)             Requested size: 364.19664pt x 246.52177pt.
+<789FIG Delta-ray/CE-E.png 8>
+<Delta-ray/CE-E.png, id=443, 163.61125pt x 265.99374pt>
+File: Delta-ray/CE-E.png Graphic file (type png)
+<use Delta-ray/CE-E.png>
+Package pdftex.def Info: Delta-ray/CE-E.png used on input line 467.
+(pdftex.def)             Requested size: 182.09494pt x 182.09908pt.
+<789FIG Delta-ray/Silicon_module.png 8>
+<Delta-ray/Silicon_module.png, id=444, 578.16pt x 357.335pt>
+File: Delta-ray/Silicon_module.png Graphic file (type png)
+<use Delta-ray/Silicon_module.png>
+Package pdftex.def Info: Delta-ray/Silicon_module.png used on input line 468.
+(pdftex.def)             Requested size: 182.0949pt x 182.09666pt.
+<789FIG Delta-ray/CE-H(part1).png 8>
+<Delta-ray/CE-H(part1).png, id=445, 201.75375pt x 201.75375pt>
+File: Delta-ray/CE-H(part1).png Graphic file (type png)
+<use Delta-ray/CE-H(part1).png>
+Package pdftex.def Info: Delta-ray/CE-H(part1).png used on input line 469.
+(pdftex.def)             Requested size: 182.09485pt x 182.09695pt.
+<789FIG Delta-ray/CE-H(part2).png 8>
+<Delta-ray/CE-H(part2).png, id=446, 363.3575pt x 224.84pt>
+File: Delta-ray/CE-H(part2).png Graphic file (type png)
+<use Delta-ray/CE-H(part2).png>
+Package pdftex.def Info: Delta-ray/CE-H(part2).png used on input line 470.
+(pdftex.def)             Requested size: 182.09967pt x 182.10225pt.
+[11 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/HGCAL_region.png>]
+<789FIG Delta-ray/Shower_pattern.png 9>
+<Delta-ray/Shower_pattern.png, id=456, 274.626pt x 234.1548pt>
 File: Delta-ray/Shower_pattern.png Graphic file (type png)
 <use Delta-ray/Shower_pattern.png>
-Package pdftex.def Info: Delta-ray/Shower_pattern.png used on input line 452.
+Package pdftex.def Info: Delta-ray/Shower_pattern.png used on input line 482.
 (pdftex.def)             Requested size: 182.09485pt x 155.25722pt.
-<789FIG Delta-ray/5-Rings_cuts.png 5>
-<Delta-ray/5-Rings_cuts.png, id=425, 312.16624pt x 206.7725pt>
+<789FIG Delta-ray/5-Rings_cuts.png 9>
+<Delta-ray/5-Rings_cuts.png, id=457, 312.16624pt x 206.7725pt>
 File: Delta-ray/5-Rings_cuts.png Graphic file (type png)
 <use Delta-ray/5-Rings_cuts.png>
-Package pdftex.def Info: Delta-ray/5-Rings_cuts.png used on input line 453.
+Package pdftex.def Info: Delta-ray/5-Rings_cuts.png used on input line 483.
 (pdftex.def)             Requested size: 182.09485pt x 120.6191pt.
-<789FIG Delta-ray/Last_layer_20MIPs_50GeV.png 5>
-<Delta-ray/Last_layer_20MIPs_50GeV.png, id=426, 432.1746pt x 417.2388pt>
+<789FIG Delta-ray/Last_layer_20MIPs_50GeV.png 9>
+<Delta-ray/Last_layer_20MIPs_50GeV.png, id=458, 432.1746pt x 417.2388pt>
 File: Delta-ray/Last_layer_20MIPs_50GeV.png Graphic file (type png)
 <use Delta-ray/Last_layer_20MIPs_50GeV.png>
 Package pdftex.def Info: Delta-ray/Last_layer_20MIPs_50GeV.png used on input li
-ne 454.
+ne 484.
 (pdftex.def)             Requested size: 182.09485pt x 175.79935pt.
-<789FIG Delta-ray/E7_E19.png 5>
-<Delta-ray/E7_E19.png, id=427, 445.1832pt x 424.4658pt>
+<789FIG Delta-ray/E7_E19.png 9>
+<Delta-ray/E7_E19.png, id=459, 445.1832pt x 424.4658pt>
 File: Delta-ray/E7_E19.png Graphic file (type png)
 <use Delta-ray/E7_E19.png>
-Package pdftex.def Info: Delta-ray/E7_E19.png used on input line 455.
+Package pdftex.def Info: Delta-ray/E7_E19.png used on input line 485.
 (pdftex.def)             Requested size: 182.09485pt x 173.62405pt.
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 460.
-
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 460.
-
-[10]
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 462.
-
-[11 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
-runk/Delta-ray/Shower_pattern.png> </Users/ms08962476/Latex_report/MOST_finalre
-port/notes/MOST-103-endReport/trunk/Delta-ray/5-Rings_cuts.png> </Users/ms08962
-476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Last
-_layer_20MIPs_50GeV.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes
-/MOST-103-endReport/trunk/Delta-ray/E7_E19.png>]
-Overfull \hbox (4.17116pt too wide) in paragraph at lines 468--469
-[]\OT1/ppl/m/n/12 Early EM-showering: Those events have the sim-i-lar be-hav-io
-r, such as shower
- []
-
-<789FIG Delta-ray/Normal_electron.png 6>
-<Delta-ray/Normal_electron.png, id=443, 278.03876pt x 112.42pt>
+[12 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/CE-E.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes
+/MOST-103-endReport/trunk/Delta-ray/Silicon_module.png> </Users/ms08962476/Late
+x_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/CE-H(part1).
+png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/
+trunk/Delta-ray/CE-H(part2).png>] [13 </Users/ms08962476/Latex_report/MOST_fina
+lreport/notes/MOST-103-endReport/trunk/Delta-ray/Shower_pattern.png> </Users/ms
+08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray
+/5-Rings_cuts.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-
+103-endReport/trunk/Delta-ray/Last_layer_20MIPs_50GeV.png> </Users/ms08962476/L
+atex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/E7_E19.pn
+g>]
+<789FIG Delta-ray/Shower_depth_50GeV.png 10>
+<Delta-ray/Shower_depth_50GeV.png, id=482, 454.3374pt x 417.2388pt>
+File: Delta-ray/Shower_depth_50GeV.png Graphic file (type png)
+<use Delta-ray/Shower_depth_50GeV.png>
+Package pdftex.def Info: Delta-ray/Shower_depth_50GeV.png used on input line 50
+4.
+(pdftex.def)             Requested size: 182.09485pt x 167.22362pt.
+<789FIG Delta-ray/Normal_electron.png 11>
+<Delta-ray/Normal_electron.png, id=483, 278.03876pt x 112.42pt>
 File: Delta-ray/Normal_electron.png Graphic file (type png)
 <use Delta-ray/Normal_electron.png>
-Package pdftex.def Info: Delta-ray/Normal_electron.png used on input line 474.
+Package pdftex.def Info: Delta-ray/Normal_electron.png used on input line 511.
 (pdftex.def)             Requested size: 204.85844pt x 82.83269pt.
-<789FIG Delta-ray/Normal_pion.png 6>
-<Delta-ray/Normal_pion.png, id=444, 282.05376pt x 127.47626pt>
+<789FIG Delta-ray/Normal_pion.png 11>
+<Delta-ray/Normal_pion.png, id=484, 282.05376pt x 127.47626pt>
 File: Delta-ray/Normal_pion.png Graphic file (type png)
 <use Delta-ray/Normal_pion.png>
-Package pdftex.def Info: Delta-ray/Normal_pion.png used on input line 475.
+Package pdftex.def Info: Delta-ray/Normal_pion.png used on input line 512.
 (pdftex.def)             Requested size: 204.85844pt x 92.5881pt.
-<789FIG Delta-ray/Early_EM-showering.png 6>
-<Delta-ray/Early_EM-showering.png, id=445, 274.02374pt x 149.55875pt>
+<789FIG Delta-ray/Early_EM-showering.png 11>
+<Delta-ray/Early_EM-showering.png, id=485, 274.02374pt x 149.55875pt>
 File: Delta-ray/Early_EM-showering.png Graphic file (type png)
 <use Delta-ray/Early_EM-showering.png>
-Package pdftex.def Info: Delta-ray/Early_EM-showering.png used on input line 47
-6.
+Package pdftex.def Info: Delta-ray/Early_EM-showering.png used on input line 51
+3.
 (pdftex.def)             Requested size: 204.85844pt x 111.81049pt.
-<789FIG Delta-ray/Late_EM-showering.png 6>
-<Delta-ray/Late_EM-showering.png, id=446, 270.00874pt x 128.48pt>
+<789FIG Delta-ray/Late_EM-showering.png 11>
+<Delta-ray/Late_EM-showering.png, id=486, 270.00874pt x 128.48pt>
 File: Delta-ray/Late_EM-showering.png Graphic file (type png)
 <use Delta-ray/Late_EM-showering.png>
-Package pdftex.def Info: Delta-ray/Late_EM-showering.png used on input line 477
+Package pdftex.def Info: Delta-ray/Late_EM-showering.png used on input line 514
 .
 (pdftex.def)             Requested size: 204.85844pt x 97.48112pt.
-
-LaTeX Warning: Reference `' on page 12 undefined on input line 482.
-
-[12 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
-runk/Delta-ray/Normal_electron.png> </Users/ms08962476/Latex_report/MOST_finalr
-eport/notes/MOST-103-endReport/trunk/Delta-ray/Normal_pion.png> </Users/ms08962
-476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Earl
-y_EM-showering.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST
--103-endReport/trunk/Delta-ray/Late_EM-showering.png>]
+[14 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/Shower_depth_50GeV.png>]
 ! Extra }, or forgotten $.
-l.502 ...ve the bigger value for $\mathrm{E_{10}}}
+l.539 ...ve the bigger value for $\mathrm{E_{10}}}
                                                   $. Oppositely, for the e-l...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1446,7 +1460,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.502 ...ll have many values for $\mathrm{E_{10}}}
+l.539 ...ll have many values for $\mathrm{E_{10}}}
                                                   $ from all events. In the ...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1454,11 +1468,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-LaTeX Warning: Reference `' on page 13 undefined on input line 502.
-
 ! Extra }, or forgotten $.
-l.502 ...can see that we can use $\mathrm{E_{10}}}
+l.539 ...can see that we can use $\mathrm{E_{10}}}
                                                   $ to reject some of e-like...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1466,8 +1477,14 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+<789FIG Delta-ray/E10_50GeV.png 12>
+<Delta-ray/E10_50GeV.png, id=497, 442.2924pt x 421.575pt>
+File: Delta-ray/E10_50GeV.png Graphic file (type png)
+<use Delta-ray/E10_50GeV.png>
+Package pdftex.def Info: Delta-ray/E10_50GeV.png used on input line 543.
+(pdftex.def)             Requested size: 182.09485pt x 173.56732pt.
 ! Extra }, or forgotten $.
-l.504 ...d the critical point of $\mathrm{E_{10}}}
+l.548 ...d the critical point of $\mathrm{E_{10}}}
                                                   $ to be the threshold, bec...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1475,11 +1492,14 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-LaTeX Warning: Reference `' on page 13 undefined on input line 512.
-
+[15 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/Normal_electron.png> </Users/ms08962476/Latex_report/MOST_finalr
+eport/notes/MOST-103-endReport/trunk/Delta-ray/Normal_pion.png> </Users/ms08962
+476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Earl
+y_EM-showering.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST
+-103-endReport/trunk/Delta-ray/Late_EM-showering.png>]
 ! Too many }'s.
-l.514 ...best results. In the Table.\ref{basic_1}}
+l.558 ...est results. In the Table.\ref{basic_10}}
                                                   , it tells us that the bac...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1487,15 +1507,9 @@ Such booboos are generally harmless, so keep going.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13]
-
-LaTeX Warning: Reference `' on page 14 undefined on input line 545.
-
-[14]
-Overfull \hbox (2.93465pt too wide) in paragraph at lines 584--585
+[16 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/E10_50GeV.png>] [17]
+Overfull \hbox (2.93465pt too wide) in paragraph at lines 628--629
 []\OT1/ppl/m/n/12 Submit my first con-fer-ence pa-per: "Jet Sub-struc-ture Vari
 -ables with the SiFCC
  []
@@ -1504,33 +1518,27 @@ Overfull \hbox (2.93465pt too wide) in paragraph at lines 584--585
 
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.bbl
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1861.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1861.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1905.
+[18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1905.
 
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1861.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1861.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1905.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1905.
 
 Package rerunfilecheck Info: File `finalReport_temp.out' has not changed.
-(rerunfilecheck)             Checksum: 8B103CD2B62E8EA39649CE798C700592;1022.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1861.
+(rerunfilecheck)             Checksum: DB006E598570E3028FDA0624E47C82C6;1025.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1905.
  ) 
 Here is how much of TeX's memory you used:
- 10453 strings out of 492995
- 149112 string characters out of 6132704
- 255833 words of memory out of 5000000
- 13748 multiletter control sequences out of 15000+600000
- 39597 words of font info for 97 fonts, out of 8000000 for 9000
+ 10518 strings out of 492995
+ 150727 string characters out of 6132704
+ 257804 words of memory out of 5000000
+ 13795 multiletter control sequences out of 15000+600000
+ 38608 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 51i,13n,45p,1518b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,13n,45p,1518b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1541,10 +1549,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on finalReport_temp.pdf (17 pages, 1086350 bytes).
+Output written on finalReport_temp.pdf (20 pages, 2466318 bytes).
 PDF statistics:
- 528 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 49 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 586 PDF objects out of 1000 (max. 8388607)
+ 344 compressed objects within 4 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
