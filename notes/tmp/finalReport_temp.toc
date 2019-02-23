@@ -9,4 +9,19 @@
 \contentsline {subsection}{\numberline {3.1}Introduction for HGCAL}{9}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Tag-and-probe the optimized cuts and new variable with June test-beam MC}{12}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}The results of application in October test-beam MC}{17}{subsection.3.3}
-\contentsline {section}{\numberline {4}Milestone Achieved}{18}{section.4}
+\contentsline {subsection}{\numberline {3.4}Conclusion}{18}{subsection.3.4}
+\contentsline {section}{\numberline {4}Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}Simulation of detector response and event reconstruction}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Study of detector performance with soft drop mass}{20}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}The technique of soft drop declustering}{21}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Analysis method}{21}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Results and conclusion}{21}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Studies of signal and background separation using jet substructure variables}{30}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}N-subjettiness}{30}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}The technic of N-subjettiness}{30}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Analysis method}{31}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}The results and conclusion}{31}{subsubsection.4.4.3}
+\contentsline {subsection}{\numberline {4.5}Energy correlation function}{31}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}The technic of energy correlation function}{31}{subsubsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.2}Analysis method}{32}{subsubsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.3}The results and conclusion}{32}{subsubsection.4.5.3}

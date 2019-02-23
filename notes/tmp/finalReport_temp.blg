@@ -2,73 +2,167 @@ This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 The style file: auto_generated.bst
-I found no \citation commands---while reading file /Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 Database file #1: auto_generated.bib
-I was expecting a `,' or a `}'---line 5387 of file auto_generated.bib
+Repeated entry---line 1617 of file auto_generated.bib
+ : @article{Chekanov:2016ppq
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1654 of file auto_generated.bib
+ : @article{Benedikt:2206376
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1676 of file auto_generated.bib
+ : @misc{Tang:2015qga
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1728 of file auto_generated.bib
+ : @inproceedings{Adolphsen:2013kya
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1746 of file auto_generated.bib
+ : @inproceedings{Behnke:2013lya
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1795 of file auto_generated.bib
+ : @inproceedings{Aihara:2009ad
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2439 of file auto_generated.bib
+ : @article{Chekanov:2014fga
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2542 of file auto_generated.bib
+ : @article{Allison2016186
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2554 of file auto_generated.bib
+ : @article{Mangano:2016jyj
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2566 of file auto_generated.bib
+ : @article{Contino:2016spe
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5860 of file auto_generated.bib
+ : @article{Larkoski:2014wba
+ :                          ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 8066 of file auto_generated.bib
  :       SLACcitation   = "%%CITATION = ARXIV:1607.08834;%%"                                                   
  :                                                                                                             \
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 5405 of file auto_generated.bib
+I was expecting a `,' or a `}'---line 8084 of file auto_generated.bib
  :       SLACcitation   = "%%CITATION = ARXIV:1607.06943;%%"                                                   
  :                                                                                                             \
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 9990 of file auto_generated.bib
+Repeated entry---line 9187 of file auto_generated.bib
+ : @article{Larkoski:2014wba
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9204 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12235 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 12669 of file auto_generated.bib
  :       
  :       URL         = "http://cds.cern.ch/record/2117062?ln=en"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 10000 of file auto_generated.bib
+I was expecting a `,' or a `}'---line 12679 of file auto_generated.bib
  :       
  :       URL         = "http://cds.cern.ch/record/2202811?ln=en"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 12042 of file auto_generated.bib
+Repeated entry---line 13900 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 14721 of file auto_generated.bib
  :       SLACcitation   = "%%CITATION = ARXIV:1607.08834;%%"                                                   
  :                                                                                                             \
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 12060 of file auto_generated.bib
+I was expecting a `,' or a `}'---line 14739 of file auto_generated.bib
  :       SLACcitation   = "%%CITATION = ARXIV:1607.06943;%%"                                                   
  :                                                                                                             \
 I'm skipping whatever remains of this entry
-You've used 0 entries,
+Repeated entry---line 16963 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 17821 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 18864 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 20025 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23820 of file auto_generated.bib
+ : @article{Larkoski:2014wba
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25788 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 26646 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 27689 of file auto_generated.bib
+ : @inproceedings{Wobisch:1998wt
+ :                              ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in Aihara:2009ad
+Warning--empty booktitle in Adolphsen:2013kya
+Warning--empty booktitle in Behnke:2013lya
+You've used 16 entries,
             2537 wiz_defined-function locations,
-            614 strings with 5024 characters,
-and the built_in function-call counts, 31 in all, are:
-= -- 0
-> -- 0
+            748 strings with 8531 characters,
+and the built_in function-call counts, 4426 in all, are:
+= -- 468
+> -- 131
 < -- 0
-+ -- 0
-- -- 0
-* -- 5
-:= -- 9
-add.period$ -- 0
-call.type$ -- 0
++ -- 44
+- -- 28
+* -- 338
+:= -- 562
+add.period$ -- 36
+call.type$ -- 16
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 19
+duplicate$ -- 290
+empty$ -- 487
+format.name$ -- 29
+if$ -- 1154
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 16
+missing$ -- 35
+newline$ -- 87
+num.names$ -- 15
+pop$ -- 135
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 116
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 94
+swap$ -- 81
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 6
-(There were 7 error messages)
+warning$ -- 3
+while$ -- 25
+width$ -- 18
+write$ -- 198
+(There were 29 error messages)

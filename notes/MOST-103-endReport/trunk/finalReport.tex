@@ -238,7 +238,7 @@
 % 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
 % 3. For PASs: **DO NOT use tex macros**         in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
 \abstract{
-The discovery of Higgs boson at Large Hadron Collider(LHC) in 2012 opened a new door for particle physics.  Since then, people have been hard-working on upgrading the LHC to the higher luminosity and center-of-mass (C.M.) energy, so to study the properties of Higgs boson and to discover new particles predicted by the physics Beyond Standard Model(BSM). Some people even proposed the idea to build new colliders, such as Future Circular Collider(FCC), etc. near the working LHC space now. For my study, I focus on three topics which are related to the detector performance. First, because the radiation tolerance problem and increasing pileup at High-Luminosity LHC(HL-LHC), the Compact Muon Solenoid(CMS) experiment at LHC will replace the current endcap calorimeter with a silicon-pad High Granularity Calorimeter(HGCAL). I did some studies on the performance for them using data from test beam in CMS and the Hexaboard of its electronics in National Taiwan University(NTU). Second, I used the GEANT4 full simulation to simulate the FCC detector under the very high energy condition and study the jet performance. We expect to help the future facilities to design a high resolution detector, and could have a large potential to find the new physics with the new detector. }
+The discovery of the standard-model-like Higgs boson at Large Hadron Collider(LHC) in 2012 opened a new door for particle physics.  Since then, people have been hard-working on upgrading the LHC to the higher luminosity and center-of-mass (C.M.) energy, so to study the properties of Higgs boson and to discover new particles predicted by the physics Beyond Standard Model(BSM). Some people even proposed the idea to build new colliders, such as Future Circular Collider(FCC), etc. near the working LHC space now. For my study, I focus on three topics which are related to the detector performance. First, because the radiation tolerance problem and increasing pileup at High-Luminosity LHC(HL-LHC), the Compact Muon Solenoid(CMS) experiment at LHC will replace the current endcap calorimeter with a silicon-pad High Granularity Calorimeter(HGCAL). I did some studies on the performance for them using data from test beam in CMS and the Hexaboard of its electronics in National Taiwan University(NTU). Second, I used the GEANT4 full simulation to simulate the FCC detector under the very high energy condition and study the jet performance. We expect to help the future facilities to design a high resolution detector, and could have a large potential to find the new physics with the new detector. }
 
 
 % >> PDF Metadata
@@ -286,7 +286,7 @@ It could happen in the circuits which have the problem in power supplication. Wh
 \end{itemize}
 
 
-Then, both of them will lead to giving out the wrong signal from the electronics. We need to quantify this value and know more about this kind of noise, otherwise, it will be a big problem when we use this electronics to reconstruct the events from the sensor. 
+Then, both of them will lead to giving out the wrong signal from the electronics. We need to quantify this value and know more about this kind of noise, otherwise, it will be a big problem when we use this electronics to reconstruct the events from the sensor in the High Energy Physics(HEP) experiments. 
 
 I did this study with Prof.Stathes Paganis, Prof.Rong-Shayang Lu, master student Chia-Hong Chein from NTU, and Prof.Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study includes the following:
 \begin{itemize}
@@ -386,8 +386,8 @@ Charged-pion tagging and rejection are one of the strong points of HGCAL. Tradit
 
 I did this study with Prof. Stathes Paganis, Prof. Rong-Shayang Lu, master student Chia-Hong Chein from NTU, Dr. Shilpi Jain from University of Minnesota and Prof. Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study includes the following:
 \begin{itemize}
-\item Study the optimized cuts for finding the "fake electron" from pions, and introduce the new variable with the longitudinal segmentation using the test-beam MC from June.
-\item Apply the found optimized cuts and new variable in test-beam MC from October to see the electron efficiencies and pion rejections.
+\item Study the optimized cuts for finding the "fake electron" from pions, and introduce the new variable with the longitudinal segmentation using the test-beam MC samples from June.
+\item Apply the found optimized cuts and new variable in test-beam MC samples from October to see the electron efficiencies and pion rejections.
 \end{itemize}
 I will describe the detail as following.
 
@@ -584,7 +584,753 @@ Although, this time didn't have the better results compared with the June test-b
     \caption{E10 cuts electrons efficiency and Background rejection after the tight cuts}\label{basic_7}  %????????????
 \end{table}
 
+
 In the end, totally we can get the total rejection power of cuts which is calculated by the number 3600 with the Tight cuts rejection power and the number 1.5 with the $\mathrm{E_{10}}$ cuts rejection power. After times them together, we can get the number $3600\times1.5=5400$. In A Toroidal LHC ApparatuS(ATLAS), the expected value for it is between 5000 to 10000, and in our case, we arrived the value for the expectation. 
+\subsection{Conclusion}
+In this section, we obtained the cuts and new variable $\mathrm{E_{10}}$ to distinguish the e-like pions from real electrons with the June test-beam MC samples, and we applied in the October test-beam MC samples, happily, we got the expected results compared with the previous studies in ATLAS. This cuts and variable have never been applied in CMS analysis before, and we expect that we can help to reduce the background which is sensitive to electron/pion identification with HGCAL in the future.
+
+\section{Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider}
+After the discovery of the standard-model-like Higgs boson at 2012\cite{Chatrchyan:2012xdj}, we have established a milestone in HEP field. We used the LHC at CERN to solve an important puzzle in the SM of particle physics, Higgs boson, and it gave us the answer why the elementary particles retain their mass\cite{PhysRevLett.13.508} from the early universe to now. We expect more particles predicted by BSM can be found in the future. A lot of these new particles may be heavier than 13 TeV\cite{Contino:2016spe}\cite{Mangano:2016jyj}, which is operating now in LHC. Therefore, particle physicists plan to build a very high energy collider with $\sqrt{s} = 100\TeV$ in the future, such as high-energy LHC (HE-LHC), future circular $pp$ colliders of the European initiative, FCC-hh~\cite{Benedikt:2206376} and the Chinese initiative, SppC~\cite{Tang:2015qga}. \\
+
+In the very high energy era, the C.M. energy will be increased compared with now in LHC, and the instantaneous luminosity is also expected to increase. In this case, more interesting events will occur within a shorter amount of time, but incidentally, it will accompany with the unexpected background. We need to figure out some methods to pick out the signals which we are interested in, and filter the unwanted huge background events extremely. The silicon future circular collider (SiFCC) detector, which is based on the silicon detector (SiD)\cite{Aihara:2009ad} designed for international linear collider (ILC)\cite{Adolphsen:2013kya}\cite{Behnke:2013lya}, is our simulated detector prepared for the high energy collider for the future era in Ref.\cite{Chekanov:2016ppq}.We used this detector to simulate the condition under very high C.M., and applied the different configurations of detector with some methods such as jet substructure variables, to see the detector performance of distinguishing the signal from background. I will describe the detail later.\\
+
+Traditionally, we used scintillators as the active layers of the ECAL and HCAL to measure the energy of the showering of particles which are induced by the absorbers (with material such as lead, brass, or tungsten, etc.). But when the radiation dosage is much higher than before, scintillators can deteriorate easily. This is the same circumstance which CMS is bumped into now. In addition, because of time consuming for making the special shape for fitting the detector, it is not easy to sub-divide scintillators into smaller areas. And also, we need to have a readout with high position resolution to match them. In this case, we need to use the new design- "high granularity" detector to resolve the resolution problems, i.e., we used the different configurations of detector to record the precise position and energies. For the radiation problem, because the silicon detector is known to be radiation tolerant.\cite{Li:2002ru}, we could use it in the future collider, same as HGCAL which was presented in my previous studies.\\
+
+I did this study with Prof. Shin-Shan Eiko Yu from NCU, Prof. Ashutosh Kotwal and student Sourvan Sen from Duke University, Dr. Sergei Chekanov and Dr. Proudfoot James from Argonne National Laboratory(ANL), and Nhan Viet Tran from Fermi National Accelerator Laboratory. The contributions of Chih-Hsiang Yeh to this study includes the following:
+\begin{itemize}
+\item Study of detector performance with soft drop mass.
+\item Studies of signal and background separation using the different jet substructure variables.
+\end{itemize}
+I will describe the detail as following.
+
+\subsection{Simulation of detector response and event reconstruction}
+ 
+The description of the detector and software used for our study is discussed in \cite{Chekanov:2016ppq}. We used the geometry of SiFCC detector with the software package that represents a various environment for simulations of detector performance. It is used to prepare for new technology options, event reconstruction techniques for future 100~TeV colliders. Figure \ref{fig:SiFCC} is the SiFCC detector simulated by the {\sc geant4} package\cite{Allison2016186} and it was the detector studied in Ref.\cite{Chekanov:2016ppq}. The baseline detector discussed in \cite{Chekanov:2016ppq} uses a steel-scintillator hadronic calorimeter with a transverse cell size of 5~$\times$~5~cm$^2$, which corresponds to $\Delta \eta \times \Delta \phi = 0.022\times0.022$. In addition, because we wanted to test the detector performance of granularity effect with hadronic processes of signal and background, several geometry variations were considered, such as 20~$\times$~20~cm$^2$ and  1~$\times$~1~cm$^2$, which correspond to $\Delta \eta \times \Delta \phi$= $0.087\times0.087$ and  $0.0043\times0.0043$, respectively.\\
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{figs/6.png}
+\end{center}
+\caption{The azimuthal cross section of the SiFCC detector.}
+\label{fig:SiFCC}
+\end{figure}
+
+SiFCC detector which was simulated in our study contains five main parts: tracker, ECAL, HCAL, solenoid, and muon chambers. When particles are produced in the collider, they will go through the detector and leave signals to be recorded. First, the tracker can record the trajectory of a charged particle because it can leave the energy in and bended by the solenoid, we can obtain the transverse momentum of this charged particle. Electrons and photons will leave energy in ECAL , and hadronic particles, such as neutrons, protons, etc., will deposit energy in HCAL mainly. Muons will go through the whole detector and could be detected by muon chamber. Figure \ref{fig:barrel_size_material} lists the material and the configuration for the sub-detectors in SiFCC. Note, since for the time being we have more experimental results coming from the scintillator-based HCAL in CMS and ATLAS, we have been using this type of HCAL as a first study. After finishing the first study, we will move to the study of HCAL with silicon sensors as active layers later, same as HGCAL material. 
+
+
+In our studies, we used the simulations of a heavy $Z'$ boson, a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the SM.
+The $Z'$ bosons were simulated with the masses, $M=5$, $10$, $20$ and $40$~TeV. The lowest value $5$~TeV represents a mass that is the achieved C.M energy of the LHC experiments. The value $40$~TeV represents the physics for 100~TeV colliders. The $Z'$ particles are forced to decay to two light-flavor jets ($\mathrm{q\bar{q}}$) with one-prong jet as background, $\mathrm{W^+W^-}$ or $\mathrm{t\bar{t}}$ as signal, where $\mathrm{W(\rightarrow q\bar{q})}$ with two-prong jets, and $\mathrm{t (\rightarrow  W^+\>b \rightarrow q\bar{q} b)}$ with three-prong jets decay hadronically. The processes for signal and background are shown in Fig.\ref{fig:Process_SB}. In all such scenarios, two highly boosted jets are produced, which are typically back-to-back in the laboratory frame. The main difference between considered decay types lays in different jet substructure. The events of signals were generated using the \pythia generator with the default settings, ignoring interference with SM processes. The event samples which were used in this paper are available from the HepSim database~\cite{Chekanov:2014fga}.
+
+\begin{figure}
+\begin{center}
+   \subfigure[Background Z'$\rightarrow$ q$\bar{\mathrm{q}}$] {
+   \includegraphics[width=0.25\textwidth]{figs/10.png}\hfill
+   }
+   \subfigure[Signal Z'$\rightarrow$WW] {
+   \includegraphics[width=0.25\textwidth]{figs/11.png}
+   }
+    \subfigure[Signal Z'$\rightarrow$ t$\bar{\mathrm{t}}$] {
+   \includegraphics[width=0.25\textwidth]{figs/12.png}
+   }
+
+\end{center}
+\caption{The signals and background we study.}
+\label{fig:Process_SB}
+\end{figure}
+
+%%%===============================Soft_drop_mass================================%%
+\subsection{Study of detector performance with soft drop mass}
+In this section, we use the jet mass computed with a specific algorithm, soft 
+drop declustering, to study the performance of detector with various detector 
+cell sizes and center-of-mass (c.m.) energies. 
+\subsubsection{The technique of soft drop declustering}
+The soft drop declustering~\cite{Larkoski:2014wba} is a grooming method 
+that removes soft wide-angle radiation from a jet. The constituents of a jet 
+$j_0$ are first reclustered using the Cambridge-Aachen
+ (C/A) algorithm~\cite{Dokshitzer:1997in,Wobisch:1998wt}. Then, the jet $j_0$ 
+is broken into two subjets $j_1$ and $j_2$ by undoing the last stage of C/A 
+clustering.
+If the subjets pass the following soft drop condition, jet $j_0$ is the final 
+soft-drop jet. Otherwise, the algorithm redefines $j_0$ to be the subjet with 
+larger $p_T$ (among $j_1$ and $j_2$) and iterates the procedure.
+\begin{equation} \label{eq:soft-drop}
+\frac{\mathrm{min}(p_{T1},p_{T2})}{p_{T1}+p_{T2}}>z_\mathrm{cut}(\frac{\Delta R_{12}}{R_{0}})^{\beta},
+\end{equation}
+where $p_{T1}$ and $p_{T2}$ are the transverse momenta of the two subjets, 
+$z_\mathrm{cut}$ is soft drop threshold, 
+$\Delta R_{12}$ is the distance between the two subjets in the $\eta$-$\phi$ 
+plane, $R_0$ is the characteristic radius of the original jet, and $\beta$ is 
+the angular exponent.
+
+In our study, we compare the performance of future detector when setting 
+$\beta=0$ versus when setting $\beta=2$. For $\beta=0$, the soft drop condition 
+depends only on the $z_\mathrm{cut}$. For $\beta=2$, the condition depends on 
+the angular distance between the two subjets and $z_\mathrm{cut}$ and the 
+algorithm becomes infrared and collinear safe. 
+
+\subsubsection{Analysis method}
+We employ the following method to quantify the detector performance and 
+find out the cell size that gives the best separation power to distinguish 
+signal from background. For each configuration of detector and c.m. energy, 
+we draw the receiver operating characteristic (ROC) curves in which the x-axis
+ is the signal efficiency ($\epsilon_\mathrm{sig}$) and y-axis is the inverse 
+of background efficiency ($1/\epsilon_\mathrm{bkg}$). 
+In order to scan the efficiencies of soft drop mass cuts, we vary the mass 
+window as follows. We first look for the median bin 
+$i_\mathrm{med}$\footnote{The integral from bin 0 to bin $i_\mathrm{med}$ 
+($i_\mathrm{med}-1$) should be greater (less) than half 
+of the total number of events. Note, the bin width is 5~GeV.} of the soft 
+drop mass histogram from simulated signal events. Taking the right boundary
+ of bin $i_\mathrm{med}$ as the center of mass window 
+$x_\mathrm{center}$, we start increasing the width of mass window symmetrically
+ on the left and on the right of $x_\mathrm{center}$, in steps of 5~GeV, 
+i.e. the narrowest mass window is 
+[$x_\mathrm{center}-5,x_\mathrm{center}+5$]. If one side reaches the boundary 
+of the mass histogram, we only increase the width on the other side, also in 
+steps of 5~GeV. For each mass window, there will be corresponding 
+$\epsilon_\mathrm{sig}$ and $\epsilon_\mathrm{bkg}$, which gives a point in 
+the ROC curves.
+
+\subsubsection{Results and conclusion}
+Figures~\ref{fig:cluster_mass_mmdt_ww}, \ref{fig:cluster_mass_mmdt_tt},
+ \ref{fig:cluster_mass_sdb2_ww}, and \ref{fig:cluster_mass_sdb2_tt} 
+present the distributions of soft drop mass for $\beta=0$ and $\beta=2$ with 
+different c.m. energies and detector cell sizes; the signals considered are 
+Z'$\rightarrow$WW and Z'$\rightarrow$t$\bar{\mathrm{t}}$. 
+In Figs.~\ref{fig:cluster_mass_mmdt_ww_ROC}, \ref{fig:cluster_mass_mmdt_tt_ROC}, \ref{fig:cluster_mass_sdb2_ww_ROC}, and \ref{fig:cluster_mass_sdb2_tt_ROC}, 
+ROC curves from different detector cell sizes are compared for each 
+c.m. energy, respectively. 
+
+Figures~\ref{fig:cluster_mass_mmdt_ww_ROC} and 
+\ref{fig:cluster_mass_mmdt_tt_ROC} show that for $\beta=0$ the 
+smallest detector cell size, 
+ $1~\mathrm{cm}\times1~\mathrm{cm}$, has the best separation power at 
+$\sqrt{s}=$5, 10, and 20~TeV when the signal is Z'$\rightarrow$WW and 
+at  $\sqrt{s}=$10 and 20~TeV when the signal is Z'$\rightarrow$t$\bar{\mathrm{t}}$.
+On the contrary, Figs.~\ref{fig:cluster_mass_sdb2_ww_ROC} and \ref{fig:cluster_mass_sdb2_tt_ROC} show that for $\beta=2$ the smallest detector cell size 
+does not have improvements in the separation power with respect to those with 
+larger cell sizes. In fact, the performances of the three cell sizes are 
+similar. In addition, sometimes bigger detector cell sizes, 
+$5~\mathrm{cm}\times5~\mathrm{cm}$ or $20~\mathrm{cm}\times20~\mathrm{cm}$
+ have the best separation power. 
+
+We also find compared to $\beta=2$, soft drop mass with $\beta=0$ has better 
+performance for distinguishing signal from background. Therefore, we will 
+apply requirements on this variable when studying the other jet substructure 
+variables. 
+ 
+%50bins
+\begin{figure}
+\begin{center}
+   \subfigure[5~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_mmdt_5tev_04_no_UOF.eps}
+   }
+      \subfigure[10~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_mmdt_10tev_04_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_mmdt_20tev_04_no_UOF.eps}
+   }
+    \subfigure[40~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_mmdt_40tev_04_no_UOF.eps}
+   }\\
+   \subfigure[5~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_mmdt_5tev_04_no_UOF.eps}
+   }
+   \subfigure[10~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_mmdt_10tev_04_no_UOF.eps}
+   }
+      \subfigure[20~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_mmdt_20tev_04_no_UOF.eps}\hfill
+   }
+      \subfigure[40~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_mmdt_40tev_04_no_UOF.eps}\hfill
+   }\\
+   \subfigure[5~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_mmdt_5tev_04_no_UOF.eps}\hfill
+   }
+    \subfigure[10~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_mmdt_10tev_04_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_mmdt_20tev_04_no_UOF.eps}\hfill
+   }
+      \subfigure[40~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_mmdt_40tev_04_no_UOF.eps}
+   }
+
+\end{center}
+\caption{Distributions of soft drop mass for $\beta$=0, with 5, 10, 20, and 
+40~TeV c.m. energies and three different detector cell sizes: 20$\times$20, 
+5$\times$5, and 1$\times$1 (cm$\times$cm). The signal (background) process is 
+Z'$\rightarrow$WW (Z'$\rightarrow$q$\bar{\mathrm{q}}$).
+\label{fig:cluster_mass_mmdt_ww}}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+  \subfigure[$M(Z')=5$~TeV] {
+  \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps}
+  }
+  \subfigure[$M(Z')=10$~TeV] {
+  \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps}
+  }\\
+ \subfigure[$M(Z')=20$~TeV] {
+ \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps}
+ }
+ \subfigure[$M(Z')=40$~TeV] {
+ \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps}
+ }
+\end{center}
+\caption{The ROC curves of soft drop mass selection for $\beta$=0 
+with 5, 10, 20, and 40~TeV c.m. energies. 
+Three different detector cell sizes are compared: 20$\times$20, 
+5$\times$5, and 1$\times$1 (cm$\times$cm). 
+The signal (background) process is Z'$\rightarrow$WW 
+(Z'$\rightarrow$q$\bar{\mathrm{q}}$).}
+\label{fig:cluster_mass_mmdt_ww_ROC}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+   \subfigure[5~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_mmdt_tt_5tev_04_tt_no_UOF.eps}
+   }
+      \subfigure[10~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_mmdt_tt_10tev_04_tt_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_mmdt_tt_20tev_04_tt_no_UOF.eps}
+   }
+    \subfigure[40~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_mmdt_tt_40tev_04_tt_no_UOF.eps}
+   }\\
+   \subfigure[5~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_mmdt_tt_5tev_04_tt_no_UOF.eps}
+   }
+   \subfigure[10~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_mmdt_tt_10tev_04_tt_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_mmdt_tt_20tev_04_tt_no_UOF.eps}\hfill
+   }
+      \subfigure[40~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_mmdt_tt_40tev_04_tt_no_UOF.eps}\hfill
+   }\\
+   \subfigure[5~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_mmdt_tt_5tev_04_tt_no_UOF.eps}\hfill
+   }
+    \subfigure[10~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_mmdt_tt_10tev_04_tt_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_mmdt_tt_20tev_04_tt_no_UOF.eps}\hfill
+   }
+      \subfigure[40~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_mmdt_tt_40tev_04_tt_no_UOF.eps}
+   }
+\end{center}
+\caption{
+Distributions of soft drop mass for $\beta$=0, with 5, 10, 20, and 
+40~TeV c.m. energies and three different detector cell sizes: 20$\times$20, 
+5$\times$5, and 1$\times$1 (cm$\times$cm). The signal (background) process is 
+Z'$\rightarrow$t$\bar{\mathrm{t}}$ (Z'$\rightarrow$q$\bar{\mathrm{q}}$).
+}
+\label{fig:cluster_mass_mmdt_tt}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+  \subfigure[$M(Z')=5$~TeV] {
+  \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps}
+  }
+  \subfigure[$M(Z')=10$~TeV] {
+  \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps}
+  }\\
+ \subfigure[$M(Z')=20$~TeV] {
+ \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps}
+ }
+ \subfigure[$M(Z')=40$~TeV] {
+ \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps}
+ }
+\end{center}
+\caption{
+The ROC curves of soft drop mass selection for $\beta$=0 
+with 5, 10, 20, and 40~TeV c.m. energies. 
+Three different detector cell sizes are compared: 20$\times$20, 
+5$\times$5, and 1$\times$1 (cm$\times$cm). 
+The signal (background) process is Z'$\rightarrow$t$\bar{\mathrm{t}}$
+(Z'$\rightarrow$q$\bar{\mathrm{q}}$).
+}
+\label{fig:cluster_mass_mmdt_tt_ROC}
+\end{figure}
+
+
+
+\begin{figure}
+\begin{center}
+   \subfigure[5~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_sdb2_ww_5tev_04_800_no_UOF.eps}
+   }
+      \subfigure[10~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_sdb2_ww_10tev_04_800_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_sdb2_ww_20tev_04_1600_no_UOF.eps}
+   }
+    \subfigure[40~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_sdb2_ww_40tev_04_1600_no_UOF.eps}
+   }\\
+   \subfigure[5~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_sdb2_ww_5tev_04_800_no_UOF.eps}
+   }
+   \subfigure[10~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_sdb2_ww_10tev_04_800_no_UOF.eps}
+   }
+    \subfigure[20~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_sdb2_ww_20tev_04_1600_no_UOF.eps}\hfill
+   }
+      \subfigure[40~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_sdb2_ww_40tev_04_1600_no_UOF.eps}\hfill
+   }\\
+   \subfigure[5~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_ww_5tev_04_800_no_UOF.eps}\hfill
+   }
+    \subfigure[10~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_ww_10tev_04_800_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_ww_20tev_04_1600_no_UOF.eps}\hfill
+   }
+      \subfigure[40~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_ww_40tev_04_1600_no_UOF.eps}
+   }
+\end{center}
+\caption{
+Distributions of soft drop mass for $\beta$=2, with 5, 10, 20, and 
+40~TeV c.m. energies and three different detector cell sizes: 20$\times$20, 
+5$\times$5, and 1$\times$1 (cm$\times$cm). The signal (background) process is 
+Z'$\rightarrow$WW (Z'$\rightarrow$q$\bar{\mathrm{q}}$).
+}
+\label{fig:cluster_mass_sdb2_ww}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+  \subfigure[$M(Z')=5$~TeV] {
+  \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps}
+  }
+  \subfigure[$M(Z')=10$~TeV] {
+  \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps}
+  }\\
+ \subfigure[$M(Z')=20$~TeV] {
+ \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps}
+ }
+ \subfigure[$M(Z')=40$~TeV] {
+ \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps}
+ }
+\end{center}
+\caption{
+The ROC curves of soft drop mass selection for $\beta$=2
+with 5, 10, 20, and 40~TeV c.m. energies. 
+Three different detector cell sizes are compared: 20$\times$20, 
+5$\times$5, and 1$\times$1 (cm$\times$cm). 
+The signal (background) process is Z'$\rightarrow$WW 
+(Z'$\rightarrow$q$\bar{\mathrm{q}}$).
+}
+\label{fig:cluster_mass_sdb2_ww_ROC}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+   \subfigure[5~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_tt_5tev_04_tt_1200_no_UOF.eps}
+   }
+      \subfigure[10~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_sdb2_tt_10tev_04_tt_1200_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_sdb2_tt_20tev_04_tt_2400_no_UOF.eps}
+   }
+    \subfigure[40~TeV at 20$\times$20 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_010_mass_sdb2_tt_40tev_04_tt_2400_no_UOF.eps}
+   }\\
+   \subfigure[5~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_sdb2_tt_5tev_04_tt_1200_no_UOF.eps}
+   }
+   \subfigure[10~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_sdb2_tt_10tev_04_tt_1200_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_sdb2_tt_20tev_04_tt_2400_no_UOF.eps}\hfill
+   }
+      \subfigure[40~TeV at 5$\times$5 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_009_mass_sdb2_tt_40tev_04_tt_2400_no_UOF.eps}\hfill
+   }\\
+   \subfigure[5~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_tt_5tev_04_tt_1200_no_UOF.eps}\hfill
+   }
+    \subfigure[10~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_tt_10tev_04_tt_1200_no_UOF.eps}
+   }
+   \subfigure[20~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_tt_20tev_04_tt_2400_no_UOF.eps}\hfill
+   }
+      \subfigure[40~TeV at 1$\times$1 (cm$\times$cm) with cluster] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_cluster_012_mass_sdb2_tt_40tev_04_tt_2400_no_UOF.eps}
+   }
+\end{center}
+\caption{
+Distributions of soft drop mass for $\beta$=2, with 5, 10, 20, and 
+40~TeV c.m. energies and three different detector cell sizes: 20$\times$20, 
+5$\times$5, and 1$\times$1 (cm$\times$cm). The signal (background) process is 
+Z'$\rightarrow$t$\bar{\mathrm{t}}$ (Z'$\rightarrow$q$\bar{\mathrm{q}}$).
+}
+\label{fig:cluster_mass_sdb2_tt}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+  \subfigure[$M(Z')=5$~TeV] {
+  \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps}
+  }
+  \subfigure[$M(Z')=10$~TeV] {
+  \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps}
+  }
+  \\
+ \subfigure[$M(Z')=20$~TeV] {
+ \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps}
+ }
+ \subfigure[$M(Z')=40$~TeV] {
+ \includegraphics[width=\cmsFigWidth]{figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps}
+ }
+\end{center}
+\caption{
+The ROC curves of soft drop mass selection for $\beta$=2
+with 5, 10, 20, and 40~TeV c.m. energies. 
+Three different detector cell sizes are compared: 20$\times$20, 
+5$\times$5, and 1$\times$1 (cm$\times$cm). 
+The signal (background) process is Z'$\rightarrow$t$\bar{\mathrm{t}}$
+(Z'$\rightarrow$q$\bar{\mathrm{q}}$).
+}
+\label{fig:cluster_mass_sdb2_tt_ROC}
+\end{figure}
+%%%===============================C2b1 and Tau21,32 Studies================================%%
+\subsection{Studies of signal and background separation using jet substructure variables}
+In this section, we study different jet substructure variables and compare their ability to separate signal from background with different detector sizes and c.m. energy using ROC curves.\\
+
+\subsection{N-subjettiness}
+N-subjettiness[\ref{}] is the detection technique of jet substructure that is used to identify boosted hadronically-decaying objects under the high c.m. conditions. We use $\tau$ variable to distinguish the number of subjet in a fatjet to separate signal and background with different detector sizes and c.m. energy.\\
+
+\subsubsection{The technic of N-subjettiness}
+The formula and the technique are as following:\\
+\begin{equation}\label{eq:Nsub_1}
+\tau_{N}=\frac{1}{d_{0}}\sum_{k}p_{T,k} min\{\Delta R_{1,k},\Delta R_{2,k},.....\Delta R_{N,k}\}
+\end{equation}
+\begin{equation}
+d_{0}=\sum_{k}p_{T,k} R_{0}
+\end{equation}
+k runs over all constituent particles in the given jets (fatjet), $p_{T,k}$ are their transverse momentum, $\Delta R_{J,k}=\sqrt{(\Delta \eta)^{2}+(\Delta \phi)^{2}}$ is the distance between the constituent particles k and the candidate subjet J on the $\eta-\phi$ plane. $R_{0}$ is the characteristic jet radius used in Anti-kt(AK) jet algorithm at starting. $d_{0}$ is the normalization factor.\\
+\begin{enumerate}
+\item First, Anti-kt(AK) algorithm is used to reconstruct jets
+\item Second, after reconstructing the AK4 jets, exclusive $k_{T}$ algorithm[\ref{}] is used in finding the jet axis in a fatjet.
+\item Third, start running formula [\ref{eq:Nsub_1}] and loop all constituent particles in a fatjet.
+\item Finally, when finishing running all particles, it will give out $\tau_{N}$, where N is positive integer. 
+\end{enumerate}
+
+If a fatjet has N subjet(s)[\ref{}], its $\tau_{N}$ is smaller than the $\tau_{N}$ of the fatjet with different number of subjets. For example, if we compare the  $\tau_{2}$ of one-subjet fatjet and two-subjets one, two-subjets fatjet has smaller $\tau_{2}$ than one-subjet one. On the other hand, one-subjet fatjet has smaller $\tau_{1}$ than two-subjets one. In the end, we can use the ratio of  $\tau_{2}$ and  $\tau_{1}$ ( $\tau_{21}$) to distinguish fatjet with one-subjet case and-two subjets case.$\tau_{21}$ is used to discriminate the fatjet shape, and it can be modified with different number of subjet.\\
+
+In our study, we use $\tau_{21}$  and $\tau_{32}$ in distinguishing two-subjets fatjet and three-subjets fatjet from one-subjet fatjet individually. We want to use this two ratio values to distinguish signal from background.\\
+\subsubsection{Analysis method}
+First, we select the events in mass window by using SD with $\beta=0$ and 75$\%$ signal efficiency. Then, we find the highest ratio bin to be our seed bin. Next, we compare the left and right of ratio bin, and add the higher bin to be our width. Finally,  We can use this width to draw the ROC curves.\\2
+\subsubsection{The results and conclusion}
+In the figure [\ref{fig:Rawhit_05GeV_tau21_Dis}][\ref{fig:Rawhit_05GeV_tau32_Dis}], they show the histograms of $\tau_{21}$ and $\tau_{32}$ after selecting the events. In all figures, they also include the Mann-Whitney U value in ir the legend.\\
+
+As a result of figure [\ref{fig:Rawhit_05GeV_tau21_ROC}][\ref{fig:Rawhit_05GeV_tau32_ROC}], they perform the ROC curves of $\tau_{21}$ and $\tau_{32}$ with different detector cell sizes and c.m. energy. The smallest detector cell (1$\times$1) doesn't have the best separation power to distinguish signal from background. Some of them have the best separation power with the bigger cell size (5$\times$5 and 20$\times$20).\\
+
+In Figure [\ref{fig:Rawhit_05GeV_total_Mann}](a)(b), they show the summary plots of $\tau_{21}$ and $\tau_{32}$ with the rawhit cut with 0.5GeV using Mann Whitney U test. In $\tau_{21}$, 5TeV has better separation power when detector sizes get smaller. When energy increases, there is no improvement in the smallest detector cell size (1$\times$1). In $\tau_{32}$, the case is similar to  $\tau_{21}$. Even worse, with some c.m. energies, the bigger detector sizes (5$\times$5 and 20$\times$20) have better separation power than the smallest detector sizes (1$\times$1). 
+
+\subsection{Energy correlation function}
+Energy correlation function (ECF) [\ref{}] is another kind of detection technique of jet substurcture that is used to distinguish the number of subjets in a fatjet under high c.m. energy conditions. This method only uses the momenta of particles and the angles between them without additional algorithm.\\
+\subsubsection{The technic of energy correlation function}
+The basic ECF formula is as following:\\
+\begin{equation} \label{eq:ECF_Original}
+ECF(N,\beta)=\sum_{i_{1}<i_{2}<....<i_{N}\in J} (\prod_{a=1}^{N}E_{ia})(\prod_{b=1}^{N-1}\prod_{c=b+1}^{N} \theta_{i_{b}i_{c}})^{\beta}
+\end{equation}
+
+In the formula \ref{eq:ECF_Original}, the sum loop all particles in the jet $J$, $E$ are the energy of particles, and $\theta$ are the angles between the particles.
+
+We apply two approximation. First, because under the high energy limitation $p>>m$, $E\approx p$. Second, we use Radius R between particles naturally, so our ECF formula (\ref{eq:ECF_Original}) can be modified to the formula:\\  
+\begin{equation} \label{eq:ECF_Modified}
+ECF(N,\beta)=\sum_{i_{1}<i_{2}<....<i_{N}\in J} (\prod_{a=1}^{N}P_{ia})(\prod_{b=1}^{N-1}\prod_{c=b+1}^{N} R_{i_{b}i_{c}})^{\beta}
+\end{equation}
+
+From the modified ECF formula (\ref{eq:ECF_Modified}), in order to use the dimensionless observation to determine whether the number of subjets in system, parameter $\tau_{N}$ is defined as:\\
+\begin{equation} \label{eq:ECF_ratio}
+\tau_{N}^{(\beta)}\equiv\frac{ECF(N+1,\beta)}{ECF(N,\beta)}
+\end{equation}
+
+The idea of formula (\ref{eq:ECF_ratio}) is from N-subjetness, because the behavior of it is very similar to N-subjetness as reference [\ref{}]. In general, if the system has N subjets, $ECF(N+1,\beta)$ should be significantly smaller than $ECF(N,\beta)$, so we can use this advantage to distinguish different number of subjets. FInally, because it is suggested to used $\tau_{21}$, $\tau_{32}$ [\ref{}] to distinguish two-subjets fatjet and three-subjets fatjet from one-subjet fatjet, in the ECF, it also defines the ratio of $\tau$ there, and define the energy correlation double ratio that is used in our study:\\
+\begin{equation}
+C_{N}^{(\beta)}\equiv\frac{\tau_{N}^{(\beta)}}{\tau_{N-1}^{(\beta)}}=\frac{ECF(N-1,\beta)ECF(N+1,\beta)}{ECF(N,\beta)^2}
+\end{equation}
+
+We set N=2 and $\beta=1$ ($C_{2}^{1}$) to distinguish two-subjets fatjet from one-subjet fatjet.
+\subsubsection{Analysis method}
+First, we select the events in mass window by using SD with $\beta=0$ and 75$\%$ signal efficiency. Then, we find the highest ratio bin to be our seed bin. Next, we compare the left and right of ratio bin, and add the higher bin to be our width. Finally,  We can use this width to draw the ROC curves.\\
+\subsubsection{The results and conclusion}
+In the figure [\ref{fig:Rawhit_05GeV_c2b1_Dis}], they show the histograms of $\tau_{21}$ and $\tau_{32}$ after selecting the events. In all figures, they also include the Mann-Whitney U value in their legend\\
+
+As a result of figure [\ref{fig:Rawhit_05GeV_c2b1_ROC}], they perform the ROC curves of $C_{2}^{1}$ with different detector cell sizes and c.m. energy. The smallest detector cell (1$\times$1) doesn't have the best separation power to distinguish signal from background. In addition, in some cases such like (a), the biggest one (20$\times$20) has the best distinguish power under the same c.m. energy.\\
+
+In Figure [\ref{fig:Rawhit_05GeV_total_Mann}](c), it shows the summary plots with the rawhit cut with 0.5GeV using Mann Whitney U test. For conclusion, all separation power aren't improved by smallest cell size (1$\times$1).\\
+
+%25bins
+\begin{figure}
+\begin{center}
+   \subfigure[5TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_c2b1_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}\hfill
+   }
+   \subfigure[10TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_c2b1_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_c2b1_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\\
+   \subfigure[5TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_c2b1_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[10TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_c2b1_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_c2b1_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\\
+   \subfigure[5TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_c2b1_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[10TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_c2b1_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_c2b1_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\end{center}
+\caption{Distributions of Mann-Whitney value U in 5, 10, 20, 40TeV energy collision for c2b1 in different detector sizes. Cell Size in 20$\times$20, 5$\times$5, and 1$\times$1(cm$\times$cm) are shown here.}
+\label{fig:Rawhit_05GeV_c2b1_Dis}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+   \subfigure[5 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}\hfill
+   }
+   \subfigure[10 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }\\
+   \subfigure[20 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }
+   \subfigure[40 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }
+\end{center}
+\caption{Signal efficiency versus background rejection rate using c2b1.The energies of collision at (a)5, (b)10, (c)20, (d)40TeV are shown here. In each picture, the three ROC curves correspond to different detector sizes.}
+\label{fig:Rawhit_05GeV_c2b1_ROC}
+\end{figure}
+
+
+
+%25bins
+\begin{figure}
+\begin{center}
+   \subfigure[5TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_tau21_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}\hfill
+   }
+   \subfigure[10TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_tau21_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_tau21_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\\
+   \subfigure[5TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_tau21_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[10TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_tau21_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_tau21_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\\
+   \subfigure[5TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_tau21_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[10TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_tau21_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_tau21_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\end{center}
+\caption{Distributions of Mann-Whitney value U in 5, 10, 20, 40TeV energy collision for $\tau_{21}$  in different detector sizes. Cell Size in 20$\times$20, 5$\times$5, and 1$\times$1(cm$\times$cm) are shown here.}
+\label{fig:Rawhit_05GeV_tau21_Dis}
+\end{figure}
+\begin{figure}
+\begin{center}
+   \subfigure[5 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_tau21_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}\hfill
+   }
+   \subfigure[10 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_tau21_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }\\
+   \subfigure[20 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_tau21_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }
+   \subfigure[40 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_tau21_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }
+\end{center}
+\caption{Signal efficiency versus background rejection rate using $\tau_{21}$.The energies of collision at (a)5, (b)10, (c)20, (d)40TeV are shown here. In each picture, the three ROC curves correspond to different detector sizes.}
+\label{fig:Rawhit_05GeV_tau21_ROC}
+\end{figure}
+
+
+
+
+%25bins
+\begin{figure}
+\begin{center}
+   \subfigure[5TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_tau32_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}\hfill
+   }
+   \subfigure[10TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_tau32_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 20$\times$20(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_010_tau32_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\\
+   \subfigure[5TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_tau32_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[10TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_tau32_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 5$\times$5(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_009_tau32_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\\
+   \subfigure[5TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_tau32_5tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[10TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_tau32_10tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[20TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }
+   \subfigure[40TeV at 1$\times$1(cm$\times$cm) in 0.5GeV] {
+   \includegraphics[width=0.25\textwidth]{figs/Dis_Rawhit_05GeV_012_tau32_40tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper.eps}
+   }\end{center}
+\caption{Distributions of Mann-Whitney value U in 5, 10, 20, 40TeV energy collision for $\tau_{32}$  in different detector sizes. Cell Size in 20$\times$20, 5$\times$5, and 1$\times$1(cm$\times$cm) are shown here.}
+\label{fig:Rawhit_05GeV_tau32_Dis}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+   \subfigure[5 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}\hfill
+   }
+   \subfigure[10 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }\\
+   \subfigure[20 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }
+   \subfigure[40 TeV using Rawhit 0.5GeV cut method with New2 after cut Method] {
+   \includegraphics[width=\cmsFigWidth]{figs/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps}
+   }
+\end{center}
+\caption{Signal efficiency versus background rejection rate using $\tau_{32}$.The energies of collision at (a)5, (b)10, (c)20, (d)40TeV are shown here. In each picture, the three ROC curves correspond to different detector sizes.}
+\label{fig:Rawhit_05GeV_tau32_ROC}
+\end{figure}
+
+\section{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{comment}
 
 \section{Milestone Achieved}
 \begin{itemize}
@@ -597,7 +1343,6 @@ In the end, totally we can get the total rejection power of cuts which is calcul
 
 
 
-\begin{comment}
 
 \begin{figure}[!htb]
 \centering
@@ -619,6 +1364,14 @@ In the end, totally we can get the total rejection power of cuts which is calcul
 \item Accepted and report the poster with FCC detector studies in the International Conference of High Energy Physics in 2018(ICHEP2018).
 \item Accepted and report the two posters with HGCAL studies and FCC detector studies in the Taiwan Physics Society(TPS) annual meeting in 2019. 
 \end{itemize}
+
+\section{Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}
+
+
+
+
+
+
 
 \section{Acknowledgement}
 First, thanks for my supervisors, Prof.Shin-Shan Eiko Yu from NCU, Prof.Ashtusoh from Duke University and Prof.Stathes Paganis, Prof.Rong-Shayang Lu from NTU, without them, I can't do those good studies smoothly, and publish the results well. Also, I would like to thanks LHC-CMS, NCU and NTU to give me the resource, including the data, hardware and the server resource, to study my interested topics. And thanks for all people in NCUHEP, NTUHEP groups who have helped me. Last but not least, I'm glad to thanks MOST to support me to do this studies. 

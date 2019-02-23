@@ -1,7 +1,124 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{}%
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
 \makeatletter
 \providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
 \makeatother
 \providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
+
+\bibitem{Chatrchyan:2012xdj}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Observation of a new boson at a mass of
+  125 GeV with the CMS experiment at the LHC}'',} \textit{ Phys. Lett.}
+  \textbf{ B716} (2012) 30--61,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
+\href{http://www.arXiv.org/abs/1207.7235}{\texttt{ arXiv:1207.7235}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{PhysRevLett.13.508}
+\hrefCMSnoop {}{P.~W. Higgs, ``Broken Symmetries and the Masses of Gauge
+  Bosons'',} \textit{ Phys. Rev. Lett.} \textbf{ 13} (Oct, 1964) 508--509,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{\doi{10.1103/PhysRevLett.13.508}}.
+
+\bibitem{Contino:2016spe}
+\hrefCMSnoop {}{R.~Contino {et~al.}, ``{Physics at a 100 TeV pp collider: Higgs
+  and EW symmetry breaking studies }'',}
+  \href{http://www.arXiv.org/abs/1606.09408}{\texttt{ arXiv:1606.09408}}.
+  CERN-TH-2016-113.
+
+\bibitem{Mangano:2016jyj}
+\hrefCMSnoop {}{M.~L. Mangano {et~al.}, ``{Physics at a 100 TeV pp collider:
+  Standard Model processes }'',}
+  \href{http://www.arXiv.org/abs/1607.01831}{\texttt{ arXiv:1607.01831}}.
+  CERN-TH-2016-112, FERMILAB-FN-1021-T.
+
+\bibitem{Benedikt:2206376}
+\href {http://cds.cern.ch/record/2206376}{M.~Benedikt, ``{The Global Future
+  Circular Colliders Effort}'',}. {CERN-ACC-SLIDES-2016-0016. Presented at P5
+  Workshop on the Future of High Energy Physics, BNL, USA, Dec. 15-18, 2013}.
+
+\bibitem{Tang:2015qga}
+\hrefCMSnoop {}{J.~Tang {et~al.}, ``{Concept for a Future Super Proton-Proton
+  Collider}'',} 2015.
+
+\bibitem{Aihara:2009ad}
+\hrefCMSnoop {}{H.~Aihara {et~al.}, ``{SiD Letter of Intent}'',}
+\newblock 2009.
+\newblock \href{http://www.arXiv.org/abs/0911.0006}{\texttt{ arXiv:0911.0006}}.
+\newblock
+Presented to ILC IDAG.
+%%CITATION = ARXIV:0911.0006;%%.
+
+\bibitem{Adolphsen:2013kya}
+\hrefCMSnoop {}{C.~Adolphsen {et~al.}, ``{The International Linear Collider
+  Technical Design Report - Volume 3. II: Accelerator Baseline Design}'',}
+\newblock 2013.
+\newblock
+\href{http://www.arXiv.org/abs/1306.6328}{\texttt{ arXiv:1306.6328}}.
+\newblock
+%%CITATION = ARXIV:1306.6328;%%.
+
+\bibitem{Behnke:2013lya}
+\hrefCMSnoop {}{H.~Abramowicz {et~al.}, ``{The International Linear Collider
+  Technical Design Report - Volume 4: Detectors}'',}
+\newblock 2013.
+\newblock
+\href{http://www.arXiv.org/abs/1306.6329}{\texttt{ arXiv:1306.6329}}.
+\newblock
+%%CITATION = ARXIV:1306.6329;%%.
+
+\bibitem{Chekanov:2016ppq}
+S.~V. Chekanov\hrefCMSnoop {}{ {et~al.}, ``{Initial performance studies of a
+  general-purpose detector for multi-TeV physics at a 100 TeV pp collider}'',}
+  \textit{ JINST} \textbf{ 12} (2017), no.~06, P06009,
+  \href{http://dx.doi.org/10.1088/1748-0221/12/06/P06009}{\doi{10.1088/1748-0221/12/06/P06009}},
+\href{http://www.arXiv.org/abs/1612.07291}{\texttt{ arXiv:1612.07291}}.
+%%CITATION = ARXIV:1612.07291;%%.
+
+\bibitem{Li:2002ru}
+\href {http://www.slac.stanford.edu/econf/C020909/}{Z.~Li, ``{Radiation
+  hardness / tolerance of Si sensors / detectors for nuclear and high energy
+  physics experiments}'',} in \textit{ {Semiconductor pixel detectors for
+  particles and X-rays. Proceedings, International Workshop, PIXEL2002, Carmel,
+  USA, September 9-12, 2002}}.
+\newblock
+2002.
+\newblock
+%%CITATION = INSPIRE-609306;%%.
+
+\bibitem{Allison2016186}
+\hrefCMSnoop {}{J.~Allison {et~al.}, ``{Recent developments in Geant4}'',}
+  \textit{ Nuclear Instruments and Methods in Physics Research A} \textbf{ 835}
+  (2016) 186.
+
+\bibitem{Chekanov:2014fga}
+\hrefCMSnoop {}{S.~Chekanov, ``{HepSim: a repository with predictions for
+  high-energy physics experiments}'',} \textit{ Advances in High Energy
+  Physics} \textbf{ 2015} (2015) 136093. Available as
+  \url{http://atlaswww.hep.anl.gov/hepsim/}.
+
+\bibitem{Larkoski:2014wba}
+\hrefCMSnoop {}{A.~J. Larkoski, S.~Marzani, G.~Soyez, and J.~Thaler, ``{Soft
+  Drop}'',} \textit{ JHEP} \textbf{ 05} (2014) 146,
+  \href{http://dx.doi.org/10.1007/JHEP05(2014)146}{\doi{10.1007/JHEP05(2014)146}},
+\href{http://www.arXiv.org/abs/1402.2657}{\texttt{ arXiv:1402.2657}}.
+%%CITATION = ARXIV:1402.2657;%%.
+
+\bibitem{Dokshitzer:1997in}
+\hrefCMSnoop {}{Y.~L. Dokshitzer, G.~D. Leder, S.~Moretti, and B.~R. Webber,
+  ``{Better jet clustering algorithms}'',} \textit{ JHEP} \textbf{ 08} (1997)
+  001,
+  \href{http://dx.doi.org/10.1088/1126-6708/1997/08/001}{\doi{10.1088/1126-6708/1997/08/001}},
+\href{http://www.arXiv.org/abs/hep-ph/9707323}{\texttt{ arXiv:hep-ph/9707323}}.
+%%CITATION = HEP-PH/9707323;%%.
+
+\bibitem{Wobisch:1998wt}
+\href
+  {http://inspirehep.net/record/484872/files/arXiv:hep-ph_9907280.pdf}{M.~Wobisch
+  and T.~Wengler, ``{Hadronization corrections to jet cross-sections in deep
+  inelastic scattering}'',} in \textit{ {Monte Carlo generators for HERA
+  physics. Proceedings, Workshop, Hamburg, Germany, 1998-1999}}.
+\newblock 1998.
+\newblock
+\href{http://www.arXiv.org/abs/hep-ph/9907280}{\texttt{ arXiv:hep-ph/9907280}}.
+\newblock
+%%CITATION = HEP-PH/9907280;%%.
 
 \end{thebibliography}\endgroup
