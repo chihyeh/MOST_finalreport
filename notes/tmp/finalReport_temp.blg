@@ -121,12 +121,14 @@ Repeated entry---line 27689 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "fcc1"
+Warning--I didn't find a database entry for "fcc2"
 Warning--empty booktitle in Aihara:2009ad
 Warning--empty booktitle in Adolphsen:2013kya
 Warning--empty booktitle in Behnke:2013lya
 You've used 16 entries,
             2537 wiz_defined-function locations,
-            748 strings with 8531 characters,
+            750 strings with 8539 characters,
 and the built_in function-call counts, 4426 in all, are:
 = -- 468
 > -- 131
