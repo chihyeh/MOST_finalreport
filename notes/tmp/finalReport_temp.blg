@@ -3,168 +3,266 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: /Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 The style file: auto_generated.bst
 Database file #1: auto_generated.bib
-Repeated entry---line 1617 of file auto_generated.bib
- : @article{Chekanov:2016ppq
- :                          ,
+I was expecting a `,' or a `}'---line 202 of file auto_generated.bib
+ : 
+ : @article{Benedikt:2018csr,
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1654 of file auto_generated.bib
- : @article{Benedikt:2206376
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1676 of file auto_generated.bib
- : @misc{Tang:2015qga
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1728 of file auto_generated.bib
- : @inproceedings{Adolphsen:2013kya
- :                                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1746 of file auto_generated.bib
+Repeated entry---line 605 of file auto_generated.bib
  : @inproceedings{Behnke:2013lya
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1795 of file auto_generated.bib
+Repeated entry---line 1743 of file auto_generated.bib
+ : @article{Larkoski:2013eya
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1760 of file auto_generated.bib
+ : @article{Coleman:2017fiq
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1893 of file auto_generated.bib
+ : @article{Chekanov:2016ppq
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1952 of file auto_generated.bib
+ : @misc{Tang:2015qga
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2004 of file auto_generated.bib
+ : @inproceedings{Adolphsen:2013kya
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2022 of file auto_generated.bib
+ : @inproceedings{Behnke:2013lya
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2071 of file auto_generated.bib
  : @inproceedings{Aihara:2009ad
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2439 of file auto_generated.bib
+Repeated entry---line 2715 of file auto_generated.bib
  : @article{Chekanov:2014fga
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2542 of file auto_generated.bib
+Repeated entry---line 2803 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2818 of file auto_generated.bib
  : @article{Allison2016186
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2554 of file auto_generated.bib
+Repeated entry---line 2830 of file auto_generated.bib
  : @article{Mangano:2016jyj
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2566 of file auto_generated.bib
+Repeated entry---line 2842 of file auto_generated.bib
  : @article{Contino:2016spe
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5860 of file auto_generated.bib
+Repeated entry---line 6136 of file auto_generated.bib
  : @article{Larkoski:2014wba
  :                          ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 8066 of file auto_generated.bib
+Repeated entry---line 7256 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 7811 of file auto_generated.bib
+ : number = 
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7834 of file auto_generated.bib
+ : @article{Larkoski:2013eya
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7915 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7996 of file auto_generated.bib
+ : @article{Coleman:2017fiq
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8015 of file auto_generated.bib
+ : @article{Tang:2015qga
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Rimoldi:2663190" isn't style-file defined
+--line 8082 of file auto_generated.bib
+I was expecting a `,' or a `}'---line 8651 of file auto_generated.bib
  :       SLACcitation   = "%%CITATION = ARXIV:1607.08834;%%"                                                   
  :                                                                                                             \
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 8084 of file auto_generated.bib
+I was expecting a `,' or a `}'---line 8669 of file auto_generated.bib
  :       SLACcitation   = "%%CITATION = ARXIV:1607.06943;%%"                                                   
  :                                                                                                             \
 I'm skipping whatever remains of this entry
-Repeated entry---line 9187 of file auto_generated.bib
+Repeated entry---line 9772 of file auto_generated.bib
  : @article{Larkoski:2014wba
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9204 of file auto_generated.bib
+Repeated entry---line 9789 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12235 of file auto_generated.bib
+Repeated entry---line 9947 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10816 of file auto_generated.bib
+ : @article{Chatrchyan:2008aa
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11155 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12820 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 12669 of file auto_generated.bib
+Repeated entry---line 12882 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 13254 of file auto_generated.bib
  :       
  :       URL         = "http://cds.cern.ch/record/2117062?ln=en"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 12679 of file auto_generated.bib
+I was expecting a `,' or a `}'---line 13264 of file auto_generated.bib
  :       
  :       URL         = "http://cds.cern.ch/record/2202811?ln=en"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 13900 of file auto_generated.bib
+Repeated entry---line 13438 of file auto_generated.bib
+ : @article{Abercrombie:2015wmb
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14220 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14485 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 14721 of file auto_generated.bib
+Repeated entry---line 14654 of file auto_generated.bib
+ : @article{Chatrchyan:2008aa
+ :                           ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 15306 of file auto_generated.bib
  :       SLACcitation   = "%%CITATION = ARXIV:1607.08834;%%"                                                   
  :                                                                                                             \
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 14739 of file auto_generated.bib
+I was expecting a `,' or a `}'---line 15324 of file auto_generated.bib
  :       SLACcitation   = "%%CITATION = ARXIV:1607.06943;%%"                                                   
  :                                                                                                             \
 I'm skipping whatever remains of this entry
-Repeated entry---line 16963 of file auto_generated.bib
+Repeated entry---line 16050 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 17237 of file auto_generated.bib
+ : @article{Chatrchyan:2008aa
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 17548 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 17821 of file auto_generated.bib
+Repeated entry---line 18406 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 18864 of file auto_generated.bib
+Repeated entry---line 19449 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 20025 of file auto_generated.bib
+Repeated entry---line 19656 of file auto_generated.bib
+ : @unpublished{Abercrombie:2015wmb
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 20339 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 20610 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23820 of file auto_generated.bib
+Repeated entry---line 20802 of file auto_generated.bib
+ : @article{Chatrchyan:2008aa
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24405 of file auto_generated.bib
  : @article{Larkoski:2014wba
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 25788 of file auto_generated.bib
+Repeated entry---line 24875 of file auto_generated.bib
+ : @article{Cacciari:2008gp
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 26062 of file auto_generated.bib
+ : @article{Chatrchyan:2008aa
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 26373 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 26646 of file auto_generated.bib
+Repeated entry---line 27231 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 27689 of file auto_generated.bib
+Repeated entry---line 28274 of file auto_generated.bib
  : @inproceedings{Wobisch:1998wt
  :                              ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "fcc1"
-Warning--I didn't find a database entry for "fcc2"
+Warning--empty journal in osti_808409
+Warning--empty year in osti_808409
 Warning--empty booktitle in Aihara:2009ad
 Warning--empty booktitle in Adolphsen:2013kya
-Warning--empty booktitle in Behnke:2013lya
-You've used 16 entries,
+You've used 56 entries,
             2537 wiz_defined-function locations,
-            750 strings with 8539 characters,
-and the built_in function-call counts, 4426 in all, are:
-= -- 468
-> -- 131
-< -- 0
-+ -- 44
-- -- 28
-* -- 338
-:= -- 562
-add.period$ -- 36
-call.type$ -- 16
+            1053 strings with 18448 characters,
+and the built_in function-call counts, 15266 in all, are:
+= -- 1650
+> -- 366
+< -- 4
++ -- 128
+- -- 72
+* -- 1281
+:= -- 1883
+add.period$ -- 116
+call.type$ -- 56
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 290
-empty$ -- 487
-format.name$ -- 29
-if$ -- 1154
+cite$ -- 60
+duplicate$ -- 1000
+empty$ -- 1646
+format.name$ -- 79
+if$ -- 3999
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 35
-newline$ -- 87
-num.names$ -- 15
-pop$ -- 135
+int.to.str$ -- 56
+missing$ -- 132
+newline$ -- 276
+num.names$ -- 45
+pop$ -- 386
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 116
+skip$ -- 450
 stack$ -- 0
-substring$ -- 94
-swap$ -- 81
-text.length$ -- 0
+substring$ -- 422
+swap$ -- 328
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 25
-width$ -- 18
-write$ -- 198
-(There were 29 error messages)
+warning$ -- 4
+while$ -- 86
+width$ -- 58
+write$ -- 678
+(There were 53 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  11 MAR 2019 00:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.27)  30 MAR 2019 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1101,7 +1101,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Too many }'s.
-l.255 ...MS and the Full Simulation based on FCC}}
+l.255 ...and the Full Simulation based on FCC-hh}}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1160,6 +1160,12 @@ LaTeX Font Info:    <567INP ot1zplm.fd> on input line 294.
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.toc
+
+Overfull \hbox (9.72769pt too wide) in paragraph at lines 5--5
+ [][] [][]\OT1/ppl/m/n/12 Cross-talk stud-ies with the silicon-sensor-unconnect
+ed hex-aboard in NTU 
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `finalReport_temp.toc'.
@@ -1172,147 +1178,128 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 299.
 [2]
-Overfull \hbox (0.17503pt too wide) in paragraph at lines 327--328
-[]\OT1/ppl/m/n/12 I did this study with Prof.Stathes Pa-ga-nis, Prof.Rong-Shaya
-ng Lu, mas-ter stu-dent Chia-
+Overfull \hbox (21.52406pt too wide) in paragraph at lines 322--322
+[]\OT1/phv/b/n/17.28 Cross-talk stud-ies with the silicon-sensor-unconnected
  []
 
 [3]
 <789FIG PCB_study/Hexaboard.png 0>
-<PCB_study/Hexaboard.png, id=142, 360.34625pt x 316.18124pt>
+<PCB_study/Hexaboard.png, id=187, 360.34625pt x 316.18124pt>
 File: PCB_study/Hexaboard.png Graphic file (type png)
 <use PCB_study/Hexaboard.png>
-Package pdftex.def Info: PCB_study/Hexaboard.png used on input line 340.
+Package pdftex.def Info: PCB_study/Hexaboard.png used on input line 353.
 (pdftex.def)             Requested size: 204.85844pt x 179.74754pt.
 <789FIG PCB_study/RPI.png 0>
-<PCB_study/RPI.png, id=144, 425.59pt x 305.14pt>
+<PCB_study/RPI.png, id=189, 425.59pt x 305.14pt>
 File: PCB_study/RPI.png Graphic file (type png)
 <use PCB_study/RPI.png>
-Package pdftex.def Info: PCB_study/RPI.png used on input line 341.
+Package pdftex.def Info: PCB_study/RPI.png used on input line 354.
 (pdftex.def)             Requested size: 204.85844pt x 146.87991pt.
 <789FIG PCB_study/Data_flow.png 0>
-<PCB_study/Data_flow.png, id=145, 697.60625pt x 264.99pt>
+<PCB_study/Data_flow.png, id=190, 697.60625pt x 264.99pt>
 File: PCB_study/Data_flow.png Graphic file (type png)
 <use PCB_study/Data_flow.png>
-Package pdftex.def Info: PCB_study/Data_flow.png used on input line 342.
+Package pdftex.def Info: PCB_study/Data_flow.png used on input line 355.
 (pdftex.def)             Requested size: 409.71689pt x 155.63515pt.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 348.
+(Font)              scaled to size 10.42007pt on input line 361.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 348.
+(Font)              scaled to size 7.91925pt on input line 361.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 348.
+(Font)              scaled to size 6.25204pt on input line 361.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 348.
+(Font)              scaled to size 10.42007pt on input line 361.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 348.
+(Font)              scaled to size 7.91925pt on input line 361.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 348.
-[4 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
+(Font)              scaled to size 6.25204pt on input line 361.
+[4]
+<789FIG PCB_study/channelmap.pdf 1>
+<PCB_study/channelmap.pdf, id=202, 845.04686pt x 597.50786pt>
+File: PCB_study/channelmap.pdf Graphic file (type pdf)
+<use PCB_study/channelmap.pdf>
+Package pdftex.def Info: PCB_study/channelmap.pdf used on input line 374.
+(pdftex.def)             Requested size: 409.71689pt x 289.69978pt.
+
+Overfull \hbox (30.19809pt too wide) in paragraph at lines 381--382
+\OT1/ppl/m/n/12 in-ject-ing into the fixed-channel, and is ap-plied to sim-u-la
+te the sensor-unconnected
+ []
+
+[5 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
 unk/PCB_study/Hexaboard.png> </Users/ms08962476/Latex_report/MOST_finalreport/n
 otes/MOST-103-endReport/trunk/PCB_study/RPI.png> </Users/ms08962476/Latex_repor
 t/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/Data_flow.png>]
-<789FIG PCB_study/channelmap.pdf 1>
-<PCB_study/channelmap.pdf, id=158, 845.04686pt x 597.50786pt>
-File: PCB_study/channelmap.pdf Graphic file (type pdf)
-<use PCB_study/channelmap.pdf>
-Package pdftex.def Info: PCB_study/channelmap.pdf used on input line 362.
-(pdftex.def)             Requested size: 409.71689pt x 289.69978pt.
-[5 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
-unk/PCB_study/channelmap.pdf, page is rotated 90 degrees>]
 <789FIG PCB_study/His_Pedestal.png 2>
-<PCB_study/His_Pedestal.png, id=178, 336.25626pt x 229.85875pt>
+<PCB_study/His_Pedestal.png, id=217, 336.25626pt x 229.85875pt>
 File: PCB_study/His_Pedestal.png Graphic file (type png)
 <use PCB_study/His_Pedestal.png>
-Package pdftex.def Info: PCB_study/His_Pedestal.png used on input line 371.
+Package pdftex.def Info: PCB_study/His_Pedestal.png used on input line 389.
 (pdftex.def)             Requested size: 182.09485pt x 124.4761pt.
 <789FIG PCB_study/His_charge.png 2>
-<PCB_study/His_charge.png, id=179, 350.30875pt x 234.8775pt>
+<PCB_study/His_charge.png, id=218, 350.30875pt x 234.8775pt>
 File: PCB_study/His_charge.png Graphic file (type png)
 <use PCB_study/His_charge.png>
-Package pdftex.def Info: PCB_study/His_charge.png used on input line 372.
+Package pdftex.def Info: PCB_study/His_charge.png used on input line 390.
 (pdftex.def)             Requested size: 182.09485pt x 122.094pt.
 <789FIG PCB_study/His_subtraction.png 2>
-<PCB_study/His_subtraction.png, id=180, 350.30875pt x 236.885pt>
+<PCB_study/His_subtraction.png, id=219, 350.30875pt x 236.885pt>
 File: PCB_study/His_subtraction.png Graphic file (type png)
 <use PCB_study/His_subtraction.png>
-Package pdftex.def Info: PCB_study/His_subtraction.png used on input line 373.
+Package pdftex.def Info: PCB_study/His_subtraction.png used on input line 391.
 (pdftex.def)             Requested size: 182.09485pt x 123.13753pt.
-<789FIG PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf 3>
-
-<PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, id=182, 569.12625pt 
-x 543.02875pt>
-File: PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf Graphic file (ty
-pe pdf)
-<use PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf>
-Package pdftex.def Info: PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.p
-df used on input line 383.
-(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-<789FIG PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf 3>
-
-<PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, id=183, 569.12625pt 
-x 543.02875pt>
-File: PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf Graphic file (ty
-pe pdf)
-<use PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf>
-Package pdftex.def Info: PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.p
-df used on input line 384.
-(pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 [6 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
-unk/PCB_study/His_Pedestal.png> </Users/ms08962476/Latex_report/MOST_finalrepor
-t/notes/MOST-103-endReport/trunk/PCB_study/His_charge.png> </Users/ms08962476/L
-atex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/His_subtr
-action.png>]
-<789FIG PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
+unk/PCB_study/channelmap.pdf, page is rotated 90 degrees>]
+<789FIG PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf 3>
 
-<PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=193, 5
+<PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=236, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
 <use PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 400.
+n_and_RMS.pdf used on input line 418.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-<789FIG PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
+<789FIG PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf 3>
 
-<PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=194, 5
+<PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=237, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
 <use PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel22_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 401.
+n_and_RMS.pdf used on input line 419.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-<789FIG PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
+<789FIG PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf 3>
 
-<PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=195, 5
+<PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=238, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
 <use PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel44_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 402.
+n_and_RMS.pdf used on input line 420.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
-<789FIG PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf 4>
+<789FIG PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf 3>
 
-<PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=196, 5
+<PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, id=239, 5
 69.12625pt x 543.02875pt>
 File: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf Graph
 ic file (type pdf)
 <use PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf>
 Package pdftex.def Info: PCB_study/HG_Chip0_channel52_Pedestal_TS4_Subtract_mea
-n_and_RMS.pdf used on input line 403.
+n_and_RMS.pdf used on input line 421.
 (pdftex.def)             Requested size: 182.09485pt x 173.74788pt.
 [7 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
-unk/PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf, page is rotated 9
-0 degrees> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endR
-eport/trunk/PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf, page is r
-otated 90 degrees>]
-<789FIG Delta-ray/test-beam_setup.png 5>
-<Delta-ray/test-beam_setup.png, id=289, 537.00626pt x 356.33125pt>
+unk/PCB_study/His_Pedestal.png> </Users/ms08962476/Latex_report/MOST_finalrepor
+t/notes/MOST-103-endReport/trunk/PCB_study/His_charge.png> </Users/ms08962476/L
+atex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/His_subtr
+action.png>]
+<789FIG Delta-ray/test-beam_setup.png 4>
+<Delta-ray/test-beam_setup.png, id=248, 537.00626pt x 356.33125pt>
 File: Delta-ray/test-beam_setup.png Graphic file (type png)
 <use Delta-ray/test-beam_setup.png>
-Package pdftex.def Info: Delta-ray/test-beam_setup.png used on input line 416.
+Package pdftex.def Info: Delta-ray/test-beam_setup.png used on input line 434.
 (pdftex.def)             Requested size: 409.71689pt x 271.86937pt.
 [8 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
 unk/PCB_study/HG_Chip0_channel18_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page i
@@ -1325,133 +1312,139 @@ Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/PCB_study/HG_Chip0
 _channel52_Pedestal_TS4_Subtract_mean_and_RMS.pdf, page is rotated 90 degrees>]
 [9 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/tr
 unk/Delta-ray/test-beam_setup.png>]
-<789FIG Delta-ray/Luminosity.png 6>
-<Delta-ray/Luminosity.png, id=475, 708.6475pt x 564.1075pt>
+<789FIG Delta-ray/Luminosity.png 5>
+<Delta-ray/Luminosity.png, id=435, 708.6475pt x 564.1075pt>
 File: Delta-ray/Luminosity.png Graphic file (type png)
 <use Delta-ray/Luminosity.png>
-Package pdftex.def Info: Delta-ray/Luminosity.png used on input line 435.
+Package pdftex.def Info: Delta-ray/Luminosity.png used on input line 452.
 (pdftex.def)             Requested size: 182.09485pt x 144.95157pt.
-<789FIG Delta-ray/Luminosity_total.png 6>
-<Delta-ray/Luminosity_total.png, id=476, 727.71875pt x 568.1225pt>
+<789FIG Delta-ray/Luminosity_total.png 5>
+<Delta-ray/Luminosity_total.png, id=436, 727.71875pt x 568.1225pt>
 File: Delta-ray/Luminosity_total.png Graphic file (type png)
 <use Delta-ray/Luminosity_total.png>
-Package pdftex.def Info: Delta-ray/Luminosity_total.png used on input line 436.
+Package pdftex.def Info: Delta-ray/Luminosity_total.png used on input line 453.
 
 (pdftex.def)             Requested size: 182.09485pt x 142.1603pt.
 [10 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/Delta-ray/Luminosity.png> </Users/ms08962476/Latex_report/MOST_finalreport
 /notes/MOST-103-endReport/trunk/Delta-ray/Luminosity_total.png>]
-Overfull \hbox (5.08287pt too wide) in paragraph at lines 454--455
+Overfull \hbox (5.08287pt too wide) in paragraph at lines 471--472
 \OT1/ppl/m/n/12 by a hadronic com-part-ment (CE-H) with For-ward re-gion(FH) an
 d Back-ward re-gion(BH)
  []
 
-<789FIG Delta-ray/HGCAL_region.png 7>
-<Delta-ray/HGCAL_region.png, id=487, 686.565pt x 464.73625pt>
+<789FIG Delta-ray/HGCAL_region.png 6>
+<Delta-ray/HGCAL_region.png, id=454, 686.565pt x 464.73625pt>
 File: Delta-ray/HGCAL_region.png Graphic file (type png)
 <use Delta-ray/HGCAL_region.png>
-Package pdftex.def Info: Delta-ray/HGCAL_region.png used on input line 458.
+Package pdftex.def Info: Delta-ray/HGCAL_region.png used on input line 475.
 (pdftex.def)             Requested size: 364.19664pt x 246.52177pt.
-<789FIG Delta-ray/CE-E.png 8>
-<Delta-ray/CE-E.png, id=490, 163.61125pt x 265.99374pt>
-File: Delta-ray/CE-E.png Graphic file (type png)
-<use Delta-ray/CE-E.png>
-Package pdftex.def Info: Delta-ray/CE-E.png used on input line 467.
-(pdftex.def)             Requested size: 182.09494pt x 182.09908pt.
-<789FIG Delta-ray/Silicon_module.png 8>
-<Delta-ray/Silicon_module.png, id=491, 578.16pt x 357.335pt>
-File: Delta-ray/Silicon_module.png Graphic file (type png)
-<use Delta-ray/Silicon_module.png>
-Package pdftex.def Info: Delta-ray/Silicon_module.png used on input line 468.
-(pdftex.def)             Requested size: 182.0949pt x 182.09666pt.
-<789FIG Delta-ray/CE-H(part1).png 8>
-<Delta-ray/CE-H(part1).png, id=492, 201.75375pt x 201.75375pt>
-File: Delta-ray/CE-H(part1).png Graphic file (type png)
-<use Delta-ray/CE-H(part1).png>
-Package pdftex.def Info: Delta-ray/CE-H(part1).png used on input line 469.
-(pdftex.def)             Requested size: 182.09485pt x 182.09695pt.
-<789FIG Delta-ray/CE-H(part2).png 8>
-<Delta-ray/CE-H(part2).png, id=493, 363.3575pt x 224.84pt>
-File: Delta-ray/CE-H(part2).png Graphic file (type png)
-<use Delta-ray/CE-H(part2).png>
-Package pdftex.def Info: Delta-ray/CE-H(part2).png used on input line 470.
-(pdftex.def)             Requested size: 182.09967pt x 182.10225pt.
 [11 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/Delta-ray/HGCAL_region.png>]
-<789FIG Delta-ray/Shower_pattern.png 9>
-<Delta-ray/Shower_pattern.png, id=503, 274.626pt x 234.1548pt>
+<789FIG Delta-ray/Silicon_module.png 7>
+<Delta-ray/Silicon_module.png, id=468, 578.16pt x 357.335pt>
+File: Delta-ray/Silicon_module.png Graphic file (type png)
+<use Delta-ray/Silicon_module.png>
+Package pdftex.def Info: Delta-ray/Silicon_module.png used on input line 484.
+(pdftex.def)             Requested size: 182.0949pt x 182.09666pt.
+<789FIG Delta-ray/CE-E.png 7>
+<Delta-ray/CE-E.png, id=469, 163.61125pt x 265.99374pt>
+File: Delta-ray/CE-E.png Graphic file (type png)
+<use Delta-ray/CE-E.png>
+Package pdftex.def Info: Delta-ray/CE-E.png used on input line 485.
+(pdftex.def)             Requested size: 182.09494pt x 182.09908pt.
+<789FIG Delta-ray/CE-H(part1).png 7>
+<Delta-ray/CE-H(part1).png, id=470, 201.75375pt x 201.75375pt>
+File: Delta-ray/CE-H(part1).png Graphic file (type png)
+<use Delta-ray/CE-H(part1).png>
+Package pdftex.def Info: Delta-ray/CE-H(part1).png used on input line 486.
+(pdftex.def)             Requested size: 182.09485pt x 182.09695pt.
+<789FIG Delta-ray/CE-H(part2).png 7>
+<Delta-ray/CE-H(part2).png, id=471, 363.3575pt x 224.84pt>
+File: Delta-ray/CE-H(part2).png Graphic file (type png)
+<use Delta-ray/CE-H(part2).png>
+Package pdftex.def Info: Delta-ray/CE-H(part2).png used on input line 487.
+(pdftex.def)             Requested size: 182.09967pt x 182.10225pt.
+[12 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/Silicon_module.png> </Users/ms08962476/Latex_report/MOST_finalre
+port/notes/MOST-103-endReport/trunk/Delta-ray/CE-E.png> </Users/ms08962476/Late
+x_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/CE-H(part1).
+png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/
+trunk/Delta-ray/CE-H(part2).png>]
+<789FIG Delta-ray/Shower_pattern.png 8>
+<Delta-ray/Shower_pattern.png, id=481, 274.626pt x 234.1548pt>
 File: Delta-ray/Shower_pattern.png Graphic file (type png)
 <use Delta-ray/Shower_pattern.png>
-Package pdftex.def Info: Delta-ray/Shower_pattern.png used on input line 482.
+Package pdftex.def Info: Delta-ray/Shower_pattern.png used on input line 499.
 (pdftex.def)             Requested size: 182.09485pt x 155.25722pt.
-<789FIG Delta-ray/5-Rings_cuts.png 9>
-<Delta-ray/5-Rings_cuts.png, id=504, 312.16624pt x 206.7725pt>
+<789FIG Delta-ray/5-Rings_cuts.png 8>
+<Delta-ray/5-Rings_cuts.png, id=482, 312.16624pt x 206.7725pt>
 File: Delta-ray/5-Rings_cuts.png Graphic file (type png)
 <use Delta-ray/5-Rings_cuts.png>
-Package pdftex.def Info: Delta-ray/5-Rings_cuts.png used on input line 483.
+Package pdftex.def Info: Delta-ray/5-Rings_cuts.png used on input line 500.
 (pdftex.def)             Requested size: 182.09485pt x 120.6191pt.
-<789FIG Delta-ray/Last_layer_20MIPs_50GeV.png 9>
-<Delta-ray/Last_layer_20MIPs_50GeV.png, id=505, 432.1746pt x 417.2388pt>
+<789FIG Delta-ray/Last_layer_20MIPs_50GeV.png 8>
+<Delta-ray/Last_layer_20MIPs_50GeV.png, id=483, 432.1746pt x 417.2388pt>
 File: Delta-ray/Last_layer_20MIPs_50GeV.png Graphic file (type png)
 <use Delta-ray/Last_layer_20MIPs_50GeV.png>
 Package pdftex.def Info: Delta-ray/Last_layer_20MIPs_50GeV.png used on input li
-ne 484.
+ne 501.
 (pdftex.def)             Requested size: 182.09485pt x 175.79935pt.
-<789FIG Delta-ray/E7_E19.png 9>
-<Delta-ray/E7_E19.png, id=506, 445.1832pt x 424.4658pt>
+<789FIG Delta-ray/E7_E19.png 8>
+<Delta-ray/E7_E19.png, id=484, 445.1832pt x 424.4658pt>
 File: Delta-ray/E7_E19.png Graphic file (type png)
 <use Delta-ray/E7_E19.png>
-Package pdftex.def Info: Delta-ray/E7_E19.png used on input line 485.
+Package pdftex.def Info: Delta-ray/E7_E19.png used on input line 502.
 (pdftex.def)             Requested size: 182.09485pt x 173.62405pt.
-[12 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
-runk/Delta-ray/CE-E.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes
-/MOST-103-endReport/trunk/Delta-ray/Silicon_module.png> </Users/ms08962476/Late
-x_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/CE-H(part1).
-png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/
-trunk/Delta-ray/CE-H(part2).png>] [13 </Users/ms08962476/Latex_report/MOST_fina
-lreport/notes/MOST-103-endReport/trunk/Delta-ray/Shower_pattern.png> </Users/ms
-08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray
-/5-Rings_cuts.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-
-103-endReport/trunk/Delta-ray/Last_layer_20MIPs_50GeV.png> </Users/ms08962476/L
-atex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/E7_E19.pn
-g>]
-<789FIG Delta-ray/Shower_depth_50GeV.png 10>
-<Delta-ray/Shower_depth_50GeV.png, id=529, 454.3374pt x 417.2388pt>
+[13 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/Delta-ray/Shower_pattern.png> </Users/ms08962476/Latex_report/MOST_finalre
+port/notes/MOST-103-endReport/trunk/Delta-ray/5-Rings_cuts.png> </Users/ms08962
+476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Last
+_layer_20MIPs_50GeV.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes
+/MOST-103-endReport/trunk/Delta-ray/E7_E19.png>]
+<789FIG Delta-ray/Shower_depth_50GeV.png 9>
+<Delta-ray/Shower_depth_50GeV.png, id=499, 454.3374pt x 417.2388pt>
 File: Delta-ray/Shower_depth_50GeV.png Graphic file (type png)
 <use Delta-ray/Shower_depth_50GeV.png>
-Package pdftex.def Info: Delta-ray/Shower_depth_50GeV.png used on input line 50
-4.
+Package pdftex.def Info: Delta-ray/Shower_depth_50GeV.png used on input line 52
+1.
 (pdftex.def)             Requested size: 182.09485pt x 167.22362pt.
-<789FIG Delta-ray/Normal_electron.png 11>
-<Delta-ray/Normal_electron.png, id=530, 278.03876pt x 112.42pt>
+<789FIG Delta-ray/Normal_electron.png 10>
+<Delta-ray/Normal_electron.png, id=500, 278.03876pt x 112.42pt>
 File: Delta-ray/Normal_electron.png Graphic file (type png)
 <use Delta-ray/Normal_electron.png>
-Package pdftex.def Info: Delta-ray/Normal_electron.png used on input line 511.
+Package pdftex.def Info: Delta-ray/Normal_electron.png used on input line 528.
 (pdftex.def)             Requested size: 204.85844pt x 82.83269pt.
-<789FIG Delta-ray/Normal_pion.png 11>
-<Delta-ray/Normal_pion.png, id=531, 282.05376pt x 127.47626pt>
+<789FIG Delta-ray/Normal_pion.png 10>
+<Delta-ray/Normal_pion.png, id=501, 282.05376pt x 127.47626pt>
 File: Delta-ray/Normal_pion.png Graphic file (type png)
 <use Delta-ray/Normal_pion.png>
-Package pdftex.def Info: Delta-ray/Normal_pion.png used on input line 512.
+Package pdftex.def Info: Delta-ray/Normal_pion.png used on input line 529.
 (pdftex.def)             Requested size: 204.85844pt x 92.5881pt.
-<789FIG Delta-ray/Early_EM-showering.png 11>
-<Delta-ray/Early_EM-showering.png, id=532, 274.02374pt x 149.55875pt>
+<789FIG Delta-ray/Early_EM-showering.png 10>
+<Delta-ray/Early_EM-showering.png, id=502, 274.02374pt x 149.55875pt>
 File: Delta-ray/Early_EM-showering.png Graphic file (type png)
 <use Delta-ray/Early_EM-showering.png>
-Package pdftex.def Info: Delta-ray/Early_EM-showering.png used on input line 51
-3.
+Package pdftex.def Info: Delta-ray/Early_EM-showering.png used on input line 53
+0.
 (pdftex.def)             Requested size: 204.85844pt x 111.81049pt.
-<789FIG Delta-ray/Late_EM-showering.png 11>
-<Delta-ray/Late_EM-showering.png, id=533, 270.00874pt x 128.48pt>
+<789FIG Delta-ray/Late_EM-showering.png 10>
+<Delta-ray/Late_EM-showering.png, id=503, 270.00874pt x 128.48pt>
 File: Delta-ray/Late_EM-showering.png Graphic file (type png)
 <use Delta-ray/Late_EM-showering.png>
-Package pdftex.def Info: Delta-ray/Late_EM-showering.png used on input line 514
+Package pdftex.def Info: Delta-ray/Late_EM-showering.png used on input line 531
 .
 (pdftex.def)             Requested size: 204.85844pt x 97.48112pt.
 [14 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
-runk/Delta-ray/Shower_depth_50GeV.png>]
+runk/Delta-ray/Shower_depth_50GeV.png>] [15 </Users/ms08962476/Latex_report/MOS
+T_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Normal_electron.png> </U
+sers/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/De
+lta-ray/Normal_pion.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes
+/MOST-103-endReport/trunk/Delta-ray/Early_EM-showering.png> </Users/ms08962476/
+Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Late_EM-
+showering.png>]
 ! Extra }, or forgotten $.
-l.539 ...ve the bigger value for $\mathrm{E_{10}}}
+l.556 ...have a bigger value for $\mathrm{E_{10}}}
                                                   $. Oppositely, for the e-l...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1460,7 +1453,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.539 ...ll have many values for $\mathrm{E_{10}}}
+l.556 ...e exist many values for $\mathrm{E_{10}}}
                                                   $ from all events. In the ...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1469,7 +1462,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.539 ...can see that we can use $\mathrm{E_{10}}}
+l.556 ...can see that we can use $\mathrm{E_{10}}}
                                                   $ to reject some of e-like...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1477,14 +1470,14 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<789FIG Delta-ray/E10_50GeV.png 12>
-<Delta-ray/E10_50GeV.png, id=544, 442.2924pt x 421.575pt>
+<789FIG Delta-ray/E10_50GeV.png 11>
+<Delta-ray/E10_50GeV.png, id=523, 442.2924pt x 421.575pt>
 File: Delta-ray/E10_50GeV.png Graphic file (type png)
 <use Delta-ray/E10_50GeV.png>
-Package pdftex.def Info: Delta-ray/E10_50GeV.png used on input line 543.
+Package pdftex.def Info: Delta-ray/E10_50GeV.png used on input line 560.
 (pdftex.def)             Requested size: 182.09485pt x 173.56732pt.
 ! Extra }, or forgotten $.
-l.548 ...d the critical point of $\mathrm{E_{10}}}
+l.565 ...d the critical point of $\mathrm{E_{10}}}
                                                   $ to be the threshold, bec...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1492,14 +1485,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[15 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
-runk/Delta-ray/Normal_electron.png> </Users/ms08962476/Latex_report/MOST_finalr
-eport/notes/MOST-103-endReport/trunk/Delta-ray/Normal_pion.png> </Users/ms08962
-476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/Delta-ray/Earl
-y_EM-showering.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST
--103-endReport/trunk/Delta-ray/Late_EM-showering.png>]
 ! Too many }'s.
-l.558 ...est results. In the Table.\ref{basic_10}}
+l.575 ...est results. In the Table.\ref{basic_10}}
                                                   , it tells us that the bac...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1507,60 +1494,51 @@ Such booboos are generally harmless, so keep going.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [16 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/Delta-ray/E10_50GeV.png>] [17]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 628.
+(Font)              scaled to size 18.00587pt on input line 645.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 628.
+(Font)              scaled to size 18.00587pt on input line 645.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 628.
+(hyperref)                removing `math shift' on input line 645.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 628.
+(hyperref)                removing `math shift' on input line 645.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--630
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 633--634
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
 
  []
 
-<789FIG figs/6.png 13>
-<figs/6.png, id=613, 608.2725pt x 395.4775pt>
-File: figs/6.png Graphic file (type png)
-<use figs/6.png>
-Package pdftex.def Info: figs/6.png used on input line 648.
-(pdftex.def)             Requested size: 273.14922pt x 177.59512pt.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 654.
 
-LaTeX Warning: Reference `fig:barrel_size_material' on page 19 undefined on inp
-ut line 654.
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
+
+ []
 
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 655.
+(Font)              scaled to size 11.40997pt on input line 662.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 655.
+(Font)              scaled to size 8.33606pt on input line 662.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 655.
+(Font)              scaled to size 11.40997pt on input line 662.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 655.
+(Font)              scaled to size 8.33606pt on input line 662.
 
 Package Fancyhdr Warning: \headheight is too small (25.0pt): 
  Make it at least 26.06395pt.
@@ -1568,8 +1546,20 @@ Package Fancyhdr Warning: \headheight is too small (25.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
+<789FIG figs/6.png 12>
+<figs/6.png, id=597, 608.2725pt x 395.4775pt>
+File: figs/6.png Graphic file (type png)
+<use figs/6.png>
+Package pdftex.def Info: figs/6.png used on input line 665.
+(pdftex.def)             Requested size: 273.14922pt x 177.59512pt.
+<789FIG figs/7.png 13>
+<figs/7.png, id=599, 649.42625pt x 223.83624pt>
+File: figs/7.png Graphic file (type png)
+<use figs/7.png>
+Package pdftex.def Info: figs/7.png used on input line 674.
+(pdftex.def)             Requested size: 364.19664pt x 125.52846pt.
 ! Undefined control sequence.
-l.658 ... signals were generated using the \pythia
+l.680 ... signals were generated using the \pythia
                                                    generator with the defaul...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1577,34 +1567,35 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<789FIG figs/10.png 15a>
-<figs/10.png, id=624, 158.994pt x 135.3858pt>
-File: figs/10.png Graphic file (type png)
-<use figs/10.png>
-Package pdftex.def Info: figs/10.png used on input line 664.
-(pdftex.def)             Requested size: 113.81102pt x 96.91167pt.
-<789FIG figs/11.png 15b>
-<figs/11.png, id=625, 211.992pt x 163.812pt>
-File: figs/11.png Graphic file (type png)
-<use figs/11.png>
-Package pdftex.def Info: figs/11.png used on input line 667.
-(pdftex.def)             Requested size: 113.81102pt x 87.94724pt.
-<789FIG figs/12.png 15c>
-<figs/12.png, id=626, 264.0264pt x 212.9556pt>
-File: figs/12.png Graphic file (type png)
-<use figs/12.png>
-Package pdftex.def Info: figs/12.png used on input line 670.
-(pdftex.def)             Requested size: 113.81102pt x 91.79657pt.
 [20 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/figs/6.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-10
-3-endReport/trunk/figs/10.png> </Users/ms08962476/Latex_report/MOST_finalreport
-/notes/MOST-103-endReport/trunk/figs/11.png> </Users/ms08962476/Latex_report/MO
-ST_finalreport/notes/MOST-103-endReport/trunk/figs/12.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 709--715
+3-endReport/trunk/figs/7.png>]
+<789FIG figs/10.png 15a>
+<figs/10.png, id=612, 158.994pt x 135.3858pt>
+File: figs/10.png Graphic file (type png)
+<use figs/10.png>
+Package pdftex.def Info: figs/10.png used on input line 686.
+(pdftex.def)             Requested size: 113.81102pt x 96.91167pt.
+<789FIG figs/11.png 15b>
+<figs/11.png, id=613, 211.992pt x 163.812pt>
+File: figs/11.png Graphic file (type png)
+<use figs/11.png>
+Package pdftex.def Info: figs/11.png used on input line 689.
+(pdftex.def)             Requested size: 113.81102pt x 87.94724pt.
+<789FIG figs/12.png 15c>
+<figs/12.png, id=614, 264.0264pt x 212.9556pt>
+File: figs/12.png Graphic file (type png)
+<use figs/12.png>
+Package pdftex.def Info: figs/12.png used on input line 692.
+(pdftex.def)             Requested size: 113.81102pt x 91.79657pt.
+[21 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+runk/figs/10.png> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-1
+03-endReport/trunk/figs/11.png> </Users/ms08962476/Latex_report/MOST_finalrepor
+t/notes/MOST-103-endReport/trunk/figs/12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 731--737
 
  []
 
-[21]
 <789FIG figs/Dis_cluster_010_mass_mmdt_20tev_04_no_UOF.eps 16a>
 Package epstopdf Info: Source file: <figs/Dis_cluster_010_mass_mmdt_20tev_04_no
 _UOF.eps>
@@ -1617,16 +1608,16 @@ _UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_010_mass_
 mmdt_20tev_04_no_UOF-eps-converted-to.pdf figs/Dis_cluster_010_mass_mmdt_20tev_
 04_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 751.
+(epstopdf)             \includegraphics on input line 781.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/Dis_cluster_010_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf, id=674, 5
+<figs/Dis_cluster_010_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf, id=657, 5
 69.12625pt x 543.02875pt>
 File: figs/Dis_cluster_010_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use figs/Dis_cluster_010_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_cluster_010_mass_mmdt_20tev_04_no_UOF-eps-con
-verted-to.pdf used on input line 751.
+verted-to.pdf used on input line 781.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_cluster_009_mass_mmdt_20tev_04_no_UOF.eps 16b>
 Package epstopdf Info: Source file: <figs/Dis_cluster_009_mass_mmdt_20tev_04_no
@@ -1640,16 +1631,16 @@ _UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_009_mass_
 mmdt_20tev_04_no_UOF-eps-converted-to.pdf figs/Dis_cluster_009_mass_mmdt_20tev_
 04_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 754.
+(epstopdf)             \includegraphics on input line 784.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/Dis_cluster_009_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf, id=675, 5
+<figs/Dis_cluster_009_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf, id=658, 5
 69.12625pt x 543.02875pt>
 File: figs/Dis_cluster_009_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use figs/Dis_cluster_009_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_cluster_009_mass_mmdt_20tev_04_no_UOF-eps-con
-verted-to.pdf used on input line 754.
+verted-to.pdf used on input line 784.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_cluster_012_mass_mmdt_20tev_04_no_UOF.eps 16c>
 Package epstopdf Info: Source file: <figs/Dis_cluster_012_mass_mmdt_20tev_04_no
@@ -1663,17 +1654,18 @@ _UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_012_mass_
 mmdt_20tev_04_no_UOF-eps-converted-to.pdf figs/Dis_cluster_012_mass_mmdt_20tev_
 04_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 757.
+(epstopdf)             \includegraphics on input line 787.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/Dis_cluster_012_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf, id=676, 5
+<figs/Dis_cluster_012_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf, id=659, 5
 69.12625pt x 543.02875pt>
 File: figs/Dis_cluster_012_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use figs/Dis_cluster_012_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_cluster_012_mass_mmdt_20tev_04_no_UOF-eps-con
-verted-to.pdf used on input line 757.
+verted-to.pdf used on input line 787.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
+[22]
 <789FIG figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log
 _no_UOF.eps 17a>
 Package epstopdf Info: Source file: <figs/A_Cluster_mass_mmdt_5tev_eff_1_centra
@@ -1687,18 +1679,18 @@ l_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/A_Cluster_mass_mmdt_5
 tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf figs/
 A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 770.
+(epstopdf)             \includegraphics on input line 800.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF
--eps-converted-to.pdf, id=677, 569.12625pt x 395.4775pt>
+-eps-converted-to.pdf, id=675, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_n
 o_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no
 _UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Med
-ian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 770.
+ian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 800.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_ww_qq_lo
 g_no_UOF.eps 17b>
@@ -1714,18 +1706,18 @@ al_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 773.
+(epstopdf)             \includegraphics on input line 803.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UO
-F-eps-converted-to.pdf, id=678, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=676, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Me
-dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 773.
+dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 803.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_ww_qq_lo
 g_no_UOF.eps 17c>
@@ -1741,18 +1733,18 @@ al_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 776.
+(epstopdf)             \includegraphics on input line 806.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UO
-F-eps-converted-to.pdf, id=679, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=677, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Me
-dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 776.
+dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 806.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_ww_qq_lo
 g_no_UOF.eps 17d>
@@ -1768,18 +1760,18 @@ al_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 779.
+(epstopdf)             \includegraphics on input line 809.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UO
-F-eps-converted-to.pdf, id=680, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=678, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Me
-dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 779.
+dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 809.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Dis_cluster_010_mass_mmdt_tt_20tev_04_tt_no_UOF.eps 18a>
 Package epstopdf Info: Source file: <figs/Dis_cluster_010_mass_mmdt_tt_20tev_04
@@ -1793,17 +1785,17 @@ _tt_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_010_mass_
 mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf figs/Dis_cluster_010_mass_mmdt_
 tt_20tev_04_tt_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 795.
+(epstopdf)             \includegraphics on input line 825.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_010_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf, id=
-681, 569.12625pt x 543.02875pt>
+679, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_010_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use figs/Dis_cluster_010_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_cluster_010_mass_mmdt_tt_20tev_04_tt_no_UOF-e
-ps-converted-to.pdf used on input line 795.
+ps-converted-to.pdf used on input line 825.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_cluster_009_mass_mmdt_tt_20tev_04_tt_no_UOF.eps 18b>
 Package epstopdf Info: Source file: <figs/Dis_cluster_009_mass_mmdt_tt_20tev_04
@@ -1817,17 +1809,17 @@ _tt_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_009_mass_
 mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf figs/Dis_cluster_009_mass_mmdt_
 tt_20tev_04_tt_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 798.
+(epstopdf)             \includegraphics on input line 828.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_009_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf, id=
-682, 569.12625pt x 543.02875pt>
+680, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_009_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use figs/Dis_cluster_009_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_cluster_009_mass_mmdt_tt_20tev_04_tt_no_UOF-e
-ps-converted-to.pdf used on input line 798.
+ps-converted-to.pdf used on input line 828.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_cluster_012_mass_mmdt_tt_20tev_04_tt_no_UOF.eps 18c>
 Package epstopdf Info: Source file: <figs/Dis_cluster_012_mass_mmdt_tt_20tev_04
@@ -1841,17 +1833,17 @@ _tt_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_012_mass_
 mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf figs/Dis_cluster_012_mass_mmdt_
 tt_20tev_04_tt_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 801.
+(epstopdf)             \includegraphics on input line 831.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_012_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf, id=
-683, 569.12625pt x 543.02875pt>
+681, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_012_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use figs/Dis_cluster_012_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_cluster_012_mass_mmdt_tt_20tev_04_tt_no_UOF-e
-ps-converted-to.pdf used on input line 801.
+ps-converted-to.pdf used on input line 831.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log
 _no_UOF.eps 19a>
@@ -1866,18 +1858,18 @@ l_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/A_Cluster_mass_mmdt_5
 tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf figs/
 A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 816.
+(epstopdf)             \includegraphics on input line 846.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF
--eps-converted-to.pdf, id=684, 569.12625pt x 395.4775pt>
+-eps-converted-to.pdf, id=682, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_n
 o_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no
 _UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Med
-ian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 816.
+ian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 846.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_tt_qq_lo
 g_no_UOF.eps 19b>
@@ -1893,18 +1885,18 @@ al_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 819.
+(epstopdf)             \includegraphics on input line 849.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UO
-F-eps-converted-to.pdf, id=685, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=683, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_mmdt_10tev_eff_1_central_fix_at_Me
-dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 819.
+dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 849.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_tt_qq_lo
 g_no_UOF.eps 19c>
@@ -1920,18 +1912,18 @@ al_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 822.
+(epstopdf)             \includegraphics on input line 852.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UO
-F-eps-converted-to.pdf, id=686, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=684, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_mmdt_20tev_eff_1_central_fix_at_Me
-dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 822.
+dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 852.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_tt_qq_lo
 g_no_UOF.eps 19d>
@@ -1947,18 +1939,18 @@ al_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 825.
+(epstopdf)             \includegraphics on input line 855.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UO
-F-eps-converted-to.pdf, id=687, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=685, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_mmdt_40tev_eff_1_central_fix_at_Me
-dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 825.
+dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 855.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Dis_cluster_010_mass_sdb2_ww_20tev_04_1600_no_UOF.eps 20a>
 Package epstopdf Info: Source file: <figs/Dis_cluster_010_mass_sdb2_ww_20tev_04
@@ -1972,18 +1964,18 @@ _1600_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_010_mass_
 sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pdf figs/Dis_cluster_010_mass_sdb
 2_ww_20tev_04_1600_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 874.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_010_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pdf, i
-d=688, 569.12625pt x 543.02875pt>
+d=686, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_010_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use figs/Dis_cluster_010_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pd
 f>
 Package pdftex.def Info: figs/Dis_cluster_010_mass_sdb2_ww_20tev_04_1600_no_UOF
--eps-converted-to.pdf used on input line 844.
+-eps-converted-to.pdf used on input line 874.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_cluster_009_mass_sdb2_ww_20tev_04_1600_no_UOF.eps 20b>
 Package epstopdf Info: Source file: <figs/Dis_cluster_009_mass_sdb2_ww_20tev_04
@@ -1997,18 +1989,18 @@ _1600_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_009_mass_
 sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pdf figs/Dis_cluster_009_mass_sdb
 2_ww_20tev_04_1600_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 847.
+(epstopdf)             \includegraphics on input line 877.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_009_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pdf, i
-d=689, 569.12625pt x 543.02875pt>
+d=687, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_009_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use figs/Dis_cluster_009_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pd
 f>
 Package pdftex.def Info: figs/Dis_cluster_009_mass_sdb2_ww_20tev_04_1600_no_UOF
--eps-converted-to.pdf used on input line 847.
+-eps-converted-to.pdf used on input line 877.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_cluster_012_mass_sdb2_ww_20tev_04_1600_no_UOF.eps 20c>
 Package epstopdf Info: Source file: <figs/Dis_cluster_012_mass_sdb2_ww_20tev_04
@@ -2022,18 +2014,18 @@ _1600_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_012_mass_
 sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pdf figs/Dis_cluster_012_mass_sdb
 2_ww_20tev_04_1600_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 850.
+(epstopdf)             \includegraphics on input line 880.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_012_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pdf, i
-d=690, 569.12625pt x 543.02875pt>
+d=688, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_012_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use figs/Dis_cluster_012_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-to.pd
 f>
 Package pdftex.def Info: figs/Dis_cluster_012_mass_sdb2_ww_20tev_04_1600_no_UOF
--eps-converted-to.pdf used on input line 850.
+-eps-converted-to.pdf used on input line 880.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log
 _no_UOF.eps 21a>
@@ -2048,18 +2040,18 @@ l_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/A_Cluster_mass_sdb2_5
 tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf figs/
 A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 865.
+(epstopdf)             \includegraphics on input line 895.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF
--eps-converted-to.pdf, id=691, 569.12625pt x 395.4775pt>
+-eps-converted-to.pdf, id=689, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_n
 o_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no
 _UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Med
-ian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 865.
+ian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 895.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_ww_qq_lo
 g_no_UOF.eps 21b>
@@ -2075,18 +2067,18 @@ al_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 868.
+(epstopdf)             \includegraphics on input line 898.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UO
-F-eps-converted-to.pdf, id=692, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=690, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_ww_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Me
-dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 868.
+dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 898.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_ww_qq_lo
 g_no_UOF.eps 21c>
@@ -2102,18 +2094,18 @@ al_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 871.
+(epstopdf)             \includegraphics on input line 901.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UO
-F-eps-converted-to.pdf, id=693, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=691, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_ww_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Me
-dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 871.
+dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 901.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_ww_qq_lo
 g_no_UOF.eps 21d>
@@ -2129,18 +2121,18 @@ al_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 874.
+(epstopdf)             \includegraphics on input line 904.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UO
-F-eps-converted-to.pdf, id=694, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=692, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_ww_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Me
-dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 874.
+dian_bin_ww_qq_log_no_UOF-eps-converted-to.pdf used on input line 904.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Dis_cluster_010_mass_sdb2_tt_20tev_04_tt_2400_no_UOF.eps 22a>
 Package epstopdf Info: Source file: <figs/Dis_cluster_010_mass_sdb2_tt_20tev_04
@@ -2154,18 +2146,18 @@ _tt_2400_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_010_mass_
 sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf figs/Dis_cluster_010_mass_
 sdb2_tt_20tev_04_tt_2400_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 892.
+(epstopdf)             \includegraphics on input line 922.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_010_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf
-, id=695, 569.12625pt x 543.02875pt>
+, id=693, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_010_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use figs/Dis_cluster_010_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to
 .pdf>
 Package pdftex.def Info: figs/Dis_cluster_010_mass_sdb2_tt_20tev_04_tt_2400_no_
-UOF-eps-converted-to.pdf used on input line 892.
+UOF-eps-converted-to.pdf used on input line 922.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_cluster_009_mass_sdb2_tt_20tev_04_tt_2400_no_UOF.eps 22b>
 Package epstopdf Info: Source file: <figs/Dis_cluster_009_mass_sdb2_tt_20tev_04
@@ -2179,18 +2171,18 @@ _tt_2400_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_009_mass_
 sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf figs/Dis_cluster_009_mass_
 sdb2_tt_20tev_04_tt_2400_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 895.
+(epstopdf)             \includegraphics on input line 925.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_009_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf
-, id=696, 569.12625pt x 543.02875pt>
+, id=694, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_009_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use figs/Dis_cluster_009_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to
 .pdf>
 Package pdftex.def Info: figs/Dis_cluster_009_mass_sdb2_tt_20tev_04_tt_2400_no_
-UOF-eps-converted-to.pdf used on input line 895.
+UOF-eps-converted-to.pdf used on input line 925.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_cluster_012_mass_sdb2_tt_20tev_04_tt_2400_no_UOF.eps 22c>
 Package epstopdf Info: Source file: <figs/Dis_cluster_012_mass_sdb2_tt_20tev_04
@@ -2204,18 +2196,18 @@ _tt_2400_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Dis_cluster_012_mass_
 sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf figs/Dis_cluster_012_mass_
 sdb2_tt_20tev_04_tt_2400_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 898.
+(epstopdf)             \includegraphics on input line 928.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_cluster_012_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to.pdf
-, id=697, 569.12625pt x 543.02875pt>
+, id=695, 569.12625pt x 543.02875pt>
 File: figs/Dis_cluster_012_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use figs/Dis_cluster_012_mass_sdb2_tt_20tev_04_tt_2400_no_UOF-eps-converted-to
 .pdf>
 Package pdftex.def Info: figs/Dis_cluster_012_mass_sdb2_tt_20tev_04_tt_2400_no_
-UOF-eps-converted-to.pdf used on input line 898.
+UOF-eps-converted-to.pdf used on input line 928.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log
 _no_UOF.eps 23a>
@@ -2230,18 +2222,18 @@ l_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/A_Cluster_mass_sdb2_5
 tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf figs/
 A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps>
-(epstopdf)             \includegraphics on input line 913.
+(epstopdf)             \includegraphics on input line 943.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF
--eps-converted-to.pdf, id=698, 569.12625pt x 395.4775pt>
+-eps-converted-to.pdf, id=696, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_n
 o_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no
 _UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Med
-ian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 913.
+ian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 943.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_tt_qq_lo
 g_no_UOF.eps 23b>
@@ -2257,18 +2249,18 @@ al_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 916.
+(epstopdf)             \includegraphics on input line 946.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UO
-F-eps-converted-to.pdf, id=699, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=697, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Median_bin_tt_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_sdb2_10tev_eff_1_central_fix_at_Me
-dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 916.
+dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 946.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_tt_qq_lo
 g_no_UOF.eps 23c>
@@ -2284,18 +2276,18 @@ al_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 920.
+(epstopdf)             \includegraphics on input line 950.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UO
-F-eps-converted-to.pdf, id=700, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=698, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_tt_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Me
-dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 920.
+dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 950.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_tt_qq_lo
 g_no_UOF.eps 23d>
@@ -2311,43 +2303,51 @@ al_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>
 0tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf figs
 /A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF.eps
 >
-(epstopdf)             \includegraphics on input line 923.
+(epstopdf)             \includegraphics on input line 953.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UO
-F-eps-converted-to.pdf, id=701, 569.12625pt x 395.4775pt>
+F-eps-converted-to.pdf, id=699, 569.12625pt x 395.4775pt>
 File: figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_
 no_UOF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Median_bin_tt_qq_log_n
 o_UOF-eps-converted-to.pdf>
 Package pdftex.def Info: figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fix_at_Me
-dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 923.
+dian_bin_tt_qq_log_no_UOF-eps-converted-to.pdf used on input line 953.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 937--938
+Overfull \hbox (10.30263pt too wide) in paragraph at lines 966--966
+[]\OT1/phv/b/n/14.4 Studies of de-tec-tor per-for-mance with jet sub-struc-ture
+ variables-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 967--968
 
  []
 
 
-LaTeX Warning: Reference `' on page 22 undefined on input line 940.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 940--941
+Underfull \hbox (badness 10000) in paragraph at lines 970--971
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 943--944
+Underfull \hbox (badness 10000) in paragraph at lines 976--978
 
  []
 
-[22 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--982
+
+ []
+
+[23 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/figs/Dis_cluster_010_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf> </Use
 rs/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs
 /Dis_cluster_009_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf> </Users/ms0896
 2476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/Dis_clus
-ter_012_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf>] [23 </Users/ms08962476
+ter_012_mass_mmdt_20tev_04_no_UOF-eps-converted-to.pdf>] [24 </Users/ms08962476
 /Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/A_Cluster_ma
 ss_mmdt_5tev_eff_1_central_fix_at_Median_bin_ww_qq_log_no_UOF-eps-converted-to.
 pdf> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/
@@ -2362,7 +2362,7 @@ igs/Dis_cluster_010_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf> </Use
 rs/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs
 /Dis_cluster_009_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf> </Users/
 ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/Di
-s_cluster_012_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf>] [24 </User
+s_cluster_012_mass_mmdt_tt_20tev_04_tt_no_UOF-eps-converted-to.pdf>] [25 </User
 s/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/
 A_Cluster_mass_mmdt_5tev_eff_1_central_fix_at_Median_bin_tt_qq_log_no_UOF-eps-c
 onverted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-10
@@ -2378,7 +2378,7 @@ port/trunk/figs/Dis_cluster_010_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted
 ort/trunk/figs/Dis_cluster_009_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-
 to.pdf> </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRepo
 rt/trunk/figs/Dis_cluster_012_mass_sdb2_ww_20tev_04_1600_no_UOF-eps-converted-t
-o.pdf>] [25 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-end
+o.pdf>] [26 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-end
 Report/trunk/figs/A_Cluster_mass_sdb2_5tev_eff_1_central_fix_at_Median_bin_ww_q
 q_log_no_UOF-eps-converted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalre
 port/notes/MOST-103-endReport/trunk/figs/A_Cluster_mass_sdb2_10tev_eff_1_centra
@@ -2393,7 +2393,7 @@ _no_UOF-eps-converted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalreport/
 notes/MOST-103-endReport/trunk/figs/Dis_cluster_009_mass_sdb2_tt_20tev_04_tt_24
 00_no_UOF-eps-converted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalrepor
 t/notes/MOST-103-endReport/trunk/figs/Dis_cluster_012_mass_sdb2_tt_20tev_04_tt_
-2400_no_UOF-eps-converted-to.pdf>] [26 </Users/ms08962476/Latex_report/MOST_fin
+2400_no_UOF-eps-converted-to.pdf>] [27 </Users/ms08962476/Latex_report/MOST_fin
 alreport/notes/MOST-103-endReport/trunk/figs/A_Cluster_mass_sdb2_5tev_eff_1_cen
 tral_fix_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf> </Users/ms0896247
 6/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/A_Cluster_m
@@ -2403,89 +2403,57 @@ t/trunk/figs/A_Cluster_mass_sdb2_20tev_eff_1_central_fix_at_Median_bin_tt_qq_lo
 g_no_UOF-eps-converted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalreport
 /notes/MOST-103-endReport/trunk/figs/A_Cluster_mass_sdb2_40tev_eff_1_central_fi
 x_at_Median_bin_tt_qq_log_no_UOF-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 949--951
+Underfull \hbox (badness 10000) in paragraph at lines 984--985
 
  []
 
 
-LaTeX Warning: Reference `' on page 27 undefined on input line 952.
-
-
-LaTeX Warning: Reference `' on page 27 undefined on input line 952.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 954--955
+Underfull \hbox (badness 10000) in paragraph at lines 986--987
 
  []
 
 
-LaTeX Warning: Reference `' on page 27 undefined on input line 957.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 957--958
+Underfull \hbox (badness 10000) in paragraph at lines 988--989
 
  []
 
 
-LaTeX Warning: Reference `' on page 27 undefined on input line 959.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 959--960
+Underfull \hbox (badness 10000) in paragraph at lines 991--992
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--962
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 964--965
-
+Overfull \hbox (10.30263pt too wide) in paragraph at lines 993--993
+[]\OT1/phv/b/n/14.4 Studies of de-tec-tor per-for-mance with jet sub-struc-ture
+ variables-
  []
 
 
-LaTeX Warning: Reference `' on page 28 undefined on input line 967.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 967--968
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 974--975
-
- []
-
-
-LaTeX Warning: Reference `' on page 28 undefined on input line 979.
-
-
-LaTeX Warning: Reference `' on page 28 undefined on input line 979.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 979--980
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 989--990
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
 
  []
 
 
-Package natbib Warning: Citation `fcc1' on page 29 undefined on input line 1006
-.
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
+
+ []
 
 
-Package natbib Warning: Citation `fcc2' on page 29 undefined on input line 1006
-.
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
 
+ []
+
+[29]
 <789FIG figs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75p
 a_for_paper.eps 24a>
 Package epstopdf Info: Source file: <figs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_af
@@ -2500,18 +2468,18 @@ ter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf f
 igs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_pap
 er.eps>
-(epstopdf)             \includegraphics on input line 1013.
+(epstopdf)             \includegraphics on input line 1040.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
-aper-eps-converted-to.pdf, id=1202, 569.12625pt x 543.02875pt>
+aper-eps-converted-to.pdf, id=1214, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_f
 or_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_
-25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1013.
+25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1040.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75p
 a_for_paper.eps 24b>
@@ -2527,18 +2495,18 @@ ter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf f
 igs/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_pap
 er.eps>
-(epstopdf)             \includegraphics on input line 1016.
+(epstopdf)             \includegraphics on input line 1043.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
-aper-eps-converted-to.pdf, id=1203, 569.12625pt x 543.02875pt>
+aper-eps-converted-to.pdf, id=1215, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_f
 or_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_cut_Man_
-25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1016.
+25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1043.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75p
 a_for_paper.eps 24c>
@@ -2554,18 +2522,18 @@ ter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf f
 igs/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_pap
 er.eps>
-(epstopdf)             \includegraphics on input line 1019.
+(epstopdf)             \includegraphics on input line 1046.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
-aper-eps-converted-to.pdf, id=1204, 569.12625pt x 543.02875pt>
+aper-eps-converted-to.pdf, id=1216, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_f
 or_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_012_c2b1_20tev_04_after_cut_Man_
-25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1019.
+25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1046.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
 .eps 25a>
@@ -2580,18 +2548,18 @@ er_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_c2b1_5te
 v_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhit_
 05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1030.
+(epstopdf)             \includegraphics on input line 1057.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-co
-nverted-to.pdf, id=1205, 569.12625pt x 395.4775pt>
+nverted-to.pdf, id=1217, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-e
 ps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-ep
 s-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bin
-s_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1030.
+s_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1057.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75p
 a.eps 25b>
@@ -2606,18 +2574,18 @@ ter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_c2b1_10t
 ev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhit
 _05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1033.
+(epstopdf)             \includegraphics on input line 1060.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-c
-onverted-to.pdf, id=1206, 569.12625pt x 395.4775pt>
+onverted-to.pdf, id=1218, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-e
 ps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_25bi
-ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1033.
+ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1060.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75p
 a.eps 25c>
@@ -2632,18 +2600,18 @@ ter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_c2b1_20t
 ev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhit
 _05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1036.
+(epstopdf)             \includegraphics on input line 1063.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-c
-onverted-to.pdf, id=1207, 569.12625pt x 395.4775pt>
+onverted-to.pdf, id=1219, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-e
 ps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_c2b1_20tev_eff_1_New2_after_cut_25bi
-ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1036.
+ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1063.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75p
 a.eps 25d>
@@ -2658,18 +2626,18 @@ ter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_c2b1_40t
 ev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhit
 _05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1039.
+(epstopdf)             \includegraphics on input line 1066.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-c
-onverted-to.pdf, id=1208, 569.12625pt x 395.4775pt>
+onverted-to.pdf, id=1220, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-e
 ps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_c2b1_40tev_eff_1_New2_after_cut_25bi
-ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1039.
+ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1066.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Dis_Rawhit_05GeV_010_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper.eps 26a>
@@ -2685,18 +2653,18 @@ fter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf 
 figs/Dis_Rawhit_05GeV_010_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
 aper.eps>
-(epstopdf)             \includegraphics on input line 1052.
+(epstopdf)             \includegraphics on input line 1079.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_010_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_
-paper-eps-converted-to.pdf, id=1209, 569.12625pt x 543.02875pt>
+paper-eps-converted-to.pdf, id=1221, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_010_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa
 _for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_010_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_010_tau21_20tev_04_after_cut_Man
-_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1052.
+_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1079.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_Rawhit_05GeV_009_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper.eps 26b>
@@ -2712,18 +2680,18 @@ fter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf 
 figs/Dis_Rawhit_05GeV_009_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
 aper.eps>
-(epstopdf)             \includegraphics on input line 1055.
+(epstopdf)             \includegraphics on input line 1082.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_009_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_
-paper-eps-converted-to.pdf, id=1210, 569.12625pt x 543.02875pt>
+paper-eps-converted-to.pdf, id=1222, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_009_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa
 _for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_009_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_009_tau21_20tev_04_after_cut_Man
-_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1055.
+_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1082.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_Rawhit_05GeV_012_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper.eps 26c>
@@ -2739,18 +2707,18 @@ fter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf 
 figs/Dis_Rawhit_05GeV_012_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
 aper.eps>
-(epstopdf)             \includegraphics on input line 1058.
+(epstopdf)             \includegraphics on input line 1085.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_012_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_
-paper-eps-converted-to.pdf, id=1211, 569.12625pt x 543.02875pt>
+paper-eps-converted-to.pdf, id=1223, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_012_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa
 _for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_012_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_012_tau21_20tev_04_after_cut_Man
-_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1058.
+_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1085.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Rawhit_05GeV_tau21_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75p
 a.eps 27a>
@@ -2765,18 +2733,18 @@ ter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_tau21_5t
 ev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhit
 _05GeV_tau21_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1068.
+(epstopdf)             \includegraphics on input line 1095.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_tau21_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-c
-onverted-to.pdf, id=1212, 569.12625pt x 395.4775pt>
+onverted-to.pdf, id=1224, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_tau21_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_tau21_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-e
 ps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_tau21_5tev_eff_1_New2_after_cut_25bi
-ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1068.
+ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1095.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_tau21_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75
 pa.eps 27b>
@@ -2791,18 +2759,18 @@ fter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_tau21_10
 tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhi
 t_05GeV_tau21_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1071.
+(epstopdf)             \includegraphics on input line 1098.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_tau21_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-
-converted-to.pdf, id=1213, 569.12625pt x 395.4775pt>
+converted-to.pdf, id=1225, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_tau21_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
 -eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_tau21_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_tau21_10tev_eff_1_New2_after_cut_25b
-ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1071.
+ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1098.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_tau21_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75
 pa.eps 27c>
@@ -2817,18 +2785,18 @@ fter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_tau21_20
 tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhi
 t_05GeV_tau21_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1074.
+(epstopdf)             \includegraphics on input line 1101.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_tau21_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-
-converted-to.pdf, id=1214, 569.12625pt x 395.4775pt>
+converted-to.pdf, id=1226, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_tau21_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
 -eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_tau21_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_tau21_20tev_eff_1_New2_after_cut_25b
-ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1074.
+ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1101.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_tau21_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75
 pa.eps 27d>
@@ -2843,18 +2811,18 @@ fter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_tau21_40
 tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhi
 t_05GeV_tau21_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1077.
+(epstopdf)             \includegraphics on input line 1104.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_tau21_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-
-converted-to.pdf, id=1215, 569.12625pt x 395.4775pt>
+converted-to.pdf, id=1227, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_tau21_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
 -eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_tau21_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_tau21_40tev_eff_1_New2_after_cut_25b
-ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1077.
+ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1104.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper.eps 28a>
@@ -2870,18 +2838,18 @@ fter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf 
 figs/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
 aper.eps>
-(epstopdf)             \includegraphics on input line 1091.
+(epstopdf)             \includegraphics on input line 1118.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_
-paper-eps-converted-to.pdf, id=1216, 569.12625pt x 543.02875pt>
+paper-eps-converted-to.pdf, id=1228, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa
 _for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_010_tau32_20tev_04_after_cut_Man
-_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1091.
+_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1118.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper.eps 28b>
@@ -2897,18 +2865,18 @@ fter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf 
 figs/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
 aper.eps>
-(epstopdf)             \includegraphics on input line 1094.
+(epstopdf)             \includegraphics on input line 1121.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_
-paper-eps-converted-to.pdf, id=1217, 569.12625pt x 543.02875pt>
+paper-eps-converted-to.pdf, id=1229, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa
 _for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cut_Man
-_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1094.
+_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1121.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 <789FIG figs/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75
 pa_for_paper.eps 28c>
@@ -2924,21 +2892,21 @@ fter_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf>
 tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf 
 figs/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_p
 aper.eps>
-(epstopdf)             \includegraphics on input line 1097.
+(epstopdf)             \includegraphics on input line 1124.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_
-paper-eps-converted-to.pdf, id=1218, 569.12625pt x 543.02875pt>
+paper-eps-converted-to.pdf, id=1230, 569.12625pt x 543.02875pt>
 File: figs/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa
 _for_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_
 for_paper-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Dis_Rawhit_05GeV_012_tau32_20tev_04_after_cut_Man
-_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1097.
+_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf used on input line 1124.
 (pdftex.def)             Requested size: 113.81102pt x 108.58725pt.
 ! Extra }, or forgotten \endgroup.
-l.1098    }
+l.1125    }
            \end{center}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2959,18 +2927,18 @@ ter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_tau32_5t
 ev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhit
 _05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1109.
+(epstopdf)             \includegraphics on input line 1136.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-c
-onverted-to.pdf, id=1219, 569.12625pt x 395.4775pt>
+onverted-to.pdf, id=1231, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-e
 ps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bi
-ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1109.
+ns_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1136.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75
 pa.eps 29b>
@@ -2985,18 +2953,18 @@ fter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_tau32_10
 tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhi
 t_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1112.
+(epstopdf)             \includegraphics on input line 1139.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-
-converted-to.pdf, id=1220, 569.12625pt x 395.4775pt>
+converted-to.pdf, id=1232, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
 -eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut_25b
-ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1112.
+ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1139.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75
 pa.eps 29c>
@@ -3011,18 +2979,18 @@ fter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_tau32_20
 tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhi
 t_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1115.
+(epstopdf)             \includegraphics on input line 1142.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-
-converted-to.pdf, id=1221, 569.12625pt x 395.4775pt>
+converted-to.pdf, id=1233, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
 -eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_tau32_20tev_eff_1_New2_after_cut_25b
-ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1115.
+ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1142.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
 <789FIG figs/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75
 pa.eps 29d>
@@ -3037,27 +3005,27 @@ fter_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figs/Rawhit_05GeV_tau32_40
 tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf figs/Rawhi
 t_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa.eps>
-(epstopdf)             \includegraphics on input line 1118.
+(epstopdf)             \includegraphics on input line 1145.
 Package epstopdf Info: Output file is already uptodate.
 
 <figs/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-
-converted-to.pdf, id=1222, 569.12625pt x 395.4775pt>
+converted-to.pdf, id=1234, 569.12625pt x 395.4775pt>
 File: figs/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa
 -eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-
 eps-converted-to.pdf>
 Package pdftex.def Info: figs/Rawhit_05GeV_tau32_40tev_eff_1_New2_after_cut_25b
-ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1118.
+ins_no_UOF_new_75pa-eps-converted-to.pdf used on input line 1145.
 (pdftex.def)             Requested size: 182.09485pt x 126.53728pt.
-[29 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
+[30 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/t
 runk/figs/Dis_Rawhit_05GeV_010_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_f
 or_paper-eps-converted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalreport
 /notes/MOST-103-endReport/trunk/figs/Dis_Rawhit_05GeV_009_c2b1_20tev_04_after_c
 ut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf> </Users/ms08962476/La
 tex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/Dis_Rawhit_05Ge
 V_012_c2b1_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to
-.pdf>] [30 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endR
+.pdf>] [31 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endR
 eport/trunk/figs/Rawhit_05GeV_c2b1_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_
 75pa-eps-converted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalreport/not
 es/MOST-103-endReport/trunk/figs/Rawhit_05GeV_c2b1_10tev_eff_1_New2_after_cut_2
@@ -3073,7 +3041,7 @@ es/MOST-103-endReport/trunk/figs/Dis_Rawhit_05GeV_009_tau21_20tev_04_after_cut_
 Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf> </Users/ms08962476/Latex
 _report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/Dis_Rawhit_05GeV_0
 12_tau21_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.p
-df>] [31 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRep
+df>] [32 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endRep
 ort/trunk/figs/Rawhit_05GeV_tau21_5tev_eff_1_New2_after_cut_25bins_no_UOF_new_7
 5pa-eps-converted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalreport/note
 s/MOST-103-endReport/trunk/figs/Rawhit_05GeV_tau21_10tev_eff_1_New2_after_cut_2
@@ -3089,7 +3057,7 @@ otes/MOST-103-endReport/trunk/figs/Dis_Rawhit_05GeV_009_tau32_20tev_04_after_cu
 t_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to.pdf> </Users/ms08962476/Lat
 ex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/Dis_Rawhit_05GeV
 _012_tau32_20tev_04_after_cut_Man_25_no_UOF_new_75pa_for_paper-eps-converted-to
-.pdf>] [32 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endR
+.pdf>] [33 </Users/ms08962476/Latex_report/MOST_finalreport/notes/MOST-103-endR
 eport/trunk/figs/Rawhit_05GeV_tau32_5tev_eff_1_New2_after_cut_25bins_no_UOF_new
 _75pa-eps-converted-to.pdf> </Users/ms08962476/Latex_report/MOST_finalreport/no
 tes/MOST-103-endReport/trunk/figs/Rawhit_05GeV_tau32_10tev_eff_1_New2_after_cut
@@ -3099,46 +3067,44 @@ f_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pdf> </Users/ms08962
 476/Latex_report/MOST_finalreport/notes/MOST-103-endReport/trunk/figs/Rawhit_05
 GeV_tau32_40tev_eff_1_New2_after_cut_25bins_no_UOF_new_75pa-eps-converted-to.pd
 f>]
-Overfull \hbox (2.93465pt too wide) in paragraph at lines 1130--1131
-[]\OT1/ppl/m/n/12 Submit my first con-fer-ence pa-per: "Jet Sub-struc-ture Vari
--ables with the SiFCC
- []
-
 <567INP finalReport_temp.bbl>
 
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.bbl
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 10.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 11.
 LaTeX Font Info:    <567INP ot1pcr.fd> on input line 11.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [33])
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2471.
+)
+Missing character: There is no ü in font pplr7t!
+Missing character: There is no á in font pplr7t!
 [34]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2471.
+Missing character: There is no á in font pplri7t!
+Missing character: There is no Â in font pplr7t!
+Missing character: There is no   in font pplr7t!
+[35] [36] [37])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2448.
+[38]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2448.
 
 (/Users/ms08962476/Latex_report/MOST_finalreport/notes/tmp/finalReport_temp.aux
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2471.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2471.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2448.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2448.
 
 Package rerunfilecheck Info: File `finalReport_temp.out' has not changed.
-(rerunfilecheck)             Checksum: D59F51F96ED61A8C9DD0285E2389E8F2;1862.
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2471.
+(rerunfilecheck)             Checksum: 985C078F707E69C6A2DD8F9EBA7CCB1B;1959.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2448.
  ) 
 Here is how much of TeX's memory you used:
- 11116 strings out of 492995
- 178781 string characters out of 6132704
- 277300 words of memory out of 5000000
- 14176 multiletter control sequences out of 15000+600000
+ 11312 strings out of 492995
+ 182649 string characters out of 6132704
+ 277154 words of memory out of 5000000
+ 14330 multiletter control sequences out of 15000+600000
  61799 words of font info for 159 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 51i,15n,49p,1518b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,14n,49p,1518b,720s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -3153,10 +3119,10 @@ rw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/pala
 tino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/u
 plr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri8a.
 pfb>
-Output written on finalReport_temp.pdf (36 pages, 3218806 bytes).
+Output written on finalReport_temp.pdf (40 pages, 3244508 bytes).
 PDF statistics:
- 1656 PDF objects out of 1728 (max. 8388607)
- 1166 compressed objects within 12 object streams
- 182 named destinations out of 1000 (max. 500000)
- 589 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1757 PDF objects out of 2073 (max. 8388607)
+ 1311 compressed objects within 14 object streams
+ 225 named destinations out of 1000 (max. 500000)
+ 584 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -252,7 +252,7 @@
 
 
 % >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
-\title{Detector Traveling from Now to the Future: \\ Study of the Calorimeter Performance for Future Colliders with the High Granularity Calorimeter in CMS and the Full Simulation based on FCC}}
+\title{Detector Traveling from Now to the Future: \\ Study of the Calorimeter Performance for Future Colliders with the High Granularity Calorimeter in CMS and the Full Simulation based on FCC-hh}}
 
 % >> Authors
 %Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
@@ -274,7 +274,7 @@
 % 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
 % 3. For PASs: **DO NOT use tex macros**         in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
 \abstract{
-The discovery of the standard-model-like Higgs boson at Large Hadron Collider(LHC) in 2012 opened a new door for particle physics.  Since then, people have been hard-working on upgrading the LHC to the higher luminosity and center-of-mass (C.M.) energy, so to study the properties of Higgs boson and to discover new particles predicted by the physics Beyond Standard Model(BSM). Some people even proposed the idea to build new colliders, such as Future Circular Collider(FCC), etc. near the working LHC space now. For my study, I focus on three topics which are related to the detector performance. First, because the radiation tolerance problem and increasing pileup at High-Luminosity LHC(HL-LHC), the Compact Muon Solenoid(CMS) experiment at LHC will replace the current endcap calorimeter with a silicon-pad High Granularity Calorimeter(HGCAL). I did some studies on the performance for them using data from test beam in CMS and the Hexaboard of its electronics in National Taiwan University(NTU). Second, I used the GEANT4 full simulation to simulate the FCC detector under the very high energy condition and study the jet performance. We expect to help the future facilities to design a high resolution detector, and could have a large potential to find the new physics with the new detector. }
+The discovery of the standard-model-like Higgs boson at Large Hadron Collider(LHC) in 2012 opened a new era as well as unexplored windows for particle physics.  Since then, people have been working hard on upgrading the LHC to higher luminosities and center-of-mass energy, in order to study the properties of Higgs boson and to discover new particles predicted by the physics beyond the standard model. Some people even proposed the idea of building new colliders, such as future circular collider(FCC), etc. locating adjacent to the LHC. My study mainly focuses on the topics that are related to the performance of detectors. The endcap part of the compact muon solenoid(CMS) at LHC will be replaced with a silicon-based high granularity calorimeter (HGCAL) owing to the issues of ascending pileup and insufficient radiation tolerance. First, I did the studies on the performance for HGCAL using data from test beam in CMS and the hexaboard of HGCAL electronics in National Taiwan University. Second, I present the performance of very-high-energy jets at FCC using the GEANT4 full simulation. We expect to help the future facilities to design a high resolution detector, and could have a large potential to which may shed light on new particles.}
 
 
 % >> PDF Metadata
@@ -297,102 +297,120 @@ pdfkeywords={LHC, CMS, high-mass new particle, beyond the standard model, dark m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 \subsection{Motivation and Expectation}
-After identifying the Higgs boson at LHC in 2012, people are eager to explore the new particle and the physics BSM , such as dark matter candidates, Z' bosons, heavy Higgs, and so on. CMS and ATLAS collaboration are also upgrading the detectors to improve the functions to cope with the new challenging conditions in the future colliders. For the operation in the future, one of the most important issues of detector performance is: How can we boost the efficiency of the distinguishability of signal from the background?
+After identifying the Higgs boson at LHC in 2012~\cite{Chatrchyan:2012xdj}~\cite{Aad:2012tfa}, people are eager to explore new particles and the physics beyond the standard model~\cite{Sirunyan:2018wnk}, such as dark matter candidates~\cite{Abercrombie:2015wmb}, heavy Higgs~\cite{Pelliccioni:2015hva}... etc. and so on. The CMS~\cite{Chatrchyan:2008aa} and ATLAS~\cite{Aad:2008zzm} collaborations are also upgrading the detectors to improve the functions to cope with the new challenging conditions in the future colliders. For the future operation, one of the most important issues of detector performance is: How can we boost the efficiency of the distinguishability of signal from the background?
 
-In the upcoming HL-LHC era, the pileup will be raised significantly compared with the condition the LHC is operating at currently. Therefore, first of all, we need to identify the particle very well. Otherwise, we are not able to reject the unwanted contaminant particles. My first topic with HGCAL in CMS focuses on the particle identification with electrons and pions. Because we will keep searching on more new physics with the electron final states , but some pions will be misidentified as the electrons, our requirements are removing these mistagged "fake" electrons. It is expected that we can find out the optimized cuts for them and apply in the cut-based analysis, aiding the signal and background studies that are very sensitive to pions. Furthermore, I studied some cross-talk phenomena on the PCB boards which are attached with the sensor used in the HGCAL, and try to find out the correlation between the injection pulse strength and cross-talk. We expect to understand the noise created in the electronics and reduce them in the future.
+In the upcoming High Luminosity- LHC (HL-LHC)~\cite{Apollinari:2017cqg} era, the pileup will significantly increase compared with the condition at which the LHC is operating currently~\cite{MedinaMedrano:2289694}.Ther-efore, first of all, improving the efficiency of identifying particles will be our top priority. Otherwise, we are not able to reject the unwanted contaminant particles very well. My first topic with HGCAL\cite{Collaboration:2293646} in CMS focuses on the particle identification of electrons and pions. It is expected that there will be more new physics related to electrons as final states~\cite{Sirunyan:2018qob}. Nonetheless, the misidentification of pions as electrons will certainly be one of our primary issues, and the removal of these mistagged pions is the goal of our study. The outcome of the optimized cuts and their application on the cut-based analysis will benefit the signal/background studies that are very sensitive to pions~\cite{Rimoldi:2663190}. Second, I study the cross-talk phenomena on the PCB boards(called "hexaboard") which are attached with the sensor used in the HGCAL, and try to find out the correlation between the injection pulse strength and cross-talk. We expect to understand the noise created in the electronics and reduce them in the future.
 
-Some have proposed colliders with the higher C.M. energy for the next generation, such as Future Circular Collider (FCC), Circular Electron-Positron Collider (CEPC), Super proton-proton Collider (SppC) etc. When those colliders operate, other crucial problems with higher C.M. energy will arise. Under these circumstances, the jets from the segmentation will be very boosted. In this case, we need to explore other ways to look into this boosted jets structure. Otherwise, we can't separate the signal from the background very well. My second topic with FCC detector focuses on the boosted conditions, using different jet substructures with various configurations of the FCC detector to see whether the smallest detector configuration will give the best separation power to distinguish signal from the background.
+Some have proposed colliders with the higher center of mass (C.M.) energy for the next generation~\cite{Shiltsev:2015tta}, such as Future Circular Collider (FCC)~\cite{Ellis:2018zpk}, Circular Electron-Positron Collider (CEPC)~\cite{CEPCStudyGroup:2018rmc}, Super proton-proton Collider (SppC)~\cite{Tang:2015qga} etc. When those colliders operate, other crucial problems with higher C.M. energy will arise. Under these circumstances, the jets from the segmentation will be very boosted~\cite{Coleman:2017fiq}. In this case, we need to explore other ways to look into the structure of boosted jets. Otherwise, we can't separate the signal from the background very well. My topic with FCC detector focuses on the boosted conditions, using different jet substructures with various configurations of the FCC detector to see whether the smallest detector configuration will give the best separation power to distinguish signal from the background.
 \subsection{Summary for research topics}
-The research activities of Chih-Hsiang Yeh from July 1, 2018 to Febraury 28, 2019 includes the following:
+The research activities of Chih-Hsiang Yeh from July 1, 2018 to Febraury 28, 2019 include the following:
 \begin{itemize}
- \item Research with electronics of HGCAL : Cross-talk studies with the no sensor based Hexaboard in NTU 
- \item Research with HGCAL in CMS : Pion-rejection studies with a CMS HGCAL test-beam prototype Electromagnetic calorimeter(ECAL)
+ \item Research with electronics of HGCAL : Cross-talk studies with the silicon-sensor-unconnected hexaboard in NTU
+ \item Research with HGCAL in CMS : Pion-rejection studies with a CMS HGCAL test-beam prototype electromagnetic calorimeter(ECAL)
  \item Research with simulation FCC detector : Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider
 \end{itemize}
 
-I will describe in more detail for all of the items above.
+\subsection{Summary for Milestone Achieved within the project time}
+\begin{itemize}
+\item My first journal paper: "Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider "was submitted to arxiv~\cite{Yeh:2019xbj} and the Journal of instrumentation(JINST). Now the paper is being reviewed by the referees of JINST.
+\item My first conference paper: "Jet Substructure Variables with the SiFCC Detector at 100 TeV" was submitted to arxiv, which was published by the Journal of Proceeding of Science(PoS)~\cite{Yeh:2018ujb}.
+\item The poster with FCC detector studies was presented in the International Conference of High Energy Physics in 2018(ICHEP2018).
+\item Two posters with HGCAL studies and FCC detector studies were presented in the Taiwan Physics Society(TPS) annual meeting in 2019. 
+\end{itemize}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Cross-talk studies with the no sensor based Hexaboard in NTU \label{sec:cross-talk}}
-Cross-talk is the one basic phenomenon exist in the electronics, which is a signal transmitted on one circuit or channel of a transmission system creates an unwanted effect in another circuit or channel. For example, it has two types cross-talk could happen:
+\section{Cross-talk studies with the silicon-sensor-unconnected hexaboard in NTU \label{sec:cross-talk}}
+Cross-talk~\cite{1177507} is the one of the basic phenomea that exist in electronics, which a signal is transmitted on to one circuit or channel of a transmission system that creates an unwanted effect in another circuit or channel. For instance, there are two types of cross-talk that could happen:
 \begin{itemize}
 \item Correlated cross-talk\\
-The capacitors in the circuit are too closed wth each other. One capacitor is charging, and it could influence the other capacitors by the EM effect. 
+The capacitors in the circuit are too closed to each other. Other capacitors might be affected if one of the adjacent capacitor is charging. 
 \item Anti-correlated cross-talk\\
-It could happen in the circuits which have the problem in power supplication. When the process in one channel doesn't have enough energy to process, it could "borrow" the energy from other channels, and lead to the cross-talk also.  
+The problem of power insufficient could exist in the circuit when one of the channels does not have enough energy, which would lead to the energy transfer from one another channel, creating also the phenomenon of cross-talk.  
 \end{itemize}
 
 
-Then, both of them will lead to giving out the wrong signal from the electronics. We need to quantify this value and know more about this kind of noise, otherwise, it will be a big problem when we use this electronics to reconstruct the events from the sensor in the High Energy Physics(HEP) experiments. 
+Thus, either of the circumstances described above would give rise to incorrect signal to the electronics. The issues need to be analyzed further more, or there will be significant impact when applying the results to reconstruct the events using in High energy physics(HEP) experiment.
 
-I did this study with Prof.Stathes Paganis, Prof.Rong-Shayang Lu, master student Chia-Hong Chein from NTU, and Prof.Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study includes the following:
+I did this study with Prof. Stathes Paganis, Prof. Rong-Shayang Lu, master student Chia-Hong Chein from NTU, and Prof. Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study includes the following:
 \begin{itemize}
-\item Study the correlation between the stability of pedestals(SCA0) and other SCA sampling.
+%\item Study the correlation between the stability of pedestals(SCA0) and other SCA sampling.
 \item Study the correlation between the injection pulse strength and the cross-talk.
 \end{itemize}
-I will describe the detail as following.
+I will describe the detail as follows.
 
 \subsection{Experiment apparatus and Event reconstruction}
 
-For the experiment, we used the electronics which are composed of three parts, including the module (version 2), RPI Hexa and Raspberry Pi 3(RPI). In the Figure\ref{fig:PCB_study_apparatus}, it presents the electronics and data flow we applied. For the module, it also be called "Hexaboard", because of its shape is hexagonal-like. The main power of it is to collect analog signal and convert them into the digital format. It can be bonded to silicon sensor, such as the HGCAL, to collect real charge from particle go through the sensor and do physical analysis. It also can be given the electrical pulse manually to simulate the sensor-attached condition. For the RPI Hexa, it is the bridge between FPGAs and Raspberry Pi(RPI). When the signal come out from the four CHIPs of hexaboard, first of all, we will collect them to the "slave" FPGA on the HexaBoard. Then after finishing collecting the data, the "slave" FPGA will transfer the data to MAX10 FPGA("master" FPGA) on the RPI Hexa. For Raspberry Pi 3(RPI), acting like the small computer, can do many things communicate with the hexaboard. The main power for it is to receive the MAX10 data and can encode to read back the data, and finish reconstructing the events.
+The electronics we used are composed of three parts, the module (version 2), RPI Hexaboard and Raspberry Pi 3(RPI). The component of them are as follows:
+\begin{itemize}
+\item For the module(Fig.\ref{fig:PCB_study_apparatus} Top left), it also be called "Hexaboard", due to its hexagonal-like shape. The main function of it is to collect analog signals and convert them into the digital format with the four SKIROC2cms CHIPs~\cite{Borg_2017} on it. It can be bonded to silicon sensor, such as the HGCAL, to collect real charge from particle to the sensors. The electrical pulse can be manually injected to simulate the condition when the sensors are attached.
+
+\item For the RPI Hexa(Fig.\ref{fig:PCB_study_apparatus} Top right), it bridges the signal between FPGAs and Raspberry Pi (RPI). When the signal comes out from the four CHIPs of hexaboard, initially, they we will be stored to the secondary "slave" FPGA on the HexaBoard. Then after finishing collecting the data, the "slave" FPGA will transfer the data to MAX10 FPGA("master" FPGA) on the RPI Hexa.
+\item  For Raspberry Pi 3(RPI) (Fig.\ref{fig:PCB_study_apparatus} Top right), acting like the small computer, can communicate with the hexaboard. The main power for it is to receive the MAX10 data and decode the raw data to the formal data which can be applied in analyzing directly. Until now, we finish reconstructing the events for one run.
+\end{itemize}
 
 \begin{figure}[!htb]
 \centering
      \includegraphics[width=0.45\textwidth]{PCB_study/Hexaboard.png}
      \includegraphics[width=0.45\textwidth]{PCB_study/RPI.png}\\
      \includegraphics[width=0.9\textwidth]{PCB_study/Data_flow.png}
-\caption{(Top left) The Hexaboard which was applied in the study. On the board, there are four SKIROC2cms CHIPs (black hexagonal) used to receive the electrical pulse which is given by the cable, and give out the signal to the Hexa RPI. (Top right) The Hexa RPI and RPI which is applied to transform the data and communicate with Hexaboard. (Down) The data flow pictures for introducing the data transfom from Hexaboard to Hexa RPI and RPI.
+\caption{(Top left) The Hexaboard which was applied in the study. On the board, there are four SKIROC2cms CHIPs (black hexagonal) used to receive the electrical pulse which is given by the cable, and give out the signal to the Hexa RPI. (Top right) The Hexa RPI and RPI which is applied to transform the data and communicate with Hexaboard. (Down) The schematic plot illustrates the transfer of the data flow from Hexaboard to Hexa RPI and RPI.
 }
 \label{fig:PCB_study_apparatus}
 \end{figure}
 
-Every SKIROC2cms CHIP on the HexaBoard corresponds to 64 channels, while each channel has its own readout circuit(Pre-amplifier, shapers,etc.). In each event(run), it recorded 30 numbers to reconstruct the event for every channel. Totally 30 numbers are given by 13 ADC counts in both highgain(HG) and lowgain(LG) plus 2 TOTgain(Time Over Threshold) and 2 TOAs(Time Of Arrival).  The 13 ADC counts of HG and LG come from 13 SCA(Switched Capacitor Array) units in the circuit, which sample the input signal every 25ns\footnote{There exist thirteen different capacitors with the number SCA0, SCA1....SCA12, and they will record one ADC value in order every 25ns for the each channel of CHIPs. When going to SCA12 and finishing recording, it will return to SCA0. The order of SCA numbers are not related to the order of the electrical pulse we give, but the time stamps are.}. They can be used to define the hardware noise and differences between each capacitor. At the same time, we recorded the time stamp with the pulse trigger\footnote{In real case, it recorded the starting SCA and the end of SCA with roll position array when the pulse trigger is on and off, and rearrange the SCAs with this array as the time stamp, so it can be specified as the pulse information.} for each event. Time stamp label the whole pulse in order,  so we can use the time stamp to mark the pulse location, specially for the peak of pulse. 
+Every SKIROC2cms CHIP on the HexaBoard corresponds to 64 channels, while each channel has its own readout circuit(Pre-amplifier, shapers,etc.). In each event(run), it records 30 numbers to reconstruct the event for every channel. Total 30 numbers are given by 13 ADC counts in both highgain(HG) and lowgain(LG) plus 2 TOTgain(Time Over Threshold) and 2 TOAs(Time Of Arrival).  The 13 ADC counts of HG and LG come from 13 SCA(Switched Capacitor Array) units in the circuit, which sample the input signal every 25ns\footnote{There exist thirteen different capacitors with the number SCA0, SCA1....SCA12, and they will record one ADC value in order every 25ns for the each channel of CHIPs. When going to SCA12 and finishing recording, it will return to SCA0. The order of SCA numbers are not related to the order of the electrical pulse we give, but the time stamps are.}. They can be employed to define the hardware noise and differences between each capacitor. At the same time, we records the time stamp with the pulse trigger\footnote{In real case, it records the starting SCA and the end of SCA with roll position array when the pulse trigger is on and off, and rearrange the SCAs with this array as the time stamp, so it can be specified as the pulse information.} for each event. Time stamp labels the whole pulse in order,  so we can use the time stamp to mark the pulse location, specially for the peak of pulse. 
 
 \subsection{Events and Methods for analysis}
-
-For simplifying the study, we used the Hexaboard without the sensor on it. In this studies, we used two types of runs to do the researches through the whole process:
+In order to simplify the study, the sensors are taken out from the Hexaboard. In this studies, we used two types of run to do the researches through the whole process:
 \begin{itemize}
-\item Pedestal run: Run without injecting the electrical pulse, and record the non-pulse run to be our reference.
-\item Charged run: Run with injecting the electrical pulse to the certain channel, and record the with-pulse run to do the study. 
+\item Pedestal run: The runs without injecting the electrical pulses are referred to as the pedestal runs.
+\item Charged run: The runs with injecting the electrical pulse to certain channels are referred to as the charged run. 
 \end{itemize}
 
-Be attention with, because we simulated the sensor-attached condition, and sensor only apply the 32 channels on the Hexaboard in real life, we used 32 channels of the Hexaboard to study. In the Fig.\ref{fig:PCB_study_channelMap} is the channel map that we used in the study.
+Notice that only 32 channels of the Hexaboard are simulated in the sensor-attached scenario due to the fact that only 32 channels are applied in reality. In the Fig.\ref{fig:PCB_study_channelMap} is the channel map that we used in the study.
 
 \begin{figure}[!htb]
 \centering
      \includegraphics[width=0.9\textwidth]{PCB_study/channelmap.pdf}
-\caption{The channel map which was applied in the research, there are four regions with the different color represent the different SKIROC2cms CHIPs.  A digit in thousands is the order of the CHIPs, and a digit in tens and ones represent the channels on each CHIPs.}
+\caption{The channel map which was applied in the research, there are four regions with the different color represent the different SKIROC2cms CHIPs.  A digit in thousands is the order of the CHIPs, and a digit in tens and ones represent the channels.}
 \label{fig:PCB_study_channelMap}
 \end{figure}
+The following three cases which were used in our studies are shown in the Fig.\ref{fig:PCB_His}.
+\begin{itemize}
+\item Pedestal run is used to evaluate the pedestals and noise for each channel. The histogram of the mean value of ADC-counts (Fig.\ref{fig:PCB_His} Top left) is defined as the pedestal value from each channel, and it is the hardware-dependent(SCA-dependent) value.
+\item Charged run is used to record the responses with the histogram of ADC-counts values(Fig.\ref{fig:PCB_His} Top right) from every channel with the electrical pulse injecting into the fixed-channel, and is applied to simulate the sensor-unconnected condition.  
+\item "Pedestal-subtracted" value, the most important value for our study, is used to subtract the "reference". The mean value of the ADC-counts for it is turned out after "Charged run ADC-counts" cut-off "the mean of ADC-counts from Pedestal run" with same SCA number. The error (width of gaussian) of the histograms of the already-subtracted values(Fig.\ref{fig:PCB_His} Down) means the noise in the channels including the electronics noise, sensor noise( if it is installed, not in our case. ), etc. 
+\end{itemize}
+Note, in the study, we always used SCAs of HG to do. So as to simplify the case, we fixed the injected-channel to number 20 for all CHIPs and saw all cases.
 
-The following three cases which were used in our studies are shown in the fig.\ref{fig:PCB_His}. (1)Pedestal run were used to evaluate the pedestals and noise for each channel. The value of mean of ADC-counts will be defined as the pedestal value from each channel, and it is the hardware-dependent(SCA-dependent) value. (2)Charged run were used to record the responses with ADC-counts values from every channel with the electrical pulse injecting, and simulated the real physics. (3)In the end, the "Pedestal-subtracted" value will be used in our study for subtracting the "reference". The mean value of the ADC-counts for it is calculated after Charged run ADC-counts subtract the mean of ADC-counts from Pedestal run with same SCA number. And the error( width of gaussian ) means the noise in the channels including the electronics noise, sensor noise( if it is installed ), etc. Note, in the study, we always used SCAs of HG to do. For simplifying the case, we fixed the injected-channel to number 20 in CHIP 0 and saw all cases.
 
 \begin{figure}[!htb]
 \centering
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_Pedestal.png}
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_charge.png}\\
      \includegraphics[width=\cmsFigWidth]{PCB_study/His_subtraction.png}
-\caption{These figures perform the histograms that using in the study. All this cases are shown with fixing at SCA=2 and channel=22. (Top left ) The pedestal run histograms which is used to calculate the pedestal and noise. Fitting the line is to get the mean of ADC-counts. (Top right)  The charged run for example. (Down) The pedestal-subtracted case is shown. Also fit the line to get the mean and error of ADC-counts, and use in the study directly}
+\caption{These figures perform the histograms that using in the study. All this cases are shown with fixing at SCA=2 and channel=22. (Top left ) The pedestal run histograms which is used to calculate the pedestal and noise. Fitting the line is to get the mean of ADC-counts. (Top right)  The charged run for example. (Down) The pedestal-subtracted case is shown. Some of fitting cases are used to get the value of mean and error, taking to the calculation we apply in study.}
 \label{fig:PCB_His}
 \end{figure}
 
 \subsection{Results and Conclusion}
-First of all, because the first SCA (the 0th) is useful for making on-line pedestal subtraction (because there may be some low frequency noise), and usually our signal comes after SCA0, we need to explore the correlation between the stability of pedestals(SCA0) and other SCA sampling.  In the Fig.\ref{fig:PCB_Stability}, we can see that the nearest channel of the injection channel (channel 20) with channel 18 and 22 as examples, the stability of them are very good. Because the fitting lines are pretty flat in both of them, and that means in the different SCA number other than SCA0, they are slightly different. And we can see the same condition in other channels also.
+%First of all, because the first SCA (the 0th) is useful for making on-line pedestal subtraction (because there may be some low frequency noise), and usually our signal comes after SCA0, we need to explore the correlation between the stability of pedestals(SCA0) and other SCA sampling.  In the Fig.\ref{fig:PCB_Stability}, we can see that the nearest channel of the injection channel (channel 20) with channel 18 and 22 as examples, the stability of them are very good. Because the fitting lines are pretty flat in both of them, and that means in the different SCA number other than SCA0, they are slightly different. And for our study, we can see the same condition in other channels also.
 
-\begin{figure}[!htb]
-\centering
-     \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf}
-     \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf}\\
-\caption{The figures show the difference mean of ADC-counts between the first SCA and other SCAs. (Left) The channel 18 response and (Right) The channel 22 response.
-}
-\label{fig:PCB_Stability}
-\end{figure}
+%\begin{figure}[!htb]
+%\centering
+ %    \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel18_Subtract_mean_Stability.pdf}
+  %   \includegraphics[width=\cmsFigWidth]{PCB_study/HG_Chip0_channel22_Subtract_mean_Stability.pdf}\\
+%\caption{The figures show the difference mean of ADC-counts between the first SCA and other SCAs. (Left) The channel 18 response and (Right) The channel 22 response.
+%}
+%\label{fig:PCB_Stability}
+%\end{figure}
 
-Second, we wanted to explore the correlation between injection pulse strength and the cross-talk. In real physics, because particles will have different energy individually in the collider, they will see the different pulse strength in the real case. At there, we wanted to see whether the different pulse strength will give out more or less the cross-talk. In the fig.\ref{fig:PCB_injection_pulse_study}, they show that the mean and error values from Pedestal-subtracted value for different DAC of injection pulse. The results for them are quiet obviously showing that the cross-talk in two cases: 
+We desired to explore the correlation between injection pulse strength and the cross-talk. In real physics, because particles own their energies individually in the collider, we could detect the different pulse strength in reality. At there, we wanted to see whether the different pulse strength will produce a different amount of the cross-talk, and expected to quantify them as well. In the Fig.\ref{fig:PCB_injection_pulse_study}, they show that the mean and error values from Pedestal-subtracted value which is depicted above for different DAQ(strength unit for pulse) of injection pulse. The results for them are quite obviously showing that the cross-talk in two cases: 
 \begin{itemize}
 \item Anti-correlated cross-talk\\
-DAC from 0 to 1000: No matter the closer or farther the channels, the slopes are negative for all of them. That means the channels, except the injection channels, are borrowed the energy by injection channels. 
+DAC from 0 to 1000: No matter the closer or farther the channels, the slopes are negative for all of them. That means the channels, except the injection channels, are taken out the energy by injection channels. 
 \item Correlated cross-talk\\
-DAC after 1000: When the channels are closed to the injection channels, the slopes are bigger compared with the channels which are farther from the injection channels. That means, the injection channels give more energy to the closed channels compared with the farther channels. 
+DAC after 1000: When the channels are closed to the injection channels, the slopes are bigger compared with the channels which are farther from the injection channels. That means, the injection channels leak out more energy to the closed channels compared with the farther channels. 
 \end{itemize}
 
 \begin{figure}[!htb]
@@ -405,30 +423,29 @@ DAC after 1000: When the channels are closed to the injection channels, the slop
 \label{fig:PCB_injection_pulse_study}
 \end{figure}
 
-For the conclusion, we can see from our study that the cross-talk exist in the Hexaboard, and we used the ADC-counts from the Pedestal-subtracted values to quantify the cross-talk. We expected that this study can help to quantify the cross-talk and can decrease it in the future.
+For the conclusion, the study indicates that we can't throw away the concerned issue of the noise of cross-talk, unfortunately, which was explored to exist in the Hexaboard and could affect the resolution of reconstructing the events. We used the ADC-counts from the Pedestal-subtracted values and let the cross-talk quantified properly. We expect that this study can help to quantify the cross-talk in the future and probe the way to get rid of it.
 
 \section{Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}
-In most cases, the electrons leave most of the energy in ECAL by the processes of pair production and bremsstrahlung. Different from them, Chagred-pions deposit most of the energy in Hadronic Calorimeter(HCAL) through the process of segmentation. Unfortunately, in some cases, those pions could give out the fully Electromagnetic(EM) showering in ECAL, and put most of the energy in it. If we can't explore the way to tag those pions and reject them, it will be very terrible. Because they will be misidentified as the electrons, and those "fake electrons" could contaminate with the real electrons.  In addition, it could influence the analysis which is sensitive to the electron/pion distinguishability. We expected to solve this issue and help the physics analysis with this type of background in the future.
+In general, the electrons deposit most of the energy in ECAL by the processes of pair production and bremsstrahlung. Different from them, charged-pions store most of the energy in Hadronic Calorimeter(HCAL) through the process of segmentation and hadronization. Unfortunately, in some special cases, those charged-pions could kick out the secondary particles, i.e. electrons and happen the fully Electromagnetic(EM) showering, along with leaving most of the energy in ECAL, violating with our general case. Even worse, those charged-pions which pass through the detector originally could get disappear momentarily in ECAL, and cause the problem with identifying them. If we can't explore the means to tag those pions and reject them, it will be very terrible. Because they will be misidentified as the electrons, and those "fake electrons" could contaminate with the real electrons.  Furthermore, it could influence the analysis which is sensitive to the electron/pion distinguishability. We expect to handle this issue and help the physics analysis with this type of background in the future.
 
-Because of the significant challenges for radiation tolerance and event pileup on the detectors of the CMS experiment at LHC, they will replace the current Endcap calorimeter with a Si-pad HGCAL, a new generation state-of-the-art calorimeter, which can perform 3D imaging of the shower as well as provide ~30ps timing. To test the performance of HGCAL, including calibration, particle identification, etc. before it will be installed in CMS Phase \rom{2} upgrade , we did the "test-beam"(Fig.\ref{test_beam_setup_1}), which was held to incident the test particles, such as electron, pion and muon into HGCAL prototype, and analyze its performance from the information of the hits come out with the detector. At the same time,  The Monto Carlo(MC) samples are provided with the same prototype of the detectors to let the people study as well.  We used the test-beam MC samples which are done in CMS on June and October 2019 to do this study. The group of test-beam divided the studies into many different topics, and my topic was in the section of "electron/pion identification".
+Since the significant challenges for radiation tolerance and event pileup on the detectors of the CMS experiment at LHC, they will replace the current Endcap calorimeter with a Si-pad HGCAL, a new generation state-of-the-art calorimeter, which can perform 3D imaging of the shower as well as provide ~30ps timing. To test the performance of HGCAL, including calibration, particle identification, etc. before it will be installed in CMS Phase \rom{2} upgrade , we conduct the "test-beam"(Fig.\ref{test_beam_setup_1}), which is held to incident the test particles, such like electron, pion and muon into HGCAL prototype regualrly, and analyze its performance from the information of the hits come out from the detector. At the same time,  The Monto Carlo(MC) samples are provided with the same prototype of the detectors to let the simulation of the experiment studied as well.  We applied the test-beam MC samples which were done in CMS on June and October 2018 to do this study. The group of test-beam divided the studies into various topics, the topic of mine was allocated into the section "electron/pion identification".
 \begin{figure}[!htb]
 \centering 
      \includegraphics[width=0.9\textwidth]{Delta-ray/test-beam_setup.png}
-\caption{The figure show the test beam experiment setup in October. The orange and red lines box mark the CE-E and CE-H part of the detector including the module(in the metal box) and readout electronics.}
+\caption{The figure show the test beam experiment setup on October. The orange and red lines box mark the electromagnetic compartment(CE-E) and hadronic compartment (CE-H) part of the detector including the module(in the metal box) and readout electronics.}
 \label{test_beam_setup_1}
 \end{figure}
 
-Charged-pion tagging and rejection are one of the strong points of HGCAL. Traditionally the most powerful discriminants for pion rejection are lateral shower containment and longitudinal energy leakage in the back of the EM section of HGCAL. In this study we explore the capability of HGCAL to tag pions that are fully EM-showering in the ECAL and they pass the transverse containment and leakage from the back requirements. For our expectation, we wanted to find the best cuts and invited the new variables to distinguish "fake electrons" from "real electrons".
+Charged-pion tagging and rejection are one of the strong points of HGCAL. Traditionally the most powerful discriminants for pion rejection are lateral shower containment and longitudinal energy leakage in the back of the ECAL. In this study, we investigate the capability of HGCAL to tag pions that yield the fully EM-showering in the ECAL and they passed the transverse containment and leakage from the back requirements. For our expectation, we want to find the best cuts and introduced the new variables to distinguish "fake electrons" from "real electrons".
 
-I did this study with Prof. Stathes Paganis, Prof. Rong-Shayang Lu, master student Chia-Hong Chein from NTU, Dr. Shilpi Jain from University of Minnesota and Prof. Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study includes the following:
+I did this study with Prof. Stathes Paganis, Prof. Rong-Shayang Lu, master student Chia-Hong Chein from NTU, Dr. Shilpi Jain from University of Minnesota and Prof. Shin-Shan Eiko Yu from NCU.  The contributions of Chih-Hsiang Yeh to this study include the following:
 \begin{itemize}
-\item Study the optimized cuts for finding the "fake electron" from pions, and introduce the new variable with the longitudinal segmentation using the test-beam MC samples from June.
+\item Introduce the optimized cuts for finding the "fake electron" from pions, and the new variable with the longitudinal segmentation using the test-beam MC samples from June.
 \item Apply the found optimized cuts and new variable in test-beam MC samples from October to see the electron efficiencies and pion rejections.
 \end{itemize}
-I will describe the detail as following.
 
 \subsection{Introduction for HGCAL}
-During the Run 1 (2010-2012) in LHC operated at $\sqrt{s} = 7\TeV$, delivering $\approx$ 6\fbinv, and at $\sqrt{s} = 8\TeV$ in 2012, delivering $\approx$ 23\fbinv. The most significant physics results from this period was the discovery of the Higgs boson, and along with the Nobel prize for it in 2013. After Run 1, Run 2 started in 2015 at a C.M of $\sqrt{s} = 13\TeV$  and the instantaneous luminosity, reaching to the value for $1.7 \times 10^{34} cm^{-2} s^{-1}$. In the Figure.\ref{luminosity_1}, it shows the summary plot for the luminosity from Run1 to Run2.  Surprisingly, it operated the exceed value compare with the original design. More studies with this unbelievable operation, such as Higgs boson, SM processes, BSM, will be carried out.
+During the Run 1 (2010-2012)~\cite{GIOVANNOZZI20181} in LHC operated at $\sqrt{s} = 7\TeV$, delivering $\approx$ 6\fbinv, and at $\sqrt{s} = 8\TeV$ in 2012, delivering $\approx$ 23\fbinv. The most significant physics results from this period was the discovery of the Higgs boson, and along with the Nobel prize for it in 2013. After Run 1, Run 2~\cite{Bloom:2016mdm} started in 2015 at a C.M of $\sqrt{s} = 13\TeV$  and the instantaneous luminosity, reaching to the value for $1.7 \times 10^{34} cm^{-2} s^{-1}$. In the Figure.\ref{luminosity_1}, it presents the summary plot for the luminosity from Run1 to Run2.  Surprisingly, it operated the surpass value compared with the original design. More studies with this unpredictable operation, such as Higgs boson, SM processes, BSM, will be carried out.
 
 \begin{figure}[!htb]
 \centering 
@@ -438,20 +455,20 @@ During the Run 1 (2010-2012) in LHC operated at $\sqrt{s} = 7\TeV$, delivering $
 \label{luminosity_1}
 \end{figure}
 
-For the future in Run3(2023), LHC intended to accumulate around 300\fbinv. After the third long shutdown (LS3), they plan to design the value to the instantaneous luminosity at $5 \times 10^{34} cm^{-2} s^{-1}$ with the target of integrating around 3000\fbinv by the time of mid-2030s, and it will go into the HL-LHC era. The corresponding mean number of collisions (pileup) per bunch crossing will be 140. In addition, the LHC has the ability to deliver 50\% higher values for both the instantaneous and integrated luminosities.
+For the future in Run3(2023)\cite{Alves:2017she}, LHC intended to accumulate around 300\fbinv. After the third long shutdown (LS3), they prepare to design the value to the instantaneous luminosity at $5 \times 10^{34} cm^{-2} s^{-1}$ with the target of integrating around 3000\fbinv by the time of the mid-2030s, and it will go into the HL-LHC era. The corresponding mean number of collisions (pileup) per bunch crossing will be 140. In addition, the LHC has the ability to deliver 50\% higher values for both the instantaneous and integrated luminosities.
 
-In this case, It will bring out the two significant issues in the HL-LHC era: (1)radiation damage and (2)event pileup on CMS detectors, especially for calorimetry in the forward region. As part of its HL-LHC upgrade program, the CMS Collaboration is proposing to build a HGCAL to replace the existing endcap calorimeters. There are many requirements for the HGCAL upgrade to let it preserve the good performance. Write some of them as following:
+In this case, It will bring out the two significant issues in the HL-LHC era: (1)radiation damage and (2)event pileup on CMS detectors, especially for calorimetry in the forward region. As part of its HL-LHC upgrade program, the CMS Collaboration is proposing to build a HGCAL to replace the existing endcap calorimeters. There are many requirements for the HGCAL upgrade to let the good performance preserved after working the period of time. Write some of them as follows:
 \begin{itemize}
-\item  This detector must be "radiation tolerance", otherwise, it will happen the unrecoverable condition, same as the circumstance of scintillator now in CMS. To solve this issue, active layer with the silicon sensor will be applied in the HGCAL.
-\item  This detector need to be designed with the find granularity for lateral and longitudinal segmentation:
+\item  This detector must be "radiation tolerance", otherwise, it will lead to the unrecoverable condition, same as the circumstance of scintillator now in CMS. To solve this issue, the active layer with the silicon sensor~\cite{osti_808409} will be applied in the HGCAL.
+\item  This detector needs to be designed with the fine granularity for lateral and longitudinal segmentation:
 \begin{itemize}
 \item For the lateral part, it can help with separating two showers and can observe the narrow jets. 
-\item For the longitudinal part, it can help us to probe the longitudinal development of showers, providing good energy resolution, and also can know more about the patterns in the physics processes.
+\item For the longitudinal part, it can help us to probe the longitudinal development of showers, providing good energy resolution, and also can know more about the patterns in the physical processes.
 \end{itemize}
-Both of them can remove the "pileup event" if they are great enough to distinguish processes of different particles.
+Both of them can remove the "pileup event" if they are great enough to distinguish the processes of different particles.
 \end{itemize}
 
-The HGCAL prototype consists of an electromagnetic compartment (CE-E) followed by a hadronic compartment (CE-H) with Forward region(FH) and Backward region(BH) in the Fig.\ref{HGCAL_region}. For the CE-E, it consists of 28 sampling layers with a depth of approximately 26 $X_{0}$ and 1.7 $\lambda$. In the Fig.\ref{HGCAL_Material} top left shows one sampling layer of the CE-E. The element of active layer for it is a hexagonal silicon sensor, which is sandwiched between layer of WCu (75\%, 25\%) baseplate and a printed circuit board(PCB), which is used to study my cross-talk studies in NTU, that carries the front-end electronics to form a silicon module in the Fig.\ref{HGCAL_Material} top right. Modules are tiled on a Cu cooling plate, which together with the two WCu baseplates form one absorber layer. The alternate absorber layer is formed by lead planes clad with stainless steel (SS) sheets that are placed on module-cooling plate sandwich. 
+The HGCAL prototype consists of an electromagnetic compartment (CE-E) followed by a hadronic compartment (CE-H) with Forward region(FH) and Backward region(BH) in the Fig.\ref{HGCAL_region}. For the CE-E, it consists of 28 sampling layers with a depth of approximately 26 $X_{0}$ and 1.7 $\lambda$. The element of active layer for this part is a hexagonal silicon sensor, which is sandwiched between layer of WCu (75\%, 25\%) baseplate and a printed circuit board(PCB), which is used to study my cross-talk studies in NTU, that carries the front-end electronics to form a silicon module in the Fig.\ref{HGCAL_Material} top right. These modules are tiled on a Cu cooling plate, which together with the two WCu baseplates form one absorber layer. The alternate absorber layer is formed by lead planes clad with stainless steel (SS) sheets that are placed on module-cooling plate sandwich. In the Fig.\ref{HGCAL_Material} top left shows one sampling layer of the CE-E for example.
 
 \begin{figure}[!htb]
 \centering 
@@ -460,22 +477,22 @@ The HGCAL prototype consists of an electromagnetic compartment (CE-E) followed b
 \label{HGCAL_region}
 \end{figure}
 
-For the hadronic compartment of HGCAL, they consist of 12 planes of thick SS plates followed by another 12 SS planes with different thickness. Between these absorber plates sit silicon modules(show one sampling layer in Fig.\ref{HGCAL_Material} down left) in most regions and silicon modules mixed with scintillator tileboards(show one sampling layer in Fig.\ref{HGCAL_Material} down left) in part of low-radiation regions mounted on a copper cooling plates to form the wide cassettes.  These cassettes are similar to those in the EM compartment, but include sensors on only one side of the cooling plate, which are formed as a separate mechanical structure. This leads to a total interaction length with number 10.7$\lambda$, including the CE-E and the neutron moderator layer in front of the calorimeter. All layers are read out for use in energy measurement, but only alternate layers in CE-E, and all in CE-H, are used for producing L1 trigger primitives. 
+For the hadronic compartment of HGCAL, they consist of 12 planes of thick SS plates followed by another 12 SS planes with different thickness. Between these absorber plates sit silicon modules(show one sampling layer in Fig.\ref{HGCAL_Material} down left) in most regions with high-radiation and silicon modules mixed with scintillator tileboards(show one sampling layer Fig.\ref{HGCAL_Material} down right) in part of low-radiation regions mounted on a copper cooling plates to form the wide cassettes.  These cassettes are similar to those in the EM compartment, but include sensors on only one side of the cooling plate(See Fig.\ref{HGCAL_Material} down left), which are formed as a separate mechanical structure. This leads to a total interaction length with number 10.7$\lambda$. All layers are read out for use in energy measurement, but only alternate layers in CE-E and all in CE-H, are used for producing L1 trigger primitives~\cite{Collaboration:2283192}. 
 
 \begin{figure}[!htb]
 \centering  
-     \includegraphics[height=\cmsFigWidth,width=\cmsFigWidth]{Delta-ray/CE-E.png}
      \includegraphics[height=\cmsFigWidth,width=\cmsFigWidth]{Delta-ray/Silicon_module.png}
+     \includegraphics[height=\cmsFigWidth,width=\cmsFigWidth]{Delta-ray/CE-E.png}
      \includegraphics[width=\cmsFigWidth]{Delta-ray/CE-H(part1).png}
      \includegraphics[height=\cmsFigWidth,width=\cmsFigWidth]{Delta-ray/CE-H(part2).png}
-\caption{The figures show the different material arrangement in the different part of the detector. The top left is the one sampling layer of the CE-E. The top right show the silicon module used in the CE-E and CE-H. The down left is the one sampling layer of the CE-H which is sit on the high-radiation region. Oppositely, the down right is the one sampling layer of the CE-H which is based on the place with low-radiation.}
+\caption{The figures show the different material arrangement in the different part of the detector. The top left shows the silicon module used in the CE-E and CE-H. The top right is the one sampling layer of the CE- E. The down left is the one sampling layer of the CE-H which sits on the high-radiation region, oppositely, the downright is the one sampling layer of the CE-H which is based on the place with low-radiation.}
 \label{HGCAL_Material}
 \end{figure}
 
-In the test-beam, we used the material based on prototype of HGCAL written below,  but for the detail of its, each components will use the CMS phase 2 design. I will write the results of the test-beam in 2018 on June and October.  
+In the test-beam, we employed the material based on the prototype of HGCAL written above,  but for the detail of its, each component will use the CMS phase 2 design. I will write the results of the test-beam in 2018 in June and October.  
 
-\subsection{Tag-and-probe the optimized cuts and new variable with June test-beam MC}
-Because we wanted to tag the "electron-like"(e-like) pion, we need to explore the properties for the electron first, including shower shape, energy deposition, etc. in detector. And then, apply all of them in pion runs to tag those bad pion. I will describe the detail for the cuts and selections as following. In this studies, we used the sample with 50GeV electron and pion MC.
+\subsection{Introduction of the optimized cuts and new variable with June test-beam MC}
+For the purpose of tagging the "electron-like"(e-like) pion, at the starting, we must quest the properties of the electron, including shower shape, energy deposition, etc. in the detector. For the next step, we apply all of the properties of the electron in runs of pion to pick up those "bad pion". I will describe the detail for the cuts and the selections as follows. For notes, in this studies, we used the sample with 50GeV electron and pion MC which were done in June test-beam of 2018.
 
 \begin{figure}[!htb]
 \centering
@@ -487,16 +504,16 @@ Because we wanted to tag the "electron-like"(e-like) pion, we need to explore th
 \label{cuts_1}
 \end{figure}
 
-The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at starting. From the theory, it tells us that electron has the narrower shower shape than pion in ECAL, we explored the cut with the different number of rings on the transverse plane of detector. In the Fig.\ref{cuts_1} top left shows the distribution plot of ring. In the end, we chose the energy of 5 Rings for being the cuts. Fig.\ref{cuts_1} top right is presented to show the cut we used with "$\frac{\mathrm{energy \ out \ of \ the \ 5 \ Rings}}{\mathrm{total \ energy}}$". Because we can see in the plot, the energy of electrons showering are collected out of the 5 Rings with at most 1\% compared with total energy in ECAL.  We chose this standard to tag the e-like pions first. Although, it is the tight cut because it also discarded some of electrons as well, but we wanted to make sure that we cut-off the bad pion really. We called this cut as "5-Rings cut".
+The first selection, because electron and pion have very different shower shape(width) on the transverse plane in ECAL, we studied on them at the starting point. From the theory, it tells us the electron has the narrower shower shape than pion because of the mechanism of interaction, we explored the cut with the different number of rings on the transverse plane of the detector. In the Fig.\ref{cuts_1} top left shows the distribution plot of the ring. Due to the plot which we draw in Fig.\ref{cuts_1} top right, it shows that the energy of electrons showering is collected out of the 5 Rings with at most 1\% compared with total energy in ECAL, we employed it for being the cuts. Although, it is the tight cut because it also discarded some of the electrons as well, but we wanted to make sure that we cut-off the bad pion in reality. We called this cut as "5-Rings cut".
 
-The second selection, because we wanted to select the "fully EM-showering", and we didn't have the information of HCAL energy in this month test-beam, we only could use the "poor man's solution"-finding the last layer energy of electrons and using it to be our cut. In the Fig.\ref{cuts_1} down left is the plot which was used to find the cut of last layer energy with the events which passed 5-Rings cut . Eventually, we used the last layer energy smaller than 20MIPs to tag the fully showering events, we called this cut as "The last layer energy cut".
+The second selection, because we wanted to pick up the "fully EM-showering" event, we must need to tag the events which deposit most of the energy in ECAL. Normally, we use HCAL to cut-off the events which leave much energy out of ECAL, but without having the information of HCAL energy in this month test-beam, we only could use the "poor man's solution"-"finding the last layer energy of electrons" and using it to be our cut. In the Fig.\ref{cuts_1} down left is the plot which was applied to search out the cut-off criteria in the last layer energy with the events which passed 5-Rings cut. Eventually, we used the last layer energy smaller than 20MIPs to tag the fully showering events, we called this cut as "The last layer energy cut".
 
-The third selection, it was the cut always used to find the EM-showering in pion traditionally, and related to the shower shape also, similar with the first selection. In every run, we applied the cut with "$\frac{\mathrm{energy \ in \ two \ Rings}}{\mathrm{energy \ in \ three \ Rings}} = \frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy weighted in the detector, it means the center-of-energy in the shower. In the Fig.\ref{cuts_1} down right shows the events with the values of $\frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$ of all layers. Compare between with and without the cut, most of the events with cut have bigger value than without the cut, this means we cut-off some of the boarder shower shape events in pion runs. Both of Early EM-showering and Late EM-showering in the plot are two kinds of e-like pion, will describe the detail later.
+The third selection, it is the cut always employed to tag the EM-showering in pion traditionally, and is related to the shower shape also, similar to the first selection. In every run, we applied the cut with "$\frac{\mathrm{energy \ in \ two \ Rings}}{\mathrm{energy \ in \ three \ Rings}} = \frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$" need to be at least 0.75 at the shower depth maximum layer. Shower depth(unit:$X_{0}$) is the energy-weighted in the detector, it means the center-of-energy in the shower. In the Fig.\ref{cuts_1} downright shows the events with the values of $\frac{\mathrm{E_{7}}}{\mathrm{E_{19}}}$ of all layers. Compare between with and without the cut, most of the events with cut have bigger value than without the cut, this means we cut-off some of the border shower shape events in pion runs. Both of Early EM-showering and Late EM-showering in the plot are two kinds of the e-like pion, will describe the detail later.
 
-The fourth selection, because we applied those cuts from first to third, and we looked the shower depth for those passing events in the Fig.\ref{HGCAL_shower_depth}, we found there exists two types of electron-like pion with the cut described in the next paragraph:
+The fourth selection, because we applied the cuts with first to third selections, and we observed the shower depth of those passing events in the Fig.\ref{HGCAL_shower_depth}, we found there existed two types of electron-like pion with the cut described in the next paragraph:
 \begin{itemize}
-\item Early EM-showering: The events have the similar shower depth with the electrons in ECAL, which means the energy distributions for these events are similar with the electrons. We can't distinguish them from electrons very well.
-\item Late  EM-showering: The events have the late showering compared with the electrons in ECAL, and they put most of the energy in the backward ECAL, we can use some variables to distinguish this kind of pion from electrons.
+\item Early EM-showering: The events have a similar shower depth with the electrons in ECAL, which means the energy distributions for these events are similar to the electrons. We can't distinguish them from electrons very well.
+\item Late  EM-showering: The events have very distinct shower depth compared with the electrons in ECAL, owing to those events put most of the energy in the backward ECAL. As a result of it, we can use some variables to distinguish this kind of pion from electrons.
 \end{itemize}
 
 \begin{figure}[!htb]
@@ -516,7 +533,7 @@ The fourth selection, because we applied those cuts from first to third, and we 
 \label{Event_display}
 \end{figure}
 
-We show some event display for normal electron and pion showering, Early EM-showering and Late EM-showering in Fig.\ref{Event_display}. And we present the event display in the We used the cut that, we require a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We record the first layer found with more than 3MIPs. And at least 2 consecutive layers with more than two seeds with Energy$>$3MIPs. If the layer of start showering is from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it starts at sixth to later layers, we called it "Late EM-showering". For note, because this is the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just used one variable to distinguish "both" of them from electrons. I will show the results later. 
+We present some events display for the normal electron, pion showering, Early EM-showering and Late EM-showering in Fig.\ref{Event_display}. For the fifth selection, we required a consecutive number of hits in CE-E starting from the first layer and checking until the 14 Layer. We recorded the first layer which is found with more than 3MIPs, and pre-selection of it is at least 2 consecutive layers with more than energy$>$3MIPs individually. If the layer of start showering was from the first to fifth layer, we called it "Early EM-showering", on the other hand, if it started at sixth to later layers, we called it "Late EM-showering", and all of this caused by the various interaction point. For note, because this was the convenient way to let us see the dynamic of the shower in ECAL approximately, we used this cut to distinguish them. In the real case, we don't do this cut, just use one variable to distinguish "both" of them from electrons. I will show the results later. 
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -531,12 +548,12 @@ We show some event display for normal electron and pion showering, Early EM-show
 \end{table}
 
 
-Until now, we can see the one strong point of the difference between electron and e-like pion - the shower energy deposit in the ECAL. Because some of them put energy in the different section of succeeding layers in ECAL, specially for comparing the electrons with Late EM-showering. In this case, we thought about the variables with "longitudinal segmentation" with ECAL. We developed the discrimination variable as following:
+So far, the one strong point of the difference is seen between electron and e-like pion is the longitudinal segmentation of shower energy deposited in the ECAL. Because some of them put energy in the different section of succeeding layers in ECAL, especially for comparing the electrons with Late EM-showering. In this case, we thought about the variables with "longitudinal segmentation" with ECAL layers. We developed the discrimination variable as following:
 \begin{equation}
 \mathrm{E_{10}=\frac{E_{\mathrm{first \ 10 \ layers \ energy}}}{E_{\mathrm{total \ energy}}}}
 \end{equation}
 
-Intuitively, because the electrons put most of the energy in the front of the detector, they will have the bigger value for $\mathrm{E_{10}}}$. Oppositely, for the e-like pions, because they put all of the energy in the different sections, they will have many values for $\mathrm{E_{10}}}$ from all events. In the Fig.\ref{HGCAL_E10}, we can see that we can use $\mathrm{E_{10}}}$ to reject some of e-like pions out of the electron region. 
+Intuitively, because the electrons put most of the energy in the front of the detector, they will have a bigger value for $\mathrm{E_{10}}}$. Oppositely, for the e-like pions, because they put all of the energy in the different sections due to the different interaction point, there exist many values for $\mathrm{E_{10}}}$ from all events. In the Fig.\ref{HGCAL_E10}, we can see that we can use $\mathrm{E_{10}}}$ to reject some of e-like pions out of the electron region. 
 
 \begin{figure}[!htb]
 \centering 
@@ -553,9 +570,9 @@ We used the quantities about the "Electron Efficiency" and "Background Rejection
 \begin{equation}\label{Equation_BKG}
 \mathrm{Background \ Rejection \ = \frac{Total \ e\mathrm{-}like \ pions}{Pass \ e\mathrm{-}like \ pions}}
 \end{equation}
-Our goal is to cut-off the most e-like pion with the highest background rejection ( pass the least e-like pions ) in (\ref{Equation_SIG}), but reserve the most electrons with the highest electron efficiency. ( pass the most electrons ) in (\ref{Equation_BKG}).
+Our goal was to cut-off the most e-like pion with the highest background rejection ( pass the least e-like pions ) in (\ref{Equation_SIG}), but reserved the most electrons with the highest electron efficiency. ( pass the most electrons ) in (\ref{Equation_BKG}).
 
-First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether it can give us the best results. In the Table.\ref{basic_10}}, it tells us that the background rejection is good ( more than half of e-like pions are rejected ), but we hoped that our electron efficiency will go to 99.8\% or more. On the other hand, we still wanted to keep the electrons alive after the higher critical point to reserve most important researches on them.
+First, we tried to use the critical point at 0.2, 0.3 and 0.4, and observed whether it could give us the best results. In the Table.\ref{basic_10}}, it tells us that the background rejection is good ( more than half of e-like pions are rejected ), but we hoped that our electron efficiency can achieve to 99.8\% or more. On the other hand, we still wanted to keep the electrons alive after the higher critical point to reserve most of the important researches on them.
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -569,7 +586,7 @@ First, we tried to use the critical point at 0.2, 0.3 and 0.4, and see whether i
     \caption{E10 cuts of Electrons Efficiency and Background Rejection comparison with point 0.2,0.3 and 0.4}\label{basic_10}  %????????????
 \end{table}
 
-In this case, we tried to use another points near 0.2 and see whether we can get the great results without losing more electrons. In the Table.\ref{basic_20}, it said that near the point 0.2, it can reserve most of the electrons near 99.9\% and can get the background rejection with the expectation value near 2 (Half of rejection). 
+In order to improve the issue we told before, we tried to use the other points near 0.2 and see whether we can get great results without discarding more electrons. In the Table.\ref{basic_20}, it said that near the point 0.2, it can reserve most of the electrons near 99.9\% and can get the background rejection with the expectation value near 2 (Half of the rejection). 
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -583,10 +600,10 @@ In this case, we tried to use another points near 0.2 and see whether we can get
     \caption{E10 cuts of Electrons Efficiency and Background Rejection comparison with point 0.16,0.18 and 0.20}\label{basic_20}  %????????????
 \end{table}
 
-For the conclusion of this month test-beam results, we found that the Background Rejection can be near 2 without killing many electrons with 99.9\% Electron Efficiency. For our expectation, we wanted to apply this cut in the October test-beam, to see whether we can see the similar results. 
+For the conclusion of this month test-beam results, we found that Background Rejection can be near 2 without killing many electrons with 99.9\% electron efficiency. For our expectation, we wanted to apply this cut in the October test-beam, to see whether we can see similar results. 
 
-\subsection{The results of application in October test-beam MC}
-In this month test-beam, because we had the information of HCAL, we used the cut no more than 0.4\% energy fraction in the HCAL energy to replace the poor man's solution. And also, we changed some parameters of the cuts to get the best results. In the Table.\ref{basic_100}, the summary table for the cuts is shown.
+\subsection{The results of application with October test-beam MC}
+In this month test-beam, because we had the information of HCAL, we applied the cut no more than 0.4\% energy fraction in the HCAL energy to replace the poor man's solution. And also, we altered some parameters of the cuts to get the best results. In the Table.\ref{basic_100}, the summary table for the cuts is shown.
 
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -600,13 +617,13 @@ In this month test-beam, because we had the information of HCAL, we used the cut
     \caption{Tight cuts selection used in October test-beam}\label{basic_100}  %????????????
 \end{table}
 
-In the June test-beam, we only did the rejection for $\mathrm{E_{10}}$ after the tight-cut selections. In this month, we wanted to studied the power of the cuts from tight-cut selections to $\mathrm{E_{10}}$, it means we wanted to study totally how many e-like pions will be rejected after all cuts.  We have two steps rejection, and we used the same definitions with the equation (\ref{Equation_SIG}) and (\ref{Equation_BKG}).
+In June test-beam, we only made the plot of $\mathrm{E_{10}}$ cut after the tight-cut selections. With this month data, we wanted to study the power of the cuts from tight-cut selections to $\mathrm{E_{10}}$ cut, it means we wanted to study the total number of how many e-like pions will be rejected after all cuts included in.  We had two steps rejection, and we used the same definitions with the equation (\ref{Equation_SIG}) and (\ref{Equation_BKG}).
 \begin{itemize}
 \item Tight cuts rejection power: \\ 
-This is the first step rejection study. Because we need to find out the e-like pions with the cut in the Table.\ref{basic_100} first, and then we can use our segmentation variable to reject them for the next step.  For this step, we found that the number of the background rejection is 3600. Most of the pions are rejected by those cuts.
+This is the first step rejection study. Because we need to find out the e-like pions with the cut in the Table.\ref{basic_100} first, and then we can use our segmentation variable to reject them for the next step.  For this step, we found that the number of background rejection is 3600. Most of the pions were rejected by those cuts.
 \item $\mathrm{E_{10}}$ cuts rejection power:\\
-This is the second step rejection study. After we found out the e-like pions, we used the discrimination variable which we have invited in June test-beam,$\mathrm{E_{10}}$, to distinguish them from the real electrons. In this step, we used the critical point at 0.18,0.20 and 0.22, to see whether at the critical point near 0.2 will give us the good results. In the Table.\ref{basic_7} summarize the results for them. 
-Although, this time didn't have the better results compared with the June test-beam, we still got the number about 1.5.
+This is the second step rejection study. After we found out the e-like pions, we applied the discrimination variable which we had invited in June test-beam,$\mathrm{E_{10}}$ cut, to distinguish them from the real electrons. In this step, we used the critical point at 0.18,0.20 and 0.22, to see whether at the critical point near 0.2 will give us the good results. In the Table.\ref{basic_7} summarize the results for them. 
+Although this time didn't have better results compared with the June test-beam, we still got the number about 1.5.
 \end{itemize}
 \begin{table}[h]%??table???????????????????[h]???????here?????????????
     \centering
@@ -621,16 +638,16 @@ Although, this time didn't have the better results compared with the June test-b
 \end{table}
 
 
-In the end, totally we can get the total rejection power of cuts which is calculated by the number 3600 with the Tight cuts rejection power and the number 1.5 with the $\mathrm{E_{10}}$ cuts rejection power. After times them together, we can get the number $3600\times1.5=5400$. In A Toroidal LHC ApparatuS(ATLAS), the expected value for it is between 5000 to 10000, and in our case, we arrived the value for the expectation. 
+In the end, totally we can get the total rejection power of cuts which was calculated by the number 3600 with the Tight cuts rejection power and the number 1.5 with the $\mathrm{E_{10}}$ cuts rejection power. After times them together, we can get the number $3600\times1.5=5400$. In A Toroidal LHC ApparatuS(ATLAS), the expected value for it is between 5000 to 10000~\cite{ATLAS-CONF-2016-024}, and in our case, we arrive the value for the expectation. 
 \subsection{Conclusion}
-In this section, we obtained the cuts and new variable $\mathrm{E_{10}}$ to distinguish the e-like pions from real electrons with the June test-beam MC samples, and we applied in the October test-beam MC samples, happily, we got the expected results compared with the previous studies in ATLAS. This cuts and variable have never been applied in CMS analysis before, and we expect that we can help to reduce the background which is sensitive to electron/pion identification with HGCAL in the future.
+In this section, we obtained the cuts and new variable $\mathrm{E_{10}}$ to distinguish the e-like pions from real electrons with the June test-beam MC samples, and we applied in the October test-beam MC samples, excitedly, we got the expected results compared with the previous studies in ATLAS. Those cuts and variable we used in this study have never been applied in CMS analysis before, and we expect that we can help to reduce the background which is sensitive to electron/pion identification with HGCAL in the future.
 
 \section{Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider}
-After the discovery of the standard-model-like Higgs boson at 2012\cite{Chatrchyan:2012xdj}, we have established a milestone in HEP field. We used the LHC at CERN to solve an important puzzle in the SM of particle physics, Higgs boson, and it gave us the answer why the elementary particles retain their mass\cite{PhysRevLett.13.508} from the early universe to now. We expect more particles predicted by BSM can be found in the future. A lot of these new particles may be heavier than 13 TeV\cite{Contino:2016spe}\cite{Mangano:2016jyj}, which is operating now in LHC. Therefore, particle physicists plan to build a very high energy collider with $\sqrt{s} = 100\TeV$ in the future, such as high-energy LHC (HE-LHC), future circular $pp$ colliders of the European initiative, FCC-hh~\cite{Benedikt:2206376} and the Chinese initiative, SppC~\cite{Tang:2015qga}. \\
+After the discovery of the standard-model-like Higgs boson at 2012\cite{Chatrchyan:2012xdj}, we have established a milestone in HEP field. We used the LHC at CERN to solve an important puzzle in the SM of particle physics, Higgs boson, and it gave us the answer why the elementary particles retain their mass\cite{PhysRevLett.13.508} from the early universe to now. We expect more particles predicted by BSM can be found in the future. A lot of these new particles may be heavier than 13 TeV\cite{Contino:2016spe}\cite{Mangano:2016jyj}, which is operating now in LHC. Therefore, particle physicists plan to build a very high energy collider with $\sqrt{s} = 100\TeV$ in the future, such asFuture circular $pp$ colliders~\cite{Mangano:2018mur} such as the European initiatives, FCC-ee~\cite{Benedikt:2651299}, FCC-hh~\cite{Benedikt:2018csr}, high-energy LHC (HE-LHC)~\cite{Zimmermann:2018wdi}, and the Chinese initiative, SppC~\cite{Tang:2015qga}. \\
 
-In the very high energy era, the C.M. energy will be increased compared with now in LHC, and the instantaneous luminosity is also expected to increase. In this case, more interesting events will occur within a shorter amount of time, but incidentally, it will accompany with the unexpected background. We need to figure out some methods to pick out the signals which we are interested in, and filter the unwanted huge background events extremely. The silicon future circular collider (SiFCC) detector, which is based on the silicon detector (SiD)\cite{Aihara:2009ad} designed for international linear collider (ILC)\cite{Adolphsen:2013kya}\cite{Behnke:2013lya}, is our simulated detector prepared for the high energy collider for the future era in Ref.\cite{Chekanov:2016ppq}.We used this detector to simulate the condition under very high C.M., and applied the different configurations of detector with some methods such as jet substructure variables, to see the detector performance of distinguishing the signal from background. I will describe the detail later.\\
+In the very-high-energy era, the C.M. energy will be increased compared with now in LHC, and the instantaneous luminosity will be also expected to increase. In this case, more interesting events will occur within a shorter amount of time, but incidentally, it will accompany with the unexpected background. We need to figure out some methods to pick out the signals which we are interested in, and filter the unwanted huge background events extremely. The silicon future circular collider (SiFCC) detector, which is based on the silicon detector (SiD)\cite{Aihara:2009ad} designed for international linear collider (ILC)\cite{Adolphsen:2013kya}\cite{Behnke:2013lya}, was our simulated detector prepared for the high energy collider for the future era in Ref.\cite{Chekanov:2016ppq}.We used this detector to simulate the condition under very high C.M., and applied the different configurations of detector with some methods such as jet substructure variables, to see the detector performance of distinguishing the signal from background. I will describe the detail later.\\
 
-Traditionally, we used scintillators as the active layers of the ECAL and HCAL to measure the energy of the showering of particles which are induced by the absorbers (with material such as lead, brass, or tungsten, etc.). But when the radiation dosage is much higher than before, scintillators can deteriorate easily. This is the same circumstance which CMS is bumped into now. In addition, because of time consuming for making the special shape for fitting the detector, it is not easy to sub-divide scintillators into smaller areas. And also, we need to have a readout with high position resolution to match them. In this case, we want to use the new design- "high granularity" detector to resolve the resolution problems, i.e., we used the different configurations of detector to record the precise position and energies. For the radiation problem, because the silicon detector is known to be radiation tolerant.\cite{Li:2002ru}, we could use it in the future collider, same as HGCAL which was presented in my previous studies.\\
+Traditionally, we used scintillators as the active layers of the ECAL and HCAL to measure the energy of the showering of particles which are induced by the absorbers (with material such as lead, brass, or tungsten, etc.). But when the radiation dosage is much higher than before, scintillators can deteriorate easily. This is the same circumstance which CMS is bumped into now. In addition, because of time consuming for making the special shape for fitting the detector, it is not easy to sub-divide scintillators into smaller areas. And also, we need to have a readout with high position resolution to match them. In this case, we want to use the new design- "high granularity" detector to solve the resolution problems, i.e., we used the different configurations of detector to record the precise position and energies. For the radiation problem, because the silicon detector was known to be radiation tolerant.\cite{Li:2002ru}, we could use it in the future collider, same as HGCAL which was presented in my previous studies.\\
 
 I did this study with Prof. Shin-Shan Eiko Yu from NCU, Prof. Ashutosh Kotwal and student Sourvan Sen from Duke University, Dr. Sergei Chekanov and Dr. Proudfoot James from Argonne National Laboratory(ANL), and Nhan Viet Tran from Fermi National Accelerator Laboratory. The contributions of Chih-Hsiang Yeh to this study includes the following:
 \begin{itemize}
@@ -641,7 +658,7 @@ I will describe the detail as following.
 
 \subsection{Simulation of detector response and event reconstruction}
  
-The description of the detector and software used for our study is discussed in \cite{Chekanov:2016ppq}. We used the geometry of SiFCC detector with the software package that represents a various environment for simulations of detector performance. It is used to prepare for new technology options, event reconstruction techniques for future 100~TeV colliders. Figure \ref{fig:SiFCC} is the SiFCC detector simulated by the {\sc geant4} package\cite{Allison2016186} and it was the detector studied in Ref.\cite{Chekanov:2016ppq}. The baseline detector discussed in \cite{Chekanov:2016ppq} uses a steel-scintillator hadronic calorimeter with a transverse cell size of 5~$\times$~5~cm$^2$, which corresponds to $\Delta \eta \times \Delta \phi = 0.022\times0.022$. In addition, because we wanted to test the detector performance of granularity effect with hadronic processes of signal and background, several geometry variations were considered, such as 20~$\times$~20~cm$^2$ and  1~$\times$~1~cm$^2$, which correspond to $\Delta \eta \times \Delta \phi$= $0.087\times0.087$ and  $0.0043\times0.0043$, respectively.\\
+The description of the detector and software used for our study is discussed in \cite{Chekanov:2016ppq}. We used the geometry of SiFCC detector with the software package that represents a various environment for simulations of detector performance. It was used to prepare for new technology options, event reconstruction techniques for future 100~TeV colliders. Figure \ref{fig:SiFCC} is the SiFCC detector simulated by the {\sc geant4} package\cite{Allison2016186} and it was the detector studied in Ref.\cite{Chekanov:2016ppq}. The baseline detector discussed in \cite{Chekanov:2016ppq} uses a steel-scintillator hadronic calorimeter with a transverse cell size of 5~$\times$~5~cm$^2$, which corresponds to $\Delta \eta \times \Delta \phi = 0.022\times0.022$. In addition, because we wanted to test the detector performance of granularity effect with hadronic processes of signal and background, several geometry variations were considered, such as 20~$\times$~20~cm$^2$ and  1~$\times$~1~cm$^2$, which correspond to $\Delta \eta \times \Delta \phi$= $0.087\times0.087$ and  $0.0043\times0.0043$, respectively.\\
 
 \begin{figure}
 \begin{center}
@@ -652,10 +669,15 @@ The description of the detector and software used for our study is discussed in 
 \end{figure}
 
 SiFCC detector which was simulated in our study contains five main parts: tracker, ECAL, HCAL, solenoid, and muon chambers. When particles are produced in the collider, they will go through the detector and leave signals to be recorded. First, the tracker can record the trajectory of a charged particle because it can leave the energy in and bended by the solenoid, we can obtain the transverse momentum of this charged particle. Electrons and photons will leave energy in ECAL , and hadronic particles, such as neutrons, protons, etc., will deposit energy in HCAL mainly. Muons will go through the whole detector and could be detected by muon chamber. Figure \ref{fig:barrel_size_material} lists the material and the configuration for the sub-detectors in SiFCC. Note, since for the time being we have more experimental results coming from the scintillator-based HCAL in CMS and ATLAS, we have been using this type of HCAL as a first study. After finishing the first study, we will move to the study of HCAL with silicon sensors as active layers later, same as HGCAL material. 
-
-
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figs/7.png}
+\end{center}
+\caption{The barrel structure in the SiFCC, including sizes and materials.}
+\label{fig:barrel_size_material}
+\end{figure}
 In our studies, we used the simulations of a heavy $Z'$ boson, a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the SM.
-The $Z'$ bosons were simulated with the masses, $M=5$, $10$, $20$ and $40$~TeV. The lowest value $5$~TeV represents a mass that is the achieved C.M energy of the LHC experiments. The value $40$~TeV represents the physics for 100~TeV colliders. The $Z'$ particles are forced to decay to two light-flavor jets ($\mathrm{q\bar{q}}$) with one-prong jet as background, $\mathrm{W^+W^-}$ or $\mathrm{t\bar{t}}$ as signal, where $\mathrm{W(\rightarrow q\bar{q})}$ with two-prong jets, and $\mathrm{t (\rightarrow  W^+\>b \rightarrow q\bar{q} b)}$ with three-prong jets decay hadronically. The processes for signal and background are shown in Fig.\ref{fig:Process_SB}. In all such scenarios, two highly boosted jets are produced, which are typically back-to-back in the laboratory frame. The main difference between considered decay types lays in different jet substructure. The events of signals were generated using the \pythia generator with the default settings, ignoring interference with SM processes. The event samples which were used in this paper are available from the HepSim database~\cite{Chekanov:2014fga}.
+The $Z'$ bosons were simulated with the masses, $M=5$, $10$, $20$ and $40$~TeV. The lowest value $5$~TeV represents a mass that is the achieved C.M energy of the LHC experiments. The value $40$~TeV represents the physics for 100~TeV colliders. The $Z'$ particles are forced to decay to two light-flavor jets ($\mathrm{q\bar{q}}$)~\cite{Sirunyan:2018xlo} with one-prong jet as background, $\mathrm{W^+W^-}$~\cite{Sirunyan:2017acf}  or $\mathrm{t\bar{t}}$~\cite{Sirunyan:2018ryr} as signal, where $\mathrm{W(\rightarrow q\bar{q})}$ with two-prong jets, and $\mathrm{t (\rightarrow  W^+\>b \rightarrow q\bar{q} b)}$ with three-prong jets decay hadronically. The processes for signal and background are shown in Fig.\ref{fig:Process_SB}. In all such scenarios, two highly boosted jets were produced, which were typically back-to-back in the laboratory frame. The main difference between considered decay types lays in different jet substructure. The events of signals were generated using the \pythia generator with the default settings, ignoring interference with SM processes. The event samples which were used in this study are available from the HepSim database~\cite{Chekanov:2014fga} now.
 
 \begin{figure}
 \begin{center}
@@ -676,7 +698,7 @@ The $Z'$ bosons were simulated with the masses, $M=5$, $10$, $20$ and $40$~TeV. 
 
 %%%===============================Soft_drop_mass================================%%
 \subsection{Study of detector performance with soft drop mass}
-In this section, we used the jet mass which is computed with soft 
+In this section, we used the jet mass which was computed with soft 
 drop declustering, and goal was to study the performance of detector with three types of detector 
 cell sizes and C.M. energies. 
 
@@ -700,28 +722,28 @@ plane, $R_0$ is the characteristic radius of the original jet, and $\beta$ is
 the angular exponent.
 
 In our study, we compared the performance of future detector when setting 
-$\beta=0$ versus when setting $\beta=2$. For $\beta=0$, the soft drop condition 
-only depends on the $z_\mathrm{cut}$, and this was usually used in CMS. For $\beta=2$, the condition depends on 
+$\beta=0$ versus when setting $\beta=2$. For $\beta=0$~\cite{CMS:2017wyc,Tripathee:2017ybi}, the soft drop condition 
+depends only on the $z_\mathrm{cut}$ and is angle-independent. For $\beta=2$~\cite{Aaboud:2017qwh}, the condition is angle-dependent, which depends on 
 the angular distance between the two subjets and $z_\mathrm{cut}$ and the 
-algorithm becomes infrared and collinear safe. 
+algorithm becomes infrared and collinear safe. Both of them have different sensitivities to large angle radiation.
 
 \subsubsection{Analysis method}\label{Analysis_method}
 We applied the following method to quantify the detector performance and 
 found out the cell size that could give us the best separation power to distinguish 
 signal from background. For each configuration of detector and C.M. energy, 
 we drew the receiver operating characteristic (ROC) curves in which the x-axis
- was the signal efficiency ($\epsilon_\mathrm{sig}$) and y-axis was the inverse 
+ is the signal efficiency ($\epsilon_\mathrm{sig}$) and y-axis was is inverse 
 of background efficiency ($1/\epsilon_\mathrm{bkg}$). \\
 
 For scanning the efficiencies of soft drop mass cuts, we used many mass 
-window that was described as follows. We first looked for the median bin 
+window that is described as follows. We first look for the median bin 
  of the soft drop mass histogram in the simulated signal events. Taking the right boundary
  of bin $i_\mathrm{med}$ as the center of mass window 
-$x_\mathrm{center}$. Second, we started increasing the width of mass window symmetrically
+$x_\mathrm{center}$. Second, we start increasing the width of mass window symmetrically
  on the left and right of $x_\mathrm{center}$ i.e. the narrowest mass window is 
-about 10~GeV(Left and right are 5~GeV width). If one side reaches the boundary of the mass histogram, for the rest part of the window, we only expanded the width on the other side, also in 
+about 10~GeV(Left and right are 5~GeV width). If one side reaches the boundary of the mass histogram, for the rest part of the window, we only expand the width on the other side, also in 
 steps of 5~GeV. For each mass window, there would be corresponding 
-$\epsilon_\mathrm{sig}$ and $\epsilon_\mathrm{bkg}$, which gave a point in the ROC curves.
+$\epsilon_\mathrm{sig}$ and $\epsilon_\mathrm{bkg}$, which give a point in the ROC curves.
 
 \subsubsection{Results and conclusion}
 Figures~\ref{fig:cluster_mass_mmdt_ww}, \ref{fig:cluster_mass_mmdt_tt},
@@ -740,7 +762,15 @@ similar. In addition, sometimes bigger detector cell sizes,
 $5~\mathrm{cm}\times5~\mathrm{cm}$ or $20~\mathrm{cm}\times20~\mathrm{cm}$
  have the best separation power. 
 
-We also found that when we compared between $\beta=0$ and $\beta=2$, $\beta=0$ has better performance for distinguishing signal from background. Therefore, we will 
+Note that the separation between ROC curves depends 
+on the physics variable and on the boost of the top quarks or the $W$ bosons. For example, 
+the similarity between the ROC curves shown in Fig.~\ref{fig:cluster_mass_mmdt_tt_ROC}(a)
+is due to the insufficient boost of the top quarks.
+On the other hand, Fig.~\ref{fig:cluster_mass_mmdt_tt_ROC}(d) does not show a difference 
+between the ROC curves because the boost is too high.
+For both of the cases, they indicate the situation that for the different detector cell sizes, if they are not small or big enough to distinguish the different angle of fatjets, it can lead to producing the same separation power for all cell sizes.
+
+We also found that when we compared between $\beta=0$ and $\beta=2$, $\beta=0$ had better performance for distinguishing signal from background. Therefore, we will 
 employ requirements on this variable when studying the other jet substructure variables in the next studies. 
  
 %50bins
@@ -933,11 +963,8 @@ The signal (background) process is Z'$\rightarrow$t$\bar{\mathrm{t}}$
 \label{fig:cluster_mass_sdb2_tt_ROC}
 \end{figure}
 %%%===============================C2b1 and Tau21,32 Studies================================%%
-\subsection{Studies of signal and background separation using jet substructure variables}
-In this section, we studied different jet substructure variables and compared their ability to separate signal from background with different detector sizes and C.M. energy by using ROC curves.\\
-
-\subsubsection{N-subjettiness}
-N-subjettiness[\ref{}] is the detection technique of jet substructure which is applied to identify boosted hadronically-decaying objects under conditions of High C.M energy collision. We used $\tau$ variable of N-subjettiness to distinguish the number of subjet(s) in a fatjet to separate signal from background with different detector sizes under the different C.M. energy conditions.\\
+\subsection{Studies of detector performance with jet substructure variables-N-subjettiness}
+In this section, we studied the one kind of jet substructure variable-N-subjettiness and compared their ability to separate signal from background with different detector sizes and C.M. energy by using ROC curves.\\
 
 \subsubsection{The technic of N-subjettiness}
 The formula and the technique are as following:\\
@@ -949,22 +976,22 @@ d_{0}=\sum_{k}p_{T,k} R_{0}
 \end{equation}
 k runs over all constituent particles in the given jets (fatjet), $p_{T,k}$ are their transverse momentum, $\Delta R_{J,k}=\sqrt{(\Delta \eta)^{2}+(\Delta \phi)^{2}}$ is the distance between the constituent particles k and the candidate subjet J on the $\eta-\phi$ plane. $R_{0}$ is the characteristic jet radius used in Anti-kt(AK) jet algorithm at starting. $d_{0}$ is the normalization factor.\\
 
-To use this technique, first, Anti-kt(AK) algorithm\ref{} with radius($R_{0}$=0.4 in formula \ref{eq:Nsub_2}) is used to reconstruct jets in the detector. Second, after reconstructing the jets, exclusive $k_{T}$ algorithm[\ref{}] is used to find the jet axis in a fatjet, and applied in calculating the radius from constituent particles to jet axis. Third, start applying the formula [\ref{eq:Nsub_1}], looping all constituent particles in a fatjet. Finally, when finishing running all particles, it will give out $\tau_{N}$, where N is positive integer. 
+To use this technique, first, Anti-kt(AK) algorithm~\cite{Cacciari:2008gp} with radius($R_{0}$=0.4 in formula \ref{eq:Nsub_2}) is used to reconstruct jets in the detector. Second, after reconstructing the jets, exclusive $k_{T}$ algorithm~\cite{Catani:246812} is used to find the jet axis in a fatjet, and applied in calculating the radius from constituent particles to jet axis. Third, start applying the formula (\ref{eq:Nsub_1}), looping all constituent particles in a fatjet. Finally, when finishing running all particles, it will give out $\tau_{N}$, where N is positive integer. 
 
 If a fatjet has exactly N subjet(s), its $\tau_{N}$ is smaller than the $\tau_{N-1}$. It can return the truth that how many subjet(s) there is(are) in a fatjet. In our study, we used $\tau_{21}$=$\tau_{2}$/$\tau_{1}$  and $\tau_{32}$=$\tau_{3}$/$\tau_{2}$ in distinguishing two-subjets fatjet and three-subjets fatjet of signal processes from one-subjet fatjet of background process individually. \\ 
 
 \subsubsection{Analysis method}\label{Analysis_method_for_Tau_C}
-Similar with the soft drop mass in section\ref{}, we need to apply some methods to quantify the separation power for different jet substructure variables with different configurations of detector, and figure out the best configuration for distinguishing signal from background. We still applied the ROC curves to be our comparison tools. \\
+Similar with the soft drop mass analysis, we need to apply some methods to quantify the separation power for different jet substructure variables with different configurations of detector, and figure out the best configuration for distinguishing signal from background. We still applied the ROC curves to be our comparison tools in this study.\\
 
-Before scanning the efficiencies, we first did some pre-selection tasks. Inspired by the paper\ref{}, it pointed out that applying the mass cut would give us the best separation power, so first we selected the optimized mass window.  We did the prerequestion that in the signal events, compare the adjacent bins from the largest number of events iteratively. Until We included the 75\% mass events, we stopped and used the events which were included.\\
+Before scanning the efficiencies, we first did some pre-selection tasks. Inspired by the paper~\cite{Dreyer:2018tjj}, it pointed out that applying the mass cut would give us the best separation power, so first we selected the optimized mass window.  We did the prerequestion that in the signal events, compared the adjacent bins from the largest number of events iteratively. Until We included the 75\% mass events, we stopped and used the events which were included.\\
 
-Second, inspired by the Pearson lemma, it told us that if we used the ratio of the two histograms to be the window selection for the ROC curves, and it will give us the best solution, so we applied this method in our study. We used $\frac{\mathrm{Signal \ histogram}}{\mathrm{Background \ histogram}}$ of ratio histogram to be our window to draw the ROC curves. Compare the adjacent bins from the bin of most event in ratio histogram, and extended the width with higher side until all bins were included in.\\
+Second, inspired by the Pearson lemma, it told us that if we used the ratio of the two histograms to be the window selection for the ROC curves,  it can give us the best solution, so we applied this method in our study. We used $\frac{\mathrm{Signal \ histogram}}{\mathrm{Background \ histogram}}$ of ratio histogram to be our window to draw the ROC curves. Compare the adjacent bins from the bin of most event in ratio histogram, and extended the width with higher side until all bins were included in.\\
 
 \subsubsection{Results and conclusion}
-In the figure [\ref{fig:Rawhit_05GeV_tau21_Dis}][\ref{fig:Rawhit_05GeV_tau32_Dis}], they show the histograms of $\tau_{21}$ and $\tau_{32}$ with $\sqrt{s} = 20\TeV$ after selecting the events as an example. As a result of figure [\ref{fig:Rawhit_05GeV_tau21_ROC}][\ref{fig:Rawhit_05GeV_tau32_ROC}], they perform the ROC curves of $\tau_{21}$ and $\tau_{32}$ with different detector cell sizes and C.M. energy. The smallest detector cell size(1$\times$1) doesn't have the best separation power to distinguish signal from background. Some of them have the best separation power with the bigger cell size (5$\times$5 and 20$\times$20).\\
+In the figure~\ref{fig:Rawhit_05GeV_tau21_Dis},~\ref{fig:Rawhit_05GeV_tau32_Dis}, they show the histograms of $\tau_{21}$ and $\tau_{32}$ with $\sqrt{s} = 20\TeV$ after selecting the events as an example. As a result of figure~\ref{fig:Rawhit_05GeV_tau21_ROC},~\ref{fig:Rawhit_05GeV_tau32_ROC}, they perform the ROC curves of $\tau_{21}$ and $\tau_{32}$ with different detector cell sizes and C.M. energy. The smallest detector cell size(1$\times$1) doesn't have the best separation power to distinguish signal from background. Some of them have the best separation power with the bigger cell size (5$\times$5 and 20$\times$20).\\
 
-\subsection{Energy correlation function}
-Energy correlation function (ECF) [\ref{}] is another kind of detection technique of jet substurcture that is used to distinguish the number of subjets in a fatjet under high C.M. energy conditions. This method only uses the momenta of particles and the angles between them without additional algorithm.\\
+\subsection{Studies of detector performance with jet substructure variables-Energy correlation function}
+Energy correlation function (ECF)~\cite{Larkoski:2013eya} is another kind of detection technique of jet substurcture that is used to distinguish the number of subjets in a fatjet under high C.M. energy conditions. This method only uses the momenta of particles and the angles between them without additional algorithm.\\
 \subsubsection{The technic of energy correlation function}
 The basic ECF formula is as following:\\
 \begin{equation} \label{eq:ECF_Original}
@@ -976,7 +1003,7 @@ In the formula \ref{eq:ECF_Original}, the sum loop all particles in the jet $J$ 
 \tau_{N}^{(\beta)}\equiv\frac{ECF(N+1,\beta)}{ECF(N,\beta)}
 \end{equation}
 
-The idea of formula (\ref{eq:ECF_ratio}) is from N-subjetness, because the behavior of it is very similar to N-subjetness as reference [\ref{}]. In general, if the system has N subjets, $ECF(N+1,\beta)$ should be significantly smaller than $ECF(N,\beta)$, so we can use this advantage to distinguish different number of subjets. Finally, because it is suggested to use $\tau_{21}$=$\tau_{2}$/$\tau_{1}$  and $\tau_{32}$=$\tau_{3}$/$\tau_{2}$, [\ref{}] to distinguish two-subjets fatjet and three-subjets fatjet from one-subjet fatjet in the previous studies, it is also defined as the ratio of $\tau$ there, which is called "Double ratio-ECF" that is used in our study:\\
+The idea of formula (\ref{eq:ECF_ratio}) is from N-subjetness, because the behavior of it is very similar to N-subjetness as reference~\cite{Larkoski:2013eya}. In general, if the system has N subjets, $ECF(N+1,\beta)$ should be significantly smaller than $ECF(N,\beta)$, so we can use this advantage to distinguish different number of subjets. Finally, because it is suggested to use $\tau_{21}$=$\tau_{2}$/$\tau_{1}$  and $\tau_{32}$=$\tau_{3}$/$\tau_{2}$ to distinguish two-subjets fatjet and three-subjets fatjet from one-subjet fatjet in the previous studies, it is also defined as the ratio of $\tau$ there, which is called "Double ratio-ECF" that is used in our study:\\
 \begin{equation}
 C_{N}^{(\beta)}\equiv\frac{\tau_{N}^{(\beta)}}{\tau_{N-1}^{(\beta)}}=\frac{ECF(N-1,\beta)ECF(N+1,\beta)}{ECF(N,\beta)^2}
 \end{equation}
@@ -986,22 +1013,22 @@ We set N=2 and $\beta=1$ ($C_{2}^{1}$) to distinguish two-subjets fatjet from on
 For the analysis method, it is the same as the part \ref{Analysis_method_for_Tau_C}.
 
 \subsubsection{The results and conclusion}
-In the figure [\ref{fig:Rawhit_05GeV_c2b1_Dis}], they show the histograms of $\tau_{21}$ and $\tau_{32}$ with $\sqrt{s} = 20\TeV$ after selecting the events as an example. For the figure [\ref{fig:Rawhit_05GeV_c2b1_ROC}], they present the ROC curves of $C_{2}^{1}$ with different detector cell sizes and C.M. energy. The smallest detector cell size(1$\times$1) doesn't have the best separation power to distinguish signal from background. In addition, in some cases such like (a), the biggest one (20$\times$20) has the best distinguish power under the same C.M. energy.\\
+In the figure [\ref{fig:Rawhit_05GeV_c2b1_Dis}], they show the histograms of $C_{2}^{1}$ with $\sqrt{s} = 20\TeV$ after selecting the events as an example. For the figure [\ref{fig:Rawhit_05GeV_c2b1_ROC}], they present the ROC curves of $C_{2}^{1}$ with different detector cell sizes and C.M. energy. The smallest detector cell size(1$\times$1) doesn't have the best separation power to distinguish signal from background. In addition, in some cases such like (a), the biggest one (20$\times$20) has the best distinguish power under the same C.M. energy.\\
 
 \subsection{Conclusion}
 The studies presented in this previous sections show that the reconstruction of jet substructure 
 variables for future colliders will benefit from small cell sizes of the hadronic calorimeters. 
-This conclusion was obtained using the simulation of calorimeter response combined with reconstruction of 
+This conclusion is obtained using the simulation of calorimeter response combined with reconstruction of 
 calorimeter clusters and the Rawhits information used as inputs for jet reconstruction. 
 Hadronic calorimeters that used the cell sizes of 20~$\times $~20~cm$^2$ ($\Delta \eta \times \Delta \phi = 0.087\times 0.087$) 
-had the worst performance for almost every 
-substructure variable which were considered in our analysis, for the resonance mass at $\sqrt{s} = 5\TeV$ to $\sqrt{s} = 20\TeV$. 
+have the worst performance for almost every 
+substructure variable which is considered in our analysis, for the resonance mass at $\sqrt{s} = 5\TeV$ to $\sqrt{s} = 20\TeV$. 
 Such cell sizes are similar to those used for the ATLAS and CMS detectors at the LHC. 
 In out studies, we obtained the performance of a hadronic calorimeter with 
 $\Delta \eta \times \Delta \phi = 0.022\times0.022$ ($5 \times 5$~$\mathrm{cm}^2$ cell size) is, in most cases,
 better than for a detector with $0.087\times 0.087$ cells.
 
-Thus this study confirms the  HCAL geometry of the SiFCC detector~\cite{Chekanov:2016ppq},
+Thus this study confirms the HCAL geometry of the SiFCC detector~\cite{Chekanov:2016ppq},
 with the $\Delta \eta \times \Delta \phi = 0.022\times0.022$ HCAL cells.
 It also confirms the HCAL design of the baseline FCC-hh~\cite{fcc1,fcc2} detector with
 $\Delta \eta \times \Delta \phi = 0.025\times0.025$ HCAL cells.
@@ -1124,58 +1151,8 @@ Z'$\rightarrow$t$\bar{\mathrm{t}}$ (Z'$\rightarrow$q$\bar{\mathrm{q}}$)}
 \section{Conclusion for all studies}
 I have done the "detector traveling" from now to the future within the project time. For now, at the start, I studied the cross-talk on the no sensor-based Hexaboard which will be used in HGCAL. We explored the phenomenon and saw the correlated cross-talk and the anti-correlated cross-talk. Later, we did the project with the HGCAL test-beam results of MC samples to do the e-like pions tagging and rejected them by the cuts and variable we developed. We saw the expected results in the October test-beam MC samples. Last but not least, we came to the future project with the SiFCC detector. By using the different configurations of the detector with the different jet substructure variables and soft-drop mass, to see whether the high granularity could give us the best results to distinguish the signal from background in the SiFCC detector. For our surprise, the smallest configuration is not the best, and we think that it need to be optimized. 
 
-\section{Summary for Milestone Achieved within the project time}
-\begin{itemize}
-\item Submit my first journal paper: "Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider" to arxiv and the Journal of instrumentation(JINST), now is reviewed by the people in the journal.
-\item Submit my first conference paper: "Jet Substructure Variables with the SiFCC Detector at 100 TeV" to arxiv and is published by the Journal of Proceeding of Science(PoS).
-\item Accepted and report the poster with FCC detector studies in the International Conference of High Energy Physics in 2018(ICHEP2018).
-\item Accepted and report the two posters with HGCAL studies and FCC detector studies in the Taiwan Physics Society(TPS) annual meeting in 2019. 
-\end{itemize}
-
 \section{Acknowledgement}
-First, thanks for my supervisors, Prof.Shin-Shan Eiko Yu from NCU, Prof.Ashtusoh from Duke University and Prof.Stathes Paganis, Prof.Rong-Shayang Lu from NTU, without them, I can't do those good studies smoothly, and publish the results well. Also, I would like to thanks LHC-CMS, NCU and NTU to give me the resource, including the data, hardware and the server resource, to study my interested topics. And thanks for all people in NCUHEP, NTUHEP groups who have helped me. Last but not least, I'm glad to thanks MOST to support me to do this studies. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+First, thanks for my supervisors, Prof. Shin-Shan Eiko Yu from NCU, Prof. Ashtusoh from Duke University, Dr. Sergei from Argon National Lab(ANL) , Dr. Nhan from Fermilab, and Prof. Stathes Paganis, Prof. Rong-Shayang Lu from NTU, without them, I can't do those good studies smoothly, and publish the results well. Also, I would like to thanks LHC-CMS, NCU and NTU to give me the resource, including the data, hardware and the server resource, to study my interested topics. And thanks for all people in NCUHEP, NTUHEP groups who have helped me. Last but not least, I'm glad to thanks Ministry of Science and Technology(MOST) to support me to do this studies. 
 
 
 

@@ -1,21 +1,21 @@
 \BOOKMARK [1][-]{section.1}{1 Introduction}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{1.1 Motivation and Expectation}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{1.2 Summary for research topics}{section.1}% 3
-\BOOKMARK [1][-]{section.2}{2 Cross-talk studies with the no sensor based Hexaboard in NTU }{}% 4
-\BOOKMARK [2][-]{subsection.2.1}{2.1 Experiment apparatus and Event reconstruction}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.2}{2.2 Events and Methods for analysis}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.3}{2.3 Results and Conclusion}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{3 Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{3.1 Introduction for HGCAL}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.2}{3.2 Tag-and-probe the optimized cuts and new variable with June test-beam MC}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.3}{3.3 The results of application in October test-beam MC}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.4}{3.4 Conclusion}{section.3}% 12
-\BOOKMARK [1][-]{section.4}{4 Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV pp collider}{}% 13
-\BOOKMARK [2][-]{subsection.4.1}{4.1 Simulation of detector response and event reconstruction}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.2}{4.2 Study of detector performance with soft drop mass}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.3}{4.3 Studies of signal and background separation using jet substructure variables}{section.4}% 16
-\BOOKMARK [2][-]{subsection.4.4}{4.4 Energy correlation function}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.5}{4.5 Conclusion}{section.4}% 18
-\BOOKMARK [1][-]{section.5}{5 Conclusion for all studies}{}% 19
-\BOOKMARK [1][-]{section.6}{6 Summary for Milestone Achieved within the project time}{}% 20
-\BOOKMARK [1][-]{section.7}{7 Acknowledgement}{}% 21
+\BOOKMARK [2][-]{subsection.1.3}{1.3 Summary for Milestone Achieved within the project time}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{2 Cross-talk studies with the silicon-sensor-unconnected hexaboard in NTU }{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{2.1 Experiment apparatus and Event reconstruction}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{2.2 Events and Methods for analysis}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{2.3 Results and Conclusion}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{3 Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Introduction for HGCAL}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Introduction of the optimized cuts and new variable with June test-beam MC}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{3.3 The results of application with October test-beam MC}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{3.4 Conclusion}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{4 Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV pp collider}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{4.1 Simulation of detector response and event reconstruction}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{4.2 Study of detector performance with soft drop mass}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{4.3 Studies of detector performance with jet substructure variables-N-subjettiness}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.4}{4.4 Studies of detector performance with jet substructure variables-Energy correlation function}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.5}{4.5 Conclusion}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{5 Conclusion for all studies}{}% 20
+\BOOKMARK [1][-]{section.6}{6 Acknowledgement}{}% 21
