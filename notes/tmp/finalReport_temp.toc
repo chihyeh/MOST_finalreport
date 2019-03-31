@@ -1,29 +1,30 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Motivation and Expectation}{2}{subsection.1.1}
+\contentsline {section}{\numberline {1}Introduction for the Detector Traveling}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Motivation and expectation}{2}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Summary for research topics}{2}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Summary for Milestone Achieved within the project time}{3}{subsection.1.3}
-\contentsline {section}{\numberline {2}Cross-talk studies with the silicon-sensor-unconnected hexaboard in NTU }{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Experiment apparatus and Event reconstruction}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Events and Methods for analysis}{4}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Results and Conclusion}{6}{subsection.2.3}
-\contentsline {section}{\numberline {3}Pion-rejection studies with a CMS HGCAL test-beam prototype ECAL}{7}{section.3}
+\contentsline {subsection}{\numberline {1.3}Summary for milestone achieved within the traveling time}{3}{subsection.1.3}
+\contentsline {section}{\numberline {2}Station 1: Cross-talk Studies with the Silicon-Sensor-Unconnected Hexaboard in NTU }{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Experiment apparatus and event reconstruction}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Events and methods for analysis}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Results of cross-talk}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Conclusion for station 1}{7}{subsection.2.4}
+\contentsline {section}{\numberline {3}Station 2: Pion-rejection Studies with a CMS HGCAL Test-beam Prototype Electromagnetic Calorimeter}{8}{section.3}
 \contentsline {subsection}{\numberline {3.1}Introduction for HGCAL}{10}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Introduction of the optimized cuts and new variable with June test-beam MC}{12}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}The results of application with October test-beam MC}{17}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Conclusion}{18}{subsection.3.4}
-\contentsline {section}{\numberline {4}Studies of granularity of a hadronic calorimeter for tens-of-TeV jets at a 100 TeV $pp$ collider}{18}{section.4}
-\contentsline {subsection}{\numberline {4.1}Simulation of detector response and event reconstruction}{19}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Study of detector performance with soft drop mass}{21}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}The technique of soft drop declustering}{21}{subsubsection.4.2.1}
+\contentsline {subsection}{\numberline {3.4}Conclusion for station 2}{18}{subsection.3.4}
+\contentsline {section}{\numberline {4}Station 3: Studies of Granularity of a Hadronic Calorimeter for Tens-of-TeV Jets at a 100 TeV $pp$ Collider}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}Simulation of detector response and event reconstruction}{20}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Study of detector performance with soft drop mass}{22}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}The technique of soft drop declustering}{22}{subsubsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2}Analysis method}{22}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Results and conclusion}{22}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3}Results and conclusion}{23}{subsubsection.4.2.3}
 \contentsline {subsection}{\numberline {4.3}Studies of detector performance with jet substructure variables-N-subjettiness}{23}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}The technic of N-subjettiness}{23}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1}The technic of N-subjettiness}{28}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Analysis method}{28}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}Results and conclusion}{28}{subsubsection.4.3.3}
-\contentsline {subsection}{\numberline {4.4}Studies of detector performance with jet substructure variables-Energy correlation function}{28}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.3.3}Results and conclusion}{29}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Studies of detector performance with jet substructure variables-Energy correlation function}{29}{subsection.4.4}
 \contentsline {subsubsection}{\numberline {4.4.1}The technic of energy correlation function}{29}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}The results and conclusion}{29}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Conclusion}{29}{subsection.4.5}
-\contentsline {section}{\numberline {5}Conclusion for all studies}{30}{section.5}
-\contentsline {section}{\numberline {6}Acknowledgement}{30}{section.6}
+\contentsline {subsubsection}{\numberline {4.4.2}The results and conclusion}{30}{subsubsection.4.4.2}
+\contentsline {subsection}{\numberline {4.5}Conclusion for station 3}{30}{subsection.4.5}
+\contentsline {section}{\numberline {5}Conclusion for the excellent traveling}{34}{section.5}
+\contentsline {section}{\numberline {6}Acknowledgement}{34}{section.6}
